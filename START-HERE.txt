@@ -1,0 +1,18 @@
+ADAM DITTRICH — WEBSITE PACKAGE, 21 OCTOBER 2026
+
+GitHub username: adamdittrich
+Repository to create: adamdittrich.github.io
+Website address after successful publication: https://adamdittrich.github.io
+
+1. Create the public repository with that exact name on GitHub.
+2. In Settings > Pages > Source, choose GitHub Actions.
+3. Upload the CONTENTS of this folder, including .github, assets and _quarto.yml.
+   The docs folder is generated output and may be omitted for a smaller upload.
+4. Commit to main, then open Actions > Publish Quarto website.
+5. Wait for a green successful run, then open the website address above.
+
+The GitHub username and website address are already configured.
+The latest general CV (16 October 2026) is included and linked.
+Your completed PhD, current appointment, teaching and publication record are updated.
+
+Read README.md for more detail. The package has not been published automatically.

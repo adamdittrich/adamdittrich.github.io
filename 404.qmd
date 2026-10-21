@@ -1,0 +1,17 @@
+---
+title: "Page not found"
+description: "The requested page could not be found on Adam Dittrich's academic website."
+page-layout: full
+body-classes: error-page
+---
+
+::: {.error-shell}
+<p class="eyebrow">404</p>
+
+# This page has moved—or never existed.
+
+The research is still here.
+
+[Return to the homepage](index.qmd){.button .button-primary}
+[Browse publications](publications.qmd){.button .button-secondary}
+:::

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1020" viewBox="0 0 900 1020" role="img" aria-labelledby="title desc">
+  <title id="title">Archival monetary history composition</title>
+  <desc id="desc">A stylised historical balance sheet overlaid with an exchange-rate chart, annotations, and a monetary seal</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="20" flood-color="#14222d" flood-opacity=".17"/>
+    </filter>
+    <pattern id="paperLines" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M0 27.5H28" stroke="#102b3b" stroke-opacity=".08" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="inkFade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#102b3b"/>
+      <stop offset="1" stop-color="#183d50"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="1020" fill="#e7dfd0"/>
+  <rect x="30" y="30" width="840" height="960" fill="#f8f3e8" stroke="#b38a45" stroke-width="2"/>
+  <rect x="50" y="50" width="800" height="920" fill="url(#paperLines)"/>
+
+  <g opacity=".72">
+    <text x="78" y="92" fill="#7a2e34" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="4">NÁRODNÍ BANKA ČESKOSLOVENSKÁ</text>
+    <text x="78" y="124" fill="#40515c" font-family="Georgia, serif" font-size="15">Výkaz obchodní a měnový — archival reconstruction</text>
+    <line x1="78" y1="145" x2="820" y2="145" stroke="#14222d" stroke-opacity=".45"/>
+  </g>
+
+  <g font-family="Arial, sans-serif" font-size="13" fill="#40515c" opacity=".62">
+    <text x="80" y="190">AKTIVA</text><text x="500" y="190">PASIVA</text>
+    <text x="80" y="230">Zlato a devisy</text><text x="360" y="230">4 238</text>
+    <text x="80" y="265">Diskontované směnky</text><text x="360" y="265">1 774</text>
+    <text x="80" y="300">Zálohy na cenné papíry</text><text x="360" y="300">682</text>
+    <text x="80" y="335">Státní pokladniční poukázky</text><text x="360" y="335">1 210</text>
+    <text x="500" y="230">Bankovky v oběhu</text><text x="760" y="230">6 184</text>
+    <text x="500" y="265">Žirové účty</text><text x="760" y="265">1 036</text>
+    <text x="500" y="300">Ostatní závazky</text><text x="760" y="300">684</text>
+    <text x="500" y="335">Kapitál a fondy</text><text x="760" y="335">390</text>
+  </g>
+  <g stroke="#14222d" stroke-opacity=".13">
+    <line x1="78" y1="205" x2="405" y2="205"/><line x1="78" y1="242" x2="405" y2="242"/><line x1="78" y1="277" x2="405" y2="277"/><line x1="78" y1="312" x2="405" y2="312"/><line x1="78" y1="348" x2="405" y2="348"/>
+    <line x1="498" y1="205" x2="820" y2="205"/><line x1="498" y1="242" x2="820" y2="242"/><line x1="498" y1="277" x2="820" y2="277"/><line x1="498" y1="312" x2="820" y2="312"/><line x1="498" y1="348" x2="820" y2="348"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="95" y="410" width="660" height="390" fill="url(#inkFade)"/>
+    <rect x="125" y="445" width="600" height="305" fill="none" stroke="#f4f0e7" stroke-opacity=".25"/>
+    <g stroke="#f4f0e7" stroke-opacity=".13">
+      <line x1="125" y1="506" x2="725" y2="506"/><line x1="125" y1="567" x2="725" y2="567"/><line x1="125" y1="628" x2="725" y2="628"/><line x1="125" y1="689" x2="725" y2="689"/>
+      <line x1="245" y1="445" x2="245" y2="750"/><line x1="365" y1="445" x2="365" y2="750"/><line x1="485" y1="445" x2="485" y2="750"/><line x1="605" y1="445" x2="605" y2="750"/>
+    </g>
+    <path d="M125 493 C175 505 205 493 245 528 S320 585 365 548 S440 517 485 603 S560 699 605 651 S675 592 725 620" fill="none" stroke="#d8bd86" stroke-width="5"/>
+    <path d="M125 675 C185 649 206 660 245 637 S321 612 365 640 S446 673 485 648 S567 579 605 555 S683 507 725 520" fill="none" stroke="#c7626a" stroke-width="4" opacity=".9"/>
+    <g fill="#f4f0e7" font-family="Arial, sans-serif" font-size="12" opacity=".75">
+      <text x="125" y="780">1929</text><text x="350" y="780">1932</text><text x="590" y="780">1936</text><text x="696" y="780">1938</text>
+    </g>
+    <text x="125" y="435" fill="#f4f0e7" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2">FINANCIAL PRESSURE / EXCHANGE ADJUSTMENT</text>
+  </g>
+
+  <g transform="translate(630 760)">
+    <circle cx="0" cy="0" r="118" fill="#f4f0e7" stroke="#7a2e34" stroke-width="8"/>
+    <circle cx="0" cy="0" r="94" fill="none" stroke="#b38a45" stroke-width="2"/>
+    <circle cx="0" cy="0" r="73" fill="#7a2e34"/>
+    <text x="0" y="-12" fill="#f4f0e7" font-family="Georgia, serif" font-size="28" text-anchor="middle">KČ</text>
+    <text x="0" y="25" fill="#d8bd86" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="3" text-anchor="middle">PARITA · ÚVĚR · OBCHOD</text>
+    <path d="M-48 48h96" stroke="#d8bd86" stroke-width="2"/>
+  </g>
+
+  <g transform="rotate(-7 225 860)">
+    <rect x="90" y="835" width="300" height="78" fill="none" stroke="#7a2e34" stroke-width="3" opacity=".8"/>
+    <text x="240" y="868" fill="#7a2e34" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="3" text-anchor="middle">ARCHIVE → DATA → ARGUMENT</text>
+    <text x="240" y="893" fill="#7a2e34" font-family="Georgia, serif" font-size="13" text-anchor="middle">Interwar Central Europe</text>
+  </g>
+
+  <text x="80" y="952" fill="#40515c" font-family="Arial, sans-serif" font-size="10" letter-spacing="2" opacity=".55">AD / ECONOMIC HISTORY / PRAGUE</text>
+</svg>

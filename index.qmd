@@ -1,0 +1,226 @@
+---
+title: "Adam Dittrich, PhD"
+description: "Economic historian of monetary regimes, financial stress, international adjustment, and economic ideas in interwar Central Europe."
+page-layout: full
+body-classes: home-page
+---
+
+::: {.hero-shell}
+::: {.hero-copy}
+<p class="eyebrow">Economic historian · Prague</p>
+
+# Adam Dittrich, PhD
+
+<p class="hero-role">Assistant Professor · Economic History<br><span>Prague University of Economics and Business</span></p>
+
+<p class="hero-lede">I study how monetary regimes, financial institutions, and economic ideas shaped adjustment in interwar Central Europe—especially Czechoslovakia. My work combines archival research, historical reconstruction, and cliometric methods.</p>
+
+::: {.hero-actions}
+[Explore research](research.qmd){.button .button-primary}
+[View publications](publications.qmd){.button .button-secondary}
+[Download CV](assets/files/Adam-Dittrich-CV.pdf){.button .button-quiet}
+:::
+
+<p class="micro-note">Monetary history · Financial history · International trade · Historical measurement · History of economic thought</p>
+:::
+
+::: {.hero-visual aria-label="Abstract graphic combining an archival balance sheet, exchange-rate line, and monetary seal"}
+![](assets/img/hero-archive.svg){fig-alt="Abstract archival research graphic with a historical balance sheet, a line chart, and a monetary seal"}
+:::
+:::
+
+::: {.signal-strip}
+::: {.signal-item}
+<span class="signal-number">1920s–1930s</span>
+<span class="signal-label">core historical period</span>
+:::
+::: {.signal-item}
+<span class="signal-number">Monthly + bilateral</span>
+<span class="signal-label">new historical evidence</span>
+:::
+::: {.signal-item}
+<span class="signal-number">Archives + econometrics</span>
+<span class="signal-label">integrated research design</span>
+:::
+::: {.signal-item}
+<span class="signal-number">Central Europe</span>
+<span class="signal-label">international questions</span>
+:::
+:::
+
+::: {.page-section .section-intro}
+<p class="eyebrow">Research agenda</p>
+
+## A small economy under large constraints
+
+Czechoslovakia provides unusually sharp evidence on the central dilemmas of the interwar economy: monetary credibility versus domestic recovery, financial stability versus deflation, and national policy autonomy within a fragmented international system. I use that case to address questions that travel beyond one country.
+:::
+
+::: {.research-grid}
+::: {.research-card}
+<div class="card-index">01</div>
+
+### Monetary regimes
+
+How did gold-standard commitments, reserve rules, and central-bank strategy shape the timing and distribution of adjustment?
+
+[Read the research theme →](research.qmd#monetary-regimes-and-central-banking)
+:::
+
+::: {.research-card}
+<div class="card-index">02</div>
+
+### Financial stress
+
+Can balance-sheet and market indicators recover the chronology of banking pressure before failures or institutional breaks become visible?
+
+[Read the research theme →](research.qmd#financial-stress-and-banking)
+:::
+
+::: {.research-card}
+<div class="card-index">03</div>
+
+### Trade and adjustment
+
+Did the Great Depression merely compress European trade, or did it reorganise durable bilateral relationships?
+
+[Read the research theme →](research.qmd#trade-devaluation-and-commercial-reorganisation)
+:::
+
+::: {.research-card}
+<div class="card-index">04</div>
+
+### Economic ideas
+
+How did theories of value, causality, and economic order enter practical debates over currency, crisis, and state intervention?
+
+[Read the research theme →](research.qmd#economic-thought-as-a-policy-institution)
+:::
+:::
+
+::: {.page-section .featured-section}
+::: {.section-heading-row}
+::: {}
+<p class="eyebrow">Selected work</p>
+
+## Selected research
+:::
+[All publications and papers →](publications.qmd){.text-link}
+:::
+
+::: {.project-stack}
+::: {.project-feature}
+<div class="project-meta"><span>Exchange rates</span><span>Forthcoming · Statistika</span></div>
+
+### The Crown Against the World
+
+Reconstructing Czechoslovakia’s effective exchange rates, 1920–1938, to examine monetary policy and international adjustment across the interwar period.
+
+[Publication details](publications.qmd#forthcoming-and-accepted){.project-link}
+:::
+
+::: {.project-feature}
+<div class="project-meta"><span>Financial history</span><span>Research paper + open data</span></div>
+
+### Measuring Financial Stress under the Gold Standard
+
+A monthly composite measure reconstructs the sequence of financial pressure in interwar Czechoslovakia and distinguishes monetary strain, banking tension, and the later real-economy trough.
+
+[Project and data](data.qmd#financial-stress-under-the-gold-standard){.project-link}
+:::
+
+::: {.project-feature}
+<div class="project-meta"><span>International trade</span><span>Research paper + open data</span></div>
+
+### Commercial Hysteresis in Depression-Era Europe
+
+A bilateral panel for 21 European economies asks whether crisis-era trade disruption left persistent scars in the geography of commerce between 1927 and 1938.
+
+[Project and data](data.qmd#european-bilateral-trade-geography){.project-link}
+:::
+
+::: {.project-feature}
+<div class="project-meta"><span>Business and social history</span><span>Working paper · 2026</span></div>
+
+### Negative Time Preference and the Czech Sugar Industry
+
+With Jiří Rytina, this project studies how industrial actors justified intertemporal sacrifice and social provision in the Czech sugar industry from 1896 to 1926.
+
+[Working-paper record](https://hal.science/hal-05660879){.project-link}
+:::
+:::
+:::
+
+::: {.data-band}
+::: {.data-band-copy}
+<p class="eyebrow light">Open historical evidence</p>
+
+## Data are part of the argument
+
+My research builds reusable evidence—not only regression inputs. Public projects include monthly financial-stress indicators for interwar Czechoslovakia, a bilateral trade panel spanning 21 European economies, and replication materials for research on Nordic trade resilience.
+
+[Explore data and replication](data.qmd){.button .button-on-dark}
+:::
+
+::: {.data-band-stats}
+::: {.data-stat}
+<span class="big-stat">11</span>
+<span>financial-stress indicators</span>
+:::
+::: {.data-stat}
+<span class="big-stat">21</span>
+<span>European economies</span>
+:::
+::: {.data-stat}
+<span class="big-stat">1927–38</span>
+<span>bilateral trade coverage</span>
+:::
+:::
+:::
+
+::: {.page-section .news-section}
+::: {.section-heading-row}
+::: {}
+<p class="eyebrow">Recent</p>
+
+## Research updates
+:::
+:::
+
+::: {.news-list}
+::: {.news-item}
+<span class="news-date">Oct 2026</span>
+<div><strong>Forthcoming in <em>Statistika</em>.</strong> “The Crown Against the World: Reconstructing Czechoslovakia’s Effective Exchange Rates, 1920–1938.”</div>
+:::
+::: {.news-item}
+<span class="news-date">Sep 2026</span>
+<div><strong>PhD completed.</strong> I defended my dissertation on Czech economic apriorism on 29 September 2026. Since September, I have been an Assistant Professor in the Department of Economic History at Prague University of Economics and Business.</div>
+:::
+::: {.news-item}
+<span class="news-date">2026</span>
+<div><strong>Working paper released.</strong> “Negative Time Preference & the Czech Sugar Industry from 1896 to 1926,” with Jiří Rytina, is available through HAL Open Science.</div>
+:::
+::: {.news-item}
+<span class="news-date">2026</span>
+<div><strong>Replication project released.</strong> Monthly evidence for “Measuring Financial Stress under the Gold Standard” is archived in OpenICPSR.</div>
+:::
+::: {.news-item}
+<span class="news-date">2026</span>
+<div><strong>European trade data released.</strong> The “Commercial Hysteresis” project provides a bilateral panel covering 21 economies during the Great Depression.</div>
+:::
+::: {.news-item}
+<span class="news-date">2025</span>
+<div><strong>Two articles published.</strong> Joint research on the Czechoslovak sugar industry, deflation, and social provision appeared in <em>Listy cukrovarnické a řepařské</em>.</div>
+:::
+:::
+:::
+
+::: {.closing-cta}
+<p class="eyebrow">Research, data, collaboration</p>
+
+## Interested in interwar Central Europe?
+
+I welcome exchanges on monetary and financial history, historical macroeconomic data, Czechoslovak sources, and comparative projects on the Great Depression.
+
+[Contact me](contact.qmd){.button .button-primary}
+:::

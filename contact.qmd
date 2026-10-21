@@ -1,0 +1,55 @@
+---
+title: "Contact"
+description: "Contact Adam Dittrich for research exchange, historical data, talks, and collaboration."
+page-layout: full
+body-classes: inner-page contact-page
+---
+
+::: {.contact-shell}
+::: {.contact-copy}
+<p class="eyebrow">Contact</p>
+
+# Let’s discuss economic history
+
+<p class="contact-lede">I welcome research exchange on interwar monetary and financial history, Czechoslovak sources, historical macroeconomic data, international trade, and the history of economic thought.</p>
+
+[adam.dittrich@vse.cz](mailto:adam.dittrich@vse.cz){.contact-email}
+
+::: {.contact-topics}
+<span>Research collaboration</span>
+<span>Historical data</span>
+<span>Seminars and conferences</span>
+<span>Media and public discussion</span>
+:::
+:::
+
+::: {.contact-card}
+<p class="eyebrow">Affiliation</p>
+
+## Prague University of Economics and Business
+
+**Adam Dittrich, PhD**  
+Assistant Professor  
+Department of Economic History  
+Faculty of Economics
+
+W. Churchill Sq. 1938/4  
+130 67 Prague 3  
+Czech Republic
+
+::: {.contact-links}
+[Institutional profile](https://khd.vse.cz/ing-adam-dittrich/)
+[ORCID](https://orcid.org/0000-0002-7803-1339)
+[GitHub](https://github.com/adamdittrich)
+[Google Scholar](https://scholar.google.com/citations?hl=en&user=w20HpZcAAAAJ)
+[RePEc](https://ideas.repec.org/f/pdi678.html)
+[LinkedIn](https://www.linkedin.com/in/adam-dittrich-3644b219a/)
+:::
+:::
+:::
+
+::: {.page-section .contact-note}
+## A note on data enquiries
+
+For questions about a public replication package, please include the project title, DOI, file name, and—where relevant—the variable or observation at issue. This makes it much easier to give a precise answer.
+:::

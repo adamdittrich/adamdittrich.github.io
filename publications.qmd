@@ -1,0 +1,336 @@
+---
+title: "Publications & Papers"
+description: "Published and forthcoming articles, working papers, research manuscripts, and open data by Adam Dittrich."
+page-layout: full
+body-classes: inner-page publications-page
+---
+
+::: {.inner-hero}
+<p class="eyebrow">Publications & papers</p>
+
+# Research outputs
+
+<p class="inner-lede">Journal articles, conference proceedings, working papers, and research manuscripts in economic history and the history of economic thought. Public versions and replication materials are linked below.</p>
+:::
+
+::: {.page-section}
+::: {.pub-section-heading}
+<span class="pub-count">02</span>
+
+## Forthcoming and accepted {#forthcoming-and-accepted}
+:::
+
+::: {.publication-list}
+
+::: {.publication-item}
+<div class="pub-year">Forthcoming</div>
+<div class="pub-body">
+
+### The Crown Against the World: Reconstructing Czechoslovakia’s Effective Exchange Rates, 1920–1938
+
+**Adam Dittrich**  
+*Statistika: Statistics and Economy Journal.* Forthcoming.
+</div>
+:::
+
+::: {.publication-item}
+<div class="pub-year">Accepted</div>
+<div class="pub-body">
+
+### Spor o cukerní daň roku 1928: Karel Engliš a Gustav Heidler
+
+**Adam Dittrich**  
+*Listy cukrovarnické a řepařské.* Accepted; publication expected in 2027.
+
+<span class="english-title">The 1928 sugar-tax dispute: Karel Engliš and Gustav Heidler.</span>
+</div>
+:::
+:::
+:::
+
+::: {.page-section .alt-section}
+::: {.pub-section-heading}
+<span class="pub-count">03</span>
+
+## Published journal articles {#published-journal-articles}
+:::
+
+::: {.publication-list}
+
+::: {.publication-item}
+<div class="pub-year">2025</div>
+<div class="pub-body">
+
+### Historický vztah československého cukrovarnického průmyslu k sociální problematice na příkladu penze: Sociálně solidární cíle mezi lety 1918 až 1926 jako výsledek negativní časové preference
+
+**Jiří Rytina, Adam Dittrich, and Jakub Drábek**  
+*Listy cukrovarnické a řepařské* 141(9–10), 320–322.
+
+<span class="english-title">The Czechoslovak sugar industry and pensions: Social solidarity in 1918–1926 as a result of negative time preference.</span>
+
+[Journal record](https://www.cukr-listy.cz/on_line/2025/abs320-322.html){.pill-link}
+</div>
+:::
+
+::: {.publication-item}
+<div class="pub-year">2025</div>
+<div class="pub-body">
+
+### Cukrovarnický průmysl versus deflační politika: Konflikt hospodářských zájmů v meziválečném Československu
+
+**Adam Dittrich, Jiří Rytina, and Jakub Drábek**  
+*Listy cukrovarnické a řepařské* 141(7–8), 260–264.
+
+<span class="english-title">The sugar industry versus deflationary policy: A conflict of economic interests in interwar Czechoslovakia.</span>
+
+[Article PDF](https://www.cukr-listy.cz/on_line/2025/PDF/260-264.pdf){.pill-link}
+</div>
+:::
+
+::: {.publication-item}
+<div class="pub-year">2023</div>
+<div class="pub-body">
+
+### Karel Engliš as the Governor of the Czechoslovakian National Bank (1934–1939)
+
+**Adam Dittrich**  
+*Revista Română de Studii Eurasiatice* 19(1–2), 105–124.
+
+[Institutional record](https://khd.vse.cz/ing-adam-dittrich/){.pill-link}
+</div>
+:::
+:::
+:::
+
+::: {.page-section}
+::: {.pub-section-heading}
+<span class="pub-count">02</span>
+
+## Conference proceedings {#conference-proceedings}
+:::
+
+::: {.publication-list}
+
+::: {.publication-item}
+<div class="pub-year">2025</div>
+<div class="pub-body">
+
+### Efektivní směnné kurzy Československa 1925–1936: rekonstrukce, dekompozice a efekt devalvace
+
+**Adam Dittrich**  
+In Ondřej Roubal (ed.), *Konference doktorandů na Vysoké škole finanční a správní 2025*. Prague: VŠFS, 26–40.
+
+<span class="english-title">Czechoslovakia’s effective exchange rates, 1925–1936: Reconstruction, decomposition and the effect of devaluation.</span>
+
+[DOI](https://doi.org/10.37355/KD-2025-02){.pill-link}
+</div>
+:::
+
+::: {.publication-item}
+<div class="pub-year">2024</div>
+<div class="pub-body">
+
+### Russian Crisis of 1998
+
+**Adam Dittrich**  
+In Michal Müller and Pavla Slavíčková (eds.), *KNOWCON 2024: Knowledge on Economics and Management Conference Proceedings*. Olomouc: Palacký University Olomouc, 26–32.
+
+[Institutional record](https://khd.vse.cz/ing-adam-dittrich/){.pill-link}
+</div>
+:::
+:::
+:::
+
+::: {.page-section .alt-section}
+::: {.pub-section-heading}
+<span class="pub-count">01</span>
+
+## Public working papers {#public-working-papers}
+:::
+
+::: {.publication-list}
+
+::: {.publication-item}
+<div class="pub-year">2026</div>
+<div class="pub-body">
+
+### Negative Time Preference & the Czech Sugar Industry from 1896 to 1926
+
+**Jiří Rytina and Adam Dittrich**  
+HAL Open Science working paper, hal-05660879.
+
+The paper reconstructs how industrial actors understood long-horizon sacrifice, social provision, and institutional responsibility across the late Habsburg and early Czechoslovak periods.
+
+[HAL record](https://hal.science/hal-05660879){.pill-link}
+[RePEc record](https://ideas.repec.org/p/hal/wpaper/hal-05660879.html){.pill-link}
+</div>
+:::
+:::
+:::
+
+::: {.page-section}
+::: {.pub-section-heading}
+<span class="pub-count">03</span>
+
+## Research papers with open data {#research-papers-with-open-data}
+:::
+
+::: {.publication-list}
+
+::: {.publication-item}
+<div class="pub-year">Research</div>
+<div class="pub-body">
+
+### Measuring Financial Stress under the Gold Standard: Evidence from Interwar Czechoslovakia
+
+**Adam Dittrich**
+
+A monthly composite index uses eleven financial and macro-financial indicators to recover the chronology of pressure from November 1929 to September 1938. The project connects statistical measurement to the institutional mechanics of the Czechoslovak gold-standard regime.
+
+[Data and documentation](https://doi.org/10.3886/E247312V1){.pill-link}
+[Project summary](data.qmd#financial-stress-under-the-gold-standard){.pill-link}
+</div>
+:::
+
+::: {.publication-item}
+<div class="pub-year">Research</div>
+<div class="pub-body">
+
+### Commercial Hysteresis: Persistence and Reorganization in Europe’s Bilateral Trade Geography during the Great Depression
+
+**Adam Dittrich**
+
+A bilateral panel of 21 European economies examines whether the Depression temporarily compressed existing trade relationships or permanently reordered the commercial geography of Europe.
+
+[Data and documentation](https://doi.org/10.3886/E247132V2){.pill-link}
+[Project summary](data.qmd#european-bilateral-trade-geography){.pill-link}
+</div>
+:::
+
+::: {.publication-item}
+<div class="pub-year">Research</div>
+<div class="pub-body">
+
+### Reassessing Nordic Trade Resilience during the Great Depression: A Bilateral Decomposition of European Trade Flows, 1927–1938
+
+Research manuscript with public replication data and code in openICPSR.
+
+[Data and code](https://doi.org/10.3886/E251239V1){.pill-link}
+[Project summary](data.qmd#nordic-trade-resilience){.pill-link}
+</div>
+:::
+:::
+:::
+
+::: {.page-section .alt-section}
+::: {.pub-section-heading}
+<span class="pub-count">08</span>
+
+## Other research manuscripts {#research-manuscripts}
+:::
+
+::: {.wip-grid}
+
+::: {.wip-card}
+<span class="wip-field">Foreign trade</span>
+
+### Measuring the Turning Point in Czechoslovak Foreign Trade during the Great Depression
+:::
+
+::: {.wip-card}
+<span class="wip-field">Monetary defence</span>
+
+### Who Paid for Credibility? The Technology of Monetary Defense on Europe’s Periphery, 1926–1938
+:::
+
+::: {.wip-card}
+<span class="wip-field">Monetary policy</span>
+
+### The Koruna-Defence Gap: External Credibility, Real-Rate Restriction and the Great Depression in Interwar Czechoslovakia
+:::
+
+::: {.wip-card}
+<span class="wip-field">Labour markets</span>
+
+### Recovery before Jobs: Unemployment, Vacancies, and the State in Interwar Czechoslovakia, 1926–38
+:::
+
+::: {.wip-card}
+<span class="wip-field">Exchange rates and trade</span>
+
+### The Missing J in Interwar Europe: A Monthly Cliometric Dataset on Effective Exchange Rates and Trade-Balance Adjustment, 1925–1936
+:::
+
+::: {.wip-card}
+<span class="wip-field">Trade adjustment</span>
+
+### Prices Recover, Markets Remember: Late Devaluation and the Erosion of Price Competition in Interwar Czechoslovakia, 1929–1938
+:::
+
+::: {.wip-card}
+<span class="wip-field">Italy and European monetary history</span>
+
+### The Price of Credibility: Quota 90 and Fascist Italy’s Internal Deflation in Monthly European Perspective, 1925–1928
+:::
+
+::: {.wip-card}
+<span class="wip-field">Central-bank law</span>
+
+### The Price of Credibility: Central-Bank Law, Monetary Defence, and Domestic Contraction in Interwar Czechoslovakia
+:::
+:::
+:::
+
+::: {.page-section}
+::: {.pub-section-heading}
+<span class="pub-count">Selected</span>
+
+## Projects in development {#projects-in-development}
+:::
+
+::: {.wip-grid}
+
+::: {.wip-card}
+<span class="wip-field">Working paper · Monetary history</span>
+
+### Gold Flows, Sterilisation, and the Monetary Base in Interwar Czechoslovakia, 1927–1938
+
+Reserve movements, domestic balance-sheet operations, and changes in the monetary regime after devaluation.
+:::
+
+::: {.wip-card}
+<span class="wip-field">Project in development · Central banking</span>
+
+### From Bills to Money Markets: The Structural Transformation of the Credit Transmission Mechanism of the National Bank of Czechoslovakia, 1926–1936
+
+Central-bank credit, the commercial-bill channel, and liquidity management.
+:::
+
+::: {.wip-card}
+<span class="wip-field">Working paper · History of economic thought</span>
+
+### Crisis as a Failure of Distribution: Jan Loevenstein’s Theory of Underconsumption, Technological Unemployment, and the Great Depression
+
+A study of Loevenstein’s account of crisis, distribution, and unemployment.
+:::
+
+::: {.wip-card}
+<span class="wip-field">Historical national accounts</span>
+
+### Reconstructing Interwar Czechoslovak Output
+
+The Czechoslovak contribution to comparative work on Central and Eastern European historical GDP with Matthias Morys and Marcin Wroński. Current work focuses on agricultural output and value added, sectoral coverage, prices, intermediate inputs, and comparability across countries.
+:::
+:::
+:::
+
+::: {.page-section .profile-links-section}
+## Other research profiles
+
+[Google Scholar](https://scholar.google.com/citations?hl=en&user=w20HpZcAAAAJ){.profile-chip}
+[ORCID](https://orcid.org/0000-0002-7803-1339){.profile-chip}
+[RePEc](https://ideas.repec.org/f/pdi678.html){.profile-chip}
+[GitHub](https://github.com/adamdittrich){.profile-chip}
+[Data repositories](data.qmd){.profile-chip}
+[Institutional profile](https://khd.vse.cz/ing-adam-dittrich/){.profile-chip}
+:::
