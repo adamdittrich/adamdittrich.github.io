@@ -1,6 +1,6 @@
 ---
-title: Curriculum vitae
-description: Academic CV of Adam Dittrich, economic historian at Prague University of Economics and Business.
+title: "Curriculum vitae"
+description: "Academic CV of Adam Dittrich, economic historian at Prague University of Economics and Business."
 page-layout: custom
 title-block-banner: false
 body-classes: academic-site cv-page
@@ -10,7 +10,7 @@ body-classes: academic-site cv-page
 <div class="ac-page ac-cv">
 <h1>Curriculum vitae</h1>
 <p class="ac-cv-name">Adam Dittrich</p>
-<p>Assistant Professor · Department of Economic History<br>Prague University of Economics and Business</p>
+<p>Assistant Professor · Department of Economic History<br/>Prague University of Economics and Business</p>
 <p class="ac-link-row"><a href="assets/files/Adam-Dittrich-CV.pdf">Download CV (PDF)</a><a href="mailto:adam.dittrich@vse.cz">Email</a><a href="https://orcid.org/0000-0002-7803-1339">ORCID</a><a href="https://khd.vse.cz/ing-adam-dittrich/">University profile</a><a href="https://www.linkedin.com/in/adam-dittrich-3644b219a/">LinkedIn</a></p>
 <section class="ac-section cv-section">
 <h2>Academic appointment</h2>
@@ -38,10 +38,10 @@ body-classes: academic-site cv-page
 <h2>Published and forthcoming articles</h2>
 <div class="cv-entry">
 <div class="cv-date">Forthcoming</div>
-<div><strong>Dittrich, Adam.</strong> “The Crown Against the World: Reconstructing Czechoslovakia’s Effective Exchange Rates, 1920–1938.” <em>Statistika: Statistics and Economy Journal.</em> Accepted; publication expected in 2027.</div>
+<div><strong>Dittrich, Adam.</strong> “The Crown Against the World: Reconstructing Czechoslovakia’s Effective Exchange Rates, 1920–1938.” <em>Statistika: Statistics and Economy Journal.</em> Forthcoming (publication expected in 2027).</div>
 </div>
 <div class="cv-entry">
-<div class="cv-date">Accepted</div>
+<div class="cv-date">Forthcoming</div>
 <div><strong>Dittrich, Adam.</strong> “Spor o cukerní daň roku 1928: Karel Engliš a Gustav Heidler [The 1928 Sugar-Tax Dispute: Karel Engliš and Gustav Heidler].” <em>Listy cukrovarnické a řepařské [Czech Sugar and Sugar Beet Journal].</em> Publication expected in 2027.</div>
 </div>
 <div class="cv-entry">
@@ -87,7 +87,7 @@ body-classes: academic-site cv-page
 <div class="cv-entry"><div class="cv-date">From 2026/27</div><div><strong>Foundations of Microeconomics</strong> (5EN102).</div></div>
 </section>
 <section class="ac-section cv-section">
-<h2>Research and data</h2>
+<h2>Research and data</h2><p><strong>Czechoslovak Foreign Trade: Interwar Dataset.</strong> Annual national and bilateral data, 1920–1938; monthly national data, 1924–1938. <a href="czechoslovak-foreign-trade.html">Dataset</a>.</p><p><strong>Czechoslovakia’s Effective Exchange Rates, 1920–1938.</strong> Annual indices, weights and coverage. <a href="czechoslovakia-eer.html">Dataset</a> · <a href="https://doi.org/10.3886/E251023V1">Related replication deposit</a>.</p>
 <div class="cv-entry">
 <div class="cv-date">GDP reconstruction</div>
 <div>Sector-by-sector reconstruction of interwar Czechoslovak GDP at current and constant prices, developed in dialogue with Matthias Morys and Marcin Wroński on comparative Central and Eastern European national accounts. <a href="research.html#czechoslovak-gdp">Project description.</a></div>

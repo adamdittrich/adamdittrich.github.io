@@ -1,75 +1,51 @@
 ---
-title: Research
-description: Research by Adam Dittrich on Czechoslovak GDP reconstruction, agricultural output, monetary history, financial stress, trade and economic thought.
+title: "Research"
+description: "Research by Adam Dittrich on Czechoslovak GDP reconstruction, agricultural output, monetary history, financial stress, trade and economic thought."
 page-layout: custom
 title-block-banner: false
 body-classes: academic-site research-page
 ---
 
-::: {.ac-page}
-# Research programme
-
-::: {.ac-section .ac-research-section}
-## Reconstructing Czechoslovak GDP {#czechoslovak-gdp}
-
-<span id="historical-measurement-and-output-reconstruction"></span>
-
-One of my main projects is a sector-by-sector reconstruction of Czechoslovak GDP in the interwar period. The aim is to produce comparable annual estimates at current and constant prices and reassess the country's growth, Depression and recovery.
-
-The most developed component is agriculture, covering 1920–1937. I have constructed preliminary estimates of crop and livestock output and agricultural gross value added from commodity quantities and prices. The work accounts for own consumption and intermediate inputs, including seed and feed, and compares the resulting series with earlier estimates. It distinguishes changes in physical production from changes in agricultural income during deflation.
-
-The agricultural paper is in preparation. The next stage is to extend the reconstruction to the other sectors and integrate them into an economy-wide account. I am developing this work in dialogue with Matthias Morys and Marcin Wroński on comparative historical national accounts for Central and Eastern Europe.
-
-[Agricultural-output paper](publications.qmd#agricultural-output)
-:::
-
-::: {.ac-section .ac-research-section}
-## Monetary regimes and central banking {#monetary-regimes-and-central-banking}
-
-I study how monetary commitments and central-bank institutions shaped adjustment during the Great Depression. My Czechoslovak research examines the defence of the koruna, gold-cover rules, reserve movements and sterilisation, and the debates surrounding devaluation in 1931–1934.
-
-Current manuscripts include *The Law Behind the Koruna* and *Who Paid for Credibility?* A comparative study of Italy's Quota 90 examines the domestic costs of monetary credibility using monthly European evidence. Related work considers the koruna's role in post-imperial state-building and the National Bank's balance-sheet policy before and after devaluation.
-
-[Current manuscripts](publications.qmd#research-manuscripts)
-:::
-
-::: {.ac-section .ac-research-section}
-## Financial stress and banking {#financial-stress-and-banking}
-
-My financial-stress project combines eleven monthly indicators for Czechoslovakia from November 1929 to September 1938. It reconstructs the timing of monetary and banking pressure and compares it with the downturn in the real economy.
-
-The paper examines the Depression as a prolonged period of financial strain rather than a single banking panic, using central-bank balance sheets and market indicators alongside the chronology of bank failures.
-
-[Paper](publications.qmd#measuring-financial-stress-under-the-gold-standard-evidence-from-interwar-czechoslovakia) · [Dataset and documentation](data.qmd#financial-stress-under-the-gold-standard)
-:::
-
-::: {.ac-section .ac-research-section}
-## Exchange rates and trade adjustment {#trade-devaluation-and-commercial-reorganisation}
-
-I reconstruct effective exchange rates and examine how devaluation, exchange controls and relative prices affected trade. *The Crown Against the World* provides nominal and real effective exchange-rate series for Czechoslovakia, 1920–1938. *The Missing J* links monthly exchange rates, exports, imports, prices and economic activity across interwar Europe, 1925–1936.
-
-Related papers study the turning point in Czechoslovak foreign trade and the relationship between price competitiveness and market recovery. Work in progress on the Little Entente examines trade within the alliance and its relationship with German economic power.
-
-[Exchange-rate and trade papers](publications.qmd#research-manuscripts) · [The Missing J dataset](data.qmd#the-missing-j)
-:::
-
-::: {.ac-section .ac-research-section}
-## History of economic thought {#economic-thought-as-a-policy-institution}
-
-My doctoral research examined Czech economic apriorism, especially the work of Karel Engliš, Jan Loevenstein and František Weyr. I continue to study their approaches to economic method, theories of crisis and monetary policy.
-
-*Crisis as a Failure of Distribution* reconstructs Loevenstein's account of underconsumption and technological unemployment. Related work examines Engliš's monetary policy, the Engliš–Heidler sugar-tax dispute of 1928, and time preference and social provision in the Czech sugar industry.
-
-[Publications and working papers](publications.qmd) · [Loevenstein manuscript](publications.qmd#loevenstein-crisis)
-:::
-
-::: {.ac-section .ac-research-section}
-## Healthcare and economic history {#healthcare-and-economic-history}
-
-With Jiří Rytina and Jakub Drábek, I examine the relationship between expanding healthcare capacity and health outcomes in socialist Czechoslovakia. The project combines historical indicators of healthcare infrastructure with mortality data and time-series analysis.
-
-We presented this work in České Budějovice in October 2026; the paper is in preparation.
-
-[Conference presentation](publications.qmd#conference-presentations) · [Paper in preparation](publications.qmd#healthcare-capacity)
-:::
-:::
+```{=html}
+<section class="level1 ac-page" id="research-programme">
+<h1>Research programme</h1>
+<section class="level2 ac-section ac-research-section" id="czechoslovak-gdp">
+<h2 data-anchor-id="czechoslovak-gdp">Reconstructing Czechoslovak GDP</h2>
+<p><span id="historical-measurement-and-output-reconstruction"></span></p>
+<p>One of my main projects is a sector-by-sector reconstruction of Czechoslovak GDP in the interwar period. The aim is to produce comparable annual estimates at current and constant prices and reassess the country’s growth, Depression and recovery.</p>
+<p>The most developed component is agriculture, covering 1920–1937. I have constructed preliminary estimates of crop and livestock output and agricultural gross value added from commodity quantities and prices. The work accounts for own consumption and intermediate inputs, including seed and feed, and compares the resulting series with earlier estimates. It distinguishes changes in physical production from changes in agricultural income during deflation.</p>
+<p>The agricultural paper is in preparation. The next stage is to extend the reconstruction to the other sectors and integrate them into an economy-wide account. I am developing this work in dialogue with Matthias Morys and Marcin Wroński on comparative historical national accounts for Central and Eastern Europe.</p>
+<p><a href="./publications.html#agricultural-output">Agricultural-output paper</a></p>
+</section>
+<section class="level2 ac-section ac-research-section" id="monetary-regimes-and-central-banking">
+<h2 data-anchor-id="monetary-regimes-and-central-banking">Monetary regimes and central banking</h2>
+<p>I study how monetary commitments and central-bank institutions shaped adjustment during the Great Depression. My Czechoslovak research examines the defence of the koruna, gold-cover rules, reserve movements and sterilisation, and the debates surrounding devaluation in 1931–1934.</p>
+<p>Current manuscripts include <em>The Law Behind the Koruna</em> and <em>Who Paid for Credibility?</em> A comparative study of Italy’s Quota 90 examines the domestic costs of monetary credibility using monthly European evidence. Related work considers the koruna’s role in post-imperial state-building and the National Bank’s balance-sheet policy before and after devaluation.</p>
+<p><a href="./publications.html#research-manuscripts">Current manuscripts</a></p>
+<p><a href="czechoslovakia-eer.html">Czechoslovak effective exchange rates: data and figures</a></p></section>
+<section class="level2 ac-section ac-research-section" id="financial-stress-and-banking">
+<h2 data-anchor-id="financial-stress-and-banking">Financial stress and banking</h2>
+<p>My financial-stress project combines eleven monthly indicators for Czechoslovakia from November 1929 to September 1938. It reconstructs the timing of monetary and banking pressure and compares it with the downturn in the real economy.</p>
+<p>The paper examines the Depression as a prolonged period of financial strain rather than a single banking panic, using central-bank balance sheets and market indicators alongside the chronology of bank failures.</p>
+<p><a href="./publications.html#measuring-financial-stress-under-the-gold-standard-evidence-from-interwar-czechoslovakia">Paper</a> · <a href="./data.html#financial-stress-under-the-gold-standard">Dataset and documentation</a></p>
+</section>
+<section class="level2 ac-section ac-research-section" id="trade-devaluation-and-commercial-reorganisation">
+<h2 data-anchor-id="trade-devaluation-and-commercial-reorganisation">Exchange rates and trade adjustment</h2>
+<p>I reconstruct effective exchange rates and examine how devaluation, exchange controls and relative prices affected trade. <em>The Crown Against the World</em> provides nominal and real effective exchange-rate series for Czechoslovakia, 1920–1938. <em>The Missing J</em> links monthly exchange rates, exports, imports, prices and economic activity across interwar Europe, 1925–1936.</p>
+<p>Related papers study the turning point in Czechoslovak foreign trade and the relationship between price competitiveness and market recovery. Work in progress on the Little Entente examines trade within the alliance and its relationship with German economic power.</p>
+<p><a href="./publications.html#research-manuscripts">Exchange-rate and trade papers</a> · <a href="./data.html#the-missing-j">The Missing J dataset</a></p>
+<p><a href="czechoslovak-foreign-trade.html">Czechoslovak national and bilateral foreign-trade data</a></p></section>
+<section class="level2 ac-section ac-research-section" id="economic-thought-as-a-policy-institution">
+<h2 data-anchor-id="economic-thought-as-a-policy-institution">History of economic thought</h2>
+<p>My doctoral research examined Czech economic apriorism, especially the work of Karel Engliš, Jan Loevenstein and František Weyr. I continue to study their approaches to economic method, theories of crisis and monetary policy.</p>
+<p><em>Crisis as a Failure of Distribution</em> reconstructs Loevenstein’s account of underconsumption and technological unemployment. Related work examines Engliš’s monetary policy, the Engliš–Heidler sugar-tax dispute of 1928, and time preference and social provision in the Czech sugar industry.</p>
+<p><a href="./publications.html">Publications and working papers</a> · <a href="./publications.html#loevenstein-crisis">Loevenstein manuscript</a></p>
+</section>
+<section class="level2 ac-section ac-research-section" id="healthcare-and-economic-history">
+<h2 data-anchor-id="healthcare-and-economic-history">Healthcare and economic history</h2>
+<p>With Jiří Rytina and Jakub Drábek, I examine the relationship between expanding healthcare capacity and health outcomes in socialist Czechoslovakia. The project combines historical indicators of healthcare infrastructure with mortality data and time-series analysis.</p>
+<p>We presented this work in České Budějovice in October 2026; the paper is in preparation.</p>
+<p><a href="./publications.html#conference-presentations">Conference presentation</a> · <a href="./publications.html#healthcare-capacity">Paper in preparation</a></p>
+</section>
+</section>
+```

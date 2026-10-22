@@ -1,7 +1,6 @@
 ---
-title: Adam Dittrich — Economic Historian
-description: Adam Dittrich is an economic historian at Prague University of Economics and Business. Research, publications,
-  datasets and teaching.
+title: "Adam Dittrich — Economic Historian"
+description: "Adam Dittrich is an economic historian at Prague University of Economics and Business. Research, publications, datasets and teaching."
 page-layout: custom
 title-block-banner: false
 body-classes: academic-site home-page
@@ -9,7 +8,7 @@ format:
   html:
     include-in-header:
       - text: |
-          <link rel="canonical" href="https://adamdittrich.github.io/">
+          <link href="https://adamdittrich.github.io/" rel="canonical"/>
           <script type="application/ld+json">
           {
             "@context": "https://schema.org",
@@ -39,27 +38,20 @@ format:
           </script>
 ---
 
-::: {.ac-page .ac-home}
-::: {.ac-profile}
-::: {.ac-profile-copy}
-# Adam Dittrich
-
-<p class="ac-role">Assistant Professor · Department of Economic History<br>Prague University of Economics and Business</p>
-
-I work on monetary and financial history and the history of economic thought, with a particular focus on interwar Czechoslovakia and Central Europe. My research combines archival sources with historical data reconstruction and econometrics.
-
-A major current project is the reconstruction of interwar Czechoslovak GDP. The agricultural component is already under way, with preliminary estimates of output and value added for 1920–1937. My other projects examine monetary policy and financial stress during the Great Depression, exchange rates and trade, and Czech economic thought.
-
-::: {.ac-link-row}
-[CV (PDF)](assets/files/Adam-Dittrich-CV.pdf)
-[Email](mailto:adam.dittrich@vse.cz)
-[ORCID](https://orcid.org/0000-0002-7803-1339)
-[RePEc](https://ideas.repec.org/f/pdi678.html)
-[University profile](https://khd.vse.cz/ing-adam-dittrich/)
-[LinkedIn](https://www.linkedin.com/in/adam-dittrich-3644b219a/)
-:::
-:::
-
+```{=html}
+<div class="ac-page ac-home">
+<div class="ac-profile">
+<section class="level1 ac-profile-copy" id="adam-dittrich">
+<h1>Adam Dittrich</h1>
+<p class="ac-role">
+Assistant Professor · Department of Economic History<br/>Prague University of Economics and Business
+</p>
+<p>I work on monetary and financial history and the history of economic thought, with a particular focus on interwar Czechoslovakia and Central Europe. My research combines archival sources with historical data reconstruction and econometrics.</p>
+<p>A major current project is the reconstruction of interwar Czechoslovak GDP. The agricultural component is already under way, with preliminary estimates of output and value added for 1920–1937. My other projects examine monetary policy and financial stress during the Great Depression, exchange rates and trade, and Czech economic thought.</p>
+<div class="ac-link-row">
+<p><a href="assets/files/Adam-Dittrich-CV.pdf">CV (PDF)</a> <a href="mailto:adam.dittrich@vse.cz">Email</a> <a href="https://orcid.org/0000-0002-7803-1339">ORCID</a> <a href="https://ideas.repec.org/f/pdi678.html">RePEc</a> <a href="https://khd.vse.cz/ing-adam-dittrich/">University profile</a> <a href="https://www.linkedin.com/in/adam-dittrich-3644b219a/">LinkedIn</a></p>
+</div>
+</section>
 <!-- A real portrait will go here once supplied by Adam.
 Uncomment the figure below after adding assets/img/adam-dittrich-portrait.jpg.
 No stock photograph, generated likeness or visible placeholder is used.
@@ -67,62 +59,51 @@ No stock photograph, generated likeness or visible placeholder is used.
   <img src="assets/img/adam-dittrich-portrait.jpg" alt="Adam Dittrich" width="600" height="750" fetchpriority="high">
 </figure>
 -->
-:::
-
-::: {.ac-section}
-## Selected work
-
-::: {.ac-work-item}
-### Reconstructing Czechoslovak GDP
-
-A sector-by-sector reconstruction of the interwar economy, beginning with agricultural output and gross value added for 1920–1937. Research in progress.
-
-[Project](research.qmd#czechoslovak-gdp) · [Agricultural-output paper](publications.qmd#agricultural-output)
-:::
-
-::: {.ac-work-item}
-### The Crown Against the World: Reconstructing Czechoslovakia’s Effective Exchange Rates, 1920–1938
-
-*Statistika: Statistics and Economy Journal.* Accepted; publication expected in 2027.
-
-[Publication details](publications.qmd#forthcoming-and-accepted)
-:::
-
-::: {.ac-work-item}
-### Measuring Financial Stress under the Gold Standard: Evidence from Interwar Czechoslovakia
-
-Monthly financial-stress indicators for Czechoslovakia, November 1929–September 1938.
-
-[Research](research.qmd#financial-stress-and-banking) · [Dataset](data.qmd#financial-stress-under-the-gold-standard)
-:::
-
-::: {.ac-work-item}
-### Negative Time Preference & the Czech Sugar Industry from 1896 to 1926
-
-With Jiří Rytina. Working paper, 2026.
-
-[Working-paper record](https://ideas.repec.org/p/hal/wpaper/hal-05660879.html)
-:::
-
-[All publications and papers](publications.qmd)
-:::
-
-::: {.ac-section}
-## Recent updates
-
-::: {.ac-news-item}
+</div>
+<section class="level2 ac-section" id="selected-work">
+<h2 data-anchor-id="selected-work">Selected work</h2>
+<section class="level3 ac-work-item" id="reconstructing-czechoslovak-gdp">
+<h3 data-anchor-id="reconstructing-czechoslovak-gdp">Reconstructing Czechoslovak GDP</h3>
+<p>A sector-by-sector reconstruction of the interwar economy, beginning with agricultural output and gross value added for 1920–1937. Research in progress.</p>
+<p><a href="./research.html#czechoslovak-gdp">Project</a> · <a href="./publications.html#agricultural-output">Agricultural-output paper</a></p>
+</section>
+<section class="level3 ac-work-item" id="the-crown-against-the-world-reconstructing-czechoslovakias-effective-exchange-rates-19201938">
+<h3 data-anchor-id="the-crown-against-the-world-reconstructing-czechoslovakias-effective-exchange-rates-19201938">The Crown Against the World: Reconstructing Czechoslovakia’s Effective Exchange Rates, 1920–1938</h3>
+<p><em>Statistika: Statistics and Economy Journal.</em> Forthcoming (publication expected in 2027).</p>
+<p><a href="./publications.html#forthcoming-and-accepted">Publication details</a></p>
+<p><a href="czechoslovakia-eer.html">Dataset and figures</a></p></section>
+<section class="level3 ac-work-item" id="measuring-financial-stress-under-the-gold-standard-evidence-from-interwar-czechoslovakia">
+<h3 data-anchor-id="measuring-financial-stress-under-the-gold-standard-evidence-from-interwar-czechoslovakia">Measuring Financial Stress under the Gold Standard: Evidence from Interwar Czechoslovakia</h3>
+<p>Monthly financial-stress indicators for Czechoslovakia, November 1929–September 1938.</p>
+<p><a href="./research.html#financial-stress-and-banking">Research</a> · <a href="./data.html#financial-stress-under-the-gold-standard">Dataset</a></p>
+</section>
+<section class="level3 ac-work-item" id="negative-time-preference-the-czech-sugar-industry-from-1896-to-1926">
+<h3 data-anchor-id="negative-time-preference-the-czech-sugar-industry-from-1896-to-1926">Negative Time Preference &amp; the Czech Sugar Industry from 1896 to 1926</h3>
+<p>With Jiří Rytina. Working paper, 2026.</p>
+<p><a href="https://ideas.repec.org/p/hal/wpaper/hal-05660879.html">Working-paper record</a></p>
+</section>
+<p><a href="./publications.html">All publications and papers</a></p>
+</section>
+<section class="level2 ac-section" id="recent-updates">
+<h2 data-anchor-id="recent-updates">Recent updates</h2><div class="ac-news-item"><span class="ac-date">22 October 2026</span><div>Reader datasets on <a href="czechoslovak-foreign-trade.html">Czechoslovak foreign trade</a> and <a href="czechoslovakia-eer.html">effective exchange rates</a>, with figures and downloadable Excel workbooks.</div></div>
+<div class="ac-news-item">
 <span class="ac-date">16 October 2026</span>
-<div>Conference presentation with Jiří Rytina and Jakub Drábek on healthcare infrastructure and health outcomes in socialist Czechoslovakia, České Budějovice. <a href="publications.html#conference-presentations">Programme and presentation details</a>.</div>
-:::
-
-::: {.ac-news-item}
+<div>
+Conference presentation with Jiří Rytina and Jakub Drábek on healthcare infrastructure and health outcomes in socialist Czechoslovakia, České Budějovice. <a href="publications.html#conference-presentations">Programme and presentation details</a>.
+</div>
+</div>
+<div class="ac-news-item">
 <span class="ac-date">October 2026</span>
-<div>“The Crown Against the World” has been accepted by <em>Statistika: Statistics and Economy Journal</em>; publication is expected in 2027.</div>
-:::
-
-::: {.ac-news-item}
+<div>
+“The Crown Against the World” is forthcoming in <em>Statistika: Statistics and Economy Journal</em>; publication is expected in 2027.
+</div>
+</div>
+<div class="ac-news-item">
 <span class="ac-date">2026</span>
-<div><a href="data.html#the-missing-j">The Missing J</a>: a monthly dataset on effective exchange rates and trade-balance adjustment in interwar Europe, 1925–1936.</div>
-:::
-:::
-:::
+<div>
+<a href="data.html#the-missing-j">The Missing J</a>: a monthly dataset on effective exchange rates and trade-balance adjustment in interwar Europe, 1925–1936.
+</div>
+</div>
+</section>
+</div>
+```

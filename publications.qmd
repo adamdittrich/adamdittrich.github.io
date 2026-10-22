@@ -1,6 +1,6 @@
 ---
-title: Publications
-description: Articles, working papers, conference proceedings and presentations by Adam Dittrich.
+title: "Publications"
+description: "Articles, working papers, conference proceedings and presentations by Adam Dittrich."
 page-layout: custom
 title-block-banner: false
 body-classes: academic-site publications-page
@@ -10,21 +10,21 @@ body-classes: academic-site publications-page
 <div class="ac-page">
 <h1>Publications</h1>
 <section class="ac-section ac-publication-section">
-<h2 id="forthcoming-and-accepted">Forthcoming and accepted</h2>
+<h2 id="forthcoming-and-accepted">Forthcoming</h2>
 <div class="ac-publication">
 <div class="ac-item-meta">Forthcoming</div>
 <section class="ac-item-body" id="the-crown-against-the-world-reconstructing-czechoslovakias-effective-exchange-rates-19201938">
 <h3>The Crown Against the World: Reconstructing Czechoslovakia’s Effective Exchange Rates, 1920–1938</h3>
 <p><strong>Adam Dittrich</strong><br/>
-<em>Statistika: Statistics and Economy Journal.</em> Accepted; publication expected in 2027.</p>
-</section>
+<em>Statistika: Statistics and Economy Journal.</em> Forthcoming (publication expected in 2027).</p>
+<p><a class="pill-link" href="czechoslovakia-eer.html">Dataset, figures and methods</a> <a class="pill-link" href="https://doi.org/10.3886/E251023V1">Replication DOI</a></p></section>
 </div>
 <div class="ac-publication">
-<div class="ac-item-meta">Accepted</div>
+<div class="ac-item-meta">Forthcoming</div>
 <section class="ac-item-body" id="spor-o-cukerní-daň-roku-1928-karel-engliš-a-gustav-heidler">
 <h3>Spor o cukerní daň roku 1928: Karel Engliš a Gustav Heidler</h3>
 <p><strong>Adam Dittrich</strong><br/>
-<em>Listy cukrovarnické a řepařské [Czech Sugar and Sugar Beet Journal].</em> Accepted; publication expected in 2027.</p>
+<em>Listy cukrovarnické a řepařské [Czech Sugar and Sugar Beet Journal].</em> Forthcoming (publication expected in 2027).</p>
 <p><span class="english-title">[The 1928 Sugar-Tax Dispute: Karel Engliš and Gustav Heidler]</span></p>
 </section>
 </div>
@@ -133,7 +133,7 @@ HAL Open Science working paper, hal-05660879.</p>
 <section class="ac-item-body" id="foreign-trade-turning-point">
 <h3>Measuring the Turning Point in Czechoslovak Foreign Trade during the Great Depression</h3>
 <p>An econometric reconstruction of foreign-trade turning points and devaluation effects.</p>
-</section>
+<p><a class="pill-link" href="czechoslovak-foreign-trade.html">Czechoslovak foreign-trade dataset</a></p></section>
 </div>
 <div class="ac-publication">
 <section class="ac-item-body" id="law-behind-the-koruna">
