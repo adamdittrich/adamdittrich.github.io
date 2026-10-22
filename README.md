@@ -1,46 +1,36 @@
-# Adam Dittrich, PhD — academic website
+# Adam Dittrich — academic website
 
-Revised **21 October 2026** for GitHub account `adamdittrich`.
+Version 4, deployed from the existing Quarto source project on 22 October 2026.
 
-## Update the existing website
+## Editing and publishing
 
-Open the `adamdittrich.github.io` repository, choose **Add file → Upload files**,
-and upload the files and folders **inside** the update package. Commit to
-`main`. The existing **Publish Quarto website** workflow renders and deploys the
-site. No new repository, Pages setting or publishing workflow is required.
+Edit the `.qmd` files and commit to `main`. The existing **Publish Quarto website** workflow renders the site into `docs/`, validates its pages, internal links, assets and search index, and publishes that output to GitHub Pages. No manual ZIP upload or Pages-settings change is needed when editing through the connected repository.
 
-Keep the directory structure: the revised CV is
-`assets/files/Adam-Dittrich-CV.pdf`; styling is `assets/css/styles.css`.
-Upload the `assets` folder rather than moving its files to the repository root.
-
-## Editable pages
-
-| Page | Source |
+| Content | Source |
 |---|---|
-| Home | `index.qmd` |
+| Homepage | `index.qmd` |
 | Research | `research.qmd` |
 | Publications and presentations | `publications.qmd` |
-| Data | `data.qmd` |
+| Datasets | `data.qmd` |
 | Teaching | `teaching.qmd` |
 | Web CV | `cv.qmd` |
 | Contact | `contact.qmd` |
+| Styling | `assets/css/site-v4.css` and `assets/css/theme.scss` |
+| Downloadable CV | `assets/files/Adam-Dittrich-CV.pdf` |
+| Bibliography | `assets/files/publications.bib` |
 
-The downloadable public CV and bibliographic records are in `assets/files/`.
-The teaching page lists courses and start dates without course-resource links.
-Conference presentations and published proceedings are separate sections.
-Czech titles are accompanied by bracketed English translations.
+## Version 4
 
-## Building and previewing
+The display name is Adam Dittrich, without a degree suffix. The PhD remains in the CV's education section. The homepage is shorter; the decorative archival image, blue promotional panels and generic introductory slogans have been removed. Research, publications and datasets open directly with the relevant content. Earlier corrections to teaching dates, conference records, translations and dataset attribution are retained.
 
-The production build is `quarto render`, with output in `docs/` as configured
-in `_quarto.yml`. Only `.qmd` pages are rendered; these project instructions do
-not become website pages. The source package need not contain generated HTML.
+A real portrait has not yet been supplied. The homepage includes a commented portrait figure, but no visible placeholder or generated likeness. To add the portrait, save it as `assets/img/adam-dittrich-portrait.jpg`, uncomment the figure in `index.qmd`, and add its path to `project.resources` in `_quarto.yml`. Social cards intentionally have no decorative image until a suitable portrait is supplied.
 
-The optional `scripts/render_static.py` is a Pandoc preview helper, not the
-production Quarto renderer. A local Quarto installation supports `quarto preview`.
+## CV download
 
-## Fresh installation only
+The repository's existing October 2026 PDF is preserved as the source. During rendering, `scripts/prepare_cv.py` removes only the optional degree suffix in the display heading of that exact legacy PDF, using a checked, dependency-free incremental PDF update. All three pages, academic qualifications and links are preserved. A future replacement PDF is left untouched. The downloadable PDF is the generated file under `docs/assets/files/`.
 
-Create the public repository `adamdittrich.github.io`, set **Settings → Pages →
-Source** to **GitHub Actions**, and upload the source including
-`.github/workflows/publish.yml`. The website address is already configured.
+## Checks and recovery
+
+`python3 scripts/check_site.py` checks the rendered output. `scripts/after_render.py` invokes it automatically before deployment. The GitHub workflow is unchanged.
+
+The branch `backup/pre-v4-2026-10-22` preserves the website before this update. Git history remains intact; no force-push is required.

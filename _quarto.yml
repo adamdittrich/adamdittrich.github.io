@@ -1,77 +1,70 @@
 project:
   type: website
   render:
-    - "*.qmd"
+  - '*.qmd'
   output-dir: docs
   resources:
-    - assets/files/**
-
+  - assets/files/**
+  - assets/js/site.js
+  - assets/img/favicon.svg
+  post-render:
+  - python3 scripts/after_render.py
 website:
-  title: "Adam Dittrich, PhD"
-  site-url: "https://adamdittrich.github.io"
-  description: "Economic historian working on monetary and financial history, interwar Central Europe, international adjustment, historical measurement, and the history of economic thought."
+  title: Adam Dittrich
+  site-url: https://adamdittrich.github.io
+  description: Adam Dittrich, economic historian at Prague University of Economics
+    and Business. Research, publications, historical datasets, teaching and CV.
   favicon: assets/img/favicon.svg
-  image: assets/img/og-card.png
   open-graph:
     locale: en_GB
-    site-name: "Adam Dittrich — Economic Historian"
+    site-name: Adam Dittrich — Economic Historian
   twitter-card:
-    card-style: summary_large_image
+    card-style: summary
   search:
     location: navbar
     type: overlay
   navbar:
     pinned: true
-    logo: assets/img/logo.svg
-    logo-alt: "Adam Dittrich monogram"
-    title: false
+    title: Adam Dittrich
     left:
-      - href: index.qmd
-        text: Home
-      - href: research.qmd
-        text: Research
-      - href: publications.qmd
-        text: Publications
-      - href: data.qmd
-        text: Data
-      - href: teaching.qmd
-        text: Teaching
-      - href: cv.qmd
-        text: CV
+    - href: index.qmd
+      text: Home
+    - href: research.qmd
+      text: Research
+    - href: publications.qmd
+      text: Publications
+    - href: data.qmd
+      text: Data
+    - href: teaching.qmd
+      text: Teaching
+    - href: cv.qmd
+      text: CV
     right:
-      - href: contact.qmd
-        text: Contact
+    - href: contact.qmd
+      text: Contact
   page-footer:
-    left: "© 2026 Adam Dittrich"
-    center: "Economic history · Monetary history · Interwar Central Europe"
+    left: © 2026 Adam Dittrich
     right:
-      - icon: envelope
-        href: mailto:adam.dittrich@vse.cz
-        aria-label: Email
-      - icon: mortarboard
-        href: https://scholar.google.com/citations?hl=en&user=w20HpZcAAAAJ
-        aria-label: Google Scholar
-      - text: ORCID
-        href: https://orcid.org/0000-0002-7803-1339
-      - icon: github
-        href: https://github.com/adamdittrich
-        aria-label: GitHub
-      - icon: linkedin
-        href: https://www.linkedin.com/in/adam-dittrich-3644b219a/
-        aria-label: LinkedIn
-
+    - text: Email
+      href: mailto:adam.dittrich@vse.cz
+    - text: ORCID
+      href: https://orcid.org/0000-0002-7803-1339
+    - text: GitHub
+      href: https://github.com/adamdittrich
 format:
   html:
     lang: en
-    theme: cosmo
-    css: assets/css/styles.css
+    theme:
+    - cosmo
+    - assets/css/theme.scss
+    css: assets/css/site-v4.css
     toc: false
-    smooth-scroll: true
+    smooth-scroll: false
     link-external-newwindow: true
     include-after-body: assets/includes/site-script.html
-
+    page-layout: custom
+    anchor-sections: false
 bibliography: assets/files/publications.bib
 csl: assets/files/chicago-author-date.csl
-
 execute:
   freeze: auto

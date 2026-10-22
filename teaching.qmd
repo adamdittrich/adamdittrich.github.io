@@ -1,49 +1,33 @@
 ---
-title: "Teaching"
-description: "Courses taught by Adam Dittrich at Prague University of Economics and Business: Economic History and Defence of an Academic Paper since 2021; Foundations of Microeconomics from 2026/27."
-page-layout: full
-body-classes: inner-page teaching-page
+title: Teaching
+description: Courses taught by Adam Dittrich at Prague University of Economics and Business.
+page-layout: custom
+title-block-banner: false
+body-classes: academic-site teaching-page
 ---
 
-::: {.inner-hero}
-<p class="eyebrow">Teaching</p>
+::: {.ac-page}
+# Teaching
 
-# Courses taught
+Prague University of Economics and Business.
 
-<p class="inner-lede">Prague University of Economics and Business.</p>
-:::
-
-::: {.page-section .teaching-courses}
-::: {.course-feature}
-::: {.course-code}
-5HD200
-:::
-::: {.course-main}
-<p class="eyebrow">2021–present</p>
-
+::: {.ac-section}
+::: {.ac-course}
 ## Economic History
-:::
+
+5HD200 · 2021–present
 :::
 
-::: {.course-feature}
-::: {.course-code}
-55F112
-:::
-::: {.course-main}
-<p class="eyebrow">2021–present</p>
-
+::: {.ac-course}
 ## Defence of an Academic Paper
-:::
+
+55F112 · 2021–present
 :::
 
-::: {.course-feature}
-::: {.course-code}
-5EN102
-:::
-::: {.course-main}
-<p class="eyebrow">From academic year 2026/27</p>
-
+::: {.ac-course}
 ## Foundations of Microeconomics
+
+5EN102 · From academic year 2026/27
 :::
 :::
 :::

@@ -1,358 +1,166 @@
 ---
-title: "Publications & Papers"
-description: "Published and forthcoming articles, conference proceedings and presentations, working papers, and research manuscripts by Adam Dittrich."
-page-layout: full
-body-classes: inner-page publications-page
+title: Publications
+description: Articles, working papers, conference proceedings and presentations by Adam Dittrich.
+page-layout: custom
+title-block-banner: false
+body-classes: academic-site publications-page
 ---
 
-::: {.inner-hero}
-<p class="eyebrow">Publications & papers</p>
-
-# Research outputs
-
-<p class="inner-lede">Journal articles, published conference proceedings, conference presentations, working papers, and research manuscripts in economic history and the history of economic thought. Public versions and replication materials are linked below.</p>
-:::
-
-::: {.page-section}
-::: {.pub-section-heading}
-<span class="pub-count">02</span>
-
-## Forthcoming and accepted {#forthcoming-and-accepted}
-:::
-
-::: {.publication-list}
-
-::: {.publication-item}
-<div class="pub-year">Forthcoming</div>
-<div class="pub-body">
-
-### The Crown Against the World: Reconstructing Czechoslovakia’s Effective Exchange Rates, 1920–1938
-
-**Adam Dittrich**  
-*Statistika: Statistics and Economy Journal.* Forthcoming.
+```{=html}
+<div class="ac-page">
+<h1>Publications</h1>
+<section class="ac-section ac-publication-section">
+<h2 id="forthcoming-and-accepted">Forthcoming and accepted</h2>
+<div class="ac-publication">
+<div class="ac-item-meta">Forthcoming</div>
+<section class="ac-item-body" id="the-crown-against-the-world-reconstructing-czechoslovakias-effective-exchange-rates-19201938">
+<h3>The Crown Against the World: Reconstructing Czechoslovakia’s Effective Exchange Rates, 1920–1938</h3>
+<p><strong>Adam Dittrich</strong><br/>
+<em>Statistika: Statistics and Economy Journal.</em> Forthcoming.</p>
+</section>
 </div>
-:::
-
-::: {.publication-item}
-<div class="pub-year">Accepted</div>
-<div class="pub-body">
-
-### Spor o cukerní daň roku 1928: Karel Engliš a Gustav Heidler
-
-**Adam Dittrich**  
-*Listy cukrovarnické a řepařské [Czech Sugar and Sugar Beet Journal].* Accepted; publication expected in 2027.
-
-<span class="english-title">[The 1928 Sugar-Tax Dispute: Karel Engliš and Gustav Heidler]</span>
+<div class="ac-publication">
+<div class="ac-item-meta">Accepted</div>
+<section class="ac-item-body" id="spor-o-cukerní-daň-roku-1928-karel-engliš-a-gustav-heidler">
+<h3>Spor o cukerní daň roku 1928: Karel Engliš a Gustav Heidler</h3>
+<p><strong>Adam Dittrich</strong><br/>
+<em>Listy cukrovarnické a řepařské [Czech Sugar and Sugar Beet Journal].</em> Accepted; publication expected in 2027.</p>
+<p><span class="english-title">[The 1928 Sugar-Tax Dispute: Karel Engliš and Gustav Heidler]</span></p>
+</section>
 </div>
-:::
-:::
-:::
-
-::: {.page-section .alt-section}
-::: {.pub-section-heading}
-<span class="pub-count">03</span>
-
-## Published journal articles {#published-journal-articles}
-:::
-
-::: {.publication-list}
-
-::: {.publication-item}
-<div class="pub-year">2025</div>
-<div class="pub-body">
-
-### Historický vztah československého cukrovarnického průmyslu k sociální problematice na příkladu penze: Sociálně solidární cíle mezi lety 1918 až 1926 jako výsledek negativní časové preference
-
-**Jiří Rytina, Adam Dittrich, and Jakub Drábek**  
-*Listy cukrovarnické a řepařské [Czech Sugar and Sugar Beet Journal]* 141(9–10), 320–322.
-
-<span class="english-title">[The Historical Relationship of the Czechoslovak Sugar Industry to Social Issues: Pensions and Social Solidarity in 1918–1926 as a Result of Negative Time Preference]</span>
-
-[Article PDF](https://www.cukr-listy.cz/on_line/2025/PDF/320-322.pdf){.pill-link}
-[Publisher’s contents](https://www.cukr-listy.cz/lc-obsah2025-en.html){.pill-link}
+</section>
+<section class="ac-section ac-publication-section">
+<h2 id="published-journal-articles">Published journal articles</h2>
+<div class="ac-publication">
+<div class="ac-item-meta">2025</div>
+<section class="ac-item-body" id="historický-vztah-československého-cukrovarnického-průmyslu-k-sociální-problematice-na-příkladu-penze-sociálně-solidární-cíle-mezi-lety-1918-až-1926-jako-výsledek-negativní-časové-preference">
+<h3>Historický vztah československého cukrovarnického průmyslu k sociální problematice na příkladu penze: Sociálně solidární cíle mezi lety 1918 až 1926 jako výsledek negativní časové preference</h3>
+<p><strong>Jiří Rytina, Adam Dittrich, and Jakub Drábek</strong><br/>
+<em>Listy cukrovarnické a řepařské [Czech Sugar and Sugar Beet Journal]</em> 141(9–10), 320–322.</p>
+<p><span class="english-title">[The Historical Relationship of the Czechoslovak Sugar Industry to Social Issues: Pensions and Social Solidarity in 1918–1926 as a Result of Negative Time Preference]</span></p>
+<p><a class="pill-link" href="https://www.cukr-listy.cz/on_line/2025/PDF/320-322.pdf">Article PDF</a> <a class="pill-link" href="https://www.cukr-listy.cz/lc-obsah2025-en.html">Publisher’s contents</a></p>
+</section>
 </div>
-:::
-
-::: {.publication-item}
-<div class="pub-year">2025</div>
-<div class="pub-body">
-
-### Cukrovarnický průmysl versus deflační politika: Konflikt hospodářských zájmů v meziválečném Československu
-
-**Adam Dittrich, Jiří Rytina, and Jakub Drábek**  
-*Listy cukrovarnické a řepařské [Czech Sugar and Sugar Beet Journal]* 141(7–8), 260–264.
-
-<span class="english-title">[Sugar Industry versus Deflationary Policy: Conflict of Economic Interests in Interwar Czechoslovakia]</span>
-
-[Article PDF](https://www.cukr-listy.cz/on_line/2025/PDF/260-264.pdf){.pill-link}
-[Publisher’s contents](https://www.cukr-listy.cz/lc-obsah2025-en.html){.pill-link}
+<div class="ac-publication">
+<div class="ac-item-meta">2025</div>
+<section class="ac-item-body" id="cukrovarnický-průmysl-versus-deflační-politika-konflikt-hospodářských-zájmů-v-meziválečném-československu">
+<h3>Cukrovarnický průmysl versus deflační politika: Konflikt hospodářských zájmů v meziválečném Československu</h3>
+<p><strong>Adam Dittrich, Jiří Rytina, and Jakub Drábek</strong><br/>
+<em>Listy cukrovarnické a řepařské [Czech Sugar and Sugar Beet Journal]</em> 141(7–8), 260–264.</p>
+<p><span class="english-title">[Sugar Industry versus Deflationary Policy: Conflict of Economic Interests in Interwar Czechoslovakia]</span></p>
+<p><a class="pill-link" href="https://www.cukr-listy.cz/on_line/2025/PDF/260-264.pdf">Article PDF</a> <a class="pill-link" href="https://www.cukr-listy.cz/lc-obsah2025-en.html">Publisher’s contents</a></p>
+</section>
 </div>
-:::
-
-::: {.publication-item}
-<div class="pub-year">2023</div>
-<div class="pub-body">
-
-### Karel Engliš as the Governor of the Czechoslovakian National Bank (1934–1939)
-
-**Adam Dittrich**  
-*Revista Română de Studii Eurasiatice* 19(1–2), 105–124.
-
-[Journal issue](https://rrsejournal.com/year-xix-2023){.pill-link}
-[Article record](https://www.ceeol.com/search/article-detail?id=1236472){.pill-link}
+<div class="ac-publication">
+<div class="ac-item-meta">2023</div>
+<section class="ac-item-body" id="karel-engliš-as-the-governor-of-the-czechoslovakian-national-bank-19341939">
+<h3>Karel Engliš as the Governor of the Czechoslovakian National Bank (1934–1939)</h3>
+<p><strong>Adam Dittrich</strong><br/>
+<em>Revista Română de Studii Eurasiatice</em> 19(1–2), 105–124.</p>
+<p><a class="pill-link" href="https://rrsejournal.com/year-xix-2023">Journal issue</a> <a class="pill-link" href="https://www.ceeol.com/search/article-detail?id=1236472">Article record</a></p>
+</section>
 </div>
-:::
-:::
-:::
-
-::: {.page-section}
-::: {.pub-section-heading}
-<span class="pub-count">02</span>
-
-## Published conference proceedings {#conference-proceedings}
-:::
-
-::: {.publication-list}
-
-::: {.publication-item}
-<div class="pub-year">2025</div>
-<div class="pub-body">
-
-### Efektivní směnné kurzy Československa 1925–1936: rekonstrukce, dekompozice a efekt devalvace
-
-**Adam Dittrich**  
-In Ondřej Roubal (ed.), *Konference doktorandů na Vysoké škole finanční a správní 2025 [Doctoral Students Conference at the University of Finance and Administration 2025]*. Prague: VŠFS, 26–40.
-
-<span class="english-title">[Czechoslovakia’s Effective Exchange Rates, 1925–1936: Reconstruction, Decomposition and the Effect of Devaluation]</span>
-
-[Proceedings PDF · article pp. 26–40](https://www.vsfs.cz/media/conference/konferencedoktorandu//konference_doktorandu_2025.pdf#page=27){.pill-link}
-[Article DOI](https://doi.org/10.37355/KD-2025-02){.pill-link}
+</section>
+<section class="ac-section ac-publication-section">
+<h2 id="conference-proceedings">Published conference proceedings</h2>
+<div class="ac-publication">
+<div class="ac-item-meta">2025</div>
+<section class="ac-item-body" id="efektivní-směnné-kurzy-československa-19251936-rekonstrukce-dekompozice-a-efekt-devalvace">
+<h3>Efektivní směnné kurzy Československa 1925–1936: rekonstrukce, dekompozice a efekt devalvace</h3>
+<p><strong>Adam Dittrich</strong><br/>
+In Ondřej Roubal (ed.), <em>Konference doktorandů na Vysoké škole finanční a správní 2025 [Doctoral Students Conference at the University of Finance and Administration 2025]</em>. Prague: VŠFS, 26–40.</p>
+<p><span class="english-title">[Czechoslovakia’s Effective Exchange Rates, 1925–1936: Reconstruction, Decomposition and the Effect of Devaluation]</span></p>
+<p><a class="pill-link" href="https://www.vsfs.cz/media/conference/konferencedoktorandu//konference_doktorandu_2025.pdf#page=27">Proceedings PDF · article pp. 26–40</a> <a class="pill-link" href="https://doi.org/10.37355/KD-2025-02">Article DOI</a></p>
+</section>
 </div>
-:::
-
-::: {.publication-item}
-<div class="pub-year">2024</div>
-<div class="pub-body">
-
-### Russian Crisis of 1998
-
-**Adam Dittrich**  
-In Michal Müller and Pavla Slavíčková (eds.), *KNOWCON 2024: Knowledge on Economics and Management Conference Proceedings*. Olomouc: Palacký University Olomouc, 26–32.
-
-[Proceedings PDF · article pp. 26–32](https://kems.upol.cz/files/FF/katedry/kae/knowcon/proceedings/KNOWCON_2024_FINAL.pdf){.pill-link}
-[Publisher’s proceedings index](https://kems.upol.cz/knowcon/about-knowcon/){.pill-link}
+<div class="ac-publication">
+<div class="ac-item-meta">2024</div>
+<section class="ac-item-body" id="russian-crisis-of-1998">
+<h3>Russian Crisis of 1998</h3>
+<p><strong>Adam Dittrich</strong><br/>
+In Michal Müller and Pavla Slavíčková (eds.), <em>KNOWCON 2024: Knowledge on Economics and Management Conference Proceedings</em>. Olomouc: Palacký University Olomouc, 26–32.</p>
+<p><a class="pill-link" href="https://kems.upol.cz/files/FF/katedry/kae/knowcon/proceedings/KNOWCON_2024_FINAL.pdf">Proceedings PDF · article pp. 26–32</a> <a class="pill-link" href="https://kems.upol.cz/knowcon/about-knowcon/">Publisher’s proceedings index</a></p>
+</section>
 </div>
-:::
-:::
-:::
-
-::: {.page-section}
-::: {.pub-section-heading}
-<span class="pub-count">02</span>
-
-## Conference presentations {#conference-presentations}
-:::
-
-::: {.publication-list}
-::: {.publication-item}
-<div class="pub-year">16 Oct 2026</div>
-<div class="pub-body">
-
-### Kapacita bez efektivity? Zdravotnická infrastruktura a zdravotní výsledky v socialistickém Československu
-
-<span class="english-title">[Capacity without Effectiveness? Healthcare Infrastructure and Health Outcomes in Socialist Czechoslovakia]</span>
-
-**Adam Dittrich, Jiří Rytina, and Jakub Drábek**  
-*Zdraví a sociální otázky v dějinách: interdisciplinární perspektivy [Health and Social Issues in History: Interdisciplinary Perspectives].* Faculty of Health and Social Sciences, University of South Bohemia, České Budějovice. Conference held 15–16 October 2026; presentation on 16 October.
-
-[Conference programme · p. 4](https://www.zsf.jcu.cz/images/ZSF/veda-a-vyzkum/konference/zdravi_a_socialni_otazky/CONFERENCE_Zdravi_program_26-10-14_final_version.pdf#page=4){.pill-link}
-[Conference page](https://www.zsf.jcu.cz/cz/veda-a-vyzkum/konference/zdravi-a-socialni-otazky-v-dejinach-interdisciplinarni-perspektivy){.pill-link}
+</section>
+<section class="ac-section ac-publication-section">
+<h2 id="conference-presentations">Conference presentations</h2>
+<div class="ac-publication">
+<div class="ac-item-meta">16 Oct 2026</div>
+<section class="ac-item-body" id="kapacita-bez-efektivity-zdravotnická-infrastruktura-a-zdravotní-výsledky-v-socialistickém-československu">
+<h3>Kapacita bez efektivity? Zdravotnická infrastruktura a zdravotní výsledky v socialistickém Československu</h3>
+<p><span class="english-title">[Capacity without Effectiveness? Healthcare Infrastructure and Health Outcomes in Socialist Czechoslovakia]</span></p>
+<p><strong>Adam Dittrich, Jiří Rytina, and Jakub Drábek</strong><br/>
+<em>Zdraví a sociální otázky v dějinách: interdisciplinární perspektivy [Health and Social Issues in History: Interdisciplinary Perspectives].</em> Faculty of Health and Social Sciences, University of South Bohemia, České Budějovice. Conference held 15–16 October 2026; presentation on 16 October.</p>
+<p><a class="pill-link" href="https://www.zsf.jcu.cz/images/ZSF/veda-a-vyzkum/konference/zdravi_a_socialni_otazky/CONFERENCE_Zdravi_program_26-10-14_final_version.pdf#page=4">Conference programme · p. 4</a> <a class="pill-link" href="https://www.zsf.jcu.cz/cz/veda-a-vyzkum/konference/zdravi-a-socialni-otazky-v-dejinach-interdisciplinarni-perspektivy">Conference page</a></p>
+</section>
 </div>
-:::
-
-::: {.publication-item}
-<div class="pub-year">25 Sep 2025</div>
-<div class="pub-body">
-
-### Měnová úprava jako pokrizová obnova: Případová studie československé devalvace v roce 1934
-
-<span class="english-title">[Monetary Adjustment as Post-Crisis Recovery: A Case Study of the Czechoslovak Devaluation of 1934]</span>
-
-**Adam Dittrich and Jiří Rytina**  
-*Pokrizová obnova [Post-Crisis Recovery].* National Archives, Prague. Conference held 24–26 September 2025; presentation on 25 September.
-
-[Conference programme · p. 3](https://www.hiu.cas.cz/user_uploads/badatelum_i_verejnosti/udalosti/2025_9_25_26_konference_pokrizova_obnova/konference_pokrizova_obnova_program_CZ.pdf#page=3){.pill-link}
+<div class="ac-publication">
+<div class="ac-item-meta">25 Sep 2025</div>
+<section class="ac-item-body" id="měnová-úprava-jako-pokrizová-obnova-případová-studie-československé-devalvace-v-roce-1934">
+<h3>Měnová úprava jako pokrizová obnova: Případová studie československé devalvace v roce 1934</h3>
+<p><span class="english-title">[Monetary Adjustment as Post-Crisis Recovery: A Case Study of the Czechoslovak Devaluation of 1934]</span></p>
+<p><strong>Adam Dittrich and Jiří Rytina</strong><br/>
+<em>Pokrizová obnova [Post-Crisis Recovery].</em> National Archives, Prague. Conference held 24–26 September 2025; presentation on 25 September.</p>
+<p><a class="pill-link" href="https://www.hiu.cas.cz/user_uploads/badatelum_i_verejnosti/udalosti/2025_9_25_26_konference_pokrizova_obnova/konference_pokrizova_obnova_program_CZ.pdf#page=3">Conference programme · p. 3</a></p>
+</section>
 </div>
-:::
-:::
-:::
-
-::: {.page-section .alt-section}
-::: {.pub-section-heading}
-<span class="pub-count">01</span>
-
-## Public working papers {#public-working-papers}
-:::
-
-::: {.publication-list}
-
-::: {.publication-item}
-<div class="pub-year">2026</div>
-<div class="pub-body">
-
-### Negative Time Preference & the Czech Sugar Industry from 1896 to 1926
-
-**Jiří Rytina and Adam Dittrich**  
-HAL Open Science working paper, hal-05660879.
-
-The paper reconstructs how industrial actors understood long-horizon sacrifice, social provision, and institutional responsibility across the late Habsburg and early Czechoslovak periods.
-
-[HAL record](https://hal.science/hal-05660879){.pill-link}
-[RePEc record](https://ideas.repec.org/p/hal/wpaper/hal-05660879.html){.pill-link}
+</section>
+<section class="ac-section ac-publication-section">
+<h2 id="public-working-papers">Public working papers</h2>
+<div class="ac-publication">
+<div class="ac-item-meta">2026</div>
+<section class="ac-item-body" id="negative-time-preference-the-czech-sugar-industry-from-1896-to-1926">
+<h3>Negative Time Preference &amp; the Czech Sugar Industry from 1896 to 1926</h3>
+<p><strong>Jiří Rytina and Adam Dittrich</strong><br/>
+HAL Open Science working paper, hal-05660879.</p>
+<p>The paper reconstructs how industrial actors understood long-horizon sacrifice, social provision, and institutional responsibility across the late Habsburg and early Czechoslovak periods.</p>
+<p><a class="pill-link" href="https://hal.science/hal-05660879">HAL record</a> <a class="pill-link" href="https://ideas.repec.org/p/hal/wpaper/hal-05660879.html">RePEc record</a></p>
+</section>
 </div>
-:::
-:::
-:::
-
-::: {.page-section}
-::: {.pub-section-heading}
-<span class="pub-count">01</span>
-
-## Research papers with open data {#research-papers-with-open-data}
-:::
-
-::: {.publication-list}
-
-::: {.publication-item}
-<div class="pub-year">Research</div>
-<div class="pub-body">
-
-### Measuring Financial Stress under the Gold Standard: Evidence from Interwar Czechoslovakia
-
-**Adam Dittrich**
-
-A monthly composite index uses eleven financial and macro-financial indicators to recover the chronology of pressure from November 1929 to September 1938. The project connects statistical measurement to the institutional mechanics of the Czechoslovak gold-standard regime.
-
-[Data and documentation](https://www.openicpsr.org/openicpsr/project/247312/version/V1/view){.pill-link}
-[Project summary](data.qmd#financial-stress-under-the-gold-standard){.pill-link}
+</section>
+<section class="ac-section ac-publication-section">
+<h2 id="research-papers-with-open-data">Research papers with open data</h2>
+<div class="ac-publication">
+<div class="ac-item-meta">Research</div>
+<section class="ac-item-body" id="measuring-financial-stress-under-the-gold-standard-evidence-from-interwar-czechoslovakia">
+<h3>Measuring Financial Stress under the Gold Standard: Evidence from Interwar Czechoslovakia</h3>
+<p><strong>Adam Dittrich</strong></p>
+<p>A monthly composite index uses eleven financial and macro-financial indicators to recover the chronology of pressure from November 1929 to September 1938. The project connects statistical measurement to the institutional mechanics of the Czechoslovak gold-standard regime.</p>
+<p><a class="pill-link" href="https://www.openicpsr.org/openicpsr/project/247312/version/V1/view">Data and documentation</a> <a class="pill-link" href="data.html#financial-stress-under-the-gold-standard">Project summary</a></p>
+</section>
 </div>
-:::
-
-
-:::
-:::
-
-::: {.page-section .alt-section}
-::: {.pub-section-heading}
-<span class="pub-count">08</span>
-
-## Other research manuscripts {#research-manuscripts}
-:::
-
-::: {.wip-grid}
-
-::: {.wip-card}
-<span class="wip-field">Foreign trade</span>
-
-### Measuring the Turning Point in Czechoslovak Foreign Trade during the Great Depression
-:::
-
-::: {.wip-card}
-<span class="wip-field">Monetary defence</span>
-
-### Who Paid for Credibility? The Technology of Monetary Defense on Europe’s Periphery, 1926–1938
-:::
-
-::: {.wip-card}
-<span class="wip-field">Monetary policy</span>
-
-### The Koruna-Defence Gap: External Credibility, Real-Rate Restriction and the Great Depression in Interwar Czechoslovakia
-:::
-
-::: {.wip-card}
-<span class="wip-field">Labour markets</span>
-
-### Recovery before Jobs: Unemployment, Vacancies, and the State in Interwar Czechoslovakia, 1926–38
-:::
-
-::: {.wip-card}
-<span class="wip-field">Exchange rates and trade</span>
-
-### The Missing J in Interwar Europe: A Monthly Cliometric Dataset on Effective Exchange Rates and Trade-Balance Adjustment, 1925–1936
-:::
-
-::: {.wip-card}
-<span class="wip-field">Trade adjustment</span>
-
-### Prices Recover, Markets Remember: Late Devaluation and the Erosion of Price Competition in Interwar Czechoslovakia, 1929–1938
-:::
-
-::: {.wip-card}
-<span class="wip-field">Italy and European monetary history</span>
-
-### The Price of Credibility: Quota 90 and Fascist Italy’s Internal Deflation in Monthly European Perspective, 1925–1928
-:::
-
-::: {.wip-card}
-<span class="wip-field">Central-bank law</span>
-
-### The Price of Credibility: Central-Bank Law, Monetary Defence, and Domestic Contraction in Interwar Czechoslovakia
-:::
-:::
-:::
-
-::: {.page-section}
-::: {.pub-section-heading}
-<span class="pub-count">Selected</span>
-
-## Projects in development {#projects-in-development}
-:::
-
-::: {.wip-grid}
-
-::: {.wip-card}
-<span class="wip-field">Working paper · Monetary history</span>
-
-### Gold Flows, Sterilisation, and the Monetary Base in Interwar Czechoslovakia, 1927–1938
-
-Reserve movements, domestic balance-sheet operations, and changes in the monetary regime after devaluation.
-:::
-
-::: {.wip-card}
-<span class="wip-field">Project in development · Central banking</span>
-
-### From Bills to Money Markets: The Structural Transformation of the Credit Transmission Mechanism of the National Bank of Czechoslovakia, 1926–1936
-
-Central-bank credit, the commercial-bill channel, and liquidity management.
-:::
-
-::: {.wip-card}
-<span class="wip-field">Working paper · History of economic thought</span>
-
-### Crisis as a Failure of Distribution: Jan Loevenstein’s Theory of Underconsumption, Technological Unemployment, and the Great Depression
-
-A study of Loevenstein’s account of crisis, distribution, and unemployment.
-:::
-
-::: {.wip-card}
-<span class="wip-field">Historical national accounts</span>
-
-### Reconstructing Interwar Czechoslovak Output
-
-The Czechoslovak contribution to comparative work on Central and Eastern European historical GDP with Matthias Morys and Marcin Wroński. Current work focuses on agricultural output and value added, sectoral coverage, prices, intermediate inputs, and comparability across countries.
-:::
-:::
-:::
-
-::: {.page-section .profile-links-section}
-[Download bibliographic records (BibTeX)](assets/files/publications.bib){.pill-link}
-
-## Other research profiles
-
-[Google Scholar](https://scholar.google.com/citations?hl=en&user=w20HpZcAAAAJ){.profile-chip}
-[ORCID](https://orcid.org/0000-0002-7803-1339){.profile-chip}
-[RePEc](https://ideas.repec.org/f/pdi678.html){.profile-chip}
-[GitHub](https://github.com/adamdittrich){.profile-chip}
-[Data repositories](data.qmd){.profile-chip}
-[Institutional profile](https://khd.vse.cz/ing-adam-dittrich/){.profile-chip}
-:::
+</section>
+<section class="ac-section ac-publication-section">
+<h2 id="research-manuscripts">Other research manuscripts</h2>
+<div class="ac-publication"><h3>Measuring the Turning Point in Czechoslovak Foreign Trade during the Great Depression</h3></div>
+<div class="ac-publication"><h3>Who Paid for Credibility? The Technology of Monetary Defense on Europe’s Periphery, 1926–1938</h3></div>
+<div class="ac-publication"><h3>The Koruna-Defence Gap: External Credibility, Real-Rate Restriction and the Great Depression in Interwar Czechoslovakia</h3></div>
+<div class="ac-publication"><h3>Recovery before Jobs: Unemployment, Vacancies, and the State in Interwar Czechoslovakia, 1926–38</h3></div>
+<div class="ac-publication"><h3>The Missing J in Interwar Europe: A Monthly Cliometric Dataset on Effective Exchange Rates and Trade-Balance Adjustment, 1925–1936</h3></div>
+<div class="ac-publication"><h3>Prices Recover, Markets Remember: Late Devaluation and the Erosion of Price Competition in Interwar Czechoslovakia, 1929–1938</h3></div>
+<div class="ac-publication"><h3>The Price of Credibility: Quota 90 and Fascist Italy’s Internal Deflation in Monthly European Perspective, 1925–1928</h3></div>
+<div class="ac-publication"><h3>The Price of Credibility: Central-Bank Law, Monetary Defence, and Domestic Contraction in Interwar Czechoslovakia</h3></div>
+</section>
+<section class="ac-section ac-publication-section">
+<h2 id="projects-in-development">Projects in development</h2>
+<div class="ac-publication">
+<h3>Gold Flows, Sterilisation, and the Monetary Base in Interwar Czechoslovakia, 1927–1938</h3>
+<p>Reserve movements, domestic balance-sheet operations, and changes in the monetary regime after devaluation.</p>
+</div>
+<div class="ac-publication">
+<h3>From Bills to Money Markets: The Structural Transformation of the Credit Transmission Mechanism of the National Bank of Czechoslovakia, 1926–1936</h3>
+<p>Central-bank credit, the commercial-bill channel, and liquidity management.</p>
+</div>
+<div class="ac-publication">
+<h3>Crisis as a Failure of Distribution: Jan Loevenstein’s Theory of Underconsumption, Technological Unemployment, and the Great Depression</h3>
+<p>A study of Loevenstein’s account of crisis, distribution, and unemployment.</p>
+</div>
+<div class="ac-publication">
+<h3>Reconstructing Interwar Czechoslovak Output</h3>
+<p>The Czechoslovak contribution to comparative work on Central and Eastern European historical GDP with Matthias Morys and Marcin Wroński. Current work focuses on agricultural output and value added, sectoral coverage, prices, intermediate inputs, and comparability across countries.</p>
+</div>
+</section>
+<p class="ac-bib-link"><a href="assets/files/publications.bib">Download bibliography (BibTeX)</a></p>
+</div>
+```

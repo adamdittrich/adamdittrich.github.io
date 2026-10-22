@@ -1,214 +1,46 @@
 ---
-title: "Data & Replication"
-description: "Open datasets and replication projects on Czechoslovak financial stress, European bilateral trade, and monthly exchange-rate and trade-balance adjustment."
-page-layout: full
-body-classes: inner-page data-page
+title: Datasets
+description: Datasets on Czechoslovak financial stress, European bilateral trade, and monthly effective exchange
+  rates and trade balances.
+page-layout: custom
+title-block-banner: false
+body-classes: academic-site data-page
 ---
 
-::: {.inner-hero .data-hero}
-<p class="eyebrow">Data & replication</p>
+::: {.ac-page}
+# Datasets
 
-# Evidence designed to be reused
-
-<p class="inner-lede">Historical data construction is part of the substantive contribution. Each public project documents coverage, source logic, transformations, and limitations so that the evidence can be inspected beyond a single regression table.</p>
-:::
-
-::: {.page-section}
-::: {.dataset-feature #financial-stress-under-the-gold-standard}
-::: {.dataset-kicker}
-<span>Dataset 01</span><span>Monthly · Czechoslovakia · 1929–1938</span>
-:::
-
+::: {.ac-section .ac-dataset #financial-stress-under-the-gold-standard}
 ## Measuring Financial Stress under the Gold Standard
 
-<p class="dataset-summary">A monthly dataset and composite index designed to recover the chronology of monetary, banking, and macro-financial pressure in interwar Czechoslovakia.</p>
+<p class="ac-item-meta">Czechoslovakia · Monthly · November 1929–September 1938</p>
 
-::: {.dataset-metrics}
-::: {.metric}
-<span class="metric-value">11</span>
-<span class="metric-label">component indicators</span>
-:::
-::: {.metric}
-<span class="metric-value">107</span>
-<span class="metric-label">monthly observations</span>
-:::
-::: {.metric}
-<span class="metric-value">1929:11</span>
-<span class="metric-label">series begins</span>
-:::
-::: {.metric}
-<span class="metric-value">1938:09</span>
-<span class="metric-label">series ends</span>
-:::
+Eleven financial and macro-financial indicators and a composite financial-stress index. The dataset contains 107 monthly observations, the underlying and transformed series, and documentation for reconstructing financial pressure during the Czechoslovak Depression.
+
+[Dataset and documentation](https://www.openicpsr.org/openicpsr/project/247312/version/V1/view) · DOI: 10.3886/E247312V1
 :::
 
-::: {.dataset-columns}
-::: {}
-### Research use
-
-- identifying distinct phases of financial pressure;
-- comparing market, monetary, and real-economy chronologies;
-- evaluating conventional dates assigned to the Czechoslovak Depression;
-- studying monetary defence before and after devaluation.
-:::
-::: {}
-### Package contents
-
-- underlying monthly indicators;
-- transformed and standardised series;
-- composite financial-stress measure;
-- documentation and replication materials;
-- transparent versioned DOI.
-:::
-:::
-
-[Open dataset and documentation](https://www.openicpsr.org/openicpsr/project/247312/version/V1/view){.button .button-primary}
-:::
-:::
-
-::: {.page-section .alt-section}
-::: {.dataset-feature #european-bilateral-trade-geography}
-::: {.dataset-kicker}
-<span>Dataset 02</span><span>Annual · Europe · 1927–1938</span>
-:::
-
+::: {.ac-section .ac-dataset #european-bilateral-trade-geography}
 ## European bilateral trade, 1927–1938
 
-**Dataset:** Commercial Hysteresis: Persistence and Reorganization in Europe’s Bilateral Trade Geography during the Great Depression.
+<p class="ac-item-meta">21 European economies · Annual · Country-pair-year observations</p>
 
-<p class="dataset-summary">A bilateral panel for tracing persistence, destruction, and reorganisation in Europe’s commercial relationships across the Great Depression.</p>
+A bilateral trade panel covering twelve annual cross-sections. It can be used to study changes in trade partners, the persistence of commercial relationships and the geography of European trade during the Great Depression.
 
-::: {.dataset-metrics}
-::: {.metric}
-<span class="metric-value">21</span>
-<span class="metric-label">European economies</span>
-:::
-::: {.metric}
-<span class="metric-value">12</span>
-<span class="metric-label">annual cross-sections</span>
-:::
-::: {.metric}
-<span class="metric-value">1927</span>
-<span class="metric-label">pre-crisis benchmark</span>
-:::
-::: {.metric}
-<span class="metric-value">1938</span>
-<span class="metric-label">late-interwar endpoint</span>
-:::
+Repository title: *Commercial Hysteresis: Persistence and Reorganization in Europe’s Bilateral Trade Geography during the Great Depression.*
+
+[Dataset and documentation](https://doi.org/10.3886/E247132V2) · DOI: 10.3886/E247132V2
 :::
 
-::: {.dataset-columns}
-::: {}
-### Research use
+::: {.ac-section .ac-dataset #the-missing-j}
+## The Missing J
 
-- separating aggregate trade collapse from link-level persistence;
-- mapping partner substitution and regional reorientation;
-- estimating intensive- and extensive-margin adjustment;
-- studying the effects of exchange and clearing regimes.
+<p class="ac-item-meta">Europe · Monthly · 1925–1936</p>
+
+*The Missing J in Interwar Europe: A Monthly Cliometric Dataset on Effective Exchange Rates and Trade-Balance Adjustment, 1925–1936.*
+
+A dataset linking exports, imports, prices, economic activity and exchange rates. Annual bilateral trade weights from League of Nations trade reports support the construction of effective exchange rates. Country and variable coverage are documented in the deposit.
+
+[Dataset and documentation](https://doi.org/10.3886/E251239V1) · DOI: 10.3886/E251239V1
 :::
-::: {}
-### Unit of observation
-
-The core unit is the directional country-pair-year. That structure permits exporter, importer, pair, and time effects while preserving the geography of commercial adjustment.
-:::
-:::
-
-[Open dataset · DOI 10.3886/E247132V2](https://doi.org/10.3886/E247132V2){.button .button-primary}
-:::
-:::
-
-::: {.page-section}
-::: {.dataset-feature}
-::: {.dataset-kicker}
-<span>Dataset 03</span><span>Monthly · Europe · 1925–1936</span>
-:::
-
-## The Missing J {#the-missing-j}
-
-<p class="dataset-summary">The Missing J in Interwar Europe: A Monthly Cliometric Dataset on Effective Exchange Rates and Trade-Balance Adjustment, 1925–1936.</p>
-
-**Adam Dittrich · openICPSR · 2026**
-
-A monthly European dataset linking exports, imports, prices, economic activity, and exchange rates to the study of trade-balance adjustment. Annual bilateral trade weights drawn from League of Nations trade reports support the construction of effective exchange rates.
-
-::: {.dataset-columns}
-::: {}
-### Coverage
-
-Monthly observations for 1925–1936, with linked annual bilateral trade information. Variable availability and country coverage should be checked in the deposit documentation before building a particular estimation sample.
-:::
-::: {}
-### Research use
-
-Comparing nominal and real effective exchange rates, tracing the timing of trade-balance responses, and distinguishing exchange-rate adjustment from changes in prices and economic activity.
-:::
-:::
-
-[Open dataset · DOI 10.3886/E251239V1](https://doi.org/10.3886/E251239V1){.button .button-primary}
-:::
-:::
-
-::: {.page-section}
-<p class="eyebrow">In development</p>
-
-## Wider Czechoslovak data programme
-
-The public packages sit within a broader effort to consolidate scattered evidence on the interwar Czechoslovak economy. These components are under active construction and will be released only when their provenance and transformations are sufficiently documented.
-
-::: {.pipeline-grid}
-::: {.pipeline-card}
-<span class="pipeline-status">Building</span>
-
-### Monthly macro-financial database
-
-Central-bank balance sheets, currency and reserves, prices, industrial activity, labour-market indicators, trade, and bilateral exchange rates.
-:::
-
-::: {.pipeline-card}
-<span class="pipeline-status">Reconstructing</span>
-
-### Agricultural output and national income
-
-Crop quantities, livestock, prices, value added, and explicit assumptions for linking sectoral reconstruction to broader output estimates.
-:::
-
-::: {.pipeline-card}
-<span class="pipeline-status">Harmonising</span>
-
-### District-level Czechoslovakia
-
-Population, occupational structure, social and political indicators, and electoral outcomes for the 1920s and 1930s.
-:::
-:::
-:::
-
-::: {.principles-band}
-<p class="eyebrow light">Replication principles</p>
-
-## A dataset should expose its judgement calls
-
-::: {.principles-grid}
-::: {}
-### Provenance
-Every series should be traceable to an archival table, statistical publication, or documented secondary reconstruction.
-:::
-::: {}
-### Transformations
-Deflation, interpolation, seasonal adjustment, harmonisation, and index construction should be visible rather than buried.
-:::
-::: {}
-### Uncertainty
-Alternative assumptions and fragile links belong in the package, not only in private working files.
-:::
-::: {}
-### Versioning
-Stable repositories and versioned DOIs make it possible to distinguish a cited release from later improvements.
-:::
-:::
-:::
-
-::: {.closing-cta .compact}
-## Questions about Czechoslovak historical data?
-
-[Discuss data or collaboration](contact.qmd){.button .button-primary}
 :::

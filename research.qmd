@@ -1,142 +1,60 @@
 ---
-title: "Research"
-description: "Adam Dittrich’s research agenda in monetary and financial history, international trade, historical measurement, and economic thought."
-page-layout: full
-body-classes: inner-page research-page
+title: Research
+description: Research by Adam Dittrich on monetary history, financial stress, trade adjustment, historical national
+  accounts and Czech economic thought.
+page-layout: custom
+title-block-banner: false
+body-classes: academic-site research-page
 ---
 
-::: {.inner-hero}
-<p class="eyebrow">Research</p>
+::: {.ac-page}
+# Research programme
 
-# Institutions, evidence, and adjustment
+::: {.ac-section .ac-research-section}
+## Monetary regimes and central banking {#monetary-regimes-and-central-banking}
 
-<p class="inner-lede">My work asks how interwar economies absorbed shocks when monetary rules, financial structures, political commitments, and inherited ideas constrained the available policy space. Czechoslovakia is the empirical centre; the questions are comparative.</p>
+I study Czechoslovak monetary policy during the Great Depression: the defence of the koruna, reserve requirements, central-bank balance sheets, and the devaluations of the 1930s. The work examines how monetary choices affected credit, prices, output and employment.
+
+Current projects reconstruct effective exchange rates and investigate the relationship between monetary defence, central-bank law and domestic contraction. They draw on the reports of the National Bank of Czechoslovakia, contemporary policy debates and monthly economic series.
+
+[Related papers](publications.qmd#research-manuscripts)
 :::
 
-::: {.page-section .prose-wide}
-## Research programme
+::: {.ac-section .ac-research-section}
+## Financial stress and banking {#financial-stress-and-banking}
 
-The projects are organised around a common proposition: **economic adjustment is not a single price movement but an institutional process with a chronology, a distribution, and a political language**. Exchange-rate commitments alter bank balance sheets and trade incentives. Statistical conventions shape what later historians identify as recovery. Economic theories define which costs policymakers recognise—and which they treat as unavoidable.
+My financial-stress project combines eleven monthly indicators for Czechoslovakia from November 1929 to September 1938. It reconstructs the timing of monetary and banking pressure and compares it with the downturn in the real economy.
 
-I combine archival interpretation with new datasets, descriptive reconstruction, panel methods, event studies, synthetic controls, and time-series analysis. Quantification is used to discipline historical claims; institutional evidence is used to keep the quantities historically meaningful.
+The project uses central-bank balance sheets and market indicators to examine financial pressure that is not captured by a chronology of bank failures alone.
+
+[Measuring Financial Stress under the Gold Standard: dataset and documentation](data.qmd#financial-stress-under-the-gold-standard)
 :::
 
-::: {.theme-section}
-::: {.theme-number}
-01
-:::
-::: {.theme-copy}
-<p class="eyebrow">Monetary and central-banking history</p>
+::: {.ac-section .ac-research-section}
+## Exchange rates and trade adjustment {#trade-devaluation-and-commercial-reorganisation}
 
-## Monetary regimes and central banking
+I examine how devaluation, exchange controls and changes in relative prices affected European trade during the interwar period. This work combines monthly exports, imports, prices, economic activity and exchange rates with annual bilateral trade weights.
 
-Why did policymakers defend particular parities, and when did credibility become economically costly? This strand studies the Czechoslovak koruna, the National Bank of Czechoslovakia, reserve-cover constraints, sterilisation, and the transition from external discipline to managed adjustment.
+The Missing J dataset covers 1925–1936 and supports comparisons of nominal and real effective exchange rates and the timing of trade-balance responses.
 
-The central issue is not whether “sound money” was intrinsically right or wrong. It is how a monetary rule redistributed adjustment across output, employment, banks, exporters, debtors, and the state—and how long policymakers could sustain that distribution.
-
-**Selected questions**
-
-- When did monetary defence cease to stabilise expectations and begin to delay recovery?
-- How binding were statutory and informal reserve constraints before the 1934 devaluation?
-- Did devaluation change trade volumes, relative prices, or merely the accounting expression of adjustment?
-- How did central-bank balance-sheet policy interact with fiscal and commercial policy?
-:::
+[The Missing J dataset](data.qmd#the-missing-j)
 :::
 
-::: {.theme-section}
-::: {.theme-number}
-02
-:::
-::: {.theme-copy}
-<p class="eyebrow">Measurement and chronology</p>
+::: {.ac-section .ac-research-section}
+## Historical national accounts {#historical-measurement-and-output-reconstruction}
 
-## Financial stress and banking
+With Matthias Morys and Marcin Wroński, I am developing the Czechoslovak contribution to a comparative reconstruction of interwar Central and Eastern European GDP.
 
-Historical crises are often dated by spectacular failures. Yet pressure can intensify earlier through reserve losses, currency demand, liquidity contraction, market segmentation, or deteriorating bank portfolios. My financial-stress work reconstructs this latent process from multiple monthly indicators.
-
-The objective is both substantive and methodological: to identify the sequence of stress under the gold standard without forcing a modern crisis template onto an interwar institutional system.
-
-**Current project**
-
-[Measuring Financial Stress under the Gold Standard](data.qmd#financial-stress-under-the-gold-standard) combines eleven indicators for Czechoslovakia from November 1929 to September 1938. The resulting chronology separates the initial external and monetary shock, the high-pressure phase, the later real-sector trough, and the regime change around devaluation.
-:::
+The current work focuses on agricultural output and value added. It brings together production quantities, prices and intermediate inputs and examines how differences in sources and sectoral coverage affect comparisons across countries.
 :::
 
-::: {.theme-section}
-::: {.theme-number}
-03
+::: {.ac-section .ac-research-section}
+## History of economic thought {#economic-thought-as-a-policy-institution}
+
+My doctoral research examined Czech economic apriorism, especially the work of Karel Engliš, Jan Loevenstein and František Weyr. I continue to study their approaches to economic method, theories of crisis and monetary policy.
+
+Current work includes Loevenstein’s theory of underconsumption and technological unemployment, Engliš’s monetary policy, and debates over taxation and social policy in interwar Czechoslovakia.
+
+[Working papers and current projects](publications.qmd#projects-in-development)
 :::
-::: {.theme-copy}
-<p class="eyebrow">International economic history</p>
-
-## Trade, devaluation, and commercial reorganisation
-
-The Great Depression did more than reduce aggregate trade. It altered clearing arrangements, exchange controls, bilateral bargaining power, and the relative importance of commercial partners. This strand moves from national trade totals to bilateral relationships.
-
-**Selected questions**
-
-- Which trade links recovered after the aggregate collapse, and which disappeared permanently?
-- Did currency depreciation redirect commerce toward particular partners or product groups?
-- How did clearing agreements and discrimination reshape network centrality?
-- Was the post-crisis European trade map a return to the 1920s or a new equilibrium?
-
-My exchange-rate research combines monthly trade balances, prices, economic activity, and effective exchange rates. [The Missing J dataset](data.qmd#the-missing-j) makes these historical series available for comparative work on European adjustment in 1925–1936.
-:::
-:::
-
-::: {.theme-section}
-::: {.theme-number}
-04
-:::
-::: {.theme-copy}
-<p class="eyebrow">Historical national accounting</p>
-
-## Historical measurement and output reconstruction
-
-Interwar Czechoslovakia is central to debates about the Great Depression in Central Europe, yet its macroeconomic trajectory is still described through fragmentary annual estimates, industrial proxies, and series built for different purposes. My reconstruction work develops a more transparent evidential base.
-
-I am developing the Czechoslovak contribution to a comparative Central and Eastern European GDP-reconstruction project with Matthias Morys and Marcin Wroński. The programme begins with agricultural output and value added, then links sectoral production, prices, intermediate inputs, trade, labour, and monetary data. The aim is not a mechanically precise GDP number. It is an auditable account of what can be measured, what must be inferred, and how alternative assumptions change the chronology and depth of the downturn.
-:::
-:::
-
-::: {.theme-section}
-::: {.theme-number}
-05
-:::
-::: {.theme-copy}
-<p class="eyebrow">History of economic thought</p>
-
-## Economic thought as a policy institution
-
-My PhD, completed in September 2026, examined Czech apriorism and its influence on interpretations of Czechoslovak economic history. The dissertation focused particularly on Karel Engliš, Jan Loevenstein, František Weyr, and their critics. I continue this work through research on economic method, theories of crisis, and monetary policy.
-
-Rather than treating doctrine as a detached history of concepts, I ask how teleology, normativism, causal explanation, and theories of value structured policy argument. Economic thought mattered because it defined admissible evidence, legitimate ends, and the relationship between monetary order and social cost.
-
-This perspective also informs my quantitative work: categories such as “equilibrium,” “stability,” and “recovery” are never purely statistical. They carry institutional and intellectual histories.
-:::
-:::
-
-::: {.methods-panel}
-::: {.methods-copy}
-<p class="eyebrow light">Approach</p>
-
-## Historical questions first; methods made explicit
-
-I use methods appropriate to the evidential structure of each question: archival source criticism, balance-sheet reconstruction, index construction, panel estimation, PPML, event studies, synthetic control, shift-share designs, and time-series diagnostics.
-:::
-::: {.methods-list}
-<span>Archival research</span>
-<span>Historical data construction</span>
-<span>Panel econometrics</span>
-<span>Time-series analysis</span>
-<span>Counterfactual design</span>
-<span>Replication and sensitivity analysis</span>
-:::
-:::
-
-::: {.closing-cta .compact}
-## Browse the outputs behind the programme
-
-[Publications and papers](publications.qmd){.button .button-primary}
-[Data and replication](data.qmd){.button .button-secondary}
 :::

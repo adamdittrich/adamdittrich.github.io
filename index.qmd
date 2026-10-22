@@ -1,221 +1,86 @@
 ---
-title: "Adam Dittrich, PhD"
-description: "Economic historian of monetary regimes, financial stress, international adjustment, and economic ideas in interwar Central Europe."
-page-layout: full
-body-classes: home-page
+title: Adam Dittrich
+description: Adam Dittrich is an economic historian at Prague University of Economics and Business. Research, publications,
+  datasets and teaching.
+page-layout: custom
+title-block-banner: false
+body-classes: academic-site home-page
 ---
 
-::: {.hero-shell}
-::: {.hero-copy}
-<p class="eyebrow">Economic historian · Prague</p>
+::: {.ac-page .ac-home}
+::: {.ac-profile}
+::: {.ac-profile-copy}
+# Adam Dittrich
 
-# Adam Dittrich<span class="hero-degree">, PhD</span>
+<p class="ac-role">Assistant Professor · Department of Economic History<br>Prague University of Economics and Business</p>
 
-<p class="hero-role">Assistant Professor · Economic History<br><span>Prague University of Economics and Business</span></p>
+I work on monetary and financial history and the history of economic thought, with a particular focus on interwar Czechoslovakia and Central Europe. My research combines archival sources with historical data reconstruction and econometrics.
 
-<p class="hero-lede">I study how monetary regimes, financial institutions, and economic ideas shaped adjustment in interwar Central Europe—especially Czechoslovakia. My work combines archival research, historical reconstruction, and cliometric methods.</p>
+My current projects examine exchange rates and monetary policy during the Great Depression, banking and financial stress, and the work of Czech economists such as Karel Engliš and Jan Loevenstein. I also contribute to comparative research on historical national accounts.
 
-::: {.hero-actions}
-[Explore research](research.qmd){.button .button-primary}
-[View publications](publications.qmd){.button .button-secondary}
-[Download CV](assets/files/Adam-Dittrich-CV.pdf){.button .button-quiet}
-:::
-
-<p class="micro-note">Monetary history · Financial history · International trade · Historical measurement · History of economic thought</p>
-:::
-
-::: {.hero-visual aria-label="Abstract graphic combining an archival balance sheet, exchange-rate line, and monetary seal"}
-![](assets/img/hero-archive.svg){fig-alt="Abstract archival research graphic with a historical balance sheet, a line chart, and a monetary seal"}
+::: {.ac-link-row}
+[CV (PDF)](assets/files/Adam-Dittrich-CV.pdf)
+[Email](mailto:adam.dittrich@vse.cz)
+[ORCID](https://orcid.org/0000-0002-7803-1339)
+[RePEc](https://ideas.repec.org/f/pdi678.html)
 :::
 :::
 
-::: {.signal-strip}
-::: {.signal-item}
-<span class="signal-number">1920s–1930s</span>
-<span class="signal-label">core historical period</span>
-:::
-::: {.signal-item}
-<span class="signal-number">Monthly + bilateral</span>
-<span class="signal-label">new historical evidence</span>
-:::
-::: {.signal-item}
-<span class="signal-number">Archives + econometrics</span>
-<span class="signal-label">integrated research design</span>
-:::
-::: {.signal-item}
-<span class="signal-number">Central Europe</span>
-<span class="signal-label">international questions</span>
-:::
+<!-- A real portrait will go here once supplied by Adam.
+Uncomment the figure below after adding assets/img/adam-dittrich-portrait.jpg.
+No stock photograph, generated likeness or visible placeholder is used.
+<figure class="ac-portrait">
+  <img src="assets/img/adam-dittrich-portrait.jpg" alt="Adam Dittrich" width="600" height="750" fetchpriority="high">
+</figure>
+-->
 :::
 
-::: {.page-section .section-intro}
-<p class="eyebrow">Research agenda</p>
+::: {.ac-section}
+## Selected work
 
-## A small economy under large constraints
+::: {.ac-work-item}
+### The Crown Against the World: Reconstructing Czechoslovakia’s Effective Exchange Rates, 1920–1938
 
-Czechoslovakia provides unusually sharp evidence on the central dilemmas of the interwar economy: monetary credibility versus domestic recovery, financial stability versus deflation, and national policy autonomy within a fragmented international system. I use that case to address questions that travel beyond one country.
+*Statistika: Statistics and Economy Journal.* Forthcoming.
+
+[Publication details](publications.qmd#forthcoming-and-accepted)
 :::
 
-::: {.research-grid}
-::: {.research-card}
-<div class="card-index">01</div>
+::: {.ac-work-item}
+### Measuring Financial Stress under the Gold Standard: Evidence from Interwar Czechoslovakia
 
-### Monetary regimes
+Monthly financial-stress indicators for Czechoslovakia, November 1929–September 1938.
 
-How did gold-standard commitments, reserve rules, and central-bank strategy shape the timing and distribution of adjustment?
-
-[Read the research theme →](research.qmd#monetary-regimes-and-central-banking)
+[Research](research.qmd#financial-stress-and-banking) · [Dataset](data.qmd#financial-stress-under-the-gold-standard)
 :::
 
-::: {.research-card}
-<div class="card-index">02</div>
+::: {.ac-work-item}
+### Negative Time Preference & the Czech Sugar Industry from 1896 to 1926
 
-### Financial stress
+With Jiří Rytina. Working paper, 2026.
 
-Can balance-sheet and market indicators recover the chronology of banking pressure before failures or institutional breaks become visible?
-
-[Read the research theme →](research.qmd#financial-stress-and-banking)
+[Working-paper record](https://ideas.repec.org/p/hal/wpaper/hal-05660879.html)
 :::
 
-::: {.research-card}
-<div class="card-index">03</div>
-
-### Trade and adjustment
-
-How did devaluation, exchange controls, and changing relative prices affect trade adjustment during the Great Depression?
-
-[Read the research theme →](research.qmd#trade-devaluation-and-commercial-reorganisation)
+[All publications and papers](publications.qmd)
 :::
 
-::: {.research-card}
-<div class="card-index">04</div>
+::: {.ac-section}
+## Recent updates
 
-### Economic ideas
-
-How did theories of value, causality, and economic order enter practical debates over currency, crisis, and state intervention?
-
-[Read the research theme →](research.qmd#economic-thought-as-a-policy-institution)
-:::
+::: {.ac-news-item}
+<span class="ac-date">16 October 2026</span>
+<div>Conference presentation with Jiří Rytina and Jakub Drábek on healthcare infrastructure and health outcomes in socialist Czechoslovakia, České Budějovice. <a href="publications.html#conference-presentations">Programme and presentation details</a>.</div>
 :::
 
-::: {.page-section .featured-section}
-::: {.section-heading-row}
-::: {}
-<p class="eyebrow">Selected work</p>
-
-## Selected research
-:::
-[All publications and papers →](publications.qmd){.text-link}
+::: {.ac-news-item}
+<span class="ac-date">October 2026</span>
+<div>“The Crown Against the World” is forthcoming in <em>Statistika: Statistics and Economy Journal</em>.</div>
 :::
 
-::: {.project-stack}
-::: {.project-feature}
-<div class="project-meta"><span>Exchange rates</span><span>Forthcoming · Statistika</span></div>
-
-### The Crown Against the World
-
-Reconstructing Czechoslovakia’s effective exchange rates, 1920–1938, to examine monetary policy and international adjustment across the interwar period.
-
-[Publication details](publications.qmd#forthcoming-and-accepted){.project-link}
-:::
-
-::: {.project-feature}
-<div class="project-meta"><span>Financial history</span><span>Research paper + open data</span></div>
-
-### Measuring Financial Stress under the Gold Standard
-
-A monthly composite measure reconstructs the sequence of financial pressure in interwar Czechoslovakia and distinguishes monetary strain, banking tension, and the later real-economy trough.
-
-[Project and data](data.qmd#financial-stress-under-the-gold-standard){.project-link}
-:::
-
-
-::: {.project-feature}
-<div class="project-meta"><span>Business and social history</span><span>Working paper · 2026</span></div>
-
-### Negative Time Preference and the Czech Sugar Industry
-
-With Jiří Rytina, this project studies how industrial actors justified intertemporal sacrifice and social provision in the Czech sugar industry from 1896 to 1926.
-
-[Working-paper record](https://ideas.repec.org/p/hal/wpaper/hal-05660879.html){.project-link}
+::: {.ac-news-item}
+<span class="ac-date">2026</span>
+<div><a href="data.html#the-missing-j">The Missing J</a>: a monthly dataset on effective exchange rates and trade-balance adjustment in interwar Europe, 1925–1936.</div>
 :::
 :::
-:::
-
-::: {.data-band}
-::: {.data-band-copy}
-<p class="eyebrow light">Open historical evidence</p>
-
-## Data are part of the argument
-
-My data work links historical sources to reproducible measurement. Public datasets cover financial stress in interwar Czechoslovakia, European bilateral trade, and monthly exchange rates and trade-balance adjustment in The Missing J, 1925–1936.
-
-[Explore data and replication](data.qmd){.button .button-on-dark}
-:::
-
-::: {.data-band-stats}
-::: {.data-stat}
-<span class="big-stat">11</span>
-<span>financial-stress indicators</span>
-:::
-::: {.data-stat}
-<span class="big-stat">21</span>
-<span>European economies</span>
-:::
-::: {.data-stat}
-<span class="big-stat">1925–36</span>
-<span>monthly exchange-rate coverage</span>
-:::
-:::
-:::
-
-::: {.page-section .news-section}
-::: {.section-heading-row}
-::: {}
-<p class="eyebrow">Recent</p>
-
-## Research updates
-:::
-:::
-
-::: {.news-list}
-::: {.news-item}
-<span class="news-date">16 Oct 2026</span>
-<div><strong>Conference presentation in České Budějovice.</strong> With Jiří Rytina and Jakub Drábek, I presented our work on healthcare infrastructure and health outcomes in socialist Czechoslovakia. <a href="publications.qmd#conference-presentations">Presentation and programme.</a></div>
-:::
-::: {.news-item}
-<span class="news-date">Oct 2026</span>
-<div><strong>Forthcoming in <em>Statistika</em>.</strong> “The Crown Against the World: Reconstructing Czechoslovakia’s Effective Exchange Rates, 1920–1938.”</div>
-:::
-::: {.news-item}
-<span class="news-date">Sep 2026</span>
-<div><strong>PhD completed.</strong> I defended my dissertation on Czech economic apriorism on 29 September 2026. Since September, I have been an Assistant Professor in the Department of Economic History at Prague University of Economics and Business.</div>
-:::
-::: {.news-item}
-<span class="news-date">2026</span>
-<div><strong>Working paper released.</strong> “Negative Time Preference & the Czech Sugar Industry from 1896 to 1926,” with Jiří Rytina, is available through HAL Open Science.</div>
-:::
-::: {.news-item}
-<span class="news-date">2026</span>
-<div><strong>Replication project released.</strong> Monthly evidence for “Measuring Financial Stress under the Gold Standard” is archived in OpenICPSR.</div>
-:::
-::: {.news-item}
-<span class="news-date">2026</span>
-<div><strong>Monthly cliometric dataset.</strong> <a href="data.qmd#the-missing-j">The Missing J</a> brings together effective exchange rates, trade balances, prices, and activity for interwar Europe, 1925–1936.</div>
-:::
-::: {.news-item}
-<span class="news-date">2025</span>
-<div><strong>Two articles published.</strong> Joint research on the Czechoslovak sugar industry, deflation, and social provision appeared in <em>Listy cukrovarnické a řepařské [Czech Sugar and Sugar Beet Journal]</em>.</div>
-:::
-:::
-:::
-
-::: {.closing-cta}
-<p class="eyebrow">Research, data, collaboration</p>
-
-## Interested in interwar Central Europe?
-
-I welcome exchanges on monetary and financial history, historical macroeconomic data, Czechoslovak sources, and comparative projects on the Great Depression.
-
-[Contact me](contact.qmd){.button .button-primary}
 :::

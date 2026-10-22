@@ -1,98 +1,40 @@
 ---
-title: "Curriculum Vitae"
-description: "Academic CV of Adam Dittrich, PhD, Assistant Professor of Economic History at Prague University of Economics and Business. Updated October 2026."
-page-layout: full
-body-classes: inner-page cv-page
+title: Curriculum vitae
+description: Academic CV of Adam Dittrich, economic historian at Prague University of Economics and Business.
+page-layout: custom
+title-block-banner: false
+body-classes: academic-site cv-page
 ---
 
-::: {.inner-hero .cv-hero}
-<p class="eyebrow">Curriculum vitae · October 2026</p>
-
-# Adam Dittrich, PhD
-
-<p class="inner-lede">Assistant Professor in the Department of Economic History at Prague University of Economics and Business. I work on monetary and financial history, interwar Central Europe, cliometrics, and the history of economic thought.</p>
-
-::: {.cv-actions}
-[Download full CV (PDF)](assets/files/Adam-Dittrich-CV.pdf){.button .button-primary}
-[Email](mailto:adam.dittrich@vse.cz){.button .button-secondary}
-:::
-:::
-
-::: {.cv-layout}
-::: {.cv-sidebar}
-### Contact
-
-[adam.dittrich@vse.cz](mailto:adam.dittrich@vse.cz)
-
-Department of Economic History  
-Faculty of Economics  
-Prague University of Economics and Business  
-W. Churchill Sq. 1938/4  
-130 67 Prague 3  
-Czech Republic
-
-### Profiles
-
-[ORCID 0000-0002-7803-1339](https://orcid.org/0000-0002-7803-1339)  
-[Google Scholar](https://scholar.google.com/citations?hl=en&user=w20HpZcAAAAJ)  
-[RePEc](https://ideas.repec.org/f/pdi678.html)  
-[Institutional profile](https://khd.vse.cz/ing-adam-dittrich/)  
-[GitHub](https://github.com/adamdittrich)  
-[LinkedIn](https://www.linkedin.com/in/adam-dittrich-3644b219a/)
-
-### Research fields
-
-Monetary and financial history  
-Interwar Central Europe  
-Cliometrics  
-International trade  
-Historical national accounts  
-History of economic thought
-
-### Software
-
-R · Stata · Python  
-Additional experience: EViews · MATLAB
-
-### Languages
-
-Czech — native  
-English — fluent  
-German — elementary/intermediate
-
-### Memberships
-
-Economic History Society  
-Economic History Association  
-Czech Economic Society
-:::
-
-::: {.cv-main}
-<section class="cv-section">
+```{=html}
+<div class="ac-page ac-cv">
+<h1>Curriculum vitae</h1>
+<p class="ac-cv-name">Adam Dittrich</p>
+<p>Assistant Professor · Department of Economic History<br>Prague University of Economics and Business</p>
+<p class="ac-link-row"><a href="assets/files/Adam-Dittrich-CV.pdf">Download CV (PDF)</a><a href="mailto:adam.dittrich@vse.cz">Email</a><a href="https://orcid.org/0000-0002-7803-1339">ORCID</a></p>
+<section class="ac-section cv-section">
 <h2>Academic appointment</h2>
 <div class="cv-entry">
 <div class="cv-date">Sep 2026–present</div>
-<div><strong>Assistant Professor</strong><br>Department of Economic History, Faculty of Economics, Prague University of Economics and Business.</div>
+<div><strong>Assistant Professor</strong><br/>Department of Economic History, Faculty of Economics, Prague University of Economics and Business.</div>
 </div>
 </section>
-
-<section class="cv-section">
+<section class="ac-section cv-section">
 <h2>Education</h2>
 <div class="cv-entry">
 <div class="cv-date">Sep 2026</div>
-<div><strong>PhD in Economic History</strong><br>Prague University of Economics and Business.<br>Dissertation: <em>Apriorism in Czech Economics and Its Influence on Czechoslovak Economic History.</em><br>Defended 29 September 2026. Supervisor: Ján Pavlík.</div>
+<div><strong>PhD in Economic History</strong><br/>Prague University of Economics and Business.<br/>Dissertation: <em>Apriorism in Czech Economics and Its Influence on Czechoslovak Economic History.</em><br/>Defended 29 September 2026. Supervisor: Ján Pavlík.</div>
 </div>
 <div class="cv-entry">
 <div class="cv-date">2021</div>
-<div><strong>Ing. in Finance</strong> (master’s degree)<br>Faculty of Finance and Accounting, Prague University of Economics and Business.<br>Minor: Financial Engineering.</div>
+<div><strong>Ing. in Finance</strong> (master’s degree)<br/>Faculty of Finance and Accounting, Prague University of Economics and Business.<br/>Minor: Financial Engineering.</div>
 </div>
 <div class="cv-entry">
 <div class="cv-date">2019</div>
-<div><strong>Bc. in Finance</strong><br>Prague University of Economics and Business.</div>
+<div><strong>Bc. in Finance</strong><br/>Prague University of Economics and Business.</div>
 </div>
 </section>
-
-<section class="cv-section">
+<section class="ac-section cv-section">
 <h2>Published and forthcoming articles</h2>
 <div class="cv-entry">
 <div class="cv-date">Forthcoming</div>
@@ -115,8 +57,7 @@ Czech Economic Society
 <div><strong>Dittrich, Adam.</strong> “Karel Engliš as the Governor of the Czechoslovakian National Bank (1934–1939).” <em>Revista Română de Studii Eurasiatice</em> 19(1–2): 105–124.</div>
 </div>
 </section>
-
-<section class="cv-section">
+<section class="ac-section cv-section">
 <h2>Published conference proceedings</h2>
 <div class="cv-entry">
 <div class="cv-date">2025</div>
@@ -127,41 +68,63 @@ Czech Economic Society
 <div><strong>Dittrich, Adam.</strong> “Russian Crisis of 1998.” In M. Müller and P. Slavíčková (eds.), <em>KNOWCON 2024: Knowledge on Economics and Management Conference Proceedings.</em> Olomouc: Palacký University Olomouc, pp. 26–32. <a href="https://kems.upol.cz/files/FF/katedry/kae/knowcon/proceedings/KNOWCON_2024_FINAL.pdf">Proceedings PDF.</a></div>
 </div>
 </section>
-
-<section class="cv-section">
+<section class="ac-section cv-section">
 <h2>Conference presentations</h2>
-<div class="cv-entry"><div class="cv-date">16 Oct 2026</div><div><strong>Dittrich, Adam; Jiří Rytina; and Jakub Drábek.</strong> “Kapacita bez efektivity? Zdravotnická infrastruktura a zdravotní výsledky v socialistickém Československu [Capacity without Effectiveness? Healthcare Infrastructure and Health Outcomes in Socialist Czechoslovakia].” <em>Zdraví a sociální otázky v dějinách: interdisciplinární perspektivy [Health and Social Issues in History: Interdisciplinary Perspectives].</em> University of South Bohemia, České Budějovice, 15–16 October 2026. <a href="https://www.zsf.jcu.cz/images/ZSF/veda-a-vyzkum/konference/zdravi_a_socialni_otazky/CONFERENCE_Zdravi_program_26-10-14_final_version.pdf#page=4">Conference programme.</a></div></div>
-<div class="cv-entry"><div class="cv-date">25 Sep 2025</div><div><strong>Dittrich, Adam, and Jiří Rytina.</strong> “Měnová úprava jako pokrizová obnova: Případová studie československé devalvace v roce 1934 [Monetary Adjustment as Post-Crisis Recovery: A Case Study of the Czechoslovak Devaluation of 1934].” <em>Pokrizová obnova [Post-Crisis Recovery].</em> National Archives, Prague, 24–26 September 2025. <a href="https://www.hiu.cas.cz/user_uploads/badatelum_i_verejnosti/udalosti/2025_9_25_26_konference_pokrizova_obnova/konference_pokrizova_obnova_program_CZ.pdf#page=3">Conference programme.</a></div></div>
+<div class="cv-entry">
+<div class="cv-date">16 Oct 2026</div>
+<div><strong>Dittrich, Adam; Jiří Rytina; and Jakub Drábek.</strong> “Kapacita bez efektivity? Zdravotnická infrastruktura a zdravotní výsledky v socialistickém Československu [Capacity without Effectiveness? Healthcare Infrastructure and Health Outcomes in Socialist Czechoslovakia].” <em>Zdraví a sociální otázky v dějinách: interdisciplinární perspektivy [Health and Social Issues in History: Interdisciplinary Perspectives].</em> University of South Bohemia, České Budějovice, 15–16 October 2026. <a href="https://www.zsf.jcu.cz/images/ZSF/veda-a-vyzkum/konference/zdravi_a_socialni_otazky/CONFERENCE_Zdravi_program_26-10-14_final_version.pdf#page=4">Conference programme.</a></div>
+</div>
+<div class="cv-entry">
+<div class="cv-date">25 Sep 2025</div>
+<div><strong>Dittrich, Adam, and Jiří Rytina.</strong> “Měnová úprava jako pokrizová obnova: Případová studie československé devalvace v roce 1934 [Monetary Adjustment as Post-Crisis Recovery: A Case Study of the Czechoslovak Devaluation of 1934].” <em>Pokrizová obnova [Post-Crisis Recovery].</em> National Archives, Prague, 24–26 September 2025. <a href="https://www.hiu.cas.cz/user_uploads/badatelum_i_verejnosti/udalosti/2025_9_25_26_konference_pokrizova_obnova/konference_pokrizova_obnova_program_CZ.pdf#page=3">Conference programme.</a></div>
+</div>
 </section>
-
-<section class="cv-section">
+<section class="ac-section cv-section">
 <h2>Teaching</h2>
 <p>Prague University of Economics and Business.</p>
 <div class="cv-entry"><div class="cv-date">2021–present</div><div><strong>Economic History</strong> (5HD200).</div></div>
 <div class="cv-entry"><div class="cv-date">2021–present</div><div><strong>Defence of an Academic Paper</strong> (55F112).</div></div>
 <div class="cv-entry"><div class="cv-date">From 2026/27</div><div><strong>Foundations of Microeconomics</strong> (5EN102).</div></div>
 </section>
-
-<section class="cv-section">
+<section class="ac-section cv-section">
 <h2>Research and data</h2>
-<div class="cv-entry"><div class="cv-date">National accounts</div><div>Czechoslovak contribution to a comparative Central and Eastern European GDP-reconstruction project with Matthias Morys and Marcin Wroński, focusing on agricultural output and value added, prices, intermediate inputs, and cross-country comparability.</div></div>
-<div class="cv-entry"><div class="cv-date">Monetary history</div><div>Reconstruction of monthly Czechoslovak monetary and macroeconomic series from National Bank reports, 1926–1938, alongside comparative European sources.</div></div>
-<div class="cv-entry"><div class="cv-date">Open research</div><div>Public datasets on Czechoslovak financial stress and monthly European exchange-rate and trade-balance adjustment (The Missing J, 1925–1936). <a href="data.qmd">Data and replication packages.</a></div></div>
-<div class="cv-entry"><div class="cv-date">Manuscripts</div><div>Current research on monetary defence, trade adjustment, labour markets, historical national accounts, and Czech economic thought. <a href="publications.qmd">Publications and current papers.</a></div></div>
+<div class="cv-entry">
+<div class="cv-date">National accounts</div>
+<div>Czechoslovak contribution to a comparative Central and Eastern European GDP-reconstruction project with Matthias Morys and Marcin Wroński, focusing on agricultural output and value added, prices, intermediate inputs, and cross-country comparability.</div>
+</div>
+<div class="cv-entry">
+<div class="cv-date">Monetary history</div>
+<div>Reconstruction of monthly Czechoslovak monetary and macroeconomic series from National Bank reports, 1926–1938, alongside comparative European sources.</div>
+</div>
+<div class="cv-entry">
+<div class="cv-date">Open research</div>
+<div>Public datasets on Czechoslovak financial stress and monthly European exchange-rate and trade-balance adjustment (The Missing J, 1925–1936). <a href="data.html">Data and replication packages.</a></div>
+</div>
+<div class="cv-entry">
+<div class="cv-date">Manuscripts</div>
+<div>Current research on monetary defence, trade adjustment, labour markets, historical national accounts, and Czech economic thought. <a href="publications.html">Publications and current papers.</a></div>
+</div>
 </section>
-
-<section class="cv-section">
+<section class="ac-section cv-section">
 <h2>Selected research projects</h2>
-<div class="cv-entry"><div class="cv-date">Since 2026</div><div><strong>Research team member.</strong> <em>Frontiers in Empirical Economics: Causal Analysis of Historical Policies, Behavioral Preferences, and Sectoral Resilience.</em></div></div>
-<div class="cv-entry"><div class="cv-date">Since 2025</div><div><strong>Research team member.</strong> <em>Economic Theory and Social Policy in Interwar Czechoslovakia.</em></div></div>
-<div class="cv-entry"><div class="cv-date">2022–2023</div><div><strong>Project lead.</strong> <em>Engliš’s Monetary Theory and Practice at the Head of the Czechoslovak National Bank.</em> Internal university research project.</div></div>
+<div class="cv-entry">
+<div class="cv-date">Since 2026</div>
+<div><strong>Research team member.</strong> <em>Frontiers in Empirical Economics: Causal Analysis of Historical Policies, Behavioral Preferences, and Sectoral Resilience.</em></div>
+</div>
+<div class="cv-entry">
+<div class="cv-date">Since 2025</div>
+<div><strong>Research team member.</strong> <em>Economic Theory and Social Policy in Interwar Czechoslovakia.</em></div>
+</div>
+<div class="cv-entry">
+<div class="cv-date">2022–2023</div>
+<div><strong>Project lead.</strong> <em>Engliš’s Monetary Theory and Practice at the Head of the Czechoslovak National Bank.</em> Internal university research project.</div>
+</div>
 </section>
-
-<section class="cv-section">
+<section class="ac-section cv-section">
 <h2>Methods and training</h2>
 <p>Historical source criticism; archival, parliamentary and press research; central-bank balance-sheet reconstruction; index construction and decomposition; time-series and panel econometrics; PPML and gravity models; event studies; synthetic control and comparative counterfactual analysis.</p>
 <div class="cv-entry"><div class="cv-date">2025</div><div><strong>International Monetary Fund training:</strong> Monetary Policy Analysis and Forecasting.</div></div>
 <div class="cv-entry"><div class="cv-date">2023</div><div><strong>International Monetary Fund training:</strong> Macroeconomic Forecasting.</div></div>
 </section>
-:::
-:::
+</div>
+```
