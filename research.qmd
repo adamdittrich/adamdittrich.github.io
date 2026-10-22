@@ -80,7 +80,7 @@ The Great Depression did more than reduce aggregate trade. It altered clearing a
 - How did clearing agreements and discrimination reshape network centrality?
 - Was the post-crisis European trade map a return to the 1920s or a new equilibrium?
 
-The [Commercial Hysteresis](data.qmd#european-bilateral-trade-geography) project uses bilateral trade among 21 European economies from 1927 to 1938 to distinguish compression from persistent reorganisation.
+My exchange-rate research combines monthly trade balances, prices, economic activity, and effective exchange rates. [The Missing J dataset](data.qmd#the-missing-j) makes these historical series available for comparative work on European adjustment in 1925–1936.
 :::
 :::
 

@@ -100,15 +100,15 @@ Czech Economic Society
 </div>
 <div class="cv-entry">
 <div class="cv-date">Accepted</div>
-<div><strong>Dittrich, Adam.</strong> “Spor o cukerní daň roku 1928: Karel Engliš a Gustav Heidler.” <em>Listy cukrovarnické a řepařské.</em> Publication expected in 2027.</div>
+<div><strong>Dittrich, Adam.</strong> “Spor o cukerní daň roku 1928: Karel Engliš a Gustav Heidler [The 1928 Sugar-Tax Dispute: Karel Engliš and Gustav Heidler].” <em>Listy cukrovarnické a řepařské [Czech Sugar and Sugar Beet Journal].</em> Publication expected in 2027.</div>
 </div>
 <div class="cv-entry">
 <div class="cv-date">2025</div>
-<div><strong>Rytina, Jiří; Adam Dittrich; and Jakub Drábek.</strong> “Historický vztah československého cukrovarnického průmyslu k sociální problematice na příkladu penze: Sociálně solidární cíle mezi lety 1918 až 1926 jako výsledek negativní časové preference.” <em>Listy cukrovarnické a řepařské</em> 141(9–10): 320–322.</div>
+<div><strong>Rytina, Jiří; Adam Dittrich; and Jakub Drábek.</strong> “Historický vztah československého cukrovarnického průmyslu k sociální problematice na příkladu penze: Sociálně solidární cíle mezi lety 1918 až 1926 jako výsledek negativní časové preference [The Historical Relationship of the Czechoslovak Sugar Industry to Social Issues: Pensions and Social Solidarity in 1918–1926 as a Result of Negative Time Preference].” <em>Listy cukrovarnické a řepařské [Czech Sugar and Sugar Beet Journal]</em> 141(9–10): 320–322.</div>
 </div>
 <div class="cv-entry">
 <div class="cv-date">2025</div>
-<div><strong>Dittrich, Adam; Jiří Rytina; and Jakub Drábek.</strong> “Cukrovarnický průmysl versus deflační politika: Konflikt hospodářských zájmů v meziválečném Československu.” <em>Listy cukrovarnické a řepařské</em> 141(7–8): 260–264.</div>
+<div><strong>Dittrich, Adam; Jiří Rytina; and Jakub Drábek.</strong> “Cukrovarnický průmysl versus deflační politika: Konflikt hospodářských zájmů v meziválečném Československu [Sugar Industry versus Deflationary Policy: Conflict of Economic Interests in Interwar Czechoslovakia].” <em>Listy cukrovarnické a řepařské [Czech Sugar and Sugar Beet Journal]</em> 141(7–8): 260–264.</div>
 </div>
 <div class="cv-entry">
 <div class="cv-date">2023</div>
@@ -117,30 +117,36 @@ Czech Economic Society
 </section>
 
 <section class="cv-section">
-<h2>Conference proceedings</h2>
+<h2>Published conference proceedings</h2>
 <div class="cv-entry">
 <div class="cv-date">2025</div>
-<div><strong>Dittrich, Adam.</strong> “Efektivní směnné kurzy Československa 1925–1936: rekonstrukce, dekompozice a efekt devalvace.” In O. Roubal (ed.), <em>Konference doktorandů na Vysoké škole finanční a správní 2025.</em> Prague: VŠFS, pp. 26–40. <a href="https://doi.org/10.37355/KD-2025-02">DOI: 10.37355/KD-2025-02.</a></div>
+<div><strong>Dittrich, Adam.</strong> “Efektivní směnné kurzy Československa 1925–1936: rekonstrukce, dekompozice a efekt devalvace [Czechoslovakia’s Effective Exchange Rates, 1925–1936: Reconstruction, Decomposition and the Effect of Devaluation].” In O. Roubal (ed.), <em>Konference doktorandů na Vysoké škole finanční a správní 2025 [Doctoral Students Conference at the University of Finance and Administration 2025].</em> Prague: VŠFS, pp. 26–40. <a href="https://www.vsfs.cz/media/conference/konferencedoktorandu//konference_doktorandu_2025.pdf#page=27">Proceedings PDF.</a> <a href="https://doi.org/10.37355/KD-2025-02">DOI: 10.37355/KD-2025-02.</a></div>
 </div>
 <div class="cv-entry">
 <div class="cv-date">2024</div>
-<div><strong>Dittrich, Adam.</strong> “Russian Crisis of 1998.” In M. Müller and P. Slavíčková (eds.), <em>KNOWCON 2024: Knowledge on Economics and Management Conference Proceedings.</em> Olomouc: Palacký University Olomouc, pp. 26–32.</div>
+<div><strong>Dittrich, Adam.</strong> “Russian Crisis of 1998.” In M. Müller and P. Slavíčková (eds.), <em>KNOWCON 2024: Knowledge on Economics and Management Conference Proceedings.</em> Olomouc: Palacký University Olomouc, pp. 26–32. <a href="https://kems.upol.cz/files/FF/katedry/kae/knowcon/proceedings/KNOWCON_2024_FINAL.pdf">Proceedings PDF.</a></div>
 </div>
 </section>
 
 <section class="cv-section">
+<h2>Conference presentations</h2>
+<div class="cv-entry"><div class="cv-date">16 Oct 2026</div><div><strong>Dittrich, Adam; Jiří Rytina; and Jakub Drábek.</strong> “Kapacita bez efektivity? Zdravotnická infrastruktura a zdravotní výsledky v socialistickém Československu [Capacity without Effectiveness? Healthcare Infrastructure and Health Outcomes in Socialist Czechoslovakia].” <em>Zdraví a sociální otázky v dějinách: interdisciplinární perspektivy [Health and Social Issues in History: Interdisciplinary Perspectives].</em> University of South Bohemia, České Budějovice, 15–16 October 2026. <a href="https://www.zsf.jcu.cz/images/ZSF/veda-a-vyzkum/konference/zdravi_a_socialni_otazky/CONFERENCE_Zdravi_program_26-10-14_final_version.pdf#page=4">Conference programme.</a></div></div>
+<div class="cv-entry"><div class="cv-date">25 Sep 2025</div><div><strong>Dittrich, Adam, and Jiří Rytina.</strong> “Měnová úprava jako pokrizová obnova: Případová studie československé devalvace v roce 1934 [Monetary Adjustment as Post-Crisis Recovery: A Case Study of the Czechoslovak Devaluation of 1934].” <em>Pokrizová obnova [Post-Crisis Recovery].</em> National Archives, Prague, 24–26 September 2025. <a href="https://www.hiu.cas.cz/user_uploads/badatelum_i_verejnosti/udalosti/2025_9_25_26_konference_pokrizova_obnova/konference_pokrizova_obnova_program_CZ.pdf#page=3">Conference programme.</a></div></div>
+</section>
+
+<section class="cv-section">
 <h2>Teaching</h2>
-<div class="cv-entry">
-<div class="cv-date">2026/27</div>
-<div><strong>Economic History</strong> (5HD200)<br><strong>Foundations of Microeconomics</strong> (5EN102)<br><strong>Defence of an Academic Paper</strong> (55F112)<br>Prague University of Economics and Business. <a href="teaching.qmd">Course details.</a></div>
-</div>
+<p>Prague University of Economics and Business.</p>
+<div class="cv-entry"><div class="cv-date">2021–present</div><div><strong>Economic History</strong> (5HD200).</div></div>
+<div class="cv-entry"><div class="cv-date">2021–present</div><div><strong>Defence of an Academic Paper</strong> (55F112).</div></div>
+<div class="cv-entry"><div class="cv-date">From 2026/27</div><div><strong>Foundations of Microeconomics</strong> (5EN102).</div></div>
 </section>
 
 <section class="cv-section">
 <h2>Research and data</h2>
 <div class="cv-entry"><div class="cv-date">National accounts</div><div>Czechoslovak contribution to a comparative Central and Eastern European GDP-reconstruction project with Matthias Morys and Marcin Wroński, focusing on agricultural output and value added, prices, intermediate inputs, and cross-country comparability.</div></div>
 <div class="cv-entry"><div class="cv-date">Monetary history</div><div>Reconstruction of monthly Czechoslovak monetary and macroeconomic series from National Bank reports, 1926–1938, alongside comparative European sources.</div></div>
-<div class="cv-entry"><div class="cv-date">Open research</div><div>Public replication projects on Czechoslovak financial stress, European bilateral trade, and Nordic trade resilience. <a href="data.qmd">Data and replication packages.</a></div></div>
+<div class="cv-entry"><div class="cv-date">Open research</div><div>Public datasets on Czechoslovak financial stress and monthly European exchange-rate and trade-balance adjustment (The Missing J, 1925–1936). <a href="data.qmd">Data and replication packages.</a></div></div>
 <div class="cv-entry"><div class="cv-date">Manuscripts</div><div>Current research on monetary defence, trade adjustment, labour markets, historical national accounts, and Czech economic thought. <a href="publications.qmd">Publications and current papers.</a></div></div>
 </section>
 

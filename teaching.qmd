@@ -1,6 +1,6 @@
 ---
 title: "Teaching"
-description: "Adam Dittrich’s teaching in economic history, introductory microeconomics, and academic writing at Prague University of Economics and Business."
+description: "Courses taught by Adam Dittrich at Prague University of Economics and Business: Economic History and Defence of an Academic Paper since 2021; Foundations of Microeconomics from 2026/27."
 page-layout: full
 body-classes: inner-page teaching-page
 ---
@@ -8,130 +8,42 @@ body-classes: inner-page teaching-page
 ::: {.inner-hero}
 <p class="eyebrow">Teaching</p>
 
-# Economic history as analytical training
+# Courses taught
 
-<p class="inner-lede">I teach economic history, introductory microeconomics, and the preparation and defence of academic work at Prague University of Economics and Business. My classes connect concepts with evidence through discussion, worked examples, and graphs.</p>
+<p class="inner-lede">Prague University of Economics and Business.</p>
 :::
 
-::: {.page-section}
+::: {.page-section .teaching-courses}
 ::: {.course-feature}
 ::: {.course-code}
 5HD200
 :::
 ::: {.course-main}
-<p class="eyebrow">Current course · 2026/27</p>
+<p class="eyebrow">2021–present</p>
 
 ## Economic History
-
-**Prague University of Economics and Business**  
-Department of Economic History
-
-The course introduces the long-run transformation of economic institutions and the historical foundations of modern growth, industrialisation, monetary systems, crises, and economic policy. My teaching contribution links historical narrative to the interpretation of evidence and economic mechanisms.
-
-[Course environment](https://moodle.vse.cz/course/index.php?categoryid=674&lang=en){.pill-link}
-:::
 :::
 :::
 
-::: {.page-section .alt-section}
-::: {.course-feature}
-::: {.course-code}
-5EN102
-:::
-::: {.course-main}
-<p class="eyebrow">Current course · 2026/27</p>
-
-## Foundations of Microeconomics
-
-**Základy mikroekonomie**  
-Prague University of Economics and Business
-
-Seminars on consumer choice, production and costs, firm behaviour, and market structure. I use worked calculations, diagrams, and short exercises to help students connect economic concepts with concrete decisions.
-
-[Institutional teaching profile](https://khd.vse.cz/ing-adam-dittrich/){.pill-link}
-:::
-:::
-:::
-
-::: {.page-section}
 ::: {.course-feature}
 ::: {.course-code}
 55F112
 :::
 ::: {.course-main}
-<p class="eyebrow">Current course · 2026/27</p>
+<p class="eyebrow">2021–present</p>
 
 ## Defence of an Academic Paper
-
-**Psaní a obhajoba odborné práce**  
-Prague University of Economics and Business
-
-Developing a research question, working with sources, building a clear argument, and presenting and defending academic work.
-
-[Course information and reading](https://knihovna.vse.cz/literatura-k-predmetum/zakladni/55F112/){.pill-link}
-:::
 :::
 :::
 
-::: {.page-section .alt-section}
-<p class="eyebrow">Teaching fields</p>
+::: {.course-feature}
+::: {.course-code}
+5EN102
+:::
+::: {.course-main}
+<p class="eyebrow">From academic year 2026/27</p>
 
-## Areas I can teach
-
-::: {.teaching-grid}
-::: {.teaching-card}
-### European economic history
-
-Industrialisation, globalisation, war, depression, reconstruction, and changing forms of state intervention from the nineteenth century onward.
-:::
-::: {.teaching-card}
-### Monetary and financial history
-
-Gold standards, central banks, banking crises, exchange-rate regimes, inflation, deflation, and the political economy of credibility.
-:::
-::: {.teaching-card}
-### History of economic thought
-
-Competing traditions of value, causality, equilibrium, teleology, and economic order, with particular attention to Central Europe.
-:::
-::: {.teaching-card}
-### Cliometrics and historical data
-
-Turning archival categories into analysable evidence; interpreting regressions historically; communicating uncertainty and sensitivity.
+## Foundations of Microeconomics
 :::
 :::
-:::
-
-::: {.page-section}
-::: {.teaching-philosophy}
-::: {}
-<p class="eyebrow">Approach</p>
-
-## Three habits I want students to acquire
-:::
-::: {.habit-list}
-::: {.habit}
-<span>01</span>
-<div><strong>Ask what the variable meant historically.</strong> A modern label can conceal a different institution, accounting rule, or population.</div>
-:::
-::: {.habit}
-<span>02</span>
-<div><strong>Separate chronology from explanation.</strong> Knowing when a series turned is the beginning of analysis, not its conclusion.</div>
-:::
-::: {.habit}
-<span>03</span>
-<div><strong>Treat policy as a constrained choice.</strong> Historical actors faced legal, political, intellectual, and informational limits that a textbook model may omit.</div>
-:::
-:::
-:::
-:::
-
-::: {.page-section .alt-section}
-<p class="eyebrow">Supervision and discussion</p>
-
-## Student research
-
-I am especially interested in student projects that combine a clearly bounded historical problem with careful source work: central-bank policy, banking and financial institutions, international trade, interwar Czechoslovakia, historical statistics, or Czech economic thought.
-
-A good project need not begin with sophisticated econometrics. It should begin with a question for which the available evidence can distinguish among competing explanations.
 :::

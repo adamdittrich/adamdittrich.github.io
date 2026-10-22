@@ -1,6 +1,6 @@
 ---
 title: "Publications & Papers"
-description: "Published and forthcoming articles, working papers, research manuscripts, and open data by Adam Dittrich."
+description: "Published and forthcoming articles, conference proceedings and presentations, working papers, and research manuscripts by Adam Dittrich."
 page-layout: full
 body-classes: inner-page publications-page
 ---
@@ -10,7 +10,7 @@ body-classes: inner-page publications-page
 
 # Research outputs
 
-<p class="inner-lede">Journal articles, conference proceedings, working papers, and research manuscripts in economic history and the history of economic thought. Public versions and replication materials are linked below.</p>
+<p class="inner-lede">Journal articles, published conference proceedings, conference presentations, working papers, and research manuscripts in economic history and the history of economic thought. Public versions and replication materials are linked below.</p>
 :::
 
 ::: {.page-section}
@@ -40,9 +40,9 @@ body-classes: inner-page publications-page
 ### Spor o cukerní daň roku 1928: Karel Engliš a Gustav Heidler
 
 **Adam Dittrich**  
-*Listy cukrovarnické a řepařské.* Accepted; publication expected in 2027.
+*Listy cukrovarnické a řepařské [Czech Sugar and Sugar Beet Journal].* Accepted; publication expected in 2027.
 
-<span class="english-title">The 1928 sugar-tax dispute: Karel Engliš and Gustav Heidler.</span>
+<span class="english-title">[The 1928 Sugar-Tax Dispute: Karel Engliš and Gustav Heidler]</span>
 </div>
 :::
 :::
@@ -64,11 +64,12 @@ body-classes: inner-page publications-page
 ### Historický vztah československého cukrovarnického průmyslu k sociální problematice na příkladu penze: Sociálně solidární cíle mezi lety 1918 až 1926 jako výsledek negativní časové preference
 
 **Jiří Rytina, Adam Dittrich, and Jakub Drábek**  
-*Listy cukrovarnické a řepařské* 141(9–10), 320–322.
+*Listy cukrovarnické a řepařské [Czech Sugar and Sugar Beet Journal]* 141(9–10), 320–322.
 
-<span class="english-title">The Czechoslovak sugar industry and pensions: Social solidarity in 1918–1926 as a result of negative time preference.</span>
+<span class="english-title">[The Historical Relationship of the Czechoslovak Sugar Industry to Social Issues: Pensions and Social Solidarity in 1918–1926 as a Result of Negative Time Preference]</span>
 
-[Journal record](https://www.cukr-listy.cz/on_line/2025/abs320-322.html){.pill-link}
+[Article PDF](https://www.cukr-listy.cz/on_line/2025/PDF/320-322.pdf){.pill-link}
+[Publisher’s contents](https://www.cukr-listy.cz/lc-obsah2025-en.html){.pill-link}
 </div>
 :::
 
@@ -79,11 +80,12 @@ body-classes: inner-page publications-page
 ### Cukrovarnický průmysl versus deflační politika: Konflikt hospodářských zájmů v meziválečném Československu
 
 **Adam Dittrich, Jiří Rytina, and Jakub Drábek**  
-*Listy cukrovarnické a řepařské* 141(7–8), 260–264.
+*Listy cukrovarnické a řepařské [Czech Sugar and Sugar Beet Journal]* 141(7–8), 260–264.
 
-<span class="english-title">The sugar industry versus deflationary policy: A conflict of economic interests in interwar Czechoslovakia.</span>
+<span class="english-title">[Sugar Industry versus Deflationary Policy: Conflict of Economic Interests in Interwar Czechoslovakia]</span>
 
 [Article PDF](https://www.cukr-listy.cz/on_line/2025/PDF/260-264.pdf){.pill-link}
+[Publisher’s contents](https://www.cukr-listy.cz/lc-obsah2025-en.html){.pill-link}
 </div>
 :::
 
@@ -96,7 +98,8 @@ body-classes: inner-page publications-page
 **Adam Dittrich**  
 *Revista Română de Studii Eurasiatice* 19(1–2), 105–124.
 
-[Institutional record](https://khd.vse.cz/ing-adam-dittrich/){.pill-link}
+[Journal issue](https://rrsejournal.com/year-xix-2023){.pill-link}
+[Article record](https://www.ceeol.com/search/article-detail?id=1236472){.pill-link}
 </div>
 :::
 :::
@@ -106,7 +109,7 @@ body-classes: inner-page publications-page
 ::: {.pub-section-heading}
 <span class="pub-count">02</span>
 
-## Conference proceedings {#conference-proceedings}
+## Published conference proceedings {#conference-proceedings}
 :::
 
 ::: {.publication-list}
@@ -118,11 +121,12 @@ body-classes: inner-page publications-page
 ### Efektivní směnné kurzy Československa 1925–1936: rekonstrukce, dekompozice a efekt devalvace
 
 **Adam Dittrich**  
-In Ondřej Roubal (ed.), *Konference doktorandů na Vysoké škole finanční a správní 2025*. Prague: VŠFS, 26–40.
+In Ondřej Roubal (ed.), *Konference doktorandů na Vysoké škole finanční a správní 2025 [Doctoral Students Conference at the University of Finance and Administration 2025]*. Prague: VŠFS, 26–40.
 
-<span class="english-title">Czechoslovakia’s effective exchange rates, 1925–1936: Reconstruction, decomposition and the effect of devaluation.</span>
+<span class="english-title">[Czechoslovakia’s Effective Exchange Rates, 1925–1936: Reconstruction, Decomposition and the Effect of Devaluation]</span>
 
-[DOI](https://doi.org/10.37355/KD-2025-02){.pill-link}
+[Proceedings PDF · article pp. 26–40](https://www.vsfs.cz/media/conference/konferencedoktorandu//konference_doktorandu_2025.pdf#page=27){.pill-link}
+[Article DOI](https://doi.org/10.37355/KD-2025-02){.pill-link}
 </div>
 :::
 
@@ -135,7 +139,49 @@ In Ondřej Roubal (ed.), *Konference doktorandů na Vysoké škole finanční a 
 **Adam Dittrich**  
 In Michal Müller and Pavla Slavíčková (eds.), *KNOWCON 2024: Knowledge on Economics and Management Conference Proceedings*. Olomouc: Palacký University Olomouc, 26–32.
 
-[Institutional record](https://khd.vse.cz/ing-adam-dittrich/){.pill-link}
+[Proceedings PDF · article pp. 26–32](https://kems.upol.cz/files/FF/katedry/kae/knowcon/proceedings/KNOWCON_2024_FINAL.pdf){.pill-link}
+[Publisher’s proceedings index](https://kems.upol.cz/knowcon/about-knowcon/){.pill-link}
+</div>
+:::
+:::
+:::
+
+::: {.page-section}
+::: {.pub-section-heading}
+<span class="pub-count">02</span>
+
+## Conference presentations {#conference-presentations}
+:::
+
+::: {.publication-list}
+::: {.publication-item}
+<div class="pub-year">16 Oct 2026</div>
+<div class="pub-body">
+
+### Kapacita bez efektivity? Zdravotnická infrastruktura a zdravotní výsledky v socialistickém Československu
+
+<span class="english-title">[Capacity without Effectiveness? Healthcare Infrastructure and Health Outcomes in Socialist Czechoslovakia]</span>
+
+**Adam Dittrich, Jiří Rytina, and Jakub Drábek**  
+*Zdraví a sociální otázky v dějinách: interdisciplinární perspektivy [Health and Social Issues in History: Interdisciplinary Perspectives].* Faculty of Health and Social Sciences, University of South Bohemia, České Budějovice. Conference held 15–16 October 2026; presentation on 16 October.
+
+[Conference programme · p. 4](https://www.zsf.jcu.cz/images/ZSF/veda-a-vyzkum/konference/zdravi_a_socialni_otazky/CONFERENCE_Zdravi_program_26-10-14_final_version.pdf#page=4){.pill-link}
+[Conference page](https://www.zsf.jcu.cz/cz/veda-a-vyzkum/konference/zdravi-a-socialni-otazky-v-dejinach-interdisciplinarni-perspektivy){.pill-link}
+</div>
+:::
+
+::: {.publication-item}
+<div class="pub-year">25 Sep 2025</div>
+<div class="pub-body">
+
+### Měnová úprava jako pokrizová obnova: Případová studie československé devalvace v roce 1934
+
+<span class="english-title">[Monetary Adjustment as Post-Crisis Recovery: A Case Study of the Czechoslovak Devaluation of 1934]</span>
+
+**Adam Dittrich and Jiří Rytina**  
+*Pokrizová obnova [Post-Crisis Recovery].* National Archives, Prague. Conference held 24–26 September 2025; presentation on 25 September.
+
+[Conference programme · p. 3](https://www.hiu.cas.cz/user_uploads/badatelum_i_verejnosti/udalosti/2025_9_25_26_konference_pokrizova_obnova/konference_pokrizova_obnova_program_CZ.pdf#page=3){.pill-link}
 </div>
 :::
 :::
@@ -170,7 +216,7 @@ The paper reconstructs how industrial actors understood long-horizon sacrifice, 
 
 ::: {.page-section}
 ::: {.pub-section-heading}
-<span class="pub-count">03</span>
+<span class="pub-count">01</span>
 
 ## Research papers with open data {#research-papers-with-open-data}
 :::
@@ -187,38 +233,12 @@ The paper reconstructs how industrial actors understood long-horizon sacrifice, 
 
 A monthly composite index uses eleven financial and macro-financial indicators to recover the chronology of pressure from November 1929 to September 1938. The project connects statistical measurement to the institutional mechanics of the Czechoslovak gold-standard regime.
 
-[Data and documentation](https://doi.org/10.3886/E247312V1){.pill-link}
+[Data and documentation](https://www.openicpsr.org/openicpsr/project/247312/version/V1/view){.pill-link}
 [Project summary](data.qmd#financial-stress-under-the-gold-standard){.pill-link}
 </div>
 :::
 
-::: {.publication-item}
-<div class="pub-year">Research</div>
-<div class="pub-body">
 
-### Commercial Hysteresis: Persistence and Reorganization in Europe’s Bilateral Trade Geography during the Great Depression
-
-**Adam Dittrich**
-
-A bilateral panel of 21 European economies examines whether the Depression temporarily compressed existing trade relationships or permanently reordered the commercial geography of Europe.
-
-[Data and documentation](https://doi.org/10.3886/E247132V2){.pill-link}
-[Project summary](data.qmd#european-bilateral-trade-geography){.pill-link}
-</div>
-:::
-
-::: {.publication-item}
-<div class="pub-year">Research</div>
-<div class="pub-body">
-
-### Reassessing Nordic Trade Resilience during the Great Depression: A Bilateral Decomposition of European Trade Flows, 1927–1938
-
-Research manuscript with public replication data and code in openICPSR.
-
-[Data and code](https://doi.org/10.3886/E251239V1){.pill-link}
-[Project summary](data.qmd#nordic-trade-resilience){.pill-link}
-</div>
-:::
 :::
 :::
 
@@ -325,6 +345,8 @@ The Czechoslovak contribution to comparative work on Central and Eastern Europea
 :::
 
 ::: {.page-section .profile-links-section}
+[Download bibliographic records (BibTeX)](assets/files/publications.bib){.pill-link}
+
 ## Other research profiles
 
 [Google Scholar](https://scholar.google.com/citations?hl=en&user=w20HpZcAAAAJ){.profile-chip}

@@ -9,7 +9,7 @@ body-classes: home-page
 ::: {.hero-copy}
 <p class="eyebrow">Economic historian · Prague</p>
 
-# Adam Dittrich, PhD
+# Adam Dittrich<span class="hero-degree">, PhD</span>
 
 <p class="hero-role">Assistant Professor · Economic History<br><span>Prague University of Economics and Business</span></p>
 
@@ -82,7 +82,7 @@ Can balance-sheet and market indicators recover the chronology of banking pressu
 
 ### Trade and adjustment
 
-Did the Great Depression merely compress European trade, or did it reorganise durable bilateral relationships?
+How did devaluation, exchange controls, and changing relative prices affect trade adjustment during the Great Depression?
 
 [Read the research theme →](research.qmd#trade-devaluation-and-commercial-reorganisation)
 :::
@@ -129,15 +129,6 @@ A monthly composite measure reconstructs the sequence of financial pressure in i
 [Project and data](data.qmd#financial-stress-under-the-gold-standard){.project-link}
 :::
 
-::: {.project-feature}
-<div class="project-meta"><span>International trade</span><span>Research paper + open data</span></div>
-
-### Commercial Hysteresis in Depression-Era Europe
-
-A bilateral panel for 21 European economies asks whether crisis-era trade disruption left persistent scars in the geography of commerce between 1927 and 1938.
-
-[Project and data](data.qmd#european-bilateral-trade-geography){.project-link}
-:::
 
 ::: {.project-feature}
 <div class="project-meta"><span>Business and social history</span><span>Working paper · 2026</span></div>
@@ -146,7 +137,7 @@ A bilateral panel for 21 European economies asks whether crisis-era trade disrup
 
 With Jiří Rytina, this project studies how industrial actors justified intertemporal sacrifice and social provision in the Czech sugar industry from 1896 to 1926.
 
-[Working-paper record](https://hal.science/hal-05660879){.project-link}
+[Working-paper record](https://ideas.repec.org/p/hal/wpaper/hal-05660879.html){.project-link}
 :::
 :::
 :::
@@ -157,7 +148,7 @@ With Jiří Rytina, this project studies how industrial actors justified interte
 
 ## Data are part of the argument
 
-My research builds reusable evidence—not only regression inputs. Public projects include monthly financial-stress indicators for interwar Czechoslovakia, a bilateral trade panel spanning 21 European economies, and replication materials for research on Nordic trade resilience.
+My data work links historical sources to reproducible measurement. Public datasets cover financial stress in interwar Czechoslovakia, European bilateral trade, and monthly exchange rates and trade-balance adjustment in The Missing J, 1925–1936.
 
 [Explore data and replication](data.qmd){.button .button-on-dark}
 :::
@@ -172,8 +163,8 @@ My research builds reusable evidence—not only regression inputs. Public projec
 <span>European economies</span>
 :::
 ::: {.data-stat}
-<span class="big-stat">1927–38</span>
-<span>bilateral trade coverage</span>
+<span class="big-stat">1925–36</span>
+<span>monthly exchange-rate coverage</span>
 :::
 :::
 :::
@@ -188,6 +179,10 @@ My research builds reusable evidence—not only regression inputs. Public projec
 :::
 
 ::: {.news-list}
+::: {.news-item}
+<span class="news-date">16 Oct 2026</span>
+<div><strong>Conference presentation in České Budějovice.</strong> With Jiří Rytina and Jakub Drábek, I presented our work on healthcare infrastructure and health outcomes in socialist Czechoslovakia. <a href="publications.qmd#conference-presentations">Presentation and programme.</a></div>
+:::
 ::: {.news-item}
 <span class="news-date">Oct 2026</span>
 <div><strong>Forthcoming in <em>Statistika</em>.</strong> “The Crown Against the World: Reconstructing Czechoslovakia’s Effective Exchange Rates, 1920–1938.”</div>
@@ -206,11 +201,11 @@ My research builds reusable evidence—not only regression inputs. Public projec
 :::
 ::: {.news-item}
 <span class="news-date">2026</span>
-<div><strong>European trade data released.</strong> The “Commercial Hysteresis” project provides a bilateral panel covering 21 economies during the Great Depression.</div>
+<div><strong>Monthly cliometric dataset.</strong> <a href="data.qmd#the-missing-j">The Missing J</a> brings together effective exchange rates, trade balances, prices, and activity for interwar Europe, 1925–1936.</div>
 :::
 ::: {.news-item}
 <span class="news-date">2025</span>
-<div><strong>Two articles published.</strong> Joint research on the Czechoslovak sugar industry, deflation, and social provision appeared in <em>Listy cukrovarnické a řepařské</em>.</div>
+<div><strong>Two articles published.</strong> Joint research on the Czechoslovak sugar industry, deflation, and social provision appeared in <em>Listy cukrovarnické a řepařské [Czech Sugar and Sugar Beet Journal]</em>.</div>
 :::
 :::
 :::

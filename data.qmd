@@ -1,6 +1,6 @@
 ---
 title: "Data & Replication"
-description: "Open datasets and replication projects on Czechoslovak financial stress, European bilateral trade, and Nordic trade resilience."
+description: "Open datasets and replication projects on Czechoslovak financial stress, European bilateral trade, and monthly exchange-rate and trade-balance adjustment."
 page-layout: full
 body-classes: inner-page data-page
 ---
@@ -16,7 +16,7 @@ body-classes: inner-page data-page
 ::: {.page-section}
 ::: {.dataset-feature #financial-stress-under-the-gold-standard}
 ::: {.dataset-kicker}
-<span>Project 01</span><span>Monthly · Czechoslovakia · 1929–1938</span>
+<span>Dataset 01</span><span>Monthly · Czechoslovakia · 1929–1938</span>
 :::
 
 ## Measuring Financial Stress under the Gold Standard
@@ -62,17 +62,19 @@ body-classes: inner-page data-page
 :::
 :::
 
-[Open project and download data](https://doi.org/10.3886/E247312V1){.button .button-primary}
+[Open dataset and documentation](https://www.openicpsr.org/openicpsr/project/247312/version/V1/view){.button .button-primary}
 :::
 :::
 
 ::: {.page-section .alt-section}
 ::: {.dataset-feature #european-bilateral-trade-geography}
 ::: {.dataset-kicker}
-<span>Project 02</span><span>Annual · Europe · 1927–1938</span>
+<span>Dataset 02</span><span>Annual · Europe · 1927–1938</span>
 :::
 
-## Commercial Hysteresis in European Trade
+## European bilateral trade, 1927–1938
+
+**Dataset:** Commercial Hysteresis: Persistence and Reorganization in Europe’s Bilateral Trade Geography during the Great Depression.
 
 <p class="dataset-summary">A bilateral panel for tracing persistence, destruction, and reorganisation in Europe’s commercial relationships across the Great Depression.</p>
 
@@ -111,23 +113,38 @@ The core unit is the directional country-pair-year. That structure permits expor
 :::
 :::
 
-[Open project and download data](https://doi.org/10.3886/E247132V2){.button .button-primary}
+[Open dataset · DOI 10.3886/E247132V2](https://doi.org/10.3886/E247132V2){.button .button-primary}
 :::
 :::
 
 ::: {.page-section}
 ::: {.dataset-feature}
 ::: {.dataset-kicker}
-<span>Project 03</span><span>Annual · Europe · 1927–1938</span>
+<span>Dataset 03</span><span>Monthly · Europe · 1925–1936</span>
 :::
 
-## Nordic Trade Resilience
+## The Missing J {#the-missing-j}
 
-<p class="dataset-summary">Public replication materials for “Reassessing Nordic Trade Resilience during the Great Depression: A Bilateral Decomposition of European Trade Flows, 1927–1938.”</p>
+<p class="dataset-summary">The Missing J in Interwar Europe: A Monthly Cliometric Dataset on Effective Exchange Rates and Trade-Balance Adjustment, 1925–1936.</p>
 
-The project examines Nordic trade performance within the wider reorganisation of European bilateral commerce during the Great Depression. The openICPSR deposit provides data and code for the analysis.
+**Adam Dittrich · openICPSR · 2026**
 
-[Open replication package](https://doi.org/10.3886/E251239V1){.button .button-primary}
+A monthly European dataset linking exports, imports, prices, economic activity, and exchange rates to the study of trade-balance adjustment. Annual bilateral trade weights drawn from League of Nations trade reports support the construction of effective exchange rates.
+
+::: {.dataset-columns}
+::: {}
+### Coverage
+
+Monthly observations for 1925–1936, with linked annual bilateral trade information. Variable availability and country coverage should be checked in the deposit documentation before building a particular estimation sample.
+:::
+::: {}
+### Research use
+
+Comparing nominal and real effective exchange rates, tracing the timing of trade-balance responses, and distinguishing exchange-rate adjustment from changes in prices and economic activity.
+:::
+:::
+
+[Open dataset · DOI 10.3886/E251239V1](https://doi.org/10.3886/E251239V1){.button .button-primary}
 :::
 :::
 

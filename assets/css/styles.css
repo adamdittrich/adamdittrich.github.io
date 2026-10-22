@@ -1970,3 +1970,74 @@ main.content,
     margin: 16mm;
   }
 }
+
+
+/* Revision 3: full-width custom layouts must not inherit Quarto's narrow page grid.
+   Otherwise viewport-based dark-band padding consumes the content column at wide
+   windows or reduced browser zoom. Sections retain their own --max containers. */
+#quarto-content {
+  display: block !important;
+  min-width: 0;
+}
+#quarto-document-content {
+  display: block;
+  grid-column: 1 / -1 !important;
+  min-width: 0;
+}
+.hero-copy h1 {
+  font-size: clamp(3.1rem, 5.4vw, 5.2rem);
+  max-width: 100%;
+}
+.hero-degree {
+  font-size: 0.62em;
+  white-space: nowrap;
+}
+.data-band > *, .methods-panel > *, .principles-band > *,
+.data-band-stats > *, .dataset-columns > *, .pub-body,
+.cv-main, .cv-entry > * {
+  min-width: 0;
+}
+.data-band-stats {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.data-stat {
+  padding-inline: clamp(12px, 1.2vw, 24px);
+}
+.data-stat .big-stat {
+  font-size: clamp(1.65rem, 2.3vw, 2.6rem);
+}
+.data-stat > p > span:last-child {
+  overflow-wrap: anywhere;
+}
+.pub-body .english-title {
+  display: block;
+  line-height: 1.55;
+  margin: 0.65rem 0 1rem;
+}
+.teaching-courses {
+  padding-top: 0;
+}
+.teaching-courses .course-feature {
+  padding-block: 2.4rem;
+  border-top: 1px solid var(--line);
+}
+.teaching-courses .course-feature:last-child {
+  border-bottom: 1px solid var(--line);
+}
+.teaching-courses h2 {
+  font-size: clamp(1.65rem, 2.8vw, 2.55rem);
+}
+@media (max-width: 680px) {
+  .data-band-stats {
+    grid-template-columns: 1fr;
+  }
+  .hero-copy h1 { font-size: clamp(2.8rem, 10vw, 4rem); }
+  .hero-visual::before { right: 0; }
+  .hero-visual::after { right: 0; }
+  .publication-item { min-width: 0; }
+  .pill-link { max-width: 100%; overflow-wrap: anywhere; white-space: normal; }
+}
+
+@media (min-width: 681px) and (max-width: 1050px) {
+  .hero-visual::before, .hero-visual::after { right: 0; }
+}

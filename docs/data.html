@@ -1,13 +1,10 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
-<meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.19">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-<meta name="description" content="Open datasets and replication projects on Czechoslovak financial stress, European bilateral trade, and Nordic trade resilience.">
-
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta charset="utf-8"/>
+<meta content="quarto-1.10.19" name="generator"/>
+<meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
+<meta content="Open datasets and replication projects on Czechoslovak financial stress, European bilateral trade, and monthly exchange-rate and trade-balance adjustment." name="description"/>
 <title>Data &amp; Replication – Adam Dittrich, PhD</title>
 <style>
 /* Default styles provided by pandoc.
@@ -28,25 +25,23 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 </style>
-
-
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./assets/img/favicon.svg" rel="icon" type="image/svg+xml">
+<meta content="./" name="quarto:offset"/>
+<link href="./assets/img/favicon.svg" rel="icon" type="image/svg+xml"/>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet"/>
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" id="quarto-text-highlighting-styles" rel="stylesheet"/>
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-b93188c374826b605e9e9b2dc84621c6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet"/>
+<link append-hash="true" data-mode="light" href="site_libs/bootstrap/bootstrap-b93188c374826b605e9e9b2dc84621c6.min.css" id="quarto-bootstrap" rel="stylesheet"/>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,128 +69,97 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
-
-
-<link rel="stylesheet" href="assets/css/styles.css">
-<meta property="og:title" content="Data &amp; Replication – Adam Dittrich, PhD">
-<meta property="og:description" content="Open datasets and replication projects on Czechoslovak financial stress, European bilateral trade, and Nordic trade resilience.">
-<meta property="og:image" content="https://adamdittrich.github.io/assets/img/og-card.png">
-<meta property="og:site_name" content="Adam Dittrich, PhD">
-<meta property="og:locale" content="en_GB">
-<meta property="og:image:height" content="630">
-<meta property="og:image:width" content="1200">
-<meta name="twitter:title" content="Data &amp; Replication – Adam Dittrich, PhD">
-<meta name="twitter:description" content="Open datasets and replication projects on Czechoslovak financial stress, European bilateral trade, and Nordic trade resilience.">
-<meta name="twitter:image" content="https://adamdittrich.github.io/assets/img/og-card.png">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image-height" content="630">
-<meta name="twitter:image-width" content="1200">
+<link href="assets/css/styles.css" rel="stylesheet"/>
+<meta content="Data &amp; Replication" property="og:title"/>
+<meta content="Open datasets and replication projects on Czechoslovak financial stress, European bilateral trade, and monthly exchange-rate and trade-balance adjustment." property="og:description"/>
+<meta content="https://adamdittrich.github.io/assets/img/og-card.png" property="og:image"/>
+<meta content="Adam Dittrich, PhD" property="og:site_name"/>
+<meta content="en_GB" property="og:locale"/>
+<meta content="630" property="og:image:height"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="Data &amp; Replication" name="twitter:title"/>
+<meta content="Open datasets and replication projects on Czechoslovak financial stress, European bilateral trade, and monthly exchange-rate and trade-balance adjustment." name="twitter:description"/>
+<meta content="https://adamdittrich.github.io/assets/img/og-card.png" name="twitter:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="630" name="twitter:image-height"/>
+<meta content="1200" name="twitter:image-width"/>
 </head>
-
 <body class="nav-fixed inner-page data-page quarto-light">
-
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./assets/img/logo.svg" alt="Adam Dittrich monogram" class="navbar-logo light-content">
-    <img src="./assets/img/logo.svg" alt="Adam Dittrich monogram" class="navbar-logo dark-content">
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
-<span class="menu-text">Research</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
-<span class="menu-text">Publications</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./data.html" aria-current="page"> 
-<span class="menu-text">Data</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./teaching.html"> 
-<span class="menu-text">Teaching</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./cv.html"> 
-<span class="menu-text">CV</span></a>
-  </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
-<span class="menu-text">Contact</span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
+<header class="headroom fixed-top" id="quarto-header">
+<nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+<div class="navbar-container container-fluid">
+<div class="navbar-brand-container mx-auto">
+<a class="navbar-brand navbar-brand-logo" href="./index.html">
+<img alt="Adam Dittrich monogram" class="navbar-logo light-content" src="./assets/img/logo.svg"/>
+<img alt="Adam Dittrich monogram" class="navbar-logo dark-content" src="./assets/img/logo.svg"/>
+</a>
 </div>
-      </div> <!-- /container-fluid -->
-    </nav>
+<div class="" id="quarto-search" title="Search"></div>
+<button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarCollapse" data-bs-toggle="collapse" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }" role="menu" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarCollapse">
+<ul class="navbar-nav navbar-nav-scroll me-auto">
+<li class="nav-item">
+<a class="nav-link" href="./index.html">
+<span class="menu-text">Home</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="./research.html">
+<span class="menu-text">Research</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="./publications.html">
+<span class="menu-text">Publications</span></a>
+</li>
+<li class="nav-item">
+<a aria-current="page" class="nav-link active" href="./data.html">
+<span class="menu-text">Data</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="./teaching.html">
+<span class="menu-text">Teaching</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="./cv.html">
+<span class="menu-text">CV</span></a>
+</li>
+</ul>
+<ul class="navbar-nav navbar-nav-scroll ms-auto">
+<li class="nav-item">
+<a class="nav-link" href="./contact.html">
+<span class="menu-text">Contact</span></a>
+</li>
+</ul>
+</div> <!-- /navcollapse -->
+<div class="quarto-navbar-tools">
+</div>
+</div> <!-- /container-fluid -->
+</nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div class="quarto-container page-columns page-rows-contents page-layout-full page-navbar" id="quarto-content">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Data &amp; Replication</h1>
-</div>
-
-<div>
-  <div class="description">
-    Open datasets and replication projects on Czechoslovak financial stress, European bilateral trade, and Nordic trade resilience.
-  </div>
-</div>
-
-
-<div class="quarto-title-meta column-page">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<div class="inner-hero data-hero">
+<main class="content column-page" id="quarto-document-content"><div class="inner-hero data-hero">
 <p class="eyebrow">
 Data &amp; replication
 </p>
-<section id="evidence-designed-to-be-reused" class="level1">
-<h1>Evidence designed to be reused</h1>
+<section class="level1" id="evidence-designed-to-be-reused">
+<h1 class="anchored" data-anchor-id="evidence-designed-to-be-reused">Evidence designed to be reused</h1>
 <p class="inner-lede">
 Historical data construction is part of the substantive contribution. Each public project documents coverage, source logic, transformations, and limitations so that the evidence can be inspected beyond a single regression table.
 </p>
 </section>
 </div>
 <div class="page-section">
-<div id="financial-stress-under-the-gold-standard" class="dataset-feature">
+<div class="dataset-feature" id="financial-stress-under-the-gold-standard">
 <div class="dataset-kicker">
-<p><span>Project 01</span><span>Monthly · Czechoslovakia · 1929–1938</span></p>
+<p><span>Dataset 01</span><span>Monthly · Czechoslovakia · 1929–1938</span></p>
 </div>
-<section id="measuring-financial-stress-under-the-gold-standard" class="level2">
+<section class="level2" id="measuring-financial-stress-under-the-gold-standard">
 <h2 class="anchored" data-anchor-id="measuring-financial-stress-under-the-gold-standard">Measuring Financial Stress under the Gold Standard</h2>
 <p class="dataset-summary">
 A monthly dataset and composite index designed to recover the chronology of monetary, banking, and macro-financial pressure in interwar Czechoslovakia.
@@ -215,7 +179,7 @@ A monthly dataset and composite index designed to recover the chronology of mone
 </div>
 </div>
 <div class="dataset-columns">
-<section id="research-use" class="level3">
+<section class="level3" id="research-use">
 <h3 class="anchored" data-anchor-id="research-use">Research use</h3>
 <ul>
 <li>identifying distinct phases of financial pressure;</li>
@@ -224,7 +188,7 @@ A monthly dataset and composite index designed to recover the chronology of mone
 <li>studying monetary defence before and after devaluation.</li>
 </ul>
 </section>
-<section id="package-contents" class="level3">
+<section class="level3" id="package-contents">
 <h3 class="anchored" data-anchor-id="package-contents">Package contents</h3>
 <ul>
 <li>underlying monthly indicators;</li>
@@ -235,17 +199,18 @@ A monthly dataset and composite index designed to recover the chronology of mone
 </ul>
 </section>
 </div>
-<p><a href="https://doi.org/10.3886/E247312V1" class="button button-primary">Open project and download data</a></p>
+<p><a class="button button-primary" href="https://www.openicpsr.org/openicpsr/project/247312/version/V1/view">Open dataset and documentation</a></p>
 </section>
 </div>
 </div>
 <div class="page-section alt-section">
-<div id="european-bilateral-trade-geography" class="dataset-feature">
+<div class="dataset-feature" id="european-bilateral-trade-geography">
 <div class="dataset-kicker">
-<p><span>Project 02</span><span>Annual · Europe · 1927–1938</span></p>
+<p><span>Dataset 02</span><span>Annual · Europe · 1927–1938</span></p>
 </div>
-<section id="commercial-hysteresis-in-european-trade" class="level2">
-<h2 class="anchored" data-anchor-id="commercial-hysteresis-in-european-trade">Commercial Hysteresis in European Trade</h2>
+<section class="level2" id="european-bilateral-trade-19271938">
+<h2 class="anchored" data-anchor-id="european-bilateral-trade-19271938">European bilateral trade, 1927–1938</h2>
+<p><strong>Dataset:</strong> Commercial Hysteresis: Persistence and Reorganization in Europe’s Bilateral Trade Geography during the Great Depression.</p>
 <p class="dataset-summary">
 A bilateral panel for tracing persistence, destruction, and reorganisation in Europe’s commercial relationships across the Great Depression.
 </p>
@@ -264,7 +229,7 @@ A bilateral panel for tracing persistence, destruction, and reorganisation in Eu
 </div>
 </div>
 <div class="dataset-columns">
-<section id="research-use-1" class="level3">
+<section class="level3" id="research-use-1">
 <h3 class="anchored" data-anchor-id="research-use-1">Research use</h3>
 <ul>
 <li>separating aggregate trade collapse from link-level persistence;</li>
@@ -273,27 +238,38 @@ A bilateral panel for tracing persistence, destruction, and reorganisation in Eu
 <li>studying the effects of exchange and clearing regimes.</li>
 </ul>
 </section>
-<section id="unit-of-observation" class="level3">
+<section class="level3" id="unit-of-observation">
 <h3 class="anchored" data-anchor-id="unit-of-observation">Unit of observation</h3>
 <p>The core unit is the directional country-pair-year. That structure permits exporter, importer, pair, and time effects while preserving the geography of commercial adjustment.</p>
 </section>
 </div>
-<p><a href="https://doi.org/10.3886/E247132V2" class="button button-primary">Open project and download data</a></p>
+<p><a class="button button-primary" href="https://doi.org/10.3886/E247132V2">Open dataset · DOI 10.3886/E247132V2</a></p>
 </section>
 </div>
 </div>
 <div class="page-section">
 <div class="dataset-feature">
 <div class="dataset-kicker">
-<p><span>Project 03</span><span>Annual · Europe · 1927–1938</span></p>
+<p><span>Dataset 03</span><span>Monthly · Europe · 1925–1936</span></p>
 </div>
-<section id="nordic-trade-resilience" class="level2">
-<h2 class="anchored" data-anchor-id="nordic-trade-resilience">Nordic Trade Resilience</h2>
+<section class="level2" id="the-missing-j">
+<h2 class="anchored" data-anchor-id="the-missing-j">The Missing J</h2>
 <p class="dataset-summary">
-Public replication materials for “Reassessing Nordic Trade Resilience during the Great Depression: A Bilateral Decomposition of European Trade Flows, 1927–1938.”
+The Missing J in Interwar Europe: A Monthly Cliometric Dataset on Effective Exchange Rates and Trade-Balance Adjustment, 1925–1936.
 </p>
-<p>The project examines Nordic trade performance within the wider reorganisation of European bilateral commerce during the Great Depression. The openICPSR deposit provides data and code for the analysis.</p>
-<p><a href="https://doi.org/10.3886/E251239V1" class="button button-primary">Open replication package</a></p>
+<p><strong>Adam Dittrich · openICPSR · 2026</strong></p>
+<p>A monthly European dataset linking exports, imports, prices, economic activity, and exchange rates to the study of trade-balance adjustment. Annual bilateral trade weights drawn from League of Nations trade reports support the construction of effective exchange rates.</p>
+<div class="dataset-columns">
+<section class="level3" id="coverage">
+<h3 class="anchored" data-anchor-id="coverage">Coverage</h3>
+<p>Monthly observations for 1925–1936, with linked annual bilateral trade information. Variable availability and country coverage should be checked in the deposit documentation before building a particular estimation sample.</p>
+</section>
+<section class="level3" id="research-use-2">
+<h3 class="anchored" data-anchor-id="research-use-2">Research use</h3>
+<p>Comparing nominal and real effective exchange rates, tracing the timing of trade-balance responses, and distinguishing exchange-rate adjustment from changes in prices and economic activity.</p>
+</section>
+</div>
+<p><a class="button button-primary" href="https://doi.org/10.3886/E251239V1">Open dataset · DOI 10.3886/E251239V1</a></p>
 </section>
 </div>
 </div>
@@ -301,27 +277,27 @@ Public replication materials for “Reassessing Nordic Trade Resilience during t
 <p class="eyebrow">
 In development
 </p>
-<section id="wider-czechoslovak-data-programme" class="level2">
+<section class="level2" id="wider-czechoslovak-data-programme">
 <h2 class="anchored" data-anchor-id="wider-czechoslovak-data-programme">Wider Czechoslovak data programme</h2>
 <p>The public packages sit within a broader effort to consolidate scattered evidence on the interwar Czechoslovak economy. These components are under active construction and will be released only when their provenance and transformations are sufficiently documented.</p>
 <div class="pipeline-grid">
 <div class="pipeline-card">
 <p><span class="pipeline-status">Building</span></p>
-<section id="monthly-macro-financial-database" class="level3">
+<section class="level3" id="monthly-macro-financial-database">
 <h3 class="anchored" data-anchor-id="monthly-macro-financial-database">Monthly macro-financial database</h3>
 <p>Central-bank balance sheets, currency and reserves, prices, industrial activity, labour-market indicators, trade, and bilateral exchange rates.</p>
 </section>
 </div>
 <div class="pipeline-card">
 <p><span class="pipeline-status">Reconstructing</span></p>
-<section id="agricultural-output-and-national-income" class="level3">
+<section class="level3" id="agricultural-output-and-national-income">
 <h3 class="anchored" data-anchor-id="agricultural-output-and-national-income">Agricultural output and national income</h3>
 <p>Crop quantities, livestock, prices, value added, and explicit assumptions for linking sectoral reconstruction to broader output estimates.</p>
 </section>
 </div>
 <div class="pipeline-card">
 <p><span class="pipeline-status">Harmonising</span></p>
-<section id="district-level-czechoslovakia" class="level3">
+<section class="level3" id="district-level-czechoslovakia">
 <h3 class="anchored" data-anchor-id="district-level-czechoslovakia">District-level Czechoslovakia</h3>
 <p>Population, occupational structure, social and political indicators, and electoral outcomes for the 1920s and 1930s.</p>
 </section>
@@ -333,37 +309,34 @@ In development
 <p class="eyebrow light">
 Replication principles
 </p>
-<section id="a-dataset-should-expose-its-judgement-calls" class="level2">
+<section class="level2" id="a-dataset-should-expose-its-judgement-calls">
 <h2 class="anchored" data-anchor-id="a-dataset-should-expose-its-judgement-calls">A dataset should expose its judgement calls</h2>
 <div class="principles-grid">
-<section id="provenance" class="level3">
+<section class="level3" id="provenance">
 <h3 class="anchored" data-anchor-id="provenance">Provenance</h3>
 <p>Every series should be traceable to an archival table, statistical publication, or documented secondary reconstruction.</p>
 </section>
-<section id="transformations" class="level3">
+<section class="level3" id="transformations">
 <h3 class="anchored" data-anchor-id="transformations">Transformations</h3>
 <p>Deflation, interpolation, seasonal adjustment, harmonisation, and index construction should be visible rather than buried.</p>
 </section>
-<section id="uncertainty" class="level3">
+<section class="level3" id="uncertainty">
 <h3 class="anchored" data-anchor-id="uncertainty">Uncertainty</h3>
 <p>Alternative assumptions and fragile links belong in the package, not only in private working files.</p>
 </section>
-<section id="versioning" class="level3">
+<section class="level3" id="versioning">
 <h3 class="anchored" data-anchor-id="versioning">Versioning</h3>
 <p>Stable repositories and versioned DOIs make it possible to distinguish a cited release from later improvements.</p>
 </section>
 </div>
 </section>
 </div>
-<section id="questions-about-czechoslovak-historical-data" class="level2 closing-cta compact">
+<section class="level2 closing-cta compact" id="questions-about-czechoslovak-historical-data">
 <h2 class="anchored" data-anchor-id="questions-about-czechoslovak-historical-data">Questions about Czechoslovak historical data?</h2>
-<p><a href="./contact.html" class="button button-primary">Discuss data or collaboration</a></p>
+<p><a class="button button-primary" href="contact.html">Discuss data or collaboration</a></p>
 </section>
-
-
-
 </main> <!-- /main -->
-<script src="assets/js/site.js" defer=""></script>
+<script defer="" src="assets/js/site.js"></script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -771,51 +744,47 @@ Replication principles
   </script>
 </div> <!-- /content -->
 <footer class="footer">
-  <div class="nav-footer">
-    <div class="nav-footer-left">
+<div class="nav-footer">
+<div class="nav-footer-left">
 <p>© 2026 Adam Dittrich</p>
-</div>   
-    <div class="nav-footer-center">
+</div>
+<div class="nav-footer-center">
 <p>Economic history · Monetary history · Interwar Central Europe</p>
 </div>
-    <div class="nav-footer-right">
-      <ul class="footer-items list-unstyled">
-    <li class="nav-item compact">
-    <a class="nav-link" href="mailto:adam.dittrich@vse.cz">
-      <i class="bi bi-envelope" role="img" aria-label="Email">
-</i> 
-    </a>
-  </li>  
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://scholar.google.com/citations?hl=en&amp;user=w20HpZcAAAAJ">
-      <i class="bi bi-mortarboard" role="img" aria-label="Google Scholar">
-</i> 
-    </a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="https://orcid.org/0000-0002-7803-1339">
+<div class="nav-footer-right">
+<ul class="footer-items list-unstyled">
+<li class="nav-item compact">
+<a class="nav-link" href="mailto:adam.dittrich@vse.cz">
+<i aria-label="Email" class="bi bi-envelope" role="img">
+</i>
+</a>
+</li>
+<li class="nav-item compact">
+<a class="nav-link" href="https://scholar.google.com/citations?hl=en&amp;user=w20HpZcAAAAJ">
+<i aria-label="Google Scholar" class="bi bi-mortarboard" role="img">
+</i>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="https://orcid.org/0000-0002-7803-1339">
 <p>ORCID</p>
 </a>
-  </li>  
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/adamdittrich">
-      <i class="bi bi-github" role="img" aria-label="GitHub">
-</i> 
-    </a>
-  </li>  
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/adam-dittrich-3644b219a/">
-      <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
-</i> 
-    </a>
-  </li>  
+</li>
+<li class="nav-item compact">
+<a class="nav-link" href="https://github.com/adamdittrich">
+<i aria-label="GitHub" class="bi bi-github" role="img">
+</i>
+</a>
+</li>
+<li class="nav-item compact">
+<a class="nav-link" href="https://www.linkedin.com/in/adam-dittrich-3644b219a/">
+<i aria-label="LinkedIn" class="bi bi-linkedin" role="img">
+</i>
+</a>
+</li>
 </ul>
-    </div>
-  </div>
+</div>
+</div>
 </footer>
-
-
-
-
 <script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

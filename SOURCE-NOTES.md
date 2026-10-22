@@ -1,25 +1,21 @@
-# Content sources — updated 21 October 2026
+# Source notes — revision 3, 21 October 2026
 
-## Primary personal source
+The public profile was reconciled with the author's corrections on 21 October
+2026 and the October 2026 academic CV. The downloadable public CV and web CV
+have been updated together. Teaching start dates are author-confirmed.
 
-Adam_Dittrich_Academic_CV_October_2026.pdf, created 16 October 2026: the general academic CV prepared for broad use/COST. The PDF is included unchanged as `assets/files/Adam-Dittrich-CV.pdf`. This supersedes the earlier IOS-specific CV.
+Conference presentations were checked against the official 2025 Prague and
+2026 University of South Bohemia programmes. They are listed separately from
+published proceedings. Czech titles carry English translations in square
+brackets; English translations are explanatory unless supplied by the organiser.
 
-Adam directly confirmed on 21 October 2026 that his PhD was completed in September 2026. His GitHub screenshot identifies the account as `adamdittrich`.
+Publication metadata was checked against publisher and university records.
+Data records were checked against the ICPSR catalogue. Dataset identifiers,
+publication status and archive availability are distinct facts; a repository
+record is not evidence that a manuscript has been published or accepted.
 
-## Public corroboration
+The bibliography exports publications, working papers, manuscripts, datasets,
+and presentations using distinct entry types. The KNOWCON DOI is the volume
+DOI, not a separately assigned DOI for the individual contribution.
 
-- Appointment from 1 September 2026: <https://nf.vse.cz/aktuality/vitejte-na-palube-nove-posily-akademickeho-tymu/>
-- Personal departmental profile, ORCID, teaching codes and publication record: <https://khd.vse.cz/ing-adam-dittrich/>
-- Czech course title for 55F112: <https://knihovna.vse.cz/literatura-k-predmetum/zakladni/55F112/>
-- Existing public HAL/RePEc and openICPSR links retained from the original project. Nordic replication DOI 10.3886/E251239V1 added from the October CV.
-
-## Editorial decisions
-
-- Current PhD status follows Adam's confirmation and October CV; the departmental page was last updated before the defence and still contains older doctoral wording.
-- The Statistika article is forthcoming, without an invented volume, issue, pages or DOI.
-- The sugar-tax article is accepted, with publication expected in 2027, as stated in the October CV.
-- Web manuscript entries use descriptive research statuses rather than prospective journal destinations. The downloadable full CV is unchanged.
-- Teaching headings follow the English labels in the October CV; the fuller official Czech title of 55F112 is supplied on the teaching page.
-- The existing design and research material have been retained while adding verified CV updates.
-
-This file is project documentation; `_quarto.yml` limits rendering to `.qmd` pages.
+No private journal-submission targets or editorial decisions are displayed.

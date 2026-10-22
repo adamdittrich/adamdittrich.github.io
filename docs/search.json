@@ -1,206 +1,283 @@
 [
   {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Teaching\n\n\n\n\nI teach economic history, introductory microeconomics, and the preparation and defence of academic work at Prague University of Economics and Business. My classes connect concepts with evidence through discussion, worked examples, and graphs."
-  },
-  {
-    "objectID": "teaching.html#economic-history",
-    "href": "teaching.html#economic-history",
-    "title": "Teaching",
-    "section": "Economic History",
-    "text": "Economic History\nPrague University of Economics and Business\nDepartment of Economic History\nThe course introduces the long-run transformation of economic institutions and the historical foundations of modern growth, industrialisation, monetary systems, crises, and economic policy. My teaching contribution links historical narrative to the interpretation of evidence and economic mechanisms.\nCourse environment"
-  },
-  {
-    "objectID": "teaching.html#foundations-of-microeconomics",
-    "href": "teaching.html#foundations-of-microeconomics",
-    "title": "Teaching",
-    "section": "Foundations of Microeconomics",
-    "text": "Foundations of Microeconomics\nZáklady mikroekonomie\nPrague University of Economics and Business\nSeminars on consumer choice, production and costs, firm behaviour, and market structure. I use worked calculations, diagrams, and short exercises to help students connect economic concepts with concrete decisions.\nInstitutional teaching profile"
-  },
-  {
-    "objectID": "teaching.html#defence-of-an-academic-paper",
-    "href": "teaching.html#defence-of-an-academic-paper",
-    "title": "Teaching",
-    "section": "Defence of an Academic Paper",
-    "text": "Defence of an Academic Paper\nPsaní a obhajoba odborné práce\nPrague University of Economics and Business\nDeveloping a research question, working with sources, building a clear argument, and presenting and defending academic work.\nCourse information and reading"
-  },
-  {
-    "objectID": "teaching.html#areas-i-can-teach",
-    "href": "teaching.html#areas-i-can-teach",
-    "title": "Teaching",
-    "section": "Areas I can teach",
-    "text": "Areas I can teach\n\n\nEuropean economic history\nIndustrialisation, globalisation, war, depression, reconstruction, and changing forms of state intervention from the nineteenth century onward.\n\n\nMonetary and financial history\nGold standards, central banks, banking crises, exchange-rate regimes, inflation, deflation, and the political economy of credibility.\n\n\nHistory of economic thought\nCompeting traditions of value, causality, equilibrium, teleology, and economic order, with particular attention to Central Europe.\n\n\nCliometrics and historical data\nTurning archival categories into analysable evidence; interpreting regressions historically; communicating uncertainty and sensitivity."
-  },
-  {
-    "objectID": "teaching.html#three-habits-i-want-students-to-acquire",
-    "href": "teaching.html#three-habits-i-want-students-to-acquire",
-    "title": "Teaching",
-    "section": "Three habits I want students to acquire",
-    "text": "Three habits I want students to acquire"
-  },
-  {
-    "objectID": "teaching.html#student-research",
-    "href": "teaching.html#student-research",
-    "title": "Teaching",
-    "section": "Student research",
-    "text": "Student research\nI am especially interested in student projects that combine a clearly bounded historical problem with careful source work: central-bank policy, banking and financial institutions, international trade, interwar Czechoslovakia, historical statistics, or Czech economic thought.\nA good project need not begin with sophisticated econometrics. It should begin with a question for which the available evidence can distinguish among competing explanations."
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications & Papers",
-    "section": "",
-    "text": "Publications & papers\n\n\n\n\nJournal articles, conference proceedings, working papers, and research manuscripts in economic history and the history of economic thought. Public versions and replication materials are linked below."
-  },
-  {
-    "objectID": "publications.html#forthcoming-and-accepted",
-    "href": "publications.html#forthcoming-and-accepted",
-    "title": "Publications & Papers",
-    "section": "Forthcoming and accepted",
-    "text": "Forthcoming and accepted"
-  },
-  {
-    "objectID": "publications.html#published-journal-articles",
-    "href": "publications.html#published-journal-articles",
-    "title": "Publications & Papers",
-    "section": "Published journal articles",
-    "text": "Published journal articles"
-  },
-  {
-    "objectID": "publications.html#conference-proceedings",
-    "href": "publications.html#conference-proceedings",
-    "title": "Publications & Papers",
-    "section": "Conference proceedings",
-    "text": "Conference proceedings"
-  },
-  {
-    "objectID": "publications.html#public-working-papers",
-    "href": "publications.html#public-working-papers",
-    "title": "Publications & Papers",
-    "section": "Public working papers",
-    "text": "Public working papers"
-  },
-  {
-    "objectID": "publications.html#research-papers-with-open-data",
-    "href": "publications.html#research-papers-with-open-data",
-    "title": "Publications & Papers",
-    "section": "Research papers with open data",
-    "text": "Research papers with open data"
-  },
-  {
-    "objectID": "publications.html#research-manuscripts",
-    "href": "publications.html#research-manuscripts",
-    "title": "Publications & Papers",
-    "section": "Other research manuscripts",
-    "text": "Other research manuscripts"
-  },
-  {
-    "objectID": "publications.html#projects-in-development",
-    "href": "publications.html#projects-in-development",
-    "title": "Publications & Papers",
-    "section": "Projects in development",
-    "text": "Projects in development"
-  },
-  {
-    "objectID": "publications.html#other-research-profiles",
-    "href": "publications.html#other-research-profiles",
-    "title": "Publications & Papers",
-    "section": "Other research profiles",
-    "text": "Other research profiles\nGoogle Scholar ORCID RePEc GitHub Data repositories Institutional profile"
-  },
-  {
-    "objectID": "data.html",
-    "href": "data.html",
-    "title": "Data & Replication",
-    "section": "",
-    "text": "Data & replication\n\n\n\n\nHistorical data construction is part of the substantive contribution. Each public project documents coverage, source logic, transformations, and limitations so that the evidence can be inspected beyond a single regression table."
-  },
-  {
-    "objectID": "data.html#measuring-financial-stress-under-the-gold-standard",
-    "href": "data.html#measuring-financial-stress-under-the-gold-standard",
-    "title": "Data & Replication",
-    "section": "Measuring Financial Stress under the Gold Standard",
-    "text": "Measuring Financial Stress under the Gold Standard\n\nA monthly dataset and composite index designed to recover the chronology of monetary, banking, and macro-financial pressure in interwar Czechoslovakia.\n\n\n\n11 component indicators\n\n\n107 monthly observations\n\n\n1929:11 series begins\n\n\n1938:09 series ends\n\n\n\n\nResearch use\n\nidentifying distinct phases of financial pressure;\ncomparing market, monetary, and real-economy chronologies;\nevaluating conventional dates assigned to the Czechoslovak Depression;\nstudying monetary defence before and after devaluation.\n\n\n\nPackage contents\n\nunderlying monthly indicators;\ntransformed and standardised series;\ncomposite financial-stress measure;\ndocumentation and replication materials;\ntransparent versioned DOI.\n\n\n\nOpen project and download data"
-  },
-  {
-    "objectID": "data.html#commercial-hysteresis-in-european-trade",
-    "href": "data.html#commercial-hysteresis-in-european-trade",
-    "title": "Data & Replication",
-    "section": "Commercial Hysteresis in European Trade",
-    "text": "Commercial Hysteresis in European Trade\n\nA bilateral panel for tracing persistence, destruction, and reorganisation in Europe’s commercial relationships across the Great Depression.\n\n\n\n21 European economies\n\n\n12 annual cross-sections\n\n\n1927 pre-crisis benchmark\n\n\n1938 late-interwar endpoint\n\n\n\n\nResearch use\n\nseparating aggregate trade collapse from link-level persistence;\nmapping partner substitution and regional reorientation;\nestimating intensive- and extensive-margin adjustment;\nstudying the effects of exchange and clearing regimes.\n\n\n\nUnit of observation\nThe core unit is the directional country-pair-year. That structure permits exporter, importer, pair, and time effects while preserving the geography of commercial adjustment.\n\n\nOpen project and download data"
-  },
-  {
-    "objectID": "data.html#nordic-trade-resilience",
-    "href": "data.html#nordic-trade-resilience",
-    "title": "Data & Replication",
-    "section": "Nordic Trade Resilience",
-    "text": "Nordic Trade Resilience\n\nPublic replication materials for “Reassessing Nordic Trade Resilience during the Great Depression: A Bilateral Decomposition of European Trade Flows, 1927–1938.”\n\nThe project examines Nordic trade performance within the wider reorganisation of European bilateral commerce during the Great Depression. The openICPSR deposit provides data and code for the analysis.\nOpen replication package"
-  },
-  {
-    "objectID": "data.html#wider-czechoslovak-data-programme",
-    "href": "data.html#wider-czechoslovak-data-programme",
-    "title": "Data & Replication",
-    "section": "Wider Czechoslovak data programme",
-    "text": "Wider Czechoslovak data programme\nThe public packages sit within a broader effort to consolidate scattered evidence on the interwar Czechoslovak economy. These components are under active construction and will be released only when their provenance and transformations are sufficiently documented.\n\n\nBuilding\n\nMonthly macro-financial database\nCentral-bank balance sheets, currency and reserves, prices, industrial activity, labour-market indicators, trade, and bilateral exchange rates.\n\n\n\nReconstructing\n\nAgricultural output and national income\nCrop quantities, livestock, prices, value added, and explicit assumptions for linking sectoral reconstruction to broader output estimates.\n\n\n\nHarmonising\n\nDistrict-level Czechoslovakia\nPopulation, occupational structure, social and political indicators, and electoral outcomes for the 1920s and 1930s."
-  },
-  {
-    "objectID": "data.html#a-dataset-should-expose-its-judgement-calls",
-    "href": "data.html#a-dataset-should-expose-its-judgement-calls",
-    "title": "Data & Replication",
-    "section": "A dataset should expose its judgement calls",
-    "text": "A dataset should expose its judgement calls\n\n\nProvenance\nEvery series should be traceable to an archival table, statistical publication, or documented secondary reconstruction.\n\n\nTransformations\nDeflation, interpolation, seasonal adjustment, harmonisation, and index construction should be visible rather than buried.\n\n\nUncertainty\nAlternative assumptions and fragile links belong in the package, not only in private working files.\n\n\nVersioning\nStable repositories and versioned DOIs make it possible to distinguish a cited release from later improvements."
-  },
-  {
-    "objectID": "data.html#questions-about-czechoslovak-historical-data",
-    "href": "data.html#questions-about-czechoslovak-historical-data",
-    "title": "Data & Replication",
-    "section": "Questions about Czechoslovak historical data?",
-    "text": "Questions about Czechoslovak historical data?\nDiscuss data or collaboration"
-  },
-  {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "Contact\n\n\n\n\nI welcome research exchange on interwar monetary and financial history, Czechoslovak sources, historical macroeconomic data, international trade, and the history of economic thought.\n\nadam.dittrich@vse.cz\n\nResearch collaboration Historical data Seminars and conferences Media and public discussion\n\n\n\n\n\nAffiliation\n\n\n\nAdam Dittrich, PhD\nAssistant Professor\nDepartment of Economic History\nFaculty of Economics\nW. Churchill Sq. 1938/4\n130 67 Prague 3\nCzech Republic\n\nInstitutional profile ORCID GitHub Google Scholar RePEc LinkedIn"
+    "text": "Contact Let’s discuss economic history I welcome research exchange on interwar monetary and financial history, Czechoslovak sources, historical macroeconomic data, international trade, and the history of economic thought. adam.dittrich@vse.cz Research collaboration Historical data Seminars and conferences Media and public discussion Affiliation Prague University of Economics and Business Adam Dittrich, PhD Assistant Professor Department of Economic History Faculty of Economics W. Churchill Sq. 1938/4 130 67 Prague 3 Czech Republic Institutional profile ORCID GitHub Google Scholar RePEc LinkedIn A note on data enquiries For questions about a public replication package, please include the project title, DOI, file name, and—where relevant—the variable or observation at issue. This makes it much easier to give a precise answer."
+  },
+  {
+    "objectID": "contact.html#lets-discuss-economic-history",
+    "href": "contact.html#lets-discuss-economic-history",
+    "title": "Contact",
+    "section": "Let’s discuss economic history",
+    "text": "Let’s discuss economic history I welcome research exchange on interwar monetary and financial history, Czechoslovak sources, historical macroeconomic data, international trade, and the history of economic thought. adam.dittrich@vse.cz Research collaboration Historical data Seminars and conferences Media and public discussion"
   },
   {
     "objectID": "contact.html#prague-university-of-economics-and-business",
     "href": "contact.html#prague-university-of-economics-and-business",
     "title": "Contact",
-    "section": "",
-    "text": "Adam Dittrich, PhD\nAssistant Professor\nDepartment of Economic History\nFaculty of Economics\nW. Churchill Sq. 1938/4\n130 67 Prague 3\nCzech Republic\n\nInstitutional profile ORCID GitHub Google Scholar RePEc LinkedIn"
+    "section": "Prague University of Economics and Business",
+    "text": "Prague University of Economics and Business Adam Dittrich, PhD Assistant Professor Department of Economic History Faculty of Economics W. Churchill Sq. 1938/4 130 67 Prague 3 Czech Republic Institutional profile ORCID GitHub Google Scholar RePEc LinkedIn"
   },
   {
     "objectID": "contact.html#a-note-on-data-enquiries",
     "href": "contact.html#a-note-on-data-enquiries",
     "title": "Contact",
     "section": "A note on data enquiries",
-    "text": "A note on data enquiries\nFor questions about a public replication package, please include the project title, DOI, file name, and—where relevant—the variable or observation at issue. This makes it much easier to give a precise answer."
+    "text": "A note on data enquiries For questions about a public replication package, please include the project title, DOI, file name, and—where relevant—the variable or observation at issue. This makes it much easier to give a precise answer."
   },
   {
     "objectID": "cv.html",
     "href": "cv.html",
     "title": "Curriculum Vitae",
     "section": "",
-    "text": "Curriculum vitae · October 2026\n\n\nAdam Dittrich, PhD\n\nAssistant Professor in the Department of Economic History at Prague University of Economics and Business. I work on monetary and financial history, interwar Central Europe, cliometrics, and the history of economic thought.\n\n\nDownload full CV (PDF) Email\n\n\n\n\n\n\nContact\nadam.dittrich@vse.cz\nDepartment of Economic History\nFaculty of Economics\nPrague University of Economics and Business\nW. Churchill Sq. 1938/4\n130 67 Prague 3\nCzech Republic\n\n\nProfiles\nORCID 0000-0002-7803-1339\nGoogle Scholar\nRePEc\nInstitutional profile\nGitHub\nLinkedIn\n\n\nResearch fields\nMonetary and financial history\nInterwar Central Europe\nCliometrics\nInternational trade\nHistorical national accounts\nHistory of economic thought\n\n\nSoftware\nR · Stata · Python\nAdditional experience: EViews · MATLAB\n\n\nLanguages\nCzech — native\nEnglish — fluent\nGerman — elementary/intermediate\n\n\nMemberships\nEconomic History Society\nEconomic History Association\nCzech Economic Society\n\n\n\n\n\nAcademic appointment\n\n\n\nSep 2026–present\n\n\nAssistant ProfessorDepartment of Economic History, Faculty of Economics, Prague University of Economics and Business.\n\n\n\n\n\nEducation\n\n\n\nSep 2026\n\n\nPhD in Economic HistoryPrague University of Economics and Business.Dissertation: Apriorism in Czech Economics and Its Influence on Czechoslovak Economic History.Defended 29 September 2026. Supervisor: Ján Pavlík.\n\n\n\n\n2021\n\n\nIng. in Finance (master’s degree)Faculty of Finance and Accounting, Prague University of Economics and Business.Minor: Financial Engineering.\n\n\n\n\n2019\n\n\nBc. in FinancePrague University of Economics and Business.\n\n\n\n\n\nPublished and forthcoming articles\n\n\n\nForthcoming\n\n\nDittrich, Adam. “The Crown Against the World: Reconstructing Czechoslovakia’s Effective Exchange Rates, 1920–1938.” Statistika: Statistics and Economy Journal.\n\n\n\n\nAccepted\n\n\nDittrich, Adam. “Spor o cukerní daň roku 1928: Karel Engliš a Gustav Heidler.” Listy cukrovarnické a řepařské. Publication expected in 2027.\n\n\n\n\n2025\n\n\nRytina, Jiří; Adam Dittrich; and Jakub Drábek. “Historický vztah československého cukrovarnického průmyslu k sociální problematice na příkladu penze: Sociálně solidární cíle mezi lety 1918 až 1926 jako výsledek negativní časové preference.” Listy cukrovarnické a řepařské 141(9–10): 320–322.\n\n\n\n\n2025\n\n\nDittrich, Adam; Jiří Rytina; and Jakub Drábek. “Cukrovarnický průmysl versus deflační politika: Konflikt hospodářských zájmů v meziválečném Československu.” Listy cukrovarnické a řepařské 141(7–8): 260–264.\n\n\n\n\n2023\n\n\nDittrich, Adam. “Karel Engliš as the Governor of the Czechoslovakian National Bank (1934–1939).” Revista Română de Studii Eurasiatice 19(1–2): 105–124.\n\n\n\n\n\nConference proceedings\n\n\n\n2025\n\n\nDittrich, Adam. “Efektivní směnné kurzy Československa 1925–1936: rekonstrukce, dekompozice a efekt devalvace.” In O. Roubal (ed.), Konference doktorandů na Vysoké škole finanční a správní 2025. Prague: VŠFS, pp. 26–40. DOI: 10.37355/KD-2025-02.\n\n\n\n\n2024\n\n\nDittrich, Adam. “Russian Crisis of 1998.” In M. Müller and P. Slavíčková (eds.), KNOWCON 2024: Knowledge on Economics and Management Conference Proceedings. Olomouc: Palacký University Olomouc, pp. 26–32.\n\n\n\n\n\nTeaching\n\n\n\n2026/27\n\n\nEconomic History (5HD200)Foundations of Microeconomics (5EN102)Defence of an Academic Paper (55F112)Prague University of Economics and Business. Course details.\n\n\n\n\n\nResearch and data\n\n\n\nNational accounts\n\n\nCzechoslovak contribution to a comparative Central and Eastern European GDP-reconstruction project with Matthias Morys and Marcin Wroński, focusing on agricultural output and value added, prices, intermediate inputs, and cross-country comparability.\n\n\n\n\nMonetary history\n\n\nReconstruction of monthly Czechoslovak monetary and macroeconomic series from National Bank reports, 1926–1938, alongside comparative European sources.\n\n\n\n\nOpen research\n\n\nPublic replication projects on Czechoslovak financial stress, European bilateral trade, and Nordic trade resilience. Data and replication packages.\n\n\n\n\nManuscripts\n\n\nCurrent research on monetary defence, trade adjustment, labour markets, historical national accounts, and Czech economic thought. Publications and current papers.\n\n\n\n\n\nSelected research projects\n\n\n\nSince 2026\n\n\nResearch team member. Frontiers in Empirical Economics: Causal Analysis of Historical Policies, Behavioral Preferences, and Sectoral Resilience.\n\n\n\n\nSince 2025\n\n\nResearch team member. Economic Theory and Social Policy in Interwar Czechoslovakia.\n\n\n\n\n2022–2023\n\n\nProject lead. Engliš’s Monetary Theory and Practice at the Head of the Czechoslovak National Bank. Internal university research project.\n\n\n\n\n\nMethods and training\n\n\nHistorical source criticism; archival, parliamentary and press research; central-bank balance-sheet reconstruction; index construction and decomposition; time-series and panel econometrics; PPML and gravity models; event studies; synthetic control and comparative counterfactual analysis.\n\n\n\n2025\n\n\nInternational Monetary Fund training: Monetary Policy Analysis and Forecasting.\n\n\n\n\n2023\n\n\nInternational Monetary Fund training: Macroeconomic Forecasting."
+    "text": "Curriculum vitae · October 2026 Adam Dittrich, PhD Assistant Professor in the Department of Economic History at Prague University of Economics and Business. I work on monetary and financial history, interwar Central Europe, cliometrics, and the history of economic thought. Download full CV (PDF) Email Contact adam.dittrich@vse.cz Department of Economic History Faculty of Economics Prague University of Economics and Business W. Churchill Sq. 1938/4 130 67 Prague 3 Czech Republic Profiles ORCID 0000-0002-7803-1339 Google Scholar RePEc Institutional profile GitHub LinkedIn Research fields Monetary and financial history Interwar Central Europe Cliometrics International trade Historical national accounts History of economic thought Software R · Stata · Python Additional experience: EViews · MATLAB Languages Czech — native English — fluent German — elementary/intermediate Memberships Economic History Society Economic History Association Czech Economic Society Academic appointment Sep 2026–present Assistant Professor Department of Economic History, Faculty of Economics, Prague University of Economics and Business. Education Sep 2026 PhD in Economic History Prague University of Economics and Business. Dissertation: Apriorism in Czech Economics and Its Influence on Czechoslovak Economic History. Defended 29 September 2026. Supervisor: Ján Pavlík. 2021 Ing. in Finance (master’s degree) Faculty of Finance and Accounting, Prague University of Economics and Business. Minor: Financial Engineering. 2019 Bc. in Finance Prague University of Economics and Business. Published and forthcoming articles Forthcoming Dittrich, Adam. “The Crown Against the World: Reconstructing Czechoslovakia’s Effective Exchange Rates, 1920–1938.” Statistika: Statistics and Economy Journal. Accepted Dittrich, Adam. “Spor o cukerní daň roku 1928: Karel Engliš a Gustav Heidler [The 1928 Sugar-Tax Dispute: Karel Engliš and Gustav Heidler].” Listy cukrovarnické a řepařské [Czech Sugar and Sugar Beet Journal]. Publication expected in 2027. 2025 Rytina, Jiří; Adam Dittrich; and Jakub Drábek. “Historický vztah československého cukrovarnického průmyslu k sociální problematice na příkladu penze: Sociálně solidární cíle mezi lety 1918 až 1926 jako výsledek negativní časové preference [The Historical Relationship of the Czechoslovak Sugar Industry to Social Issues: Pensions and Social Solidarity in 1918–1926 as a Result of Negative Time Preference].” Listy cukrovarnické a řepařské [Czech Sugar and Sugar Beet Journal] 141(9–10): 320–322. 2025 Dittrich, Adam; Jiří Rytina; and Jakub Drábek. “Cukrovarnický průmysl versus deflační politika: Konflikt hospodářských zájmů v meziválečném Československu [Sugar Industry versus Deflationary Policy: Conflict of Economic Interests in Interwar Czechoslovakia].” Listy cukrovarnické a řepařské [Czech Sugar and Sugar Beet Journal] 141(7–8): 260–264. 2023 Dittrich, Adam. “Karel Engliš as the Governor of the Czechoslovakian National Bank (1934–1939).” Revista Română de Studii Eurasiatice 19(1–2): 105–124. Published conference proceedings 2025 Dittrich, Adam. “Efektivní směnné kurzy Československa 1925–1936: rekonstrukce, dekompozice a efekt devalvace [Czechoslovakia’s Effective Exchange Rates, 1925–1936: Reconstruction, Decomposition and the Effect of Devaluation].” In O. Roubal (ed.), Konference doktorandů na Vysoké škole finanční a správní 2025 [Doctoral Students Conference at the University of Finance and Administration 2025]. Prague: VŠFS, pp. 26–40. Proceedings PDF. DOI: 10.37355/KD-2025-02. 2024 Dittrich, Adam. “Russian Crisis of 1998.” In M. Müller and P. Slavíčková (eds.), KNOWCON 2024: Knowledge on Economics and Management Conference Proceedings. Olomouc: Palacký University Olomouc, pp. 26–32. Proceedings PDF. Conference presentations 16 Oct 2026 Dittrich, Adam; Jiří Rytina; and Jakub Drábek. “Kapacita bez efektivity? Zdravotnická infrastruktura a zdravotní výsledky v socialistickém Československu [Capacity without Effectiveness? Healthcare Infrastructure and Health Outcomes in Socialist Czechoslovakia].” Zdraví a sociální otázky v dějinách: interdisciplinární perspektivy [Health and Social Issues in History: Interdisciplinary Perspectives]. University of South Bohemia, České Budějovice, 15–16 October 2026. Conference programme. 25 Sep 2025 Dittrich, Adam, and Jiří Rytina. “Měnová úprava jako pokrizová obnova: Případová studie československé devalvace v roce 1934 [Monetary Adjustment as Post-Crisis Recovery: A Case Study of the Czechoslovak Devaluation of 1934].” Pokrizová obnova [Post-Crisis Recovery]. National Archives, Prague, 24–26 September 2025. Conference programme. Teaching Prague University of Economics and Business. 2021–present Economic History (5HD200). 2021–present Defence of an Academic Paper (55F112). From 2026/27 Foundations of Microeconomics (5EN102). Research and data National accounts Czechoslovak contribution to a comparative Central and Eastern European GDP-reconstruction project with Matthias Morys and Marcin Wroński, focusing on agricultural output and value added, prices, intermediate inputs, and cross-country comparability. Monetary history Reconstruction of monthly Czechoslovak monetary and macroeconomic series from National Bank reports, 1926–1938, alongside comparative European sources. Open research Public datasets on Czechoslovak financial stress and monthly European exchange-rate and trade-balance adjustment (The Missing J, 1925–1936). Data and replication packages. Manuscripts Current research on monetary defence, trade adjustment, labour markets, historical national accounts, and Czech economic thought. Publications and current papers. Selected research projects Since 2026 Research team member. Frontiers in Empirical Economics: Causal Analysis of Historical Policies, Behavioral Preferences, and Sectoral Resilience. Since 2025 Research team member. Economic Theory and Social Policy in Interwar Czechoslovakia. 2022–2023 Project lead. Engliš’s Monetary Theory and Practice at the Head of the Czechoslovak National Bank. Internal university research project. Methods and training Historical source criticism; archival, parliamentary and press research; central-bank balance-sheet reconstruction; index construction and decomposition; time-series and panel econometrics; PPML and gravity models; event studies; synthetic control and comparative counterfactual analysis. 2025 International Monetary Fund training: Monetary Policy Analysis and Forecasting. 2023 International Monetary Fund training: Macroeconomic Forecasting."
+  },
+  {
+    "objectID": "cv.html#adam-dittrich-phd",
+    "href": "cv.html#adam-dittrich-phd",
+    "title": "Curriculum Vitae",
+    "section": "Adam Dittrich, PhD",
+    "text": "Adam Dittrich, PhD Assistant Professor in the Department of Economic History at Prague University of Economics and Business. I work on monetary and financial history, interwar Central Europe, cliometrics, and the history of economic thought. Download full CV (PDF) Email"
+  },
+  {
+    "objectID": "cv.html#contact",
+    "href": "cv.html#contact",
+    "title": "Curriculum Vitae",
+    "section": "Contact",
+    "text": "Contact adam.dittrich@vse.cz Department of Economic History Faculty of Economics Prague University of Economics and Business W. Churchill Sq. 1938/4 130 67 Prague 3 Czech Republic"
+  },
+  {
+    "objectID": "cv.html#profiles",
+    "href": "cv.html#profiles",
+    "title": "Curriculum Vitae",
+    "section": "Profiles",
+    "text": "Profiles ORCID 0000-0002-7803-1339 Google Scholar RePEc Institutional profile GitHub LinkedIn"
+  },
+  {
+    "objectID": "cv.html#research-fields",
+    "href": "cv.html#research-fields",
+    "title": "Curriculum Vitae",
+    "section": "Research fields",
+    "text": "Research fields Monetary and financial history Interwar Central Europe Cliometrics International trade Historical national accounts History of economic thought"
+  },
+  {
+    "objectID": "cv.html#software",
+    "href": "cv.html#software",
+    "title": "Curriculum Vitae",
+    "section": "Software",
+    "text": "Software R · Stata · Python Additional experience: EViews · MATLAB"
+  },
+  {
+    "objectID": "cv.html#languages",
+    "href": "cv.html#languages",
+    "title": "Curriculum Vitae",
+    "section": "Languages",
+    "text": "Languages Czech — native English — fluent German — elementary/intermediate"
+  },
+  {
+    "objectID": "cv.html#memberships",
+    "href": "cv.html#memberships",
+    "title": "Curriculum Vitae",
+    "section": "Memberships",
+    "text": "Memberships Economic History Society Economic History Association Czech Economic Society"
+  },
+  {
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "Data & Replication",
+    "section": "",
+    "text": "Data & replication Evidence designed to be reused Historical data construction is part of the substantive contribution. Each public project documents coverage, source logic, transformations, and limitations so that the evidence can be inspected beyond a single regression table. Dataset 01 Monthly · Czechoslovakia · 1929–1938 Measuring Financial Stress under the Gold Standard A monthly dataset and composite index designed to recover the chronology of monetary, banking, and macro-financial pressure in interwar Czechoslovakia. 11 component indicators 107 monthly observations 1929:11 series begins 1938:09 series ends Research use identifying distinct phases of financial pressure; comparing market, monetary, and real-economy chronologies; evaluating conventional dates assigned to the Czechoslovak Depression; studying monetary defence before and after devaluation. Package contents underlying monthly indicators; transformed and standardised series; composite financial-stress measure; documentation and replication materials; transparent versioned DOI. Open dataset and documentation Dataset 02 Annual · Europe · 1927–1938 European bilateral trade, 1927–1938 Dataset: Commercial Hysteresis: Persistence and Reorganization in Europe’s Bilateral Trade Geography during the Great Depression. A bilateral panel for tracing persistence, destruction, and reorganisation in Europe’s commercial relationships across the Great Depression. 21 European economies 12 annual cross-sections 1927 pre-crisis benchmark 1938 late-interwar endpoint Research use separating aggregate trade collapse from link-level persistence; mapping partner substitution and regional reorientation; estimating intensive- and extensive-margin adjustment; studying the effects of exchange and clearing regimes. Unit of observation The core unit is the directional country-pair-year. That structure permits exporter, importer, pair, and time effects while preserving the geography of commercial adjustment. Open dataset · DOI 10.3886/E247132V2 Dataset 03 Monthly · Europe · 1925–1936 The Missing J The Missing J in Interwar Europe: A Monthly Cliometric Dataset on Effective Exchange Rates and Trade-Balance Adjustment, 1925–1936. Adam Dittrich · openICPSR · 2026 A monthly European dataset linking exports, imports, prices, economic activity, and exchange rates to the study of trade-balance adjustment. Annual bilateral trade weights drawn from League of Nations trade reports support the construction of effective exchange rates. Coverage Monthly observations for 1925–1936, with linked annual bilateral trade information. Variable availability and country coverage should be checked in the deposit documentation before building a particular estimation sample. Research use Comparing nominal and real effective exchange rates, tracing the timing of trade-balance responses, and distinguishing exchange-rate adjustment from changes in prices and economic activity. Open dataset · DOI 10.3886/E251239V1 In development Wider Czechoslovak data programme The public packages sit within a broader effort to consolidate scattered evidence on the interwar Czechoslovak economy. These components are under active construction and will be released only when their provenance and transformations are sufficiently documented. Building Monthly macro-financial database Central-bank balance sheets, currency and reserves, prices, industrial activity, labour-market indicators, trade, and bilateral exchange rates. Reconstructing Agricultural output and national income Crop quantities, livestock, prices, value added, and explicit assumptions for linking sectoral reconstruction to broader output estimates. Harmonising District-level Czechoslovakia Population, occupational structure, social and political indicators, and electoral outcomes for the 1920s and 1930s. Replication principles A dataset should expose its judgement calls Provenance Every series should be traceable to an archival table, statistical publication, or documented secondary reconstruction. Transformations Deflation, interpolation, seasonal adjustment, harmonisation, and index construction should be visible rather than buried. Uncertainty Alternative assumptions and fragile links belong in the package, not only in private working files. Versioning Stable repositories and versioned DOIs make it possible to distinguish a cited release from later improvements. Questions about Czechoslovak historical data? Discuss data or collaboration"
+  },
+  {
+    "objectID": "data.html#evidence-designed-to-be-reused",
+    "href": "data.html#evidence-designed-to-be-reused",
+    "title": "Data & Replication",
+    "section": "Evidence designed to be reused",
+    "text": "Evidence designed to be reused Historical data construction is part of the substantive contribution. Each public project documents coverage, source logic, transformations, and limitations so that the evidence can be inspected beyond a single regression table."
+  },
+  {
+    "objectID": "data.html#measuring-financial-stress-under-the-gold-standard",
+    "href": "data.html#measuring-financial-stress-under-the-gold-standard",
+    "title": "Data & Replication",
+    "section": "Measuring Financial Stress under the Gold Standard",
+    "text": "Measuring Financial Stress under the Gold Standard A monthly dataset and composite index designed to recover the chronology of monetary, banking, and macro-financial pressure in interwar Czechoslovakia. 11 component indicators 107 monthly observations 1929:11 series begins 1938:09 series ends Research use identifying distinct phases of financial pressure; comparing market, monetary, and real-economy chronologies; evaluating conventional dates assigned to the Czechoslovak Depression; studying monetary defence before and after devaluation. Package contents underlying monthly indicators; transformed and standardised series; composite financial-stress measure; documentation and replication materials; transparent versioned DOI. Open dataset and documentation"
+  },
+  {
+    "objectID": "data.html#research-use",
+    "href": "data.html#research-use",
+    "title": "Data & Replication",
+    "section": "Research use",
+    "text": "Research use identifying distinct phases of financial pressure; comparing market, monetary, and real-economy chronologies; evaluating conventional dates assigned to the Czechoslovak Depression; studying monetary defence before and after devaluation."
+  },
+  {
+    "objectID": "data.html#package-contents",
+    "href": "data.html#package-contents",
+    "title": "Data & Replication",
+    "section": "Package contents",
+    "text": "Package contents underlying monthly indicators; transformed and standardised series; composite financial-stress measure; documentation and replication materials; transparent versioned DOI."
+  },
+  {
+    "objectID": "data.html#european-bilateral-trade-19271938",
+    "href": "data.html#european-bilateral-trade-19271938",
+    "title": "Data & Replication",
+    "section": "European bilateral trade, 1927–1938",
+    "text": "European bilateral trade, 1927–1938 Dataset: Commercial Hysteresis: Persistence and Reorganization in Europe’s Bilateral Trade Geography during the Great Depression. A bilateral panel for tracing persistence, destruction, and reorganisation in Europe’s commercial relationships across the Great Depression. 21 European economies 12 annual cross-sections 1927 pre-crisis benchmark 1938 late-interwar endpoint Research use separating aggregate trade collapse from link-level persistence; mapping partner substitution and regional reorientation; estimating intensive- and extensive-margin adjustment; studying the effects of exchange and clearing regimes. Unit of observation The core unit is the directional country-pair-year. That structure permits exporter, importer, pair, and time effects while preserving the geography of commercial adjustment. Open dataset · DOI 10.3886/E247132V2"
+  },
+  {
+    "objectID": "data.html#research-use-1",
+    "href": "data.html#research-use-1",
+    "title": "Data & Replication",
+    "section": "Research use",
+    "text": "Research use separating aggregate trade collapse from link-level persistence; mapping partner substitution and regional reorientation; estimating intensive- and extensive-margin adjustment; studying the effects of exchange and clearing regimes."
+  },
+  {
+    "objectID": "data.html#unit-of-observation",
+    "href": "data.html#unit-of-observation",
+    "title": "Data & Replication",
+    "section": "Unit of observation",
+    "text": "Unit of observation The core unit is the directional country-pair-year. That structure permits exporter, importer, pair, and time effects while preserving the geography of commercial adjustment."
+  },
+  {
+    "objectID": "data.html#the-missing-j",
+    "href": "data.html#the-missing-j",
+    "title": "Data & Replication",
+    "section": "The Missing J",
+    "text": "The Missing J The Missing J in Interwar Europe: A Monthly Cliometric Dataset on Effective Exchange Rates and Trade-Balance Adjustment, 1925–1936. Adam Dittrich · openICPSR · 2026 A monthly European dataset linking exports, imports, prices, economic activity, and exchange rates to the study of trade-balance adjustment. Annual bilateral trade weights drawn from League of Nations trade reports support the construction of effective exchange rates. Coverage Monthly observations for 1925–1936, with linked annual bilateral trade information. Variable availability and country coverage should be checked in the deposit documentation before building a particular estimation sample. Research use Comparing nominal and real effective exchange rates, tracing the timing of trade-balance responses, and distinguishing exchange-rate adjustment from changes in prices and economic activity. Open dataset · DOI 10.3886/E251239V1"
+  },
+  {
+    "objectID": "data.html#coverage",
+    "href": "data.html#coverage",
+    "title": "Data & Replication",
+    "section": "Coverage",
+    "text": "Coverage Monthly observations for 1925–1936, with linked annual bilateral trade information. Variable availability and country coverage should be checked in the deposit documentation before building a particular estimation sample."
+  },
+  {
+    "objectID": "data.html#research-use-2",
+    "href": "data.html#research-use-2",
+    "title": "Data & Replication",
+    "section": "Research use",
+    "text": "Research use Comparing nominal and real effective exchange rates, tracing the timing of trade-balance responses, and distinguishing exchange-rate adjustment from changes in prices and economic activity."
+  },
+  {
+    "objectID": "data.html#wider-czechoslovak-data-programme",
+    "href": "data.html#wider-czechoslovak-data-programme",
+    "title": "Data & Replication",
+    "section": "Wider Czechoslovak data programme",
+    "text": "Wider Czechoslovak data programme The public packages sit within a broader effort to consolidate scattered evidence on the interwar Czechoslovak economy. These components are under active construction and will be released only when their provenance and transformations are sufficiently documented. Building Monthly macro-financial database Central-bank balance sheets, currency and reserves, prices, industrial activity, labour-market indicators, trade, and bilateral exchange rates. Reconstructing Agricultural output and national income Crop quantities, livestock, prices, value added, and explicit assumptions for linking sectoral reconstruction to broader output estimates. Harmonising District-level Czechoslovakia Population, occupational structure, social and political indicators, and electoral outcomes for the 1920s and 1930s."
+  },
+  {
+    "objectID": "data.html#monthly-macro-financial-database",
+    "href": "data.html#monthly-macro-financial-database",
+    "title": "Data & Replication",
+    "section": "Monthly macro-financial database",
+    "text": "Monthly macro-financial database Central-bank balance sheets, currency and reserves, prices, industrial activity, labour-market indicators, trade, and bilateral exchange rates."
+  },
+  {
+    "objectID": "data.html#agricultural-output-and-national-income",
+    "href": "data.html#agricultural-output-and-national-income",
+    "title": "Data & Replication",
+    "section": "Agricultural output and national income",
+    "text": "Agricultural output and national income Crop quantities, livestock, prices, value added, and explicit assumptions for linking sectoral reconstruction to broader output estimates."
+  },
+  {
+    "objectID": "data.html#district-level-czechoslovakia",
+    "href": "data.html#district-level-czechoslovakia",
+    "title": "Data & Replication",
+    "section": "District-level Czechoslovakia",
+    "text": "District-level Czechoslovakia Population, occupational structure, social and political indicators, and electoral outcomes for the 1920s and 1930s."
+  },
+  {
+    "objectID": "data.html#a-dataset-should-expose-its-judgement-calls",
+    "href": "data.html#a-dataset-should-expose-its-judgement-calls",
+    "title": "Data & Replication",
+    "section": "A dataset should expose its judgement calls",
+    "text": "A dataset should expose its judgement calls Provenance Every series should be traceable to an archival table, statistical publication, or documented secondary reconstruction. Transformations Deflation, interpolation, seasonal adjustment, harmonisation, and index construction should be visible rather than buried. Uncertainty Alternative assumptions and fragile links belong in the package, not only in private working files. Versioning Stable repositories and versioned DOIs make it possible to distinguish a cited release from later improvements."
+  },
+  {
+    "objectID": "data.html#provenance",
+    "href": "data.html#provenance",
+    "title": "Data & Replication",
+    "section": "Provenance",
+    "text": "Provenance Every series should be traceable to an archival table, statistical publication, or documented secondary reconstruction."
+  },
+  {
+    "objectID": "data.html#transformations",
+    "href": "data.html#transformations",
+    "title": "Data & Replication",
+    "section": "Transformations",
+    "text": "Transformations Deflation, interpolation, seasonal adjustment, harmonisation, and index construction should be visible rather than buried."
+  },
+  {
+    "objectID": "data.html#uncertainty",
+    "href": "data.html#uncertainty",
+    "title": "Data & Replication",
+    "section": "Uncertainty",
+    "text": "Uncertainty Alternative assumptions and fragile links belong in the package, not only in private working files."
+  },
+  {
+    "objectID": "data.html#versioning",
+    "href": "data.html#versioning",
+    "title": "Data & Replication",
+    "section": "Versioning",
+    "text": "Versioning Stable repositories and versioned DOIs make it possible to distinguish a cited release from later improvements."
+  },
+  {
+    "objectID": "data.html#questions-about-czechoslovak-historical-data",
+    "href": "data.html#questions-about-czechoslovak-historical-data",
+    "title": "Data & Replication",
+    "section": "Questions about Czechoslovak historical data?",
+    "text": "Questions about Czechoslovak historical data? Discuss data or collaboration"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Adam Dittrich, PhD",
     "section": "",
-    "text": "Economic historian · Prague\n\n\n\n\nAssistant Professor · Economic HistoryPrague University of Economics and Business\n\n\nI study how monetary regimes, financial institutions, and economic ideas shaped adjustment in interwar Central Europe—especially Czechoslovakia. My work combines archival research, historical reconstruction, and cliometric methods.\n\n\nExplore research View publications Download CV\n\n\nMonetary history · Financial history · International trade · Historical measurement · History of economic thought"
+    "text": "Economic historian · Prague Adam Dittrich , PhD Assistant Professor · Economic History Prague University of Economics and Business I study how monetary regimes, financial institutions, and economic ideas shaped adjustment in interwar Central Europe—especially Czechoslovakia. My work combines archival research, historical reconstruction, and cliometric methods. Explore research View publications Download CV Monetary history · Financial history · International trade · Historical measurement · History of economic thought 1920s–1930s core historical period Monthly + bilateral new historical evidence Archives + econometrics integrated research design Central Europe international questions Research agenda A small economy under large constraints Czechoslovakia provides unusually sharp evidence on the central dilemmas of the interwar economy: monetary credibility versus domestic recovery, financial stability versus deflation, and national policy autonomy within a fragmented international system. I use that case to address questions that travel beyond one country. 01 Monetary regimes How did gold-standard commitments, reserve rules, and central-bank strategy shape the timing and distribution of adjustment? Read the research theme → 02 Financial stress Can balance-sheet and market indicators recover the chronology of banking pressure before failures or institutional breaks become visible? Read the research theme → 03 Trade and adjustment How did devaluation, exchange controls, and changing relative prices affect trade adjustment during the Great Depression? Read the research theme → 04 Economic ideas How did theories of value, causality, and economic order enter practical debates over currency, crisis, and state intervention? Read the research theme → Selected work Selected research All publications and papers → Exchange rates Forthcoming · Statistika The Crown Against the World Reconstructing Czechoslovakia’s effective exchange rates, 1920–1938, to examine monetary policy and international adjustment across the interwar period. Publication details Financial history Research paper + open data Measuring Financial Stress under the Gold Standard A monthly composite measure reconstructs the sequence of financial pressure in interwar Czechoslovakia and distinguishes monetary strain, banking tension, and the later real-economy trough. Project and data Business and social history Working paper · 2026 Negative Time Preference and the Czech Sugar Industry With Jiří Rytina, this project studies how industrial actors justified intertemporal sacrifice and social provision in the Czech sugar industry from 1896 to 1926. Working-paper record Open historical evidence Data are part of the argument My data work links historical sources to reproducible measurement. Public datasets cover financial stress in interwar Czechoslovakia, European bilateral trade, and monthly exchange rates and trade-balance adjustment in The Missing J, 1925–1936. Explore data and replication 11 financial-stress indicators 21 European economies 1925–36 monthly exchange-rate coverage Recent Research updates 16 Oct 2026 Conference presentation in České Budějovice. With Jiří Rytina and Jakub Drábek, I presented our work on healthcare infrastructure and health outcomes in socialist Czechoslovakia. Presentation and programme. Oct 2026 Forthcoming in Statistika . “The Crown Against the World: Reconstructing Czechoslovakia’s Effective Exchange Rates, 1920–1938.” Sep 2026 PhD completed. I defended my dissertation on Czech economic apriorism on 29 September 2026. Since September, I have been an Assistant Professor in the Department of Economic History at Prague University of Economics and Business. 2026 Working paper released. “Negative Time Preference & the Czech Sugar Industry from 1896 to 1926,” with Jiří Rytina, is available through HAL Open Science. 2026 Replication project released. Monthly evidence for “Measuring Financial Stress under the Gold Standard” is archived in OpenICPSR. 2026 Monthly cliometric dataset. The Missing J brings together effective exchange rates, trade balances, prices, and activity for interwar Europe, 1925–1936. 2025 Two articles published. Joint research on the Czechoslovak sugar industry, deflation, and social provision appeared in Listy cukrovarnické a řepařské [Czech Sugar and Sugar Beet Journal] . Research, data, collaboration Interested in interwar Central Europe? I welcome exchanges on monetary and financial history, historical macroeconomic data, Czechoslovak sources, and comparative projects on the Great Depression. Contact me"
+  },
+  {
+    "objectID": "index.html#adam-dittrich-phd",
+    "href": "index.html#adam-dittrich-phd",
+    "title": "Adam Dittrich, PhD",
+    "section": "Adam Dittrich , PhD",
+    "text": "Adam Dittrich , PhD Assistant Professor · Economic History Prague University of Economics and Business I study how monetary regimes, financial institutions, and economic ideas shaped adjustment in interwar Central Europe—especially Czechoslovakia. My work combines archival research, historical reconstruction, and cliometric methods. Explore research View publications Download CV Monetary history · Financial history · International trade · Historical measurement · History of economic thought"
   },
   {
     "objectID": "index.html#a-small-economy-under-large-constraints",
     "href": "index.html#a-small-economy-under-large-constraints",
     "title": "Adam Dittrich, PhD",
     "section": "A small economy under large constraints",
-    "text": "A small economy under large constraints\nCzechoslovakia provides unusually sharp evidence on the central dilemmas of the interwar economy: monetary credibility versus domestic recovery, financial stability versus deflation, and national policy autonomy within a fragmented international system. I use that case to address questions that travel beyond one country."
+    "text": "A small economy under large constraints Czechoslovakia provides unusually sharp evidence on the central dilemmas of the interwar economy: monetary credibility versus domestic recovery, financial stability versus deflation, and national policy autonomy within a fragmented international system. I use that case to address questions that travel beyond one country."
+  },
+  {
+    "objectID": "index.html#monetary-regimes",
+    "href": "index.html#monetary-regimes",
+    "title": "Adam Dittrich, PhD",
+    "section": "Monetary regimes",
+    "text": "Monetary regimes How did gold-standard commitments, reserve rules, and central-bank strategy shape the timing and distribution of adjustment? Read the research theme →"
+  },
+  {
+    "objectID": "index.html#financial-stress",
+    "href": "index.html#financial-stress",
+    "title": "Adam Dittrich, PhD",
+    "section": "Financial stress",
+    "text": "Financial stress Can balance-sheet and market indicators recover the chronology of banking pressure before failures or institutional breaks become visible? Read the research theme →"
+  },
+  {
+    "objectID": "index.html#trade-and-adjustment",
+    "href": "index.html#trade-and-adjustment",
+    "title": "Adam Dittrich, PhD",
+    "section": "Trade and adjustment",
+    "text": "Trade and adjustment How did devaluation, exchange controls, and changing relative prices affect trade adjustment during the Great Depression? Read the research theme →"
+  },
+  {
+    "objectID": "index.html#economic-ideas",
+    "href": "index.html#economic-ideas",
+    "title": "Adam Dittrich, PhD",
+    "section": "Economic ideas",
+    "text": "Economic ideas How did theories of value, causality, and economic order enter practical debates over currency, crisis, and state intervention? Read the research theme →"
   },
   {
     "objectID": "index.html#selected-research",
@@ -210,11 +287,32 @@
     "text": "Selected research"
   },
   {
+    "objectID": "index.html#the-crown-against-the-world",
+    "href": "index.html#the-crown-against-the-world",
+    "title": "Adam Dittrich, PhD",
+    "section": "The Crown Against the World",
+    "text": "The Crown Against the World Reconstructing Czechoslovakia’s effective exchange rates, 1920–1938, to examine monetary policy and international adjustment across the interwar period. Publication details"
+  },
+  {
+    "objectID": "index.html#measuring-financial-stress-under-the-gold-standard",
+    "href": "index.html#measuring-financial-stress-under-the-gold-standard",
+    "title": "Adam Dittrich, PhD",
+    "section": "Measuring Financial Stress under the Gold Standard",
+    "text": "Measuring Financial Stress under the Gold Standard A monthly composite measure reconstructs the sequence of financial pressure in interwar Czechoslovakia and distinguishes monetary strain, banking tension, and the later real-economy trough. Project and data"
+  },
+  {
+    "objectID": "index.html#negative-time-preference-and-the-czech-sugar-industry",
+    "href": "index.html#negative-time-preference-and-the-czech-sugar-industry",
+    "title": "Adam Dittrich, PhD",
+    "section": "Negative Time Preference and the Czech Sugar Industry",
+    "text": "Negative Time Preference and the Czech Sugar Industry With Jiří Rytina, this project studies how industrial actors justified intertemporal sacrifice and social provision in the Czech sugar industry from 1896 to 1926. Working-paper record"
+  },
+  {
     "objectID": "index.html#data-are-part-of-the-argument",
     "href": "index.html#data-are-part-of-the-argument",
     "title": "Adam Dittrich, PhD",
     "section": "Data are part of the argument",
-    "text": "Data are part of the argument\nMy research builds reusable evidence—not only regression inputs. Public projects include monthly financial-stress indicators for interwar Czechoslovakia, a bilateral trade panel spanning 21 European economies, and replication materials for research on Nordic trade resilience.\nExplore data and replication"
+    "text": "Data are part of the argument My data work links historical sources to reproducible measurement. Public datasets cover financial stress in interwar Czechoslovakia, European bilateral trade, and monthly exchange rates and trade-balance adjustment in The Missing J, 1925–1936. Explore data and replication"
   },
   {
     "objectID": "index.html#research-updates",
@@ -228,69 +326,349 @@
     "href": "index.html#interested-in-interwar-central-europe",
     "title": "Adam Dittrich, PhD",
     "section": "Interested in interwar Central Europe?",
-    "text": "Interested in interwar Central Europe?\nI welcome exchanges on monetary and financial history, historical macroeconomic data, Czechoslovak sources, and comparative projects on the Great Depression.\nContact me"
+    "text": "Interested in interwar Central Europe? I welcome exchanges on monetary and financial history, historical macroeconomic data, Czechoslovak sources, and comparative projects on the Great Depression. Contact me"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications & Papers",
+    "section": "",
+    "text": "Publications & papers Research outputs Journal articles, published conference proceedings, conference presentations, working papers, and research manuscripts in economic history and the history of economic thought. Public versions and replication materials are linked below. 02 Forthcoming and accepted Forthcoming The Crown Against the World: Reconstructing Czechoslovakia’s Effective Exchange Rates, 1920–1938 Adam Dittrich Statistika: Statistics and Economy Journal. Forthcoming. Accepted Spor o cukerní daň roku 1928: Karel Engliš a Gustav Heidler Adam Dittrich Listy cukrovarnické a řepařské [Czech Sugar and Sugar Beet Journal]. Accepted; publication expected in 2027. [The 1928 Sugar-Tax Dispute: Karel Engliš and Gustav Heidler] 03 Published journal articles 2025 Historický vztah československého cukrovarnického průmyslu k sociální problematice na příkladu penze: Sociálně solidární cíle mezi lety 1918 až 1926 jako výsledek negativní časové preference Jiří Rytina, Adam Dittrich, and Jakub Drábek Listy cukrovarnické a řepařské [Czech Sugar and Sugar Beet Journal] 141(9–10), 320–322. [The Historical Relationship of the Czechoslovak Sugar Industry to Social Issues: Pensions and Social Solidarity in 1918–1926 as a Result of Negative Time Preference] Article PDF Publisher’s contents 2025 Cukrovarnický průmysl versus deflační politika: Konflikt hospodářských zájmů v meziválečném Československu Adam Dittrich, Jiří Rytina, and Jakub Drábek Listy cukrovarnické a řepařské [Czech Sugar and Sugar Beet Journal] 141(7–8), 260–264. [Sugar Industry versus Deflationary Policy: Conflict of Economic Interests in Interwar Czechoslovakia] Article PDF Publisher’s contents 2023 Karel Engliš as the Governor of the Czechoslovakian National Bank (1934–1939) Adam Dittrich Revista Română de Studii Eurasiatice 19(1–2), 105–124. Journal issue Article record 02 Published conference proceedings 2025 Efektivní směnné kurzy Československa 1925–1936: rekonstrukce, dekompozice a efekt devalvace Adam Dittrich In Ondřej Roubal (ed.), Konference doktorandů na Vysoké škole finanční a správní 2025 [Doctoral Students Conference at the University of Finance and Administration 2025] . Prague: VŠFS, 26–40. [Czechoslovakia’s Effective Exchange Rates, 1925–1936: Reconstruction, Decomposition and the Effect of Devaluation] Proceedings PDF · article pp. 26–40 Article DOI 2024 Russian Crisis of 1998 Adam Dittrich In Michal Müller and Pavla Slavíčková (eds.), KNOWCON 2024: Knowledge on Economics and Management Conference Proceedings . Olomouc: Palacký University Olomouc, 26–32. Proceedings PDF · article pp. 26–32 Publisher’s proceedings index 02 Conference presentations 16 Oct 2026 Kapacita bez efektivity? Zdravotnická infrastruktura a zdravotní výsledky v socialistickém Československu [Capacity without Effectiveness? Healthcare Infrastructure and Health Outcomes in Socialist Czechoslovakia] Adam Dittrich, Jiří Rytina, and Jakub Drábek Zdraví a sociální otázky v dějinách: interdisciplinární perspektivy [Health and Social Issues in History: Interdisciplinary Perspectives]. Faculty of Health and Social Sciences, University of South Bohemia, České Budějovice. Conference held 15–16 October 2026; presentation on 16 October. Conference programme · p. 4 Conference page 25 Sep 2025 Měnová úprava jako pokrizová obnova: Případová studie československé devalvace v roce 1934 [Monetary Adjustment as Post-Crisis Recovery: A Case Study of the Czechoslovak Devaluation of 1934] Adam Dittrich and Jiří Rytina Pokrizová obnova [Post-Crisis Recovery]. National Archives, Prague. Conference held 24–26 September 2025; presentation on 25 September. Conference programme · p. 3 01 Public working papers 2026 Negative Time Preference & the Czech Sugar Industry from 1896 to 1926 Jiří Rytina and Adam Dittrich HAL Open Science working paper, hal-05660879. The paper reconstructs how industrial actors understood long-horizon sacrifice, social provision, and institutional responsibility across the late Habsburg and early Czechoslovak periods. HAL record RePEc record 01 Research papers with open data Research Measuring Financial Stress under the Gold Standard: Evidence from Interwar Czechoslovakia Adam Dittrich A monthly composite index uses eleven financial and macro-financial indicators to recover the chronology of pressure from November 1929 to September 1938. The project connects statistical measurement to the institutional mechanics of the Czechoslovak gold-standard regime. Data and documentation Project summary 08 Other research manuscripts Foreign trade Measuring the Turning Point in Czechoslovak Foreign Trade during the Great Depression Monetary defence Who Paid for Credibility? The Technology of Monetary Defense on Europe’s Periphery, 1926–1938 Monetary policy The Koruna-Defence Gap: External Credibility, Real-Rate Restriction and the Great Depression in Interwar Czechoslovakia Labour markets Recovery before Jobs: Unemployment, Vacancies, and the State in Interwar Czechoslovakia, 1926–38 Exchange rates and trade The Missing J in Interwar Europe: A Monthly Cliometric Dataset on Effective Exchange Rates and Trade-Balance Adjustment, 1925–1936 Trade adjustment Prices Recover, Markets Remember: Late Devaluation and the Erosion of Price Competition in Interwar Czechoslovakia, 1929–1938 Italy and European monetary history The Price of Credibility: Quota 90 and Fascist Italy’s Internal Deflation in Monthly European Perspective, 1925–1928 Central-bank law The Price of Credibility: Central-Bank Law, Monetary Defence, and Domestic Contraction in Interwar Czechoslovakia Selected Projects in development Working paper · Monetary history Gold Flows, Sterilisation, and the Monetary Base in Interwar Czechoslovakia, 1927–1938 Reserve movements, domestic balance-sheet operations, and changes in the monetary regime after devaluation. Project in development · Central banking From Bills to Money Markets: The Structural Transformation of the Credit Transmission Mechanism of the National Bank of Czechoslovakia, 1926–1936 Central-bank credit, the commercial-bill channel, and liquidity management. Working paper · History of economic thought Crisis as a Failure of Distribution: Jan Loevenstein’s Theory of Underconsumption, Technological Unemployment, and the Great Depression A study of Loevenstein’s account of crisis, distribution, and unemployment. Historical national accounts Reconstructing Interwar Czechoslovak Output The Czechoslovak contribution to comparative work on Central and Eastern European historical GDP with Matthias Morys and Marcin Wroński. Current work focuses on agricultural output and value added, sectoral coverage, prices, intermediate inputs, and comparability across countries. Download bibliographic records (BibTeX) Other research profiles Google Scholar ORCID RePEc GitHub Data repositories Institutional profile"
+  },
+  {
+    "objectID": "publications.html#research-outputs",
+    "href": "publications.html#research-outputs",
+    "title": "Publications & Papers",
+    "section": "Research outputs",
+    "text": "Research outputs Journal articles, published conference proceedings, conference presentations, working papers, and research manuscripts in economic history and the history of economic thought. Public versions and replication materials are linked below."
+  },
+  {
+    "objectID": "publications.html#forthcoming-and-accepted",
+    "href": "publications.html#forthcoming-and-accepted",
+    "title": "Publications & Papers",
+    "section": "Forthcoming and accepted",
+    "text": "Forthcoming and accepted"
+  },
+  {
+    "objectID": "publications.html#the-crown-against-the-world-reconstructing-czechoslovakias-effective-exchange-rates-19201938",
+    "href": "publications.html#the-crown-against-the-world-reconstructing-czechoslovakias-effective-exchange-rates-19201938",
+    "title": "Publications & Papers",
+    "section": "The Crown Against the World: Reconstructing Czechoslovakia’s Effective Exchange Rates, 1920–1938",
+    "text": "The Crown Against the World: Reconstructing Czechoslovakia’s Effective Exchange Rates, 1920–1938 Adam Dittrich Statistika: Statistics and Economy Journal. Forthcoming."
+  },
+  {
+    "objectID": "publications.html#spor-o-cukerní-daň-roku-1928-karel-engliš-a-gustav-heidler",
+    "href": "publications.html#spor-o-cukerní-daň-roku-1928-karel-engliš-a-gustav-heidler",
+    "title": "Publications & Papers",
+    "section": "Spor o cukerní daň roku 1928: Karel Engliš a Gustav Heidler",
+    "text": "Spor o cukerní daň roku 1928: Karel Engliš a Gustav Heidler Adam Dittrich Listy cukrovarnické a řepařské [Czech Sugar and Sugar Beet Journal]. Accepted; publication expected in 2027. [The 1928 Sugar-Tax Dispute: Karel Engliš and Gustav Heidler]"
+  },
+  {
+    "objectID": "publications.html#published-journal-articles",
+    "href": "publications.html#published-journal-articles",
+    "title": "Publications & Papers",
+    "section": "Published journal articles",
+    "text": "Published journal articles"
+  },
+  {
+    "objectID": "publications.html#historický-vztah-československého-cukrovarnického-průmyslu-k-sociální-problematice-na-příkladu-penze-sociálně-solidární-cíle-mezi-lety-1918-až-1926-jako-výsledek-negativní-časové-preference",
+    "href": "publications.html#historický-vztah-československého-cukrovarnického-průmyslu-k-sociální-problematice-na-příkladu-penze-sociálně-solidární-cíle-mezi-lety-1918-až-1926-jako-výsledek-negativní-časové-preference",
+    "title": "Publications & Papers",
+    "section": "Historický vztah československého cukrovarnického průmyslu k sociální problematice na příkladu penze: Sociálně solidární cíle mezi lety 1918 až 1926 jako výsledek negativní časové preference",
+    "text": "Historický vztah československého cukrovarnického průmyslu k sociální problematice na příkladu penze: Sociálně solidární cíle mezi lety 1918 až 1926 jako výsledek negativní časové preference Jiří Rytina, Adam Dittrich, and Jakub Drábek Listy cukrovarnické a řepařské [Czech Sugar and Sugar Beet Journal] 141(9–10), 320–322. [The Historical Relationship of the Czechoslovak Sugar Industry to Social Issues: Pensions and Social Solidarity in 1918–1926 as a Result of Negative Time Preference] Article PDF Publisher’s contents"
+  },
+  {
+    "objectID": "publications.html#cukrovarnický-průmysl-versus-deflační-politika-konflikt-hospodářských-zájmů-v-meziválečném-československu",
+    "href": "publications.html#cukrovarnický-průmysl-versus-deflační-politika-konflikt-hospodářských-zájmů-v-meziválečném-československu",
+    "title": "Publications & Papers",
+    "section": "Cukrovarnický průmysl versus deflační politika: Konflikt hospodářských zájmů v meziválečném Československu",
+    "text": "Cukrovarnický průmysl versus deflační politika: Konflikt hospodářských zájmů v meziválečném Československu Adam Dittrich, Jiří Rytina, and Jakub Drábek Listy cukrovarnické a řepařské [Czech Sugar and Sugar Beet Journal] 141(7–8), 260–264. [Sugar Industry versus Deflationary Policy: Conflict of Economic Interests in Interwar Czechoslovakia] Article PDF Publisher’s contents"
+  },
+  {
+    "objectID": "publications.html#karel-engliš-as-the-governor-of-the-czechoslovakian-national-bank-19341939",
+    "href": "publications.html#karel-engliš-as-the-governor-of-the-czechoslovakian-national-bank-19341939",
+    "title": "Publications & Papers",
+    "section": "Karel Engliš as the Governor of the Czechoslovakian National Bank (1934–1939)",
+    "text": "Karel Engliš as the Governor of the Czechoslovakian National Bank (1934–1939) Adam Dittrich Revista Română de Studii Eurasiatice 19(1–2), 105–124. Journal issue Article record"
+  },
+  {
+    "objectID": "publications.html#conference-proceedings",
+    "href": "publications.html#conference-proceedings",
+    "title": "Publications & Papers",
+    "section": "Published conference proceedings",
+    "text": "Published conference proceedings"
+  },
+  {
+    "objectID": "publications.html#efektivní-směnné-kurzy-československa-19251936-rekonstrukce-dekompozice-a-efekt-devalvace",
+    "href": "publications.html#efektivní-směnné-kurzy-československa-19251936-rekonstrukce-dekompozice-a-efekt-devalvace",
+    "title": "Publications & Papers",
+    "section": "Efektivní směnné kurzy Československa 1925–1936: rekonstrukce, dekompozice a efekt devalvace",
+    "text": "Efektivní směnné kurzy Československa 1925–1936: rekonstrukce, dekompozice a efekt devalvace Adam Dittrich In Ondřej Roubal (ed.), Konference doktorandů na Vysoké škole finanční a správní 2025 [Doctoral Students Conference at the University of Finance and Administration 2025] . Prague: VŠFS, 26–40. [Czechoslovakia’s Effective Exchange Rates, 1925–1936: Reconstruction, Decomposition and the Effect of Devaluation] Proceedings PDF · article pp. 26–40 Article DOI"
+  },
+  {
+    "objectID": "publications.html#russian-crisis-of-1998",
+    "href": "publications.html#russian-crisis-of-1998",
+    "title": "Publications & Papers",
+    "section": "Russian Crisis of 1998",
+    "text": "Russian Crisis of 1998 Adam Dittrich In Michal Müller and Pavla Slavíčková (eds.), KNOWCON 2024: Knowledge on Economics and Management Conference Proceedings . Olomouc: Palacký University Olomouc, 26–32. Proceedings PDF · article pp. 26–32 Publisher’s proceedings index"
+  },
+  {
+    "objectID": "publications.html#conference-presentations",
+    "href": "publications.html#conference-presentations",
+    "title": "Publications & Papers",
+    "section": "Conference presentations",
+    "text": "Conference presentations"
+  },
+  {
+    "objectID": "publications.html#kapacita-bez-efektivity-zdravotnická-infrastruktura-a-zdravotní-výsledky-v-socialistickém-československu",
+    "href": "publications.html#kapacita-bez-efektivity-zdravotnická-infrastruktura-a-zdravotní-výsledky-v-socialistickém-československu",
+    "title": "Publications & Papers",
+    "section": "Kapacita bez efektivity? Zdravotnická infrastruktura a zdravotní výsledky v socialistickém Československu",
+    "text": "Kapacita bez efektivity? Zdravotnická infrastruktura a zdravotní výsledky v socialistickém Československu [Capacity without Effectiveness? Healthcare Infrastructure and Health Outcomes in Socialist Czechoslovakia] Adam Dittrich, Jiří Rytina, and Jakub Drábek Zdraví a sociální otázky v dějinách: interdisciplinární perspektivy [Health and Social Issues in History: Interdisciplinary Perspectives]. Faculty of Health and Social Sciences, University of South Bohemia, České Budějovice. Conference held 15–16 October 2026; presentation on 16 October. Conference programme · p. 4 Conference page"
+  },
+  {
+    "objectID": "publications.html#měnová-úprava-jako-pokrizová-obnova-případová-studie-československé-devalvace-v-roce-1934",
+    "href": "publications.html#měnová-úprava-jako-pokrizová-obnova-případová-studie-československé-devalvace-v-roce-1934",
+    "title": "Publications & Papers",
+    "section": "Měnová úprava jako pokrizová obnova: Případová studie československé devalvace v roce 1934",
+    "text": "Měnová úprava jako pokrizová obnova: Případová studie československé devalvace v roce 1934 [Monetary Adjustment as Post-Crisis Recovery: A Case Study of the Czechoslovak Devaluation of 1934] Adam Dittrich and Jiří Rytina Pokrizová obnova [Post-Crisis Recovery]. National Archives, Prague. Conference held 24–26 September 2025; presentation on 25 September. Conference programme · p. 3"
+  },
+  {
+    "objectID": "publications.html#public-working-papers",
+    "href": "publications.html#public-working-papers",
+    "title": "Publications & Papers",
+    "section": "Public working papers",
+    "text": "Public working papers"
+  },
+  {
+    "objectID": "publications.html#negative-time-preference-the-czech-sugar-industry-from-1896-to-1926",
+    "href": "publications.html#negative-time-preference-the-czech-sugar-industry-from-1896-to-1926",
+    "title": "Publications & Papers",
+    "section": "Negative Time Preference & the Czech Sugar Industry from 1896 to 1926",
+    "text": "Negative Time Preference & the Czech Sugar Industry from 1896 to 1926 Jiří Rytina and Adam Dittrich HAL Open Science working paper, hal-05660879. The paper reconstructs how industrial actors understood long-horizon sacrifice, social provision, and institutional responsibility across the late Habsburg and early Czechoslovak periods. HAL record RePEc record"
+  },
+  {
+    "objectID": "publications.html#research-papers-with-open-data",
+    "href": "publications.html#research-papers-with-open-data",
+    "title": "Publications & Papers",
+    "section": "Research papers with open data",
+    "text": "Research papers with open data"
+  },
+  {
+    "objectID": "publications.html#measuring-financial-stress-under-the-gold-standard-evidence-from-interwar-czechoslovakia",
+    "href": "publications.html#measuring-financial-stress-under-the-gold-standard-evidence-from-interwar-czechoslovakia",
+    "title": "Publications & Papers",
+    "section": "Measuring Financial Stress under the Gold Standard: Evidence from Interwar Czechoslovakia",
+    "text": "Measuring Financial Stress under the Gold Standard: Evidence from Interwar Czechoslovakia Adam Dittrich A monthly composite index uses eleven financial and macro-financial indicators to recover the chronology of pressure from November 1929 to September 1938. The project connects statistical measurement to the institutional mechanics of the Czechoslovak gold-standard regime. Data and documentation Project summary"
+  },
+  {
+    "objectID": "publications.html#research-manuscripts",
+    "href": "publications.html#research-manuscripts",
+    "title": "Publications & Papers",
+    "section": "Other research manuscripts",
+    "text": "Other research manuscripts"
+  },
+  {
+    "objectID": "publications.html#measuring-the-turning-point-in-czechoslovak-foreign-trade-during-the-great-depression",
+    "href": "publications.html#measuring-the-turning-point-in-czechoslovak-foreign-trade-during-the-great-depression",
+    "title": "Publications & Papers",
+    "section": "Measuring the Turning Point in Czechoslovak Foreign Trade during the Great Depression",
+    "text": "Measuring the Turning Point in Czechoslovak Foreign Trade during the Great Depression"
+  },
+  {
+    "objectID": "publications.html#who-paid-for-credibility-the-technology-of-monetary-defense-on-europes-periphery-19261938",
+    "href": "publications.html#who-paid-for-credibility-the-technology-of-monetary-defense-on-europes-periphery-19261938",
+    "title": "Publications & Papers",
+    "section": "Who Paid for Credibility? The Technology of Monetary Defense on Europe’s Periphery, 1926–1938",
+    "text": "Who Paid for Credibility? The Technology of Monetary Defense on Europe’s Periphery, 1926–1938"
+  },
+  {
+    "objectID": "publications.html#the-koruna-defence-gap-external-credibility-real-rate-restriction-and-the-great-depression-in-interwar-czechoslovakia",
+    "href": "publications.html#the-koruna-defence-gap-external-credibility-real-rate-restriction-and-the-great-depression-in-interwar-czechoslovakia",
+    "title": "Publications & Papers",
+    "section": "The Koruna-Defence Gap: External Credibility, Real-Rate Restriction and the Great Depression in Interwar Czechoslovakia",
+    "text": "The Koruna-Defence Gap: External Credibility, Real-Rate Restriction and the Great Depression in Interwar Czechoslovakia"
+  },
+  {
+    "objectID": "publications.html#recovery-before-jobs-unemployment-vacancies-and-the-state-in-interwar-czechoslovakia-192638",
+    "href": "publications.html#recovery-before-jobs-unemployment-vacancies-and-the-state-in-interwar-czechoslovakia-192638",
+    "title": "Publications & Papers",
+    "section": "Recovery before Jobs: Unemployment, Vacancies, and the State in Interwar Czechoslovakia, 1926–38",
+    "text": "Recovery before Jobs: Unemployment, Vacancies, and the State in Interwar Czechoslovakia, 1926–38"
+  },
+  {
+    "objectID": "publications.html#the-missing-j-in-interwar-europe-a-monthly-cliometric-dataset-on-effective-exchange-rates-and-trade-balance-adjustment-19251936",
+    "href": "publications.html#the-missing-j-in-interwar-europe-a-monthly-cliometric-dataset-on-effective-exchange-rates-and-trade-balance-adjustment-19251936",
+    "title": "Publications & Papers",
+    "section": "The Missing J in Interwar Europe: A Monthly Cliometric Dataset on Effective Exchange Rates and Trade-Balance Adjustment, 1925–1936",
+    "text": "The Missing J in Interwar Europe: A Monthly Cliometric Dataset on Effective Exchange Rates and Trade-Balance Adjustment, 1925–1936"
+  },
+  {
+    "objectID": "publications.html#prices-recover-markets-remember-late-devaluation-and-the-erosion-of-price-competition-in-interwar-czechoslovakia-19291938",
+    "href": "publications.html#prices-recover-markets-remember-late-devaluation-and-the-erosion-of-price-competition-in-interwar-czechoslovakia-19291938",
+    "title": "Publications & Papers",
+    "section": "Prices Recover, Markets Remember: Late Devaluation and the Erosion of Price Competition in Interwar Czechoslovakia, 1929–1938",
+    "text": "Prices Recover, Markets Remember: Late Devaluation and the Erosion of Price Competition in Interwar Czechoslovakia, 1929–1938"
+  },
+  {
+    "objectID": "publications.html#the-price-of-credibility-quota-90-and-fascist-italys-internal-deflation-in-monthly-european-perspective-19251928",
+    "href": "publications.html#the-price-of-credibility-quota-90-and-fascist-italys-internal-deflation-in-monthly-european-perspective-19251928",
+    "title": "Publications & Papers",
+    "section": "The Price of Credibility: Quota 90 and Fascist Italy’s Internal Deflation in Monthly European Perspective, 1925–1928",
+    "text": "The Price of Credibility: Quota 90 and Fascist Italy’s Internal Deflation in Monthly European Perspective, 1925–1928"
+  },
+  {
+    "objectID": "publications.html#the-price-of-credibility-central-bank-law-monetary-defence-and-domestic-contraction-in-interwar-czechoslovakia",
+    "href": "publications.html#the-price-of-credibility-central-bank-law-monetary-defence-and-domestic-contraction-in-interwar-czechoslovakia",
+    "title": "Publications & Papers",
+    "section": "The Price of Credibility: Central-Bank Law, Monetary Defence, and Domestic Contraction in Interwar Czechoslovakia",
+    "text": "The Price of Credibility: Central-Bank Law, Monetary Defence, and Domestic Contraction in Interwar Czechoslovakia"
+  },
+  {
+    "objectID": "publications.html#projects-in-development",
+    "href": "publications.html#projects-in-development",
+    "title": "Publications & Papers",
+    "section": "Projects in development",
+    "text": "Projects in development"
+  },
+  {
+    "objectID": "publications.html#gold-flows-sterilisation-and-the-monetary-base-in-interwar-czechoslovakia-19271938",
+    "href": "publications.html#gold-flows-sterilisation-and-the-monetary-base-in-interwar-czechoslovakia-19271938",
+    "title": "Publications & Papers",
+    "section": "Gold Flows, Sterilisation, and the Monetary Base in Interwar Czechoslovakia, 1927–1938",
+    "text": "Gold Flows, Sterilisation, and the Monetary Base in Interwar Czechoslovakia, 1927–1938 Reserve movements, domestic balance-sheet operations, and changes in the monetary regime after devaluation."
+  },
+  {
+    "objectID": "publications.html#from-bills-to-money-markets-the-structural-transformation-of-the-credit-transmission-mechanism-of-the-national-bank-of-czechoslovakia-19261936",
+    "href": "publications.html#from-bills-to-money-markets-the-structural-transformation-of-the-credit-transmission-mechanism-of-the-national-bank-of-czechoslovakia-19261936",
+    "title": "Publications & Papers",
+    "section": "From Bills to Money Markets: The Structural Transformation of the Credit Transmission Mechanism of the National Bank of Czechoslovakia, 1926–1936",
+    "text": "From Bills to Money Markets: The Structural Transformation of the Credit Transmission Mechanism of the National Bank of Czechoslovakia, 1926–1936 Central-bank credit, the commercial-bill channel, and liquidity management."
+  },
+  {
+    "objectID": "publications.html#crisis-as-a-failure-of-distribution-jan-loevensteins-theory-of-underconsumption-technological-unemployment-and-the-great-depression",
+    "href": "publications.html#crisis-as-a-failure-of-distribution-jan-loevensteins-theory-of-underconsumption-technological-unemployment-and-the-great-depression",
+    "title": "Publications & Papers",
+    "section": "Crisis as a Failure of Distribution: Jan Loevenstein’s Theory of Underconsumption, Technological Unemployment, and the Great Depression",
+    "text": "Crisis as a Failure of Distribution: Jan Loevenstein’s Theory of Underconsumption, Technological Unemployment, and the Great Depression A study of Loevenstein’s account of crisis, distribution, and unemployment."
+  },
+  {
+    "objectID": "publications.html#reconstructing-interwar-czechoslovak-output",
+    "href": "publications.html#reconstructing-interwar-czechoslovak-output",
+    "title": "Publications & Papers",
+    "section": "Reconstructing Interwar Czechoslovak Output",
+    "text": "Reconstructing Interwar Czechoslovak Output The Czechoslovak contribution to comparative work on Central and Eastern European historical GDP with Matthias Morys and Marcin Wroński. Current work focuses on agricultural output and value added, sectoral coverage, prices, intermediate inputs, and comparability across countries."
+  },
+  {
+    "objectID": "publications.html#other-research-profiles",
+    "href": "publications.html#other-research-profiles",
+    "title": "Publications & Papers",
+    "section": "Other research profiles",
+    "text": "Other research profiles Google Scholar ORCID RePEc GitHub Data repositories Institutional profile"
   },
   {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Research\n\n\n\n\nMy work asks how interwar economies absorbed shocks when monetary rules, financial structures, political commitments, and inherited ideas constrained the available policy space. Czechoslovakia is the empirical centre; the questions are comparative."
+    "text": "Research Institutions, evidence, and adjustment My work asks how interwar economies absorbed shocks when monetary rules, financial structures, political commitments, and inherited ideas constrained the available policy space. Czechoslovakia is the empirical centre; the questions are comparative. Research programme The projects are organised around a common proposition: economic adjustment is not a single price movement but an institutional process with a chronology, a distribution, and a political language . Exchange-rate commitments alter bank balance sheets and trade incentives. Statistical conventions shape what later historians identify as recovery. Economic theories define which costs policymakers recognise—and which they treat as unavoidable. I combine archival interpretation with new datasets, descriptive reconstruction, panel methods, event studies, synthetic controls, and time-series analysis. Quantification is used to discipline historical claims; institutional evidence is used to keep the quantities historically meaningful. 01 Monetary and central-banking history Monetary regimes and central banking Why did policymakers defend particular parities, and when did credibility become economically costly? This strand studies the Czechoslovak koruna, the National Bank of Czechoslovakia, reserve-cover constraints, sterilisation, and the transition from external discipline to managed adjustment. The central issue is not whether “sound money” was intrinsically right or wrong. It is how a monetary rule redistributed adjustment across output, employment, banks, exporters, debtors, and the state—and how long policymakers could sustain that distribution. Selected questions When did monetary defence cease to stabilise expectations and begin to delay recovery? How binding were statutory and informal reserve constraints before the 1934 devaluation? Did devaluation change trade volumes, relative prices, or merely the accounting expression of adjustment? How did central-bank balance-sheet policy interact with fiscal and commercial policy? 02 Measurement and chronology Financial stress and banking Historical crises are often dated by spectacular failures. Yet pressure can intensify earlier through reserve losses, currency demand, liquidity contraction, market segmentation, or deteriorating bank portfolios. My financial-stress work reconstructs this latent process from multiple monthly indicators. The objective is both substantive and methodological: to identify the sequence of stress under the gold standard without forcing a modern crisis template onto an interwar institutional system. Current project Measuring Financial Stress under the Gold Standard combines eleven indicators for Czechoslovakia from November 1929 to September 1938. The resulting chronology separates the initial external and monetary shock, the high-pressure phase, the later real-sector trough, and the regime change around devaluation. 03 International economic history Trade, devaluation, and commercial reorganisation The Great Depression did more than reduce aggregate trade. It altered clearing arrangements, exchange controls, bilateral bargaining power, and the relative importance of commercial partners. This strand moves from national trade totals to bilateral relationships. Selected questions Which trade links recovered after the aggregate collapse, and which disappeared permanently? Did currency depreciation redirect commerce toward particular partners or product groups? How did clearing agreements and discrimination reshape network centrality? Was the post-crisis European trade map a return to the 1920s or a new equilibrium? My exchange-rate research combines monthly trade balances, prices, economic activity, and effective exchange rates. The Missing J dataset makes these historical series available for comparative work on European adjustment in 1925–1936. 04 Historical national accounting Historical measurement and output reconstruction Interwar Czechoslovakia is central to debates about the Great Depression in Central Europe, yet its macroeconomic trajectory is still described through fragmentary annual estimates, industrial proxies, and series built for different purposes. My reconstruction work develops a more transparent evidential base. I am developing the Czechoslovak contribution to a comparative Central and Eastern European GDP-reconstruction project with Matthias Morys and Marcin Wroński. The programme begins with agricultural output and value added, then links sectoral production, prices, intermediate inputs, trade, labour, and monetary data. The aim is not a mechanically precise GDP number. It is an auditable account of what can be measured, what must be inferred, and how alternative assumptions change the chronology and depth of the downturn. 05 History of economic thought Economic thought as a policy institution My PhD, completed in September 2026, examined Czech apriorism and its influence on interpretations of Czechoslovak economic history. The dissertation focused particularly on Karel Engliš, Jan Loevenstein, František Weyr, and their critics. I continue this work through research on economic method, theories of crisis, and monetary policy. Rather than treating doctrine as a detached history of concepts, I ask how teleology, normativism, causal explanation, and theories of value structured policy argument. Economic thought mattered because it defined admissible evidence, legitimate ends, and the relationship between monetary order and social cost. This perspective also informs my quantitative work: categories such as “equilibrium,” “stability,” and “recovery” are never purely statistical. They carry institutional and intellectual histories. Approach Historical questions first; methods made explicit I use methods appropriate to the evidential structure of each question: archival source criticism, balance-sheet reconstruction, index construction, panel estimation, PPML, event studies, synthetic control, shift-share designs, and time-series diagnostics. Archival research Historical data construction Panel econometrics Time-series analysis Counterfactual design Replication and sensitivity analysis Browse the outputs behind the programme Publications and papers Data and replication"
+  },
+  {
+    "objectID": "research.html#institutions-evidence-and-adjustment",
+    "href": "research.html#institutions-evidence-and-adjustment",
+    "title": "Research",
+    "section": "Institutions, evidence, and adjustment",
+    "text": "Institutions, evidence, and adjustment My work asks how interwar economies absorbed shocks when monetary rules, financial structures, political commitments, and inherited ideas constrained the available policy space. Czechoslovakia is the empirical centre; the questions are comparative."
   },
   {
     "objectID": "research.html#research-programme",
     "href": "research.html#research-programme",
     "title": "Research",
     "section": "Research programme",
-    "text": "Research programme\nThe projects are organised around a common proposition: economic adjustment is not a single price movement but an institutional process with a chronology, a distribution, and a political language. Exchange-rate commitments alter bank balance sheets and trade incentives. Statistical conventions shape what later historians identify as recovery. Economic theories define which costs policymakers recognise—and which they treat as unavoidable.\nI combine archival interpretation with new datasets, descriptive reconstruction, panel methods, event studies, synthetic controls, and time-series analysis. Quantification is used to discipline historical claims; institutional evidence is used to keep the quantities historically meaningful."
+    "text": "Research programme The projects are organised around a common proposition: economic adjustment is not a single price movement but an institutional process with a chronology, a distribution, and a political language . Exchange-rate commitments alter bank balance sheets and trade incentives. Statistical conventions shape what later historians identify as recovery. Economic theories define which costs policymakers recognise—and which they treat as unavoidable. I combine archival interpretation with new datasets, descriptive reconstruction, panel methods, event studies, synthetic controls, and time-series analysis. Quantification is used to discipline historical claims; institutional evidence is used to keep the quantities historically meaningful."
   },
   {
     "objectID": "research.html#monetary-regimes-and-central-banking",
     "href": "research.html#monetary-regimes-and-central-banking",
     "title": "Research",
     "section": "Monetary regimes and central banking",
-    "text": "Monetary regimes and central banking\nWhy did policymakers defend particular parities, and when did credibility become economically costly? This strand studies the Czechoslovak koruna, the National Bank of Czechoslovakia, reserve-cover constraints, sterilisation, and the transition from external discipline to managed adjustment.\nThe central issue is not whether “sound money” was intrinsically right or wrong. It is how a monetary rule redistributed adjustment across output, employment, banks, exporters, debtors, and the state—and how long policymakers could sustain that distribution.\nSelected questions\n\nWhen did monetary defence cease to stabilise expectations and begin to delay recovery?\nHow binding were statutory and informal reserve constraints before the 1934 devaluation?\nDid devaluation change trade volumes, relative prices, or merely the accounting expression of adjustment?\nHow did central-bank balance-sheet policy interact with fiscal and commercial policy?"
+    "text": "Monetary regimes and central banking Why did policymakers defend particular parities, and when did credibility become economically costly? This strand studies the Czechoslovak koruna, the National Bank of Czechoslovakia, reserve-cover constraints, sterilisation, and the transition from external discipline to managed adjustment. The central issue is not whether “sound money” was intrinsically right or wrong. It is how a monetary rule redistributed adjustment across output, employment, banks, exporters, debtors, and the state—and how long policymakers could sustain that distribution. Selected questions When did monetary defence cease to stabilise expectations and begin to delay recovery? How binding were statutory and informal reserve constraints before the 1934 devaluation? Did devaluation change trade volumes, relative prices, or merely the accounting expression of adjustment? How did central-bank balance-sheet policy interact with fiscal and commercial policy?"
   },
   {
     "objectID": "research.html#financial-stress-and-banking",
     "href": "research.html#financial-stress-and-banking",
     "title": "Research",
     "section": "Financial stress and banking",
-    "text": "Financial stress and banking\nHistorical crises are often dated by spectacular failures. Yet pressure can intensify earlier through reserve losses, currency demand, liquidity contraction, market segmentation, or deteriorating bank portfolios. My financial-stress work reconstructs this latent process from multiple monthly indicators.\nThe objective is both substantive and methodological: to identify the sequence of stress under the gold standard without forcing a modern crisis template onto an interwar institutional system.\nCurrent project\nMeasuring Financial Stress under the Gold Standard combines eleven indicators for Czechoslovakia from November 1929 to September 1938. The resulting chronology separates the initial external and monetary shock, the high-pressure phase, the later real-sector trough, and the regime change around devaluation."
+    "text": "Financial stress and banking Historical crises are often dated by spectacular failures. Yet pressure can intensify earlier through reserve losses, currency demand, liquidity contraction, market segmentation, or deteriorating bank portfolios. My financial-stress work reconstructs this latent process from multiple monthly indicators. The objective is both substantive and methodological: to identify the sequence of stress under the gold standard without forcing a modern crisis template onto an interwar institutional system. Current project Measuring Financial Stress under the Gold Standard combines eleven indicators for Czechoslovakia from November 1929 to September 1938. The resulting chronology separates the initial external and monetary shock, the high-pressure phase, the later real-sector trough, and the regime change around devaluation."
   },
   {
     "objectID": "research.html#trade-devaluation-and-commercial-reorganisation",
     "href": "research.html#trade-devaluation-and-commercial-reorganisation",
     "title": "Research",
     "section": "Trade, devaluation, and commercial reorganisation",
-    "text": "Trade, devaluation, and commercial reorganisation\nThe Great Depression did more than reduce aggregate trade. It altered clearing arrangements, exchange controls, bilateral bargaining power, and the relative importance of commercial partners. This strand moves from national trade totals to bilateral relationships.\nSelected questions\n\nWhich trade links recovered after the aggregate collapse, and which disappeared permanently?\nDid currency depreciation redirect commerce toward particular partners or product groups?\nHow did clearing agreements and discrimination reshape network centrality?\nWas the post-crisis European trade map a return to the 1920s or a new equilibrium?\n\nThe Commercial Hysteresis project uses bilateral trade among 21 European economies from 1927 to 1938 to distinguish compression from persistent reorganisation."
+    "text": "Trade, devaluation, and commercial reorganisation The Great Depression did more than reduce aggregate trade. It altered clearing arrangements, exchange controls, bilateral bargaining power, and the relative importance of commercial partners. This strand moves from national trade totals to bilateral relationships. Selected questions Which trade links recovered after the aggregate collapse, and which disappeared permanently? Did currency depreciation redirect commerce toward particular partners or product groups? How did clearing agreements and discrimination reshape network centrality? Was the post-crisis European trade map a return to the 1920s or a new equilibrium? My exchange-rate research combines monthly trade balances, prices, economic activity, and effective exchange rates. The Missing J dataset makes these historical series available for comparative work on European adjustment in 1925–1936."
   },
   {
     "objectID": "research.html#historical-measurement-and-output-reconstruction",
     "href": "research.html#historical-measurement-and-output-reconstruction",
     "title": "Research",
     "section": "Historical measurement and output reconstruction",
-    "text": "Historical measurement and output reconstruction\nInterwar Czechoslovakia is central to debates about the Great Depression in Central Europe, yet its macroeconomic trajectory is still described through fragmentary annual estimates, industrial proxies, and series built for different purposes. My reconstruction work develops a more transparent evidential base.\nI am developing the Czechoslovak contribution to a comparative Central and Eastern European GDP-reconstruction project with Matthias Morys and Marcin Wroński. The programme begins with agricultural output and value added, then links sectoral production, prices, intermediate inputs, trade, labour, and monetary data. The aim is not a mechanically precise GDP number. It is an auditable account of what can be measured, what must be inferred, and how alternative assumptions change the chronology and depth of the downturn."
+    "text": "Historical measurement and output reconstruction Interwar Czechoslovakia is central to debates about the Great Depression in Central Europe, yet its macroeconomic trajectory is still described through fragmentary annual estimates, industrial proxies, and series built for different purposes. My reconstruction work develops a more transparent evidential base. I am developing the Czechoslovak contribution to a comparative Central and Eastern European GDP-reconstruction project with Matthias Morys and Marcin Wroński. The programme begins with agricultural output and value added, then links sectoral production, prices, intermediate inputs, trade, labour, and monetary data. The aim is not a mechanically precise GDP number. It is an auditable account of what can be measured, what must be inferred, and how alternative assumptions change the chronology and depth of the downturn."
   },
   {
     "objectID": "research.html#economic-thought-as-a-policy-institution",
     "href": "research.html#economic-thought-as-a-policy-institution",
     "title": "Research",
     "section": "Economic thought as a policy institution",
-    "text": "Economic thought as a policy institution\nMy PhD, completed in September 2026, examined Czech apriorism and its influence on interpretations of Czechoslovak economic history. The dissertation focused particularly on Karel Engliš, Jan Loevenstein, František Weyr, and their critics. I continue this work through research on economic method, theories of crisis, and monetary policy.\nRather than treating doctrine as a detached history of concepts, I ask how teleology, normativism, causal explanation, and theories of value structured policy argument. Economic thought mattered because it defined admissible evidence, legitimate ends, and the relationship between monetary order and social cost.\nThis perspective also informs my quantitative work: categories such as “equilibrium,” “stability,” and “recovery” are never purely statistical. They carry institutional and intellectual histories."
+    "text": "Economic thought as a policy institution My PhD, completed in September 2026, examined Czech apriorism and its influence on interpretations of Czechoslovak economic history. The dissertation focused particularly on Karel Engliš, Jan Loevenstein, František Weyr, and their critics. I continue this work through research on economic method, theories of crisis, and monetary policy. Rather than treating doctrine as a detached history of concepts, I ask how teleology, normativism, causal explanation, and theories of value structured policy argument. Economic thought mattered because it defined admissible evidence, legitimate ends, and the relationship between monetary order and social cost. This perspective also informs my quantitative work: categories such as “equilibrium,” “stability,” and “recovery” are never purely statistical. They carry institutional and intellectual histories."
   },
   {
     "objectID": "research.html#historical-questions-first-methods-made-explicit",
     "href": "research.html#historical-questions-first-methods-made-explicit",
     "title": "Research",
     "section": "Historical questions first; methods made explicit",
-    "text": "Historical questions first; methods made explicit\nI use methods appropriate to the evidential structure of each question: archival source criticism, balance-sheet reconstruction, index construction, panel estimation, PPML, event studies, synthetic control, shift-share designs, and time-series diagnostics."
+    "text": "Historical questions first; methods made explicit I use methods appropriate to the evidential structure of each question: archival source criticism, balance-sheet reconstruction, index construction, panel estimation, PPML, event studies, synthetic control, shift-share designs, and time-series diagnostics."
   },
   {
     "objectID": "research.html#browse-the-outputs-behind-the-programme",
     "href": "research.html#browse-the-outputs-behind-the-programme",
     "title": "Research",
     "section": "Browse the outputs behind the programme",
-    "text": "Browse the outputs behind the programme\nPublications and papers Data and replication"
+    "text": "Browse the outputs behind the programme Publications and papers Data and replication"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Teaching Courses taught Prague University of Economics and Business. 5HD200 2021–present Economic History 55F112 2021–present Defence of an Academic Paper 5EN102 From academic year 2026/27 Foundations of Microeconomics"
+  },
+  {
+    "objectID": "teaching.html#courses-taught",
+    "href": "teaching.html#courses-taught",
+    "title": "Teaching",
+    "section": "Courses taught",
+    "text": "Courses taught Prague University of Economics and Business."
+  },
+  {
+    "objectID": "teaching.html#economic-history",
+    "href": "teaching.html#economic-history",
+    "title": "Teaching",
+    "section": "Economic History",
+    "text": "Economic History"
+  },
+  {
+    "objectID": "teaching.html#defence-of-an-academic-paper",
+    "href": "teaching.html#defence-of-an-academic-paper",
+    "title": "Teaching",
+    "section": "Defence of an Academic Paper",
+    "text": "Defence of an Academic Paper"
+  },
+  {
+    "objectID": "teaching.html#foundations-of-microeconomics",
+    "href": "teaching.html#foundations-of-microeconomics",
+    "title": "Teaching",
+    "section": "Foundations of Microeconomics",
+    "text": "Foundations of Microeconomics"
   }
 ]
