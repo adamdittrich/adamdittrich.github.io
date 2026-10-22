@@ -16,7 +16,7 @@ body-classes: academic-site publications-page
 <section class="ac-item-body" id="the-crown-against-the-world-reconstructing-czechoslovakias-effective-exchange-rates-19201938">
 <h3>The Crown Against the World: Reconstructing Czechoslovakia’s Effective Exchange Rates, 1920–1938</h3>
 <p><strong>Adam Dittrich</strong><br/>
-<em>Statistika: Statistics and Economy Journal.</em> Forthcoming.</p>
+<em>Statistika: Statistics and Economy Journal.</em> Accepted; publication expected in 2027.</p>
 </section>
 </div>
 <div class="ac-publication">
@@ -120,45 +120,94 @@ HAL Open Science working paper, hal-05660879.</p>
 </div>
 </section>
 <section class="ac-section ac-publication-section">
-<h2 id="research-papers-with-open-data">Research papers with open data</h2>
+<span id="research-papers-with-open-data"></span>
+<h2 id="research-manuscripts">Current manuscripts</h2>
 <div class="ac-publication">
-<div class="ac-item-meta">Research</div>
 <section class="ac-item-body" id="measuring-financial-stress-under-the-gold-standard-evidence-from-interwar-czechoslovakia">
 <h3>Measuring Financial Stress under the Gold Standard: Evidence from Interwar Czechoslovakia</h3>
-<p><strong>Adam Dittrich</strong></p>
-<p>A monthly composite index uses eleven financial and macro-financial indicators to recover the chronology of pressure from November 1929 to September 1938. The project connects statistical measurement to the institutional mechanics of the Czechoslovak gold-standard regime.</p>
-<p><a class="pill-link" href="https://www.openicpsr.org/openicpsr/project/247312/version/V1/view">Data and documentation</a> <a class="pill-link" href="data.html#financial-stress-under-the-gold-standard">Project summary</a></p>
+<p>Eleven monthly indicators trace financial strain from November 1929 to September 1938.</p>
+<p><a class="pill-link" href="https://www.openicpsr.org/openicpsr/project/247312/version/V1/view">Dataset and documentation</a></p>
+</section>
+</div>
+<div class="ac-publication">
+<section class="ac-item-body" id="foreign-trade-turning-point">
+<h3>Measuring the Turning Point in Czechoslovak Foreign Trade during the Great Depression</h3>
+<p>An econometric reconstruction of foreign-trade turning points and devaluation effects.</p>
+</section>
+</div>
+<div class="ac-publication">
+<section class="ac-item-body" id="law-behind-the-koruna">
+<h3>The Law Behind the Koruna: Central-Bank Statutes and the Domestic Burden of Monetary Defence, 1929–1934</h3>
+</section>
+</div>
+<div class="ac-publication">
+<section class="ac-item-body" id="who-paid-for-credibility">
+<h3>Who Paid for Credibility? The Technology of Monetary Defense on Europe’s Periphery, 1926–1938</h3>
+</section>
+</div>
+<div class="ac-publication">
+<section class="ac-item-body" id="prices-recover-markets-remember">
+<h3>Prices Recover, Markets Remember: Late Devaluation and the Erosion of Price Competition in Interwar Czechoslovakia, 1929–1938</h3>
+</section>
+</div>
+<div class="ac-publication">
+<section class="ac-item-body" id="quota-90">
+<h3>The Price of Credibility: Quota 90 and Fascist Italy’s Internal Deflation in Monthly European Perspective, 1925–1928</h3>
+<p>Monthly European comparisons of the domestic adjustment associated with Italy’s monetary revaluation.</p>
+</section>
+</div>
+<div class="ac-publication">
+<section class="ac-item-body" id="missing-j-paper">
+<h3>The Missing J in Interwar Europe: A Monthly Cliometric Dataset on Effective Exchange Rates and Trade-Balance Adjustment, 1925–1936</h3>
+<p><a class="pill-link" href="data.html#the-missing-j">Dataset and documentation</a></p>
+</section>
+</div>
+<div class="ac-publication">
+<section class="ac-item-body" id="devaluation-debate">
+<h3>Mezi zlatou paritou a hospodářskou krizí: spor o devalvaci československé koruny, 1931–1934</h3>
+<p><span class="english-title">[Between Gold Parity and Economic Crisis: The Debate over Devaluing the Czechoslovak Koruna, 1931–1934]</span></p>
 </section>
 </div>
 </section>
 <section class="ac-section ac-publication-section">
-<h2 id="research-manuscripts">Other research manuscripts</h2>
-<div class="ac-publication"><h3>Measuring the Turning Point in Czechoslovak Foreign Trade during the Great Depression</h3></div>
-<div class="ac-publication"><h3>Who Paid for Credibility? The Technology of Monetary Defense on Europe’s Periphery, 1926–1938</h3></div>
-<div class="ac-publication"><h3>The Koruna-Defence Gap: External Credibility, Real-Rate Restriction and the Great Depression in Interwar Czechoslovakia</h3></div>
-<div class="ac-publication"><h3>Recovery before Jobs: Unemployment, Vacancies, and the State in Interwar Czechoslovakia, 1926–38</h3></div>
-<div class="ac-publication"><h3>The Missing J in Interwar Europe: A Monthly Cliometric Dataset on Effective Exchange Rates and Trade-Balance Adjustment, 1925–1936</h3></div>
-<div class="ac-publication"><h3>Prices Recover, Markets Remember: Late Devaluation and the Erosion of Price Competition in Interwar Czechoslovakia, 1929–1938</h3></div>
-<div class="ac-publication"><h3>The Price of Credibility: Quota 90 and Fascist Italy’s Internal Deflation in Monthly European Perspective, 1925–1928</h3></div>
-<div class="ac-publication"><h3>The Price of Credibility: Central-Bank Law, Monetary Defence, and Domestic Contraction in Interwar Czechoslovakia</h3></div>
+<h2 id="projects-in-development">Papers in preparation</h2>
+<div class="ac-publication">
+<section class="ac-item-body" id="agricultural-output">
+<h3>Agricultural Output of Interwar Czechoslovakia</h3>
+<p>Preliminary annual estimates of crop and livestock output and agricultural gross value added, 1920–1937, at current and constant prices. This is the first developed component of the wider Czechoslovak GDP reconstruction.</p>
+<p><a class="pill-link" href="research.html#czechoslovak-gdp">GDP reconstruction project</a></p>
 </section>
-<section class="ac-section ac-publication-section">
-<h2 id="projects-in-development">Projects in development</h2>
-<div class="ac-publication">
-<h3>Gold Flows, Sterilisation, and the Monetary Base in Interwar Czechoslovakia, 1927–1938</h3>
-<p>Reserve movements, domestic balance-sheet operations, and changes in the monetary regime after devaluation.</p>
 </div>
 <div class="ac-publication">
-<h3>From Bills to Money Markets: The Structural Transformation of the Credit Transmission Mechanism of the National Bank of Czechoslovakia, 1926–1936</h3>
-<p>Central-bank credit, the commercial-bill channel, and liquidity management.</p>
-</div>
-<div class="ac-publication">
+<section class="ac-item-body" id="loevenstein-crisis">
 <h3>Crisis as a Failure of Distribution: Jan Loevenstein’s Theory of Underconsumption, Technological Unemployment, and the Great Depression</h3>
-<p>A study of Loevenstein’s account of crisis, distribution, and unemployment.</p>
+<p>A reconstruction of Loevenstein’s explanation of crisis through distribution, mechanisation and exclusion from income and final consumption.</p>
+</section>
 </div>
 <div class="ac-publication">
-<h3>Reconstructing Interwar Czechoslovak Output</h3>
-<p>The Czechoslovak contribution to comparative work on Central and Eastern European historical GDP with Matthias Morys and Marcin Wroński. Current work focuses on agricultural output and value added, sectoral coverage, prices, intermediate inputs, and comparability across countries.</p>
+<section class="ac-item-body" id="gold-flows">
+<h3>Gold Flows, Sterilisation, and the Monetary Base in Interwar Czechoslovakia, 1927–1938</h3>
+<p>Monthly central-bank balance sheets are used to examine reserve movements, sterilisation and domestic monetary adjustment.</p>
+</section>
+</div>
+<div class="ac-publication">
+<section class="ac-item-body" id="hard-currency-new-state">
+<h3>A Hard Currency for a New State: The Koruna and the Politics of Post-Imperial Credibility, 1918–1934</h3>
+</section>
+</div>
+<div class="ac-publication">
+<section class="ac-item-body" id="little-entente">
+<h3>An Alliance without a Market? The Little Entente between Czechoslovak Centrality and German Economic Power, 1927–1937</h3>
+<p>A study of trade within the Little Entente and the changing commercial relationships of Czechoslovakia, Romania and Yugoslavia with Germany.</p>
+</section>
+</div>
+<div class="ac-publication">
+<section class="ac-item-body" id="healthcare-capacity">
+<h3>Kapacita bez efektivity? Zdravotnická infrastruktura a zdravotní výsledky v socialistickém Československu</h3>
+<p><span class="english-title">[Capacity without Effectiveness? Healthcare Infrastructure and Health Outcomes in Socialist Czechoslovakia]</span></p>
+<p>With Jiří Rytina and Jakub Drábek. Healthcare capacity and health outcomes in socialist Czechoslovakia.</p>
+<p><a class="pill-link" href="publications.html#conference-presentations">Conference presentation</a></p>
+</section>
 </div>
 </section>
 <p class="ac-bib-link"><a href="assets/files/publications.bib">Download bibliography (BibTeX)</a></p>

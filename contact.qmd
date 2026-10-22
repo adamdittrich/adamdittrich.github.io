@@ -26,7 +26,7 @@ Czech Republic
 ## Profiles
 
 ::: {.ac-link-row}
-[Institutional profile](https://khd.vse.cz/ing-adam-dittrich/)
+[University profile](https://khd.vse.cz/ing-adam-dittrich/)
 [ORCID](https://orcid.org/0000-0002-7803-1339)
 [RePEc](https://ideas.repec.org/f/pdi678.html)
 [Google Scholar](https://scholar.google.com/citations?hl=en&user=w20HpZcAAAAJ)

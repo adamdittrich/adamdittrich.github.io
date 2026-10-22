@@ -11,7 +11,7 @@ body-classes: academic-site cv-page
 <h1>Curriculum vitae</h1>
 <p class="ac-cv-name">Adam Dittrich</p>
 <p>Assistant Professor · Department of Economic History<br>Prague University of Economics and Business</p>
-<p class="ac-link-row"><a href="assets/files/Adam-Dittrich-CV.pdf">Download CV (PDF)</a><a href="mailto:adam.dittrich@vse.cz">Email</a><a href="https://orcid.org/0000-0002-7803-1339">ORCID</a></p>
+<p class="ac-link-row"><a href="assets/files/Adam-Dittrich-CV.pdf">Download CV (PDF)</a><a href="mailto:adam.dittrich@vse.cz">Email</a><a href="https://orcid.org/0000-0002-7803-1339">ORCID</a><a href="https://khd.vse.cz/ing-adam-dittrich/">University profile</a><a href="https://www.linkedin.com/in/adam-dittrich-3644b219a/">LinkedIn</a></p>
 <section class="ac-section cv-section">
 <h2>Academic appointment</h2>
 <div class="cv-entry">
@@ -38,7 +38,7 @@ body-classes: academic-site cv-page
 <h2>Published and forthcoming articles</h2>
 <div class="cv-entry">
 <div class="cv-date">Forthcoming</div>
-<div><strong>Dittrich, Adam.</strong> “The Crown Against the World: Reconstructing Czechoslovakia’s Effective Exchange Rates, 1920–1938.” <em>Statistika: Statistics and Economy Journal.</em></div>
+<div><strong>Dittrich, Adam.</strong> “The Crown Against the World: Reconstructing Czechoslovakia’s Effective Exchange Rates, 1920–1938.” <em>Statistika: Statistics and Economy Journal.</em> Accepted; publication expected in 2027.</div>
 </div>
 <div class="cv-entry">
 <div class="cv-date">Accepted</div>
@@ -89,8 +89,12 @@ body-classes: academic-site cv-page
 <section class="ac-section cv-section">
 <h2>Research and data</h2>
 <div class="cv-entry">
-<div class="cv-date">National accounts</div>
-<div>Czechoslovak contribution to a comparative Central and Eastern European GDP-reconstruction project with Matthias Morys and Marcin Wroński, focusing on agricultural output and value added, prices, intermediate inputs, and cross-country comparability.</div>
+<div class="cv-date">GDP reconstruction</div>
+<div>Sector-by-sector reconstruction of interwar Czechoslovak GDP at current and constant prices, developed in dialogue with Matthias Morys and Marcin Wroński on comparative Central and Eastern European national accounts. <a href="research.html#czechoslovak-gdp">Project description.</a></div>
+</div>
+<div class="cv-entry">
+<div class="cv-date">Agricultural output</div>
+<div>Preliminary reconstruction of crop and livestock output and agricultural gross value added, 1920–1937, using commodity quantities, prices and intermediate inputs. Agricultural paper in preparation; first developed component of the GDP project.</div>
 </div>
 <div class="cv-entry">
 <div class="cv-date">Monetary history</div>
@@ -102,7 +106,7 @@ body-classes: academic-site cv-page
 </div>
 <div class="cv-entry">
 <div class="cv-date">Manuscripts</div>
-<div>Current research on monetary defence, trade adjustment, labour markets, historical national accounts, and Czech economic thought. <a href="publications.html">Publications and current papers.</a></div>
+<div>Current research on monetary defence, devaluation, trade adjustment, historical national accounts, healthcare and Czech economic thought. <a href="publications.html#research-manuscripts">Current manuscripts and papers in preparation.</a></div>
 </div>
 </section>
 <section class="ac-section cv-section">

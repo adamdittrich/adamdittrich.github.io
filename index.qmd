@@ -16,13 +16,15 @@ body-classes: academic-site home-page
 
 I work on monetary and financial history and the history of economic thought, with a particular focus on interwar Czechoslovakia and Central Europe. My research combines archival sources with historical data reconstruction and econometrics.
 
-My current projects examine exchange rates and monetary policy during the Great Depression, banking and financial stress, and the work of Czech economists such as Karel Engliš and Jan Loevenstein. I also contribute to comparative research on historical national accounts.
+A major current project is the reconstruction of interwar Czechoslovak GDP. The agricultural component is already under way, with preliminary estimates of output and value added for 1920–1937. My other projects examine monetary policy and financial stress during the Great Depression, exchange rates and trade, and Czech economic thought.
 
 ::: {.ac-link-row}
 [CV (PDF)](assets/files/Adam-Dittrich-CV.pdf)
 [Email](mailto:adam.dittrich@vse.cz)
 [ORCID](https://orcid.org/0000-0002-7803-1339)
 [RePEc](https://ideas.repec.org/f/pdi678.html)
+[University profile](https://khd.vse.cz/ing-adam-dittrich/)
+[LinkedIn](https://www.linkedin.com/in/adam-dittrich-3644b219a/)
 :::
 :::
 
@@ -39,9 +41,17 @@ No stock photograph, generated likeness or visible placeholder is used.
 ## Selected work
 
 ::: {.ac-work-item}
+### Reconstructing Czechoslovak GDP
+
+A sector-by-sector reconstruction of the interwar economy, beginning with agricultural output and gross value added for 1920–1937. Research in progress.
+
+[Project](research.qmd#czechoslovak-gdp) · [Agricultural-output paper](publications.qmd#agricultural-output)
+:::
+
+::: {.ac-work-item}
 ### The Crown Against the World: Reconstructing Czechoslovakia’s Effective Exchange Rates, 1920–1938
 
-*Statistika: Statistics and Economy Journal.* Forthcoming.
+*Statistika: Statistics and Economy Journal.* Accepted; publication expected in 2027.
 
 [Publication details](publications.qmd#forthcoming-and-accepted)
 :::
@@ -75,7 +85,7 @@ With Jiří Rytina. Working paper, 2026.
 
 ::: {.ac-news-item}
 <span class="ac-date">October 2026</span>
-<div>“The Crown Against the World” is forthcoming in <em>Statistika: Statistics and Economy Journal</em>.</div>
+<div>“The Crown Against the World” has been accepted by <em>Statistika: Statistics and Economy Journal</em>; publication is expected in 2027.</div>
 :::
 
 ::: {.ac-news-item}
