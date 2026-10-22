@@ -20,6 +20,30 @@
     });
   }
 
+  const healthcarePresentation = document.getElementById(
+    "kapacita-bez-efektivity-zdravotnická-infrastruktura-a-zdravotní-výsledky-v-socialistickém-československu"
+  );
+
+  if (healthcarePresentation) {
+    const heading = healthcarePresentation.querySelector("h3");
+    if (heading && !heading.querySelector("a")) {
+      const link = document.createElement("a");
+      link.href = "healthcare-capacity.html";
+      link.className = "ac-title-link";
+      link.textContent = heading.textContent;
+      heading.replaceChildren(link);
+    }
+
+    const linkParagraph = healthcarePresentation.querySelector("p:last-child");
+    if (linkParagraph && !healthcarePresentation.querySelector('a[href="healthcare-capacity.html"]:not(.ac-title-link)')) {
+      const details = document.createElement("a");
+      details.href = "healthcare-capacity.html";
+      details.className = "pill-link";
+      details.textContent = "Preliminary results and figures";
+      linkParagraph.prepend(details, " ");
+    }
+  }
+
   document.querySelectorAll('a[href^="http"]').forEach((link) => {
     const url = new URL(link.href, window.location.href);
     if (url.origin !== window.location.origin) {

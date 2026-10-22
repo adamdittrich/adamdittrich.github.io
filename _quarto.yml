@@ -7,6 +7,7 @@ project:
   - assets/files/**
   - assets/js/site.js
   - assets/img/favicon.svg
+  - assets/img/healthcare/**
   post-render:
   - python3 scripts/after_render.py
 website:
@@ -57,7 +58,9 @@ format:
     theme:
     - cosmo
     - assets/css/theme.scss
-    css: assets/css/site-v4.css
+    css:
+    - assets/css/site-v4.css
+    - assets/css/healthcare-project.css
     toc: false
     smooth-scroll: false
     link-external-newwindow: true
