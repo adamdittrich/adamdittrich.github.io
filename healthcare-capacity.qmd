@@ -73,14 +73,14 @@ body-classes: academic-site project-page healthcare-project-page
 <h3>3. The same total gap concealed a different age-specific problem</h3>
 <p>In 1965, Czech and Slovak neonatal mortality was nearly equal and Slovakia’s disadvantage was concentrated after the first 28 days. By 1983, 60% of the remaining absolute gap was located in the neonatal period. The relative total changed little, but the stage of infancy requiring explanation changed substantially.</p>
 <figure class="ac-research-figure ac-figure-wide">
-<img src="assets/img/healthcare/infant-gap-composition.webp" alt="Neonatal and postneonatal components of the Slovak minus Czech infant mortality gap in 1965 and 1983">
+<img src="assets/img/healthcare/infant-gap-composition-v2.svg" alt="Neonatal and postneonatal components of the Slovak minus Czech infant mortality gap in 1965 and 1983">
 <figcaption>The postneonatal gap narrowed sharply; the first 28 days became the main component of the remaining difference.</figcaption>
 </figure>
 
 <h3>4. Middle-aged male survival deteriorated inside the expanding system</h3>
 <p>Fixed-weight male mortality at ages 40–64 rose by 15.9% in the Czech lands and 42.7% in Slovakia between 1965 and 1982. The adverse direction is not an ageing artefact: every constituent male age-specific rate increased in both republics in the 1960–1982 comparison. Remaining life expectancy at age 40 also fell, by 1.93 years in the Czech lands and 2.53 years in Slovakia between 1960 and 1983.</p>
 <figure class="ac-research-figure ac-figure-wide">
-<img src="assets/img/healthcare/male-mortality.webp" alt="Standardised mortality at ages 40 to 64 by sex in the Czech lands and Slovakia, 1950 to 1982">
+<img src="assets/img/healthcare/male-mortality-v2.svg" alt="Standardised mortality at ages 40 to 64 by sex in the Czech lands and Slovakia, 1950 to 1982">
 <figcaption>Infant gains coexisted with a pronounced deterioration in middle-aged male survival.</figcaption>
 </figure>
 

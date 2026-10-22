@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="650" viewBox="82 59 430 274" role="img" aria-labelledby="title desc">
+<title id="title">Standardised mortality at ages 40–64, 1950–1982</title>
+<desc id="desc">All four original time-series paths from Figure 7, page 13 of More Doctors, Unequal Survival: Czech and Slovak men and women. Fixed age weights are used throughout. Male mortality rises after the mid-1960s while female mortality is much lower and changes less. The common endpoint is 1982.</desc>
+<rect x="82" y="59" width="430" height="274" fill="white"/>
+<g font-family="Georgia, Times New Roman, serif" font-size="10" fill="#111111">
+<path d="M126.317,80.276V287.671H498.053" fill="none" stroke="#111111" stroke-width="0.6"/>
+<path d="M123.3,287.671H126.317" stroke="#111111" stroke-width="0.6"/>
+<text x="120.000" y="290.671" text-anchor="end">0</text>
+<path d="M123.3,261.747H126.317" stroke="#111111" stroke-width="0.6"/>
+<text x="120.000" y="264.747" text-anchor="end">2</text>
+<path d="M123.3,235.822H126.317" stroke="#111111" stroke-width="0.6"/>
+<text x="120.000" y="238.822" text-anchor="end">4</text>
+<path d="M123.3,209.898H126.317" stroke="#111111" stroke-width="0.6"/>
+<text x="120.000" y="212.898" text-anchor="end">6</text>
+<path d="M123.3,183.973H126.317" stroke="#111111" stroke-width="0.6"/>
+<text x="120.000" y="186.973" text-anchor="end">8</text>
+<path d="M123.3,158.049H126.317" stroke="#111111" stroke-width="0.6"/>
+<text x="120.000" y="161.049" text-anchor="end">10</text>
+<path d="M123.3,132.125H126.317" stroke="#111111" stroke-width="0.6"/>
+<text x="120.000" y="135.125" text-anchor="end">12</text>
+<path d="M123.3,106.200H126.317" stroke="#111111" stroke-width="0.6"/>
+<text x="120.000" y="109.200" text-anchor="end">14</text>
+<path d="M123.3,80.276H126.317" stroke="#111111" stroke-width="0.6"/>
+<text x="120.000" y="83.276" text-anchor="end">16</text>
+<path d="M126.317,287.671V291.3" stroke="#111111" stroke-width="0.6"/>
+<text x="126.317" y="303.000" text-anchor="middle">1950</text>
+<path d="M182.640,287.671V291.3" stroke="#111111" stroke-width="0.6"/>
+<text x="182.640" y="303.000" text-anchor="middle">1955</text>
+<path d="M238.964,287.671V291.3" stroke="#111111" stroke-width="0.6"/>
+<text x="238.964" y="303.000" text-anchor="middle">1960</text>
+<path d="M295.288,287.671V291.3" stroke="#111111" stroke-width="0.6"/>
+<text x="295.288" y="303.000" text-anchor="middle">1965</text>
+<path d="M351.611,287.671V291.3" stroke="#111111" stroke-width="0.6"/>
+<text x="351.611" y="303.000" text-anchor="middle">1970</text>
+<path d="M407.935,287.671V291.3" stroke="#111111" stroke-width="0.6"/>
+<text x="407.935" y="303.000" text-anchor="middle">1975</text>
+<path d="M464.259,287.671V291.3" stroke="#111111" stroke-width="0.6"/>
+<text x="464.259" y="303.000" text-anchor="middle">1980</text>
+<path d="M126.317,115.369L137.581,118.361L148.846,124.628L160.111,124.636L171.376,123.069L182.640,128.197L193.905,133.755L205.170,130.186L216.434,141.582L227.699,135.478L238.964,140.367L250.229,141.900L261.493,133.305L272.758,136.203L284.023,138.394L295.288,140.354L306.552,139.081L317.817,133.622L329.082,127.557L340.347,118.953L351.611,116.528L362.876,119.338L374.141,125.161L385.406,120.595L396.670,120.546L407.935,125.705L419.200,123.678L430.465,121.916L441.729,117.722L452.994,117.291L464.259,110.340L475.524,115.126L486.788,116.866" fill="none" stroke="#1f77b4" stroke-width="1.654"/>
+<path d="M126.317,138.417L137.581,137.931L148.846,135.888L160.111,138.613L171.376,137.109L182.640,141.126L193.905,144.249L205.170,137.332L216.434,147.808L227.699,138.496L238.964,154.703L250.229,166.822L261.493,158.659L272.758,162.086L284.023,167.389L295.288,161.559L306.552,161.679L317.817,159.940L329.082,149.448L340.347,141.738L351.611,135.802L362.876,134.864L374.141,136.964L385.406,129.988L396.670,130.050L407.935,128.921L419.200,127.516L430.465,119.791L441.729,118.098L452.994,119.177L464.259,113.232L475.524,107.864L486.788,107.730" fill="none" stroke="#ff7f0e" stroke-width="1.654" stroke-dasharray="6.1198 2.6464003"/>
+<path d="M126.317,182.213L137.581,185.033L148.846,191.017L160.111,191.989L171.376,194.617L182.640,199.338L193.905,201.953L205.170,201.248L216.434,206.743L227.699,205.699L238.964,208.892L250.229,210.192L261.493,208.889L272.758,212.011L284.023,210.517L295.288,211.507L306.552,213.067L317.817,212.791L329.082,210.229L340.347,207.333L351.611,205.364L362.876,207.877L374.141,208.602L385.406,208.583L396.670,208.802L407.935,213.223L419.200,212.937L430.465,213.421L441.729,212.116L452.994,210.669L464.259,209.532L475.524,211.743L486.788,213.260" fill="none" stroke="#2ca02c" stroke-width="1.654" stroke-dasharray="1.654 2.7291"/>
+<path d="M126.317,176.751L137.581,181.998L148.846,184.076L160.111,186.527L171.376,190.255L182.640,193.770L193.905,197.354L205.170,194.342L216.434,204.551L227.699,202.091L238.964,208.680L250.229,213.687L261.493,210.676L272.758,214.122L284.023,213.261L295.288,214.657L306.552,214.425L317.817,215.907L329.082,211.273L340.347,209.595L351.611,208.840L362.876,208.032L374.141,213.369L385.406,210.628L396.670,210.560L407.935,212.937L419.200,214.857L430.465,211.629L441.729,208.630L452.994,213.397L464.259,211.759L475.524,213.849L486.788,212.248" fill="none" stroke="#d62728" stroke-width="1.654" stroke-dasharray="10.585601 2.6464003 1.654 2.6464003"/>
+<text x="312.000" y="320.000" text-anchor="middle" font-size="11">Year</text>
+<text transform="translate(99 184) rotate(-90)" text-anchor="middle" font-size="9.5">Standardized deaths per 1,000 persons aged 40–64</text>
+<path d="M200,262H220" stroke="#1f77b4" stroke-width="1.654"/>
+<text x="227.000" y="265.000" font-size="9">Czech lands: Male</text>
+<path d="M200,275H220" stroke="#ff7f0e" stroke-width="1.654" stroke-dasharray="6.1198 2.6464"/>
+<text x="227.000" y="278.000" font-size="9">Slovakia: Male</text>
+<path d="M319,262H339" stroke="#2ca02c" stroke-width="1.654" stroke-dasharray="1.654 2.7291"/>
+<text x="346.000" y="265.000" font-size="9">Czech lands: Female</text>
+<path d="M319,275H339" stroke="#d62728" stroke-width="1.654" stroke-dasharray="10.5856 2.6464 1.654 2.6464"/>
+<text x="346.000" y="278.000" font-size="9">Slovakia: Female</text>
+</g></svg>

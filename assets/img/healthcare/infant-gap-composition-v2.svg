@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="650" viewBox="70 430 450 287" role="img" aria-labelledby="title desc">
+<title id="title">The changing composition of the Slovak–Czech infant mortality gap</title>
+<desc id="desc">Original bar and marker geometry from Figure 6, page 11 of More Doctors, Unequal Survival. In 1965 the neonatal gap was −0.25 and the postneonatal gap +5.06 deaths per 1,000 live births; in 1983 they were +1.80 and +1.20. Diamonds mark the total gap, 4.81 and 3.00. Positive values indicate higher Slovak mortality.</desc>
+<rect x="70" y="430" width="450" height="287" fill="white"/>
+<g font-family="Arial, Helvetica, sans-serif" font-size="8.5" fill="#111111">
+<path d="M113.593,456.547V681.914H504.685" fill="none" stroke="#111111" stroke-width="0.65"/>
+<path d="M113.593,656.201H504.685" fill="none" stroke="#476e80" stroke-width="0.65" stroke-dasharray="1.2 1.8"/>
+<path d="M110.3,656.201H113.593" stroke="#111111" stroke-width="0.65"/>
+<text x="106.500" y="659.201" text-anchor="end">0</text>
+<path d="M110.3,625.951H113.593" stroke="#111111" stroke-width="0.65"/>
+<text x="106.500" y="628.951" text-anchor="end">1</text>
+<path d="M110.3,595.700H113.593" stroke="#111111" stroke-width="0.65"/>
+<text x="106.500" y="598.700" text-anchor="end">2</text>
+<path d="M110.3,565.449H113.593" stroke="#111111" stroke-width="0.65"/>
+<text x="106.500" y="568.449" text-anchor="end">3</text>
+<path d="M110.3,535.199H113.593" stroke="#111111" stroke-width="0.65"/>
+<text x="106.500" y="538.199" text-anchor="end">4</text>
+<path d="M110.3,504.948H113.593" stroke="#111111" stroke-width="0.65"/>
+<text x="106.500" y="507.948" text-anchor="end">5</text>
+<path d="M110.3,474.697H113.593" stroke="#111111" stroke-width="0.65"/>
+<text x="106.500" y="477.697" text-anchor="end">6</text>
+<path d="M131.369,656.201H202.477V663.629H131.369Z" fill="#1f77b4"/>
+<path d="M340.510,601.750H411.617V656.201H340.510Z" fill="#1f77b4"/>
+<path d="M206.660,503.168H277.768V656.201H206.660Z" fill="#ff7f0e"/>
+<path d="M415.800,619.827H486.908V656.201H415.800Z" fill="#ff7f0e"/>
+<path d="M204.569,514.205L208.178,510.595L204.569,506.986L200.959,510.595L204.569,514.205" fill="#1f77b4" stroke="#1f77b4" stroke-width="0.851"/>
+<path d="M413.709,568.984L417.318,565.375L413.709,561.766L410.100,565.375L413.709,568.984" fill="#1f77b4" stroke="#1f77b4" stroke-width="0.851"/>
+<text x="204.570" y="698.000" text-anchor="middle" font-size="10">1965</text>
+<text x="413.710" y="698.000" text-anchor="middle" font-size="10">1983</text>
+<text x="166.920" y="675.000" text-anchor="middle">−0.25</text>
+<text x="242.210" y="497.000" text-anchor="middle">+5.06</text>
+<text x="376.060" y="596.000" text-anchor="middle">+1.80</text>
+<text x="451.350" y="614.000" text-anchor="middle">+1.20</text>
+<text transform="translate(86 568) rotate(-90)" text-anchor="middle" font-size="9.5">SK − CZ gap (deaths per 1,000 live births)</text>
+<rect x="180" y="439" width="12" height="5" fill="#1f77b4"/>
+<text x="197.000" y="445.000">Under 28 days</text>
+<rect x="325" y="439" width="12" height="5" fill="#ff7f0e"/>
+<text x="342.000" y="445.000">28 days to under one year</text>
+<path d="M476,453l3.6,3.6 -3.6,3.6 -3.6,-3.6Z" fill="#1f77b4"/>
+<text x="468.000" y="460.000" text-anchor="end">Total gap</text>
+</g></svg>
