@@ -11,7 +11,8 @@ from urllib.parse import unquote, urlsplit
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / 'docs'
 EXPECTED_PAGES = {'index.html', 'research.html', 'publications.html', 'data.html',
-                  'teaching.html', 'cv.html', 'contact.html', '404.html'}
+                  'teaching.html', 'cv.html', 'contact.html', 'healthcare-capacity.html',
+                  '404.html'}
 
 
 class Page(HTMLParser):
