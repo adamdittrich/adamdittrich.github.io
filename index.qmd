@@ -1,10 +1,42 @@
 ---
-title: Adam Dittrich
+title: Adam Dittrich — Economic Historian
 description: Adam Dittrich is an economic historian at Prague University of Economics and Business. Research, publications,
   datasets and teaching.
 page-layout: custom
 title-block-banner: false
 body-classes: academic-site home-page
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link rel="canonical" href="https://adamdittrich.github.io/">
+          <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "ProfilePage",
+            "url": "https://adamdittrich.github.io/",
+            "mainEntity": {
+              "@type": "Person",
+              "@id": "https://adamdittrich.github.io/#adam-dittrich",
+              "name": "Adam Dittrich",
+              "url": "https://adamdittrich.github.io/",
+              "description": "Economic historian researching interwar Czechoslovakia, monetary and financial history, historical national accounts, and the history of economic thought.",
+              "jobTitle": "Assistant Professor",
+              "affiliation": {
+                "@type": "CollegeOrUniversity",
+                "name": "Prague University of Economics and Business",
+                "url": "https://www.vse.cz/"
+              },
+              "sameAs": [
+                "https://khd.vse.cz/ing-adam-dittrich/",
+                "https://orcid.org/0000-0002-7803-1339",
+                "https://ideas.repec.org/f/pdi678.html",
+                "https://www.linkedin.com/in/adam-dittrich-3644b219a/",
+                "https://github.com/adamdittrich"
+              ]
+            }
+          }
+          </script>
 ---
 
 ::: {.ac-page .ac-home}
