@@ -14,7 +14,8 @@ ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
 EXPECTED_PAGES = {'index.html', 'research.html', 'publications.html', 'data.html',
                   'teaching.html', 'cv.html', 'contact.html', 'healthcare-capacity.html',
-                  'czechoslovak-foreign-trade.html', 'czechoslovakia-eer.html', '404.html'}
+                  'czechoslovak-foreign-trade.html', 'czechoslovakia-eer.html',
+                  'czechoslovakia-financial-stress.html', '404.html'}
 
 
 class Page(HTMLParser):

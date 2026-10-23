@@ -125,8 +125,8 @@ HAL Open Science working paper, hal-05660879.</p>
 <div class="ac-publication">
 <section class="ac-item-body" id="measuring-financial-stress-under-the-gold-standard-evidence-from-interwar-czechoslovakia">
 <h3>Measuring Financial Stress under the Gold Standard: Evidence from Interwar Czechoslovakia</h3>
-<p>Eleven monthly indicators trace financial strain from November 1929 to September 1938.</p>
-<p><a class="pill-link" href="https://www.openicpsr.org/openicpsr/project/247312/version/V1/view">Dataset and documentation</a></p>
+<p>A financial-only stress index and a broader macro-financial index reconstruct the monthly Czechoslovak Depression, November 1929–August 1938. The revised framework separates financial pressure from real distress and examines the February 1934 institutional break.</p>
+<p><a class="pill-link" href="czechoslovakia-financial-stress.html">Dataset, findings and figures</a> <a class="pill-link" href="https://www.openicpsr.org/openicpsr/project/247312/version/V1/view">Original openICPSR V1 deposit</a></p>
 </section>
 </div>
 <div class="ac-publication">

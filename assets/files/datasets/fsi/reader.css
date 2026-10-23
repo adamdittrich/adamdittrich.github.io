@@ -1,0 +1,51 @@
+/* Financial stress reader: scoped additions to the shared dataset design. */
+.fsi-page .fsi-eyebrow { color: #7a2e34; font-size: .79rem; font-weight: 600; letter-spacing: .09em; text-transform: uppercase; margin-bottom: .7rem; }
+.fsi-page h1 { max-width: 900px; margin-bottom: .8rem; }
+.fsi-page .fsi-intro { max-width: 850px; font-size: 1.1rem; line-height: 1.7; }
+.fsi-page .ds-facts { margin-top: 1.6rem; }
+.fsi-page .ds-facts strong { color: #7a2e34; }
+.fsi-page .fsi-release { color: #53636a; font-size: .84rem; max-width: 840px; line-height: 1.6; }
+.fsi-page .fsi-measures { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin: 1.5rem 0; }
+.fsi-page .fsi-measure { border-top: 3px solid #7a2e34; padding-top: 1rem; }
+.fsi-page .fsi-measure.broad { border-color: #316a7a; }
+.fsi-page .fsi-measure h3 { margin: 0 0 .6rem; font-size: 1.35rem; }
+.fsi-page .fsi-measure p { font-size: .94rem; }
+.fsi-page .fsi-formula { font-family: Georgia, serif; font-size: 1.1rem; color: #162b36; margin: 1rem 0; }
+.fsi-page .fsi-source { font-size: .8rem; line-height: 1.55; color: #53636a; }
+.fsi-page .fsi-chart-scroll { overflow-x: auto; overscroll-behavior-x: contain; }
+.fsi-page .fsi-chart-scroll img { min-width: 640px; }
+.fsi-page .fsi-chart-scroll:focus-visible { outline: 2px solid #7a2e34; outline-offset: 3px; }
+.fsi-page .fsi-mobile-hint { display: none; }
+.fsi-page .fsi-key-result { font-family: Georgia, serif; font-size: 1.22rem; line-height: 1.55; max-width: 850px; }
+.fsi-page .fsi-group th { background: #ece7de; color: #162b36; padding-top: .8rem; }
+.fsi-page .fsi-components { min-width: 610px; }
+.fsi-page .fsi-components td:first-child { white-space: normal; }
+.fsi-page .fsi-components code { font-size: .78rem; overflow-wrap: normal; }
+.fsi-page .fsi-components small { display: block; font-size: .78rem; color: #53636a; }
+.fsi-page .fsi-data-list { padding-left: 1.2rem; }
+.fsi-page .fsi-data-list li { margin-bottom: .7rem; }
+.fsi-page .fsi-related { display: flex; flex-wrap: wrap; gap: .8rem 1.5rem; margin-top: 1rem; }
+.fsi-page details { border-top: 1px solid #d5cec2; padding-top: .8rem; margin-top: 1.3rem; }
+.fsi-page summary { line-height: 1.5; }
+.fsi-page summary:focus-visible { outline: 2px solid #7a2e34; outline-offset: 4px; }
+.fsi-page .fsi-download-primary { background: #7a2e34; color: #fff; border-color: #7a2e34; }
+.fsi-page .fsi-download-primary:hover { background: #562027; color: #fff; }
+.fsi-page .fsi-top-link { font-size: .85rem; margin-top: 2rem; }
+@media (max-width: 640px) {
+  .fsi-page .fsi-measures { grid-template-columns: 1fr; gap: .7rem; }
+  .fsi-page .fsi-intro { font-size: 1rem; }
+  .fsi-page .fsi-mobile-hint { display: block; font-size: .8rem; color: #53636a; margin-bottom: .75rem; }
+  .fsi-page .ds-nav { gap: .6rem 1rem; font-size: .88rem; }
+  .fsi-page .ds-facts { gap: 1rem; padding: 1.2rem 0; }
+  .fsi-page .ds-facts > div { display: grid; grid-template-columns: 125px 1fr; gap: .8rem; align-items: start; }
+  .fsi-page .ds-facts strong { font-size: 1.4rem; }
+  .fsi-page .ds-download-links { flex-direction: column; align-items: stretch; }
+  .fsi-page .ds-download-links a { text-align: center; }
+}
+@media print {
+  .fsi-page details > * { display: block; }
+  .fsi-page .fsi-chart-scroll { overflow: visible; }
+  .fsi-page .fsi-chart-scroll img { min-width: 0; }
+  .fsi-page .ds-figure { break-inside: avoid; }
+  .fsi-page .ds-nav, .fsi-page .fsi-mobile-hint, .fsi-page .fsi-top-link { display: none; }
+}

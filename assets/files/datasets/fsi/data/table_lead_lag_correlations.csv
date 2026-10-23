@@ -1,0 +1,151 @@
+transformation,pair,lag_months,correlation,n
+Levels,Market-banking,-12,0.07828743746566293,94
+Levels,Market-banking,-11,0.11097180907924901,95
+Levels,Market-banking,-10,0.15494565328550525,96
+Levels,Market-banking,-9,0.20447729736186468,97
+Levels,Market-banking,-8,0.2412712049384848,98
+Levels,Market-banking,-7,0.2625498416598276,99
+Levels,Market-banking,-6,0.28317539768122213,100
+Levels,Market-banking,-5,0.31108892695738544,101
+Levels,Market-banking,-4,0.3162947026517378,102
+Levels,Market-banking,-3,0.3162172232887561,103
+Levels,Market-banking,-2,0.31022049765820614,104
+Levels,Market-banking,-1,0.29050510745873215,105
+Levels,Market-banking,0,0.2602718976766886,106
+Levels,Market-banking,1,0.2425247118495004,105
+Levels,Market-banking,2,0.21323091182755227,104
+Levels,Market-banking,3,0.1939720999071876,103
+Levels,Market-banking,4,0.18330724880791827,102
+Levels,Market-banking,5,0.1492005212898307,101
+Levels,Market-banking,6,0.12675422927664853,100
+Levels,Market-banking,7,0.09654135427690261,99
+Levels,Market-banking,8,0.07254040264058755,98
+Levels,Market-banking,9,0.08683613063472143,97
+Levels,Market-banking,10,0.10391573578599149,96
+Levels,Market-banking,11,0.12028621780487077,95
+Levels,Market-banking,12,0.12226547986503743,94
+Monthly changes,Market-banking,-12,0.0395405608319954,93
+Monthly changes,Market-banking,-11,-0.0794270387924666,94
+Monthly changes,Market-banking,-10,-0.015068101948314597,95
+Monthly changes,Market-banking,-9,0.06579391188713068,96
+Monthly changes,Market-banking,-8,0.0853088807928572,97
+Monthly changes,Market-banking,-7,0.026608697501643404,98
+Monthly changes,Market-banking,-6,-0.09639878609763887,99
+Monthly changes,Market-banking,-5,0.10108592679360791,100
+Monthly changes,Market-banking,-4,0.0030670686761510037,101
+Monthly changes,Market-banking,-3,0.04777823535256623,102
+Monthly changes,Market-banking,-2,0.11253834858958112,103
+Monthly changes,Market-banking,-1,0.029552229208748143,104
+Monthly changes,Market-banking,0,0.006258505418856556,105
+Monthly changes,Market-banking,1,0.06401516218322102,104
+Monthly changes,Market-banking,2,-0.06011587285943404,103
+Monthly changes,Market-banking,3,-0.03873069024015527,102
+Monthly changes,Market-banking,4,0.14989715900904763,101
+Monthly changes,Market-banking,5,-0.0517117198148832,100
+Monthly changes,Market-banking,6,0.026100918027171096,99
+Monthly changes,Market-banking,7,-0.02922138830949102,98
+Monthly changes,Market-banking,8,-0.23688782030353703,97
+Monthly changes,Market-banking,9,-0.0032910463903108905,96
+Monthly changes,Market-banking,10,0.05885442438858168,95
+Monthly changes,Market-banking,11,0.08883117924371126,94
+Monthly changes,Market-banking,12,0.023268047668012663,93
+Levels,Market-real distress,-12,0.28410930539233986,94
+Levels,Market-real distress,-11,0.31097137404385744,95
+Levels,Market-real distress,-10,0.3519978416854176,96
+Levels,Market-real distress,-9,0.3884268467354692,97
+Levels,Market-real distress,-8,0.4236302952177319,98
+Levels,Market-real distress,-7,0.4671668933332562,99
+Levels,Market-real distress,-6,0.5021765551401648,100
+Levels,Market-real distress,-5,0.5241047879022842,101
+Levels,Market-real distress,-4,0.5575047892594811,102
+Levels,Market-real distress,-3,0.5770042428074745,103
+Levels,Market-real distress,-2,0.5900307646868361,104
+Levels,Market-real distress,-1,0.6147900499239893,105
+Levels,Market-real distress,0,0.6288781243701633,106
+Levels,Market-real distress,1,0.6650789424155055,105
+Levels,Market-real distress,2,0.6968408682406537,104
+Levels,Market-real distress,3,0.732521363438715,103
+Levels,Market-real distress,4,0.774101245443259,102
+Levels,Market-real distress,5,0.7979258598344249,101
+Levels,Market-real distress,6,0.807422023981166,100
+Levels,Market-real distress,7,0.8263148023612465,99
+Levels,Market-real distress,8,0.8204368281735614,98
+Levels,Market-real distress,9,0.8163259348277333,97
+Levels,Market-real distress,10,0.8185776005730476,96
+Levels,Market-real distress,11,0.804541962547104,95
+Levels,Market-real distress,12,0.7887790307634751,94
+Monthly changes,Market-real distress,-12,0.016634565288984753,93
+Monthly changes,Market-real distress,-11,-0.09810137625661391,94
+Monthly changes,Market-real distress,-10,0.010254093062750578,95
+Monthly changes,Market-real distress,-9,0.009935288678015018,96
+Monthly changes,Market-real distress,-8,-0.01315581983841541,97
+Monthly changes,Market-real distress,-7,0.039247398854853344,98
+Monthly changes,Market-real distress,-6,0.10277543245544897,99
+Monthly changes,Market-real distress,-5,-0.05542720084454606,100
+Monthly changes,Market-real distress,-4,0.07206920535429527,101
+Monthly changes,Market-real distress,-3,0.025764243154566015,102
+Monthly changes,Market-real distress,-2,-0.09998954653649654,103
+Monthly changes,Market-real distress,-1,0.08127627098951182,104
+Monthly changes,Market-real distress,0,-0.09445622720953903,105
+Monthly changes,Market-real distress,1,0.014313252601168523,104
+Monthly changes,Market-real distress,2,-0.04877044385391945,103
+Monthly changes,Market-real distress,3,-0.04844019485824747,102
+Monthly changes,Market-real distress,4,0.11559332437971663,101
+Monthly changes,Market-real distress,5,0.07937712276950418,100
+Monthly changes,Market-real distress,6,-0.04755195145073578,99
+Monthly changes,Market-real distress,7,0.1708639811885978,98
+Monthly changes,Market-real distress,8,-0.005401782834978498,97
+Monthly changes,Market-real distress,9,-0.04921394205189361,96
+Monthly changes,Market-real distress,10,0.07452600766558155,95
+Monthly changes,Market-real distress,11,0.0025132211413354645,94
+Monthly changes,Market-real distress,12,-0.1425868467561777,93
+Levels,Banking-real distress,-12,0.1032411765922978,94
+Levels,Banking-real distress,-11,0.15247746074768342,95
+Levels,Banking-real distress,-10,0.21060763380617528,96
+Levels,Banking-real distress,-9,0.2652851321456786,97
+Levels,Banking-real distress,-8,0.2810214613585471,98
+Levels,Banking-real distress,-7,0.2732561894259326,99
+Levels,Banking-real distress,-6,0.25222803399115556,100
+Levels,Banking-real distress,-5,0.1918571244046869,101
+Levels,Banking-real distress,-4,0.14002358581404387,102
+Levels,Banking-real distress,-3,0.10414579890843169,103
+Levels,Banking-real distress,-2,0.07795052838799811,104
+Levels,Banking-real distress,-1,0.06597543773400626,105
+Levels,Banking-real distress,0,0.05915257456175705,106
+Levels,Banking-real distress,1,0.1245080558550689,105
+Levels,Banking-real distress,2,0.182046525876244,104
+Levels,Banking-real distress,3,0.25683022272131684,103
+Levels,Banking-real distress,4,0.3064214242206693,102
+Levels,Banking-real distress,5,0.32012421953908143,101
+Levels,Banking-real distress,6,0.3088755414139309,100
+Levels,Banking-real distress,7,0.2597466257837953,99
+Levels,Banking-real distress,8,0.20559900759032826,98
+Levels,Banking-real distress,9,0.20020174444721592,97
+Levels,Banking-real distress,10,0.1867118920738867,96
+Levels,Banking-real distress,11,0.19413030020378857,95
+Levels,Banking-real distress,12,0.23234971980619062,94
+Monthly changes,Banking-real distress,-12,-0.023332034967332802,93
+Monthly changes,Banking-real distress,-11,-0.03159887680318678,94
+Monthly changes,Banking-real distress,-10,-0.023058292676344145,95
+Monthly changes,Banking-real distress,-9,0.18425818559034907,96
+Monthly changes,Banking-real distress,-8,0.10014712783476647,97
+Monthly changes,Banking-real distress,-7,0.03213056199599235,98
+Monthly changes,Banking-real distress,-6,0.17964710293704148,99
+Monthly changes,Banking-real distress,-5,-0.06775262840704177,100
+Monthly changes,Banking-real distress,-4,-0.048565276985017766,101
+Monthly changes,Banking-real distress,-3,-0.07863728160315647,102
+Monthly changes,Banking-real distress,-2,-0.14756248149204515,103
+Monthly changes,Banking-real distress,-1,-0.09662594466663034,104
+Monthly changes,Banking-real distress,0,-0.10174987596309872,105
+Monthly changes,Banking-real distress,1,-0.026073340095374768,104
+Monthly changes,Banking-real distress,2,-0.10095294111555751,103
+Monthly changes,Banking-real distress,3,0.1725158009193523,102
+Monthly changes,Banking-real distress,4,0.06997701801706019,101
+Monthly changes,Banking-real distress,5,0.11295354868055708,100
+Monthly changes,Banking-real distress,6,0.10740002249014326,99
+Monthly changes,Banking-real distress,7,0.08264354715938971,98
+Monthly changes,Banking-real distress,8,-0.1801337062625988,97
+Monthly changes,Banking-real distress,9,0.019320176994621314,96
+Monthly changes,Banking-real distress,10,-0.1029542784293813,95
+Monthly changes,Banking-real distress,11,-0.22176850347116653,94
+Monthly changes,Banking-real distress,12,0.05257513647680711,93

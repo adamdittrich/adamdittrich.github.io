@@ -1,0 +1,4 @@
+construction,correlation_with_baseline_fsi,peak_date,market_weight,banking_monetary_weight
+Baseline equal-weighted FSI,1,1932-03-01,0.5,0.5
+PCA first component,0.9731767829124305,1932-03-01,NA,NA
+Dispersion-weighted sector aggregation,0.9903386830856011,1932-03-01,0.6046778855459094,0.3953221144540906

@@ -74,8 +74,8 @@ No stock photograph, generated likeness or visible placeholder is used.
 <p><a href="czechoslovakia-eer.html">Dataset and figures</a></p></section>
 <section class="level3 ac-work-item" id="measuring-financial-stress-under-the-gold-standard-evidence-from-interwar-czechoslovakia">
 <h3 data-anchor-id="measuring-financial-stress-under-the-gold-standard-evidence-from-interwar-czechoslovakia">Measuring Financial Stress under the Gold Standard: Evidence from Interwar Czechoslovakia</h3>
-<p>Monthly financial-stress indicators for Czechoslovakia, November 1929–September 1938.</p>
-<p><a href="./research.html#financial-stress-and-banking">Research</a> · <a href="./data.html#financial-stress-under-the-gold-standard">Dataset</a></p>
+<p>Financial and macro-financial stress in Czechoslovakia, November 1929–August 1938: monthly chronology, component series and the 1934 monetary break.</p>
+<p><a href="./research.html#financial-stress-and-banking">Research</a> · <a href="czechoslovakia-financial-stress.html">Dataset and figures</a></p>
 </section>
 <section class="level3 ac-work-item" id="negative-time-preference-the-czech-sugar-industry-from-1896-to-1926">
 <h3 data-anchor-id="negative-time-preference-the-czech-sugar-industry-from-1896-to-1926">Negative Time Preference &amp; the Czech Sugar Industry from 1896 to 1926</h3>

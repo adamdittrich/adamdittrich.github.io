@@ -1,0 +1,7 @@
+transformation,pair,lag_months,correlation,n
+Levels,Banking-real distress,5,0.32012421953908143,101
+Levels,Market-banking,-4,0.3162947026517378,102
+Levels,Market-real distress,7,0.8263148023612465,99
+Monthly changes,Banking-real distress,-9,0.18425818559034907,96
+Monthly changes,Market-banking,4,0.14989715900904763,101
+Monthly changes,Market-real distress,7,0.1708639811885978,98

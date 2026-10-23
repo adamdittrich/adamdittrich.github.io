@@ -1,0 +1,7 @@
+construction,correlation_with_baseline_fsi,peak_date
+PCA first component,0.9731767829124305,1932-03-01
+Dispersion-weighted sector aggregation,0.9903386830856011,1932-03-01
+Median/MAD,0.7916566667195115,1932-03-01
+Pre-escalation 8-variable reference,0.898979088342969,1932-05-01
+Pre-1929 6-variable reference,0.8725562656335101,1932-06-01
+1934 break-neutralized,0.9071717477048195,1932-03-01

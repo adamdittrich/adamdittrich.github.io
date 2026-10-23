@@ -11,12 +11,10 @@ body-classes: academic-site data-page
 <h1>Datasets</h1><div class="ac-section ac-dataset" id="czechoslovak-foreign-trade"><h2><a href="czechoslovak-foreign-trade.html">Czechoslovak foreign trade</a></h2><p class="ac-item-meta">Annual: 1920–1938 · Monthly: 1924–1938 · Fifteen partner economies</p><p>National exports, imports and trade balances; annual bilateral flows and shares; growth rates and 1929-based indices.</p><p><a href="czechoslovak-foreign-trade.html">Data overview and figures</a> · <a download="" href="assets/files/datasets/Czechoslovak_Foreign_Trade_Interwar_Dataset.xlsx">Excel workbook</a></p></div><div class="ac-section ac-dataset" id="czechoslovakia-eer"><h2><a href="czechoslovakia-eer.html">Czechoslovakia’s effective exchange rates</a></h2><p class="ac-item-meta">Annual · NEER: 1920–1938 · REER: 1923–1938 · 1929 = 100</p><p>Companion dataset for <em>The Crown Against the World</em>: fourteen partners, twenty-six index variants, annual weights and basket coverage.</p><p><a href="czechoslovakia-eer.html">Data overview, figures and methods</a> · <a download="" href="assets/files/datasets/Czechoslovakia_EER_1920_1938.xlsx">Excel workbook</a> · <a href="https://doi.org/10.3886/E251023V1">openICPSR DOI</a></p></div>
 <div class="ac-section ac-dataset" id="financial-stress-under-the-gold-standard">
 <section class="level2" id="measuring-financial-stress-under-the-gold-standard">
-<h2 data-anchor-id="measuring-financial-stress-under-the-gold-standard">Measuring Financial Stress under the Gold Standard</h2>
-<p class="ac-item-meta">
-Czechoslovakia · Monthly · November 1929–September 1938
-</p>
-<p>Eleven financial and macro-financial indicators and a composite financial-stress index. The dataset contains 107 monthly observations, the underlying and transformed series, and documentation for reconstructing financial pressure during the Czechoslovak Depression.</p>
-<p><a href="https://www.openicpsr.org/openicpsr/project/247312/version/V1/view">Dataset and documentation</a> · DOI: 10.3886/E247312V1</p>
+<h2 data-anchor-id="measuring-financial-stress-under-the-gold-standard"><a href="czechoslovakia-financial-stress.html">Measuring Financial Stress under the Gold Standard</a></h2>
+<p class="ac-item-meta">Czechoslovakia · Monthly · November 1929–August 1938 · 106 complete months</p>
+<p>An eight-indicator Financial Stress Index and an eleven-indicator Macro-Financial Stress Index. Explore the monthly chronology, component blocks, the February 1934 monetary break and robustness results, with figures and downloadable revised reader data.</p>
+<p><a href="czechoslovakia-financial-stress.html">Data overview, figures and methods</a> · <a href="assets/files/datasets/fsi/monthly-indices.csv" download>Monthly indices (CSV)</a> · <a href="https://doi.org/10.3886/E247312V1">Original openICPSR V1 deposit</a></p>
 </section>
 </div>
 <div class="ac-section ac-dataset" id="european-bilateral-trade-geography">

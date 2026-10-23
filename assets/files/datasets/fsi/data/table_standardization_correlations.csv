@@ -1,0 +1,5 @@
+construction,correlation_with_baseline_fsi,peak_date
+Baseline full-sample z-score,1,1932-03-01
+Median/MAD scaling,0.7916566667195115,1932-03-01
+Nov. 1929-Apr. 1931 reference,0.898979088342969,1932-05-01
+Pre-Nov. 1929 reference (six variables),0.8725562656335101,1932-06-01

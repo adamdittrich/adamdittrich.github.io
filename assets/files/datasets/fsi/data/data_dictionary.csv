@@ -1,0 +1,19 @@
+variable,description,unit,role,stress_sign,availability,used_in_baseline
+stock_index,Aggregate Prague Stock Exchange index,"Index, 3 Jan 1927 = 100",FSI input: market,-1,1927-01 to 1938-09,Yes
+bond_yield,Weighted yield on government securities,Proportion,FSI input: market,1,1927-01 to 1938-09,Yes
+stock_turnover,Prague Stock Exchange turnover,Thousands of transactions,FSI input: market,-1,1927-01 to 1938-09,Yes
+equity_yield,Average yield on quoted Prague Exchange securities,Proportion,FSI input: market,1,1927-01 to 1938-09,Yes
+fx_reserves,Eligible foreign-exchange/gold reserves; concept changes in Feb 1934,Thousand Kč,FSI input: banking/monetary,-1,1927-01 to 1938-09,Yes
+gold_cover,Gold/eligible reserve cover ratio,Proportion,FSI input: banking/monetary,-1,1929-11 to 1938-09,Yes
+emission_gap,Remaining note-issue capacity under statutory cover rule,Thousand Kč,FSI input: banking/monetary,-1,1929-11 to 1938-09,Yes
+deposits,Deposits in Czechoslovak savings banks,Million Kč,FSI input: banking/monetary,-1,1927-01 to 1938-08,Yes
+unemployment,Registered unemployed job seekers,Persons,MFSI-only real-distress input,1,1927-01 to 1938-08,MFSI only
+bankruptcies,Declared bankruptcies,Count per month,MFSI-only real-distress input,1,1927-01 to 1938-08,MFSI only
+settlements,Court-administered settlement procedures,Count per month,MFSI-only real-distress input,1,1927-01 to 1938-08,MFSI only
+discount_rate,National Bank discount rate,Proportion,Policy variable; diagnostic only,NA,1929-11 to 1938-09,No
+exports,Merchandise exports,Million Kč,Downstream outcome,NA,1929-11 to 1938-08,No
+imports,Merchandise imports,Million Kč,Downstream outcome,NA,1929-11 to 1938-08,No
+wholesale_price_index,Aggregate wholesale price index,July 1914 = 100,Downstream outcome,NA,1929-11 to 1938-09,No
+pig_iron_production,Pig iron production,Thousand tonnes,Downstream outcome,NA,1929-11 to 1938-09,No
+rail_freight_tonnage,Goods carried on Czechoslovak railways,Thousand tonnes,Downstream outcome,NA,1929-11 to 1938-05,No
+stavka_unused,Series labelled stavka in original workbook; meaning not documented in supplied files,Unknown,Preserved but not analyzed,NA,1929-11 to 1938-09,No
