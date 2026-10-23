@@ -101,7 +101,7 @@ Conference presentation with Jiří Rytina and Jakub Drábek on healthcare infra
 <div class="ac-news-item">
 <span class="ac-date">2026</span>
 <div>
-<a href="data.html#the-missing-j">The Missing J</a>: a monthly dataset on effective exchange rates and trade-balance adjustment in interwar Europe, 1925–1936.
+<a href="the-missing-j.html">The Missing J</a>: explore monthly trade adjustment in interwar Europe through seven figures, research findings, methods and downloadable data. The archive covers 1925–1936; the preferred European design begins in 1928.
 </div>
 </div>
 </section>

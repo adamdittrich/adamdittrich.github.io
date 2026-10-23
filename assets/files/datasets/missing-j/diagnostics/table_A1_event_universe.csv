@@ -1,0 +1,17 @@
+country,country_print,historical_month,empirical_month,description,source,source_scope,include_12m_average,include_appendix_panel,treatment
+Austria,Austria,1931-09,1931-09,Schilling devaluation,Bernanke and James (1991),Bernanke-James,True,True,complete 12-month event
+Denmark,Denmark,1931-09,1931-09,Denmark devaluation,Bernanke and James (1991),Bernanke-James,True,True,complete 12-month event
+GreatBritain,Great Britain,1931-09,1931-09,Great Britain leaves gold,Bernanke and James (1991),Bernanke-James,True,True,complete 12-month event
+Norway,Norway,1931-09,1931-10,Norway devaluation,Bernanke and James (1991),Bernanke-James,True,True,complete 12-month event
+Sweden,Sweden,1931-09,1931-10,Sweden devaluation,Bernanke and James (1991),Bernanke-James,True,True,complete 12-month event
+Finland,Finland,1931-10,1931-10,Finland devaluation,Bernanke and James (1991),Bernanke-James,True,True,complete 12-month event
+Greece,Greece,1932-04,1932-04,Drachma devaluation,Bernanke and James (1991),Bernanke-James,False,False,not plotted; monthly trade panel unavailable
+Estonia,Estonia,1933-06,1933-06,Kroon devaluation,Bernanke and James (1991),Bernanke-James,True,True,complete 12-month event
+Czechoslovakia,Czechoslovakia,1934-02,1934-02,First koruna devaluation,Bernanke and James (1991),Bernanke-James,True,True,complete 12-month event
+Belgium,Belgium,1935-03,1935-04,Belga devaluation,Bernanke and James (1991),Bernanke-James,True,True,complete 12-month event
+Switzerland,Switzerland,1936-09,1936-09,Swiss franc devaluation,Eichengreen (1992),Supplemental,False,True,appendix panel; truncated
+Czechoslovakia,Czechoslovakia,1936-10,1936-10,Second koruna devaluation,Eichengreen (1992),Supplemental,False,True,appendix panel; truncated
+France,France,1936-10,1936-10,Franc devaluation,Bernanke and James (1991),Bernanke-James,False,True,appendix panel; truncated
+Italy,Italy,1936-10,1936-10,Lira devaluation,Bernanke and James (1991),Bernanke-James,False,False,not plotted; event window unavailable
+Netherlands,Netherlands,1936-10,1936-10,Guilder devaluation,Bernanke and James (1991),Bernanke-James,False,True,appendix panel; truncated
+Poland,Poland,1936-10,1936-10,Zloty devaluation,Bernanke and James (1991),Bernanke-James,False,True,appendix panel; truncated

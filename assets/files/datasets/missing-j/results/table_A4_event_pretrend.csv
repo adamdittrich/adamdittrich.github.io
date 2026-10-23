@@ -1,0 +1,2 @@
+event_count,lead_months_tested,pretrend_wald_stat,pretrend_p_value,base_month,dependent_variable,fixed_effects
+8,-6 to -2,14.839197050463302,0.011071981659610073,t=-1,ln_tb_ratio,country and calendar month

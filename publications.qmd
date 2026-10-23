@@ -159,7 +159,9 @@ HAL Open Science working paper, hal-05660879.</p>
 <div class="ac-publication">
 <section class="ac-item-body" id="missing-j-paper">
 <h3>The Missing J in Interwar Europe: A Monthly Cliometric Dataset on Effective Exchange Rates and Trade-Balance Adjustment, 1925–1936</h3>
-<p><a class="pill-link" href="data.html#the-missing-j">Dataset and documentation</a></p>
+<p>Monthly evidence from eighteen European economies traces a rapid, temporary improvement in export values relative to import values after real effective depreciation. The average first-year path differs from the canonical J-curve, while historical devaluation episodes vary sharply across countries.</p>
+<p class="ac-item-meta">The CSE conference version, dated 20 August 2026, develops the common-sample comparisons and small-cluster inference checks.</p>
+<p><a class="pill-link" href="the-missing-j.html">Dataset, findings and figures</a><a class="pill-link" href="the-missing-j.html#citation">Versions and citation</a></p>
 </section>
 </div>
 <div class="ac-publication">

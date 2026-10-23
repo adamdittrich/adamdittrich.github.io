@@ -31,9 +31,9 @@ body-classes: academic-site research-page
 </section>
 <section class="level2 ac-section ac-research-section" id="trade-devaluation-and-commercial-reorganisation">
 <h2 data-anchor-id="trade-devaluation-and-commercial-reorganisation">Exchange rates and trade adjustment</h2>
-<p>I reconstruct effective exchange rates and examine how devaluation, exchange controls and relative prices affected trade. <em>The Crown Against the World</em> provides nominal and real effective exchange-rate series for Czechoslovakia, 1920–1938. <em>The Missing J</em> links monthly exchange rates, exports, imports, prices and economic activity across interwar Europe, 1925–1936.</p>
+<p>I reconstruct effective exchange rates and examine how devaluation, exchange controls and relative prices affected trade. <em>The Crown Against the World</em> provides nominal and real effective exchange-rate series for Czechoslovakia, 1920–1938. <em>The Missing J</em> links monthly exchange rates, trade values, prices and economic activity in a 1925–1936 archive. Its preferred 18-country European design uses 1928–1936 and finds a rapid, temporary improvement in exports relative to imports after real effective depreciation.</p>
 <p>Related papers study the turning point in Czechoslovak foreign trade and the relationship between price competitiveness and market recovery. Work in progress on the Little Entente examines trade within the alliance and its relationship with German economic power.</p>
-<p><a href="./publications.html#research-manuscripts">Exchange-rate and trade papers</a> · <a href="./data.html#the-missing-j">The Missing J dataset</a></p>
+<p><a href="./publications.html#research-manuscripts">Exchange-rate and trade papers</a> · <a href="the-missing-j.html">The Missing J: dataset, findings and figures</a></p>
 <p><a href="czechoslovak-foreign-trade.html">Czechoslovak national and bilateral foreign-trade data</a></p></section>
 <section class="level2 ac-section ac-research-section" id="economic-thought-as-a-policy-institution">
 <h2 data-anchor-id="economic-thought-as-a-policy-institution">History of economic thought</h2>

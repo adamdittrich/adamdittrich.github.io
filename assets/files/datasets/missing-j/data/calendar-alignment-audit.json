@@ -1,0 +1,168 @@
+{
+  "title": "Calendar-alignment audit of the submitted Missing J baseline",
+  "status": "Reader companion implementation audit; paper estimates are unchanged.",
+  "panel_file": "interwar_jcurve_effective_panel.csv",
+  "panel_sha256": "561f68afec0bd806fbbda68c59ce9c3beada42531a19cf24186683d1f8c11129",
+  "reported_results_file": "lp_baseline_lagged_bilateral_trade_balance.csv",
+  "reported_results_sha256": "f3ee35ccc403667dbe0ca00f52633f52f295ccb8bbfe2589b24435b621d17b89",
+  "audit_csv_sha256": "c38696eb969c02a067475f7638ae51bf07088acf5aa62b83a3d6068a601eadd8",
+  "eligible_records": 1829,
+  "eligible_countries": 18,
+  "response_units": "100 times log outcome change per +0.10 log real effective depreciation",
+  "outcome": "log nominal exports minus log nominal imports",
+  "fixed_effects": [
+    "country",
+    "calendar month"
+  ],
+  "controls": [
+    "d_ln_reer_bilat_lagged",
+    "dep_lag1",
+    "L1_d_ln_reer_bilat_lagged",
+    "L2_d_ln_reer_bilat_lagged",
+    "L3_d_ln_reer_bilat_lagged",
+    "L1_d_dep",
+    "L2_d_dep",
+    "L3_d_dep",
+    "d_foreign_activity_eac_bilat_lagged",
+    "L1_d_foreign_activity_eac_bilat_lagged",
+    "L2_d_foreign_activity_eac_bilat_lagged"
+  ],
+  "inference": "OLS after two-way demeaning; CR1 country-cluster covariance, normal approximation, 95% intervals using 1.96 standard errors. No wild bootstrap.",
+  "comparison": "All methods retain the same screen-eligible observations. Submitted lags/leads shift over retained rows. Calendar methods require exact date matches within that same screened set. The endpoint-only method changes outcome dates and retains submitted controls; the full calendar method also aligns all lagged controls.",
+  "missing_data": "No imputation. Missing required outcome endpoints or controls are dropped separately at each horizon. A dated future endpoint can be used even if an intervening month is absent.",
+  "limitations": "This checks the baseline time indexing, not historical source reconstruction or the CSE paper's additional robustness exercises. It retains the submitted statistical model and its identifying assumptions.",
+  "screen_gaps": [
+    {
+      "country": "France",
+      "last_month_before_gap": "1929-12",
+      "first_month_after_gap": "1931-02",
+      "omitted_months": 13
+    },
+    {
+      "country": "Italy",
+      "last_month_before_gap": "1928-12",
+      "first_month_after_gap": "1930-02",
+      "omitted_months": 13
+    },
+    {
+      "country": "Italy",
+      "last_month_before_gap": "1930-12",
+      "first_month_after_gap": "1932-02",
+      "omitted_months": 13
+    },
+    {
+      "country": "Norway",
+      "last_month_before_gap": "1930-12",
+      "first_month_after_gap": "1932-02",
+      "omitted_months": 13
+    },
+    {
+      "country": "Poland",
+      "last_month_before_gap": "1929-12",
+      "first_month_after_gap": "1931-02",
+      "omitted_months": 13
+    }
+  ],
+  "horizon_details": [
+    {
+      "horizon": 0,
+      "paper_reported_response_log_points": 0.5178569228889159,
+      "paper_reported_nobs": 1757,
+      "archived_rows_with_noncalendar_lead": 0,
+      "archived_rows_with_noncalendar_lag": 5,
+      "archived_rows_with_either_noncalendar_endpoint": 5,
+      "maximum_future_calendar_span_in_archived_fit": 0,
+      "noncalendar_lead_rows_by_country": {}
+    },
+    {
+      "horizon": 1,
+      "paper_reported_response_log_points": 2.148648553593264,
+      "paper_reported_nobs": 1739,
+      "archived_rows_with_noncalendar_lead": 5,
+      "archived_rows_with_noncalendar_lag": 5,
+      "archived_rows_with_either_noncalendar_endpoint": 10,
+      "maximum_future_calendar_span_in_archived_fit": 14,
+      "noncalendar_lead_rows_by_country": {
+        "France": 1,
+        "Italy": 2,
+        "Norway": 1,
+        "Poland": 1
+      }
+    },
+    {
+      "horizon": 3,
+      "paper_reported_response_log_points": 5.774756563812696,
+      "paper_reported_nobs": 1703,
+      "archived_rows_with_noncalendar_lead": 15,
+      "archived_rows_with_noncalendar_lag": 5,
+      "archived_rows_with_either_noncalendar_endpoint": 20,
+      "maximum_future_calendar_span_in_archived_fit": 16,
+      "noncalendar_lead_rows_by_country": {
+        "France": 3,
+        "Italy": 6,
+        "Norway": 3,
+        "Poland": 3
+      }
+    },
+    {
+      "horizon": 6,
+      "paper_reported_response_log_points": 4.719034618426953,
+      "paper_reported_nobs": 1649,
+      "archived_rows_with_noncalendar_lead": 30,
+      "archived_rows_with_noncalendar_lag": 5,
+      "archived_rows_with_either_noncalendar_endpoint": 35,
+      "maximum_future_calendar_span_in_archived_fit": 19,
+      "noncalendar_lead_rows_by_country": {
+        "France": 6,
+        "Italy": 12,
+        "Norway": 6,
+        "Poland": 6
+      }
+    },
+    {
+      "horizon": 12,
+      "paper_reported_response_log_points": 4.926963362874947,
+      "paper_reported_nobs": 1541,
+      "archived_rows_with_noncalendar_lead": 55,
+      "archived_rows_with_noncalendar_lag": 5,
+      "archived_rows_with_either_noncalendar_endpoint": 59,
+      "maximum_future_calendar_span_in_archived_fit": 38,
+      "noncalendar_lead_rows_by_country": {
+        "France": 12,
+        "Italy": 19,
+        "Norway": 12,
+        "Poland": 12
+      }
+    },
+    {
+      "horizon": 18,
+      "paper_reported_response_log_points": -0.3848145285165963,
+      "paper_reported_nobs": 1433,
+      "archived_rows_with_noncalendar_lead": 73,
+      "archived_rows_with_noncalendar_lag": 5,
+      "archived_rows_with_either_noncalendar_endpoint": 77,
+      "maximum_future_calendar_span_in_archived_fit": 44,
+      "noncalendar_lead_rows_by_country": {
+        "France": 18,
+        "Italy": 19,
+        "Norway": 18,
+        "Poland": 18
+      }
+    },
+    {
+      "horizon": 24,
+      "paper_reported_response_log_points": -1.2518997244562826,
+      "paper_reported_nobs": 1325,
+      "archived_rows_with_noncalendar_lead": 82,
+      "archived_rows_with_noncalendar_lag": 5,
+      "archived_rows_with_either_noncalendar_endpoint": 86,
+      "maximum_future_calendar_span_in_archived_fit": 50,
+      "noncalendar_lead_rows_by_country": {
+        "France": 19,
+        "Italy": 19,
+        "Norway": 24,
+        "Poland": 20
+      }
+    }
+  ]
+}

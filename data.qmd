@@ -29,13 +29,11 @@ body-classes: academic-site data-page
 </section>
 </div>
 <section class="level2 ac-section ac-dataset" id="the-missing-j">
-<h2 data-anchor-id="the-missing-j">The Missing J</h2>
-<p class="ac-item-meta">
-Europe · Monthly · 1925–1936
-</p>
-<p><em>The Missing J in Interwar Europe: A Monthly Cliometric Dataset on Effective Exchange Rates and Trade-Balance Adjustment, 1925–1936.</em></p>
-<p>A dataset linking exports, imports, prices, economic activity and exchange rates. Annual bilateral trade weights from League of Nations trade reports support the construction of effective exchange rates. Country and variable coverage are documented in the deposit.</p>
-<p><a href="https://doi.org/10.3886/E251239V1">Dataset and documentation</a> · DOI: 10.3886/E251239V1</p>
+<h2 data-anchor-id="the-missing-j"><a href="the-missing-j.html">The Missing J</a></h2>
+<p class="ac-item-meta">Monthly archive: 1925–1936 · Preferred European panel: 18 economies, 1928–1936</p>
+<p>Effective exchange rates and trade-balance adjustment in interwar Europe. Explore the fast, temporary response of export values relative to import values, national devaluation paths and the construction of the European partner-weighted rates.</p>
+<p>The reader page includes seven figures, methods, coverage, conference robustness results and downloadable data with a variable dictionary.</p>
+<p><a href="the-missing-j.html">Data overview, figures and methods</a> · <a href="assets/files/datasets/missing-j/data/reader-monthly-panel.csv" download>Monthly reader panel (CSV)</a> · <a href="https://doi.org/10.3886/E251239V1">openICPSR V1 deposit</a></p>
 </section>
 </section>
 ```

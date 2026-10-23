@@ -1,0 +1,2 @@
+actual_mean_xm_h12_percent,placebo_mean_percent,placebo_sd_percent,placebo_median_percent,placebo_p95_percent,placebo_p975_percent,placebo_p99_percent,randomization_p_one_sided,B,events_in_actual_mean,countries_with_placebo_candidates
+10.577508903266917,-1.3634521226278065,4.098229737994174,-1.2943873383411213,5.2327761639135915,6.545271242206509,7.8921371362813435,0.0018,10000,9,9

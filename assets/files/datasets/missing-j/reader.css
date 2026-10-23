@@ -1,0 +1,55 @@
+/* The Missing J: additions scoped to the shared dataset-page design. */
+.mj-page .mj-eyebrow { color: #7a2e34; font-size: .79rem; font-weight: 600; letter-spacing: .09em; text-transform: uppercase; margin-bottom: .7rem; }
+.mj-page h1 { max-width: 950px; font-size: clamp(2.7rem, 5vw, 3.8rem); margin-bottom: 1rem; }
+.mj-page h1 span { display: block; font-size: clamp(1.4rem, 2.8vw, 2rem); margin-top: .35rem; line-height: 1.35; }
+.mj-page .mj-intro { max-width: 860px; font-size: 1.12rem; line-height: 1.75; }
+.mj-page .mj-release { color: #53636a; font-size: .84rem; max-width: 880px; line-height: 1.65; }
+.mj-page .ds-facts { margin-top: 1.6rem; margin-bottom: 1rem; }
+.mj-page .ds-facts strong { color: #7a2e34; }
+.mj-page .mj-layers, .mj-page .mj-steps { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 1.7rem; margin: 1.6rem 0; }
+.mj-page .mj-layers > div { border-top: 2px solid #b3a38d; padding-top: 1rem; }
+.mj-page .mj-layers h3, .mj-page .mj-steps h3 { font-size: 1.2rem; margin: 0 0 .65rem; }
+.mj-page .mj-layers p, .mj-page .mj-steps p { font-size: .92rem; }
+.mj-page .mj-step { display: block; font-family: Georgia,serif; font-size: 1.65rem; color: #7a2e34; margin-bottom: .4rem; }
+.mj-page .mj-two-columns { display: grid; grid-template-columns: 1.15fr 1fr; gap: 2rem; }
+.mj-page .mj-two-columns h3 { margin-top: 1.2rem; }
+.mj-page .mj-two-columns .mj-table { min-width: 360px; }
+.mj-page .mj-table { min-width: 540px; }
+.mj-page .mj-table th[scope=row] { font-weight: 500; }
+.mj-page .mj-comparison th[scope=row] { width: 43%; }
+.mj-page .mj-comparison td:first-child { white-space: normal; }
+.mj-page .mj-chart-scroll { overflow-x: auto; overscroll-behavior-x: contain; }
+.mj-page .mj-chart-scroll img { min-width: 640px; }
+.mj-page .mj-chart-scroll:focus-visible, .mj-page .ds-table-scroll:focus-visible { outline: 2px solid #7a2e34; outline-offset: 3px; }
+.mj-page .mj-mobile-hint { display: none; }
+.mj-page .mj-source { font-size: .8rem; line-height: 1.6; color: #53636a; }
+.mj-page details { border-top: 1px solid #d5cec2; padding-top: .9rem; margin-top: 1.4rem; }
+.mj-page summary { line-height: 1.5; }
+.mj-page summary:focus-visible { outline: 2px solid #7a2e34; outline-offset: 4px; }
+.mj-page .mj-download-primary { background: #7a2e34; color: #fff; border-color: #7a2e34; }
+.mj-page .mj-download-primary:hover { background: #562027; color: #fff; }
+.mj-page .mj-related { display: flex; flex-wrap: wrap; gap: .8rem 1.5rem; margin-top: 1.2rem; }
+.mj-page .mj-top-link { font-size: .85rem; margin-top: 2rem; }
+@media (max-width: 760px) {
+ .mj-page .mj-layers, .mj-page .mj-steps, .mj-page .mj-two-columns { grid-template-columns: 1fr; gap: .8rem; }
+ .mj-page .mj-steps > div { display: grid; grid-template-columns: 42px 1fr; column-gap: .7rem; }
+ .mj-page .mj-step { grid-row: span 2; }
+ .mj-page .mj-steps p { grid-column: 2; }
+}
+@media (max-width: 640px) {
+ .mj-page .mj-intro { font-size: 1rem; }
+ .mj-page .mj-mobile-hint { display: block; font-size: .8rem; color: #53636a; }
+ .mj-page .ds-nav { gap: .6rem 1rem; font-size: .88rem; }
+ .mj-page .ds-facts { gap: 1.1rem; padding: 1.2rem 0; }
+ .mj-page .ds-facts > div { display: grid; grid-template-columns: 110px 1fr; gap: .8rem; align-items: start; }
+ .mj-page .ds-facts strong { font-size: 1.45rem; }
+ .mj-page .ds-download-links { flex-direction: column; align-items: stretch; }
+ .mj-page .ds-download-links a { text-align: center; }
+}
+@media print {
+ .mj-page details > * { display: block; }
+ .mj-page .mj-chart-scroll { overflow: visible; }
+ .mj-page .mj-chart-scroll img { min-width: 0; }
+ .mj-page .ds-figure { break-inside: avoid; }
+ .mj-page .ds-nav, .mj-page .mj-mobile-hint, .mj-page .mj-top-link { display: none; }
+}

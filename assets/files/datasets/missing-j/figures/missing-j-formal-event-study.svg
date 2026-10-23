@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg role="img" aria-labelledby="figure-title figure-description" xmlns:xlink="http://www.w3.org/1999/xlink" width="748.8pt" height="424.8pt" viewBox="0 0 748.8 424.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title id="figure-title">Event timing carries pre-existing dynamics</title>
+ <desc id="figure-description">Formal event-study coefficients for eight European devaluation episodes, with country and calendar-month fixed effects and country-clustered 95 percent confidence intervals. Estonia is excluded from this event-study definition. The omitted reference month is minus one and is shown as an unfilled zero marker, not an estimate. Pre-event coefficients are negative and jointly significant, p equals 0.011. The month-twelve coefficient is 1.28 log points with an interval from minus 8.83 to 11.38. This evidence limits a causal interpretation of the descriptive devaluation-event paths.</desc>
+
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Adam Dittrich dataset reader</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 424.8 
+L 748.8 424.8 
+L 748.8 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 63.648 348.336 
+L 722.592 348.336 
+L 722.592 89.208 
+L 63.648 89.208 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 63.648 348.336 
+L 270.34089 348.336 
+L 270.34089 89.208 
+L 63.648 89.208 
+z
+" clip-path="url(#p1c10dcb5f6)" style="fill: #f5f1e9"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #53636a" x="76.014241" y="362.934438" transform="rotate(-0 76.014241 362.934438)">−6</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #53636a" x="182.010595" y="362.934438" transform="rotate(-0 182.010595 362.934438)">−3</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #53636a" x="252.674831" y="362.934438" transform="rotate(-0 252.674831 362.934438)">−1</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #53636a" x="288.006949" y="362.934438" transform="rotate(-0 288.006949 362.934438)">0</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5"/>
+     <g id="text_5">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #53636a" x="394.003303" y="362.934438" transform="rotate(-0 394.003303 362.934438)">3</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6"/>
+     <g id="text_6">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #53636a" x="499.999657" y="362.934438" transform="rotate(-0 499.999657 362.934438)">6</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7"/>
+     <g id="text_7">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #53636a" x="605.996011" y="362.934438" transform="rotate(-0 605.996011 362.934438)">9</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8"/>
+     <g id="text_8">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #53636a" x="711.992365" y="362.934438" transform="rotate(-0 711.992365 362.934438)">12</text>
+     </g>
+    </g>
+    <g id="text_9">
+     <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #53636a" x="393.12" y="376.992484" transform="rotate(-0 393.12 376.992484)">Months relative to devaluation</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_9">
+      <path d="M 63.648 299.7495 
+L 722.592 299.7495 
+" clip-path="url(#p1c10dcb5f6)" style="fill: none; stroke: #e5e2dc; stroke-width: 0.7; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_10">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #53636a" x="56.648" y="303.548719" transform="rotate(-0 56.648 303.548719)">−20</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_11">
+      <path d="M 63.648 245.7645 
+L 722.592 245.7645 
+" clip-path="url(#p1c10dcb5f6)" style="fill: none; stroke: #e5e2dc; stroke-width: 0.7; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_12"/>
+     <g id="text_11">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #53636a" x="56.648" y="249.563719" transform="rotate(-0 56.648 249.563719)">−10</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_13">
+      <path d="M 63.648 191.7795 
+L 722.592 191.7795 
+" clip-path="url(#p1c10dcb5f6)" style="fill: none; stroke: #e5e2dc; stroke-width: 0.7; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_14"/>
+     <g id="text_12">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #53636a" x="56.648" y="195.578719" transform="rotate(-0 56.648 195.578719)">0</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_15">
+      <path d="M 63.648 137.7945 
+L 722.592 137.7945 
+" clip-path="url(#p1c10dcb5f6)" style="fill: none; stroke: #e5e2dc; stroke-width: 0.7; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_16"/>
+     <g id="text_13">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #53636a" x="56.648" y="141.593719" transform="rotate(-0 56.648 141.593719)">10</text>
+     </g>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #53636a" x="29.359641" y="218.772" transform="rotate(-90 29.359641 218.772)">Difference in log exports/imports × 100</text>
+    </g>
+   </g>
+   <g id="line2d_17">
+    <path d="M 63.648 191.7795 
+L 722.592 191.7795 
+" clip-path="url(#p1c10dcb5f6)" style="fill: none; stroke: #a8aaa6; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_18">
+    <path d="M 288.006949 348.336 
+L 288.006949 89.208 
+" clip-path="url(#p1c10dcb5f6)" style="fill: none; stroke-dasharray: 2.4,2.4; stroke-dashoffset: 0; stroke: #53636a; stroke-width: 0.8"/>
+   </g>
+   <g id="FillBetweenPolyCollection_1">
+    <defs>
+     <path id="mdd820e1d73" d="M 76.014241 -224.033331 
+L 76.014241 -118.661277 
+L 111.346359 -124.426427 
+L 146.678477 -128.762732 
+L 182.010595 -126.739478 
+L 217.342713 -118.624272 
+L 217.342713 -224.925637 
+L 217.342713 -224.925637 
+L 182.010595 -238.487635 
+L 146.678477 -233.995268 
+L 111.346359 -230.036403 
+L 76.014241 -224.033331 
+z
+"/>
+    </defs>
+    <g clip-path="url(#p1c10dcb5f6)">
+     <use xlink:href="#mdd820e1d73" x="0" y="424.8" style="fill: #346a73; fill-opacity: 0.14"/>
+    </g>
+   </g>
+   <g id="FillBetweenPolyCollection_2">
+    <defs>
+     <path id="m088b110206" d="M 288.006949 -233.479288 
+L 288.006949 -109.436192 
+L 323.339067 -96.246922 
+L 358.671185 -94.442597 
+L 394.003303 -119.260681 
+L 429.335421 -123.623907 
+L 464.667539 -142.083506 
+L 499.999657 -149.266425 
+L 535.331775 -158.280168 
+L 570.663893 -171.119983 
+L 605.996011 -167.988226 
+L 641.328129 -168.850271 
+L 676.660247 -179.531546 
+L 711.992365 -185.358047 
+L 711.992365 -294.478386 
+L 711.992365 -294.478386 
+L 676.660247 -306.3982 
+L 641.328129 -298.617067 
+L 605.996011 -300.741532 
+L 570.663893 -303.982109 
+L 535.331775 -306.390091 
+L 499.999657 -310.445078 
+L 464.667539 -306.267352 
+L 429.335421 -299.638997 
+L 394.003303 -289.966238 
+L 358.671185 -265.482299 
+L 323.339067 -228.833024 
+L 288.006949 -233.479288 
+z
+"/>
+    </defs>
+    <g clip-path="url(#p1c10dcb5f6)">
+     <use xlink:href="#m088b110206" x="0" y="424.8" style="fill: #346a73; fill-opacity: 0.14"/>
+    </g>
+   </g>
+   <g id="patch_4">
+    <path d="M 63.648 348.336 
+L 722.592 348.336 
+" style="fill: none; stroke: #e5e2dc; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_19">
+    <path d="M 76.014241 253.452696 
+L 111.346359 247.568585 
+L 146.678477 243.421 
+L 182.010595 242.186444 
+L 217.342713 253.025046 
+" clip-path="url(#p1c10dcb5f6)" style="fill: none; stroke: #346a73; stroke-width: 1.9; stroke-linecap: round"/>
+    <defs>
+     <path id="m223a397e52" d="M 0 2 
+C 0.530406 2 1.03916 1.789267 1.414214 1.414214 
+C 1.789267 1.03916 2 0.530406 2 0 
+C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 
+C 1.03916 -1.789267 0.530406 -2 0 -2 
+C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 
+C -1.789267 -1.03916 -2 -0.530406 -2 0 
+C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 
+C -1.03916 1.789267 -0.530406 2 0 2 
+z
+" style="stroke: #346a73"/>
+    </defs>
+    <g clip-path="url(#p1c10dcb5f6)">
+     <use xlink:href="#m223a397e52" x="76.014241" y="253.452696" style="fill: #346a73; stroke: #346a73"/>
+     <use xlink:href="#m223a397e52" x="111.346359" y="247.568585" style="fill: #346a73; stroke: #346a73"/>
+     <use xlink:href="#m223a397e52" x="146.678477" y="243.421" style="fill: #346a73; stroke: #346a73"/>
+     <use xlink:href="#m223a397e52" x="182.010595" y="242.186444" style="fill: #346a73; stroke: #346a73"/>
+     <use xlink:href="#m223a397e52" x="217.342713" y="253.025046" style="fill: #346a73; stroke: #346a73"/>
+    </g>
+   </g>
+   <g id="line2d_20">
+    <path d="M 288.006949 253.34226 
+L 323.339067 262.260027 
+L 358.671185 244.837552 
+L 394.003303 220.18654 
+L 429.335421 213.168548 
+L 464.667539 200.624571 
+L 499.999657 194.944249 
+L 535.331775 192.464871 
+L 570.663893 187.248954 
+L 605.996011 190.435121 
+L 641.328129 191.066331 
+L 676.660247 181.835127 
+L 711.992365 184.881784 
+" clip-path="url(#p1c10dcb5f6)" style="fill: none; stroke: #346a73; stroke-width: 1.9; stroke-linecap: round"/>
+    <g clip-path="url(#p1c10dcb5f6)">
+     <use xlink:href="#m223a397e52" x="288.006949" y="253.34226" style="fill: #346a73; stroke: #346a73"/>
+     <use xlink:href="#m223a397e52" x="323.339067" y="262.260027" style="fill: #346a73; stroke: #346a73"/>
+     <use xlink:href="#m223a397e52" x="358.671185" y="244.837552" style="fill: #346a73; stroke: #346a73"/>
+     <use xlink:href="#m223a397e52" x="394.003303" y="220.18654" style="fill: #346a73; stroke: #346a73"/>
+     <use xlink:href="#m223a397e52" x="429.335421" y="213.168548" style="fill: #346a73; stroke: #346a73"/>
+     <use xlink:href="#m223a397e52" x="464.667539" y="200.624571" style="fill: #346a73; stroke: #346a73"/>
+     <use xlink:href="#m223a397e52" x="499.999657" y="194.944249" style="fill: #346a73; stroke: #346a73"/>
+     <use xlink:href="#m223a397e52" x="535.331775" y="192.464871" style="fill: #346a73; stroke: #346a73"/>
+     <use xlink:href="#m223a397e52" x="570.663893" y="187.248954" style="fill: #346a73; stroke: #346a73"/>
+     <use xlink:href="#m223a397e52" x="605.996011" y="190.435121" style="fill: #346a73; stroke: #346a73"/>
+     <use xlink:href="#m223a397e52" x="641.328129" y="191.066331" style="fill: #346a73; stroke: #346a73"/>
+     <use xlink:href="#m223a397e52" x="676.660247" y="181.835127" style="fill: #346a73; stroke: #346a73"/>
+     <use xlink:href="#m223a397e52" x="711.992365" y="184.881784" style="fill: #346a73; stroke: #346a73"/>
+    </g>
+   </g>
+   <g id="patch_5">
+    <path d="M 217.110314 149.754373 
+Q 234.246794 170.003846 251.383273 190.253319 
+" style="fill: none; stroke: #53636a; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 9.4px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #53636a" x="210.27629" y="144.2727" transform="rotate(-0 210.27629 144.2727)">Reference month</text>
+   </g>
+   <g id="text_16">
+    <g id="patch_6">
+     <path d="M 613.989107 124.062336 
+L 718.98956 124.062336 
+L 718.98956 96.58612 
+L 613.989107 96.58612 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 10.3px; font-family: 'DejaVu Sans'; fill: #346a73" transform="translate(616.976107 107.399511)">Joint pre-event test</text>
+    <text style="font-size: 10.3px; font-family: 'DejaVu Sans'; fill: #346a73" transform="translate(664.798685 118.933258)">p = 0.011</text>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="m8713a8c82b" d="M 0 3.278719 
+C 0.869527 3.278719 1.703557 2.933253 2.318405 2.318405 
+C 2.933253 1.703557 3.278719 0.869527 3.278719 0 
+C 3.278719 -0.869527 2.933253 -1.703557 2.318405 -2.318405 
+C 1.703557 -2.933253 0.869527 -3.278719 0 -3.278719 
+C -0.869527 -3.278719 -1.703557 -2.933253 -2.318405 -2.318405 
+C -2.933253 -1.703557 -3.278719 -0.869527 -3.278719 0 
+C -3.278719 0.869527 -2.933253 1.703557 -2.318405 2.318405 
+C -1.703557 2.933253 -0.869527 3.278719 0 3.278719 
+z
+" style="stroke: #53636a; stroke-width: 1.1"/>
+    </defs>
+    <g clip-path="url(#p1c10dcb5f6)">
+     <use xlink:href="#m8713a8c82b" x="252.674831" y="191.7795" style="fill: #ffffff; stroke: #53636a; stroke-width: 1.1"/>
+    </g>
+   </g>
+  </g>
+  <g id="text_17">
+   <text style="font-size: 19px; font-family: 'DejaVu Serif'; text-anchor: start; fill: #162b36" x="56.16" y="33.128231" transform="rotate(-0 56.16 33.128231)">Event timing carries pre-existing dynamics</text>
+  </g>
+  <g id="text_18">
+   <text style="font-size: 10.3px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #53636a" x="56.16" y="48.607191" transform="rotate(-0 56.16 48.607191)">Formal event study · eight devaluation episodes · country and calendar-month fixed effects</text>
+  </g>
+  <g id="text_19">
+   <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #53636a" x="56.16" y="408.909881" transform="rotate(-0 56.16 408.909881)">Shading: 95% confidence intervals. Month −1 is the omitted reference; pre-event leads −6 through −2 are tested jointly.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p1c10dcb5f6">
+   <rect x="63.648" y="89.208" width="658.944" height="259.128"/>
+  </clipPath>
+ </defs>
+</svg>
