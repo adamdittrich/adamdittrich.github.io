@@ -13,6 +13,15 @@ body-classes: academic-site publications-page
 <h2 id="forthcoming-and-accepted">Forthcoming</h2>
 <div class="ac-publication">
 <div class="ac-item-meta">Forthcoming</div>
+<section class="ac-item-body" id="measuring-financial-stress-under-the-gold-standard-evidence-from-interwar-czechoslovakia">
+<h3>Measuring Financial Stress under the Gold Standard: Evidence from Interwar Czechoslovakia</h3>
+<p><strong>Adam Dittrich</strong><br/>
+<em>Cliometrica.</em> Accepted for publication. Online publication forthcoming; print publication expected in Vol. 21, No. 3 (2027).</p>
+<p><a class="pill-link" href="czechoslovakia-financial-stress.html">Dataset, findings and figures</a> <a class="pill-link" href="https://www.openicpsr.org/openicpsr/project/247312/version/V1/view">Original openICPSR V1 deposit</a></p>
+</section>
+</div>
+<div class="ac-publication">
+<div class="ac-item-meta">Forthcoming</div>
 <section class="ac-item-body" id="the-crown-against-the-world-reconstructing-czechoslovakias-effective-exchange-rates-19201938">
 <h3>The Crown Against the World: Reconstructing Czechoslovakia’s Effective Exchange Rates, 1920–1938</h3>
 <p><strong>Adam Dittrich</strong><br/>
@@ -122,13 +131,6 @@ HAL Open Science working paper, hal-05660879.</p>
 <section class="ac-section ac-publication-section">
 <span id="research-papers-with-open-data"></span>
 <h2 id="research-manuscripts">Current manuscripts</h2>
-<div class="ac-publication">
-<section class="ac-item-body" id="measuring-financial-stress-under-the-gold-standard-evidence-from-interwar-czechoslovakia">
-<h3>Measuring Financial Stress under the Gold Standard: Evidence from Interwar Czechoslovakia</h3>
-<p>A financial-only stress index and a broader macro-financial index reconstruct the monthly Czechoslovak Depression, November 1929–August 1938. The revised framework separates financial pressure from real distress and examines the February 1934 institutional break.</p>
-<p><a class="pill-link" href="czechoslovakia-financial-stress.html">Dataset, findings and figures</a> <a class="pill-link" href="https://www.openicpsr.org/openicpsr/project/247312/version/V1/view">Original openICPSR V1 deposit</a></p>
-</section>
-</div>
 <div class="ac-publication">
 <section class="ac-item-body" id="foreign-trade-turning-point">
 <h3>Measuring the Turning Point in Czechoslovak Foreign Trade during the Great Depression</h3>
