@@ -38,6 +38,10 @@ body-classes: academic-site cv-page
 <h2>Published and forthcoming articles</h2>
 <div class="cv-entry">
 <div class="cv-date">Forthcoming</div>
+<div><strong>Dittrich, Adam.</strong> “Measuring Financial Stress under the Gold Standard: Evidence from Interwar Czechoslovakia.” <em>Cliometrica.</em> Accepted for publication; online publication forthcoming. Print publication expected in Vol. 21, No. 3 (2027).</div>
+</div>
+<div class="cv-entry">
+<div class="cv-date">Forthcoming</div>
 <div><strong>Dittrich, Adam.</strong> “The Crown Against the World: Reconstructing Czechoslovakia’s Effective Exchange Rates, 1920–1938.” <em>Statistika: Statistics and Economy Journal.</em> Forthcoming (publication expected in 2027).</div>
 </div>
 <div class="cv-entry">
