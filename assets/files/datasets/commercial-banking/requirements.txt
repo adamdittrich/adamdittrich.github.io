@@ -1,0 +1,10 @@
+# The core data transformation requires only the Python standard library.
+# Optional data-analysis examples and the chart/guide builder use:
+pandas==2.2.3
+numpy==2.3.5
+# Static charts and PDF guide
+matplotlib==3.10.8
+reportlab==4.4.9
+# HTML preview uses the Python standard library and runs without dependencies.
+# Excel is supplied ready to use. Its authoring script requires the separate
+# artifact-tool JavaScript environment; this is not needed to rebuild the CSVs.

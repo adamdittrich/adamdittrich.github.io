@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this dataset, cite the dataset version and retain the underlying source references."
+type: dataset
+title: "Czechoslovak Commercial Banking, 1919–1937: Joint-stock banks in the Czech lands"
+version: "0.1.0"
+date-released: "2026-10-29"
+url: "https://adamdittrich.github.io/czechoslovak-commercial-banking.html"
+repository-code: "https://github.com/adamdittrich/adamdittrich.github.io/tree/main/assets/files/datasets/commercial-banking"
+authors:
+  - family-names: Dittrich
+    given-names: Adam
+    orcid: "https://orcid.org/0000-0002-7803-1339"
+abstract: >-
+  Annual joint-stock-bank accounts for the Czech lands, 1919–1937; a fixed
+  fourteen-bank panel for 1933–1937; a dated national institutional crosswalk;
+  and separate central-bank and price context. The release includes frozen
+  inputs, definitions, source locators and reproducible transformations.
+keywords:
+  - Czechoslovakia
+  - commercial banking
+  - economic history
+  - bank capital
+  - League of Nations

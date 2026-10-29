@@ -1,0 +1,8 @@
+measure,year,unit,national_value,lon_rounded_value_or_sum,national_minus_lon,lon_source,category_bridge
+Institutions,1929,number,22,22,0,LoN1931 p81/PDF83; LoN1939 p49/PDF51,National X5; no individual LoN roster printed
+Paid capital,1929,million Kč,1844.6,1845,-0.4,LoN1931 p81/PDF83; LoN1939 p49/PDF51,National X5 paid-capital sum
+Loss-covering reserves,1929,million Kč,1382.203,1382,0.203,LoN1931 p81/PDF83; LoN1939 p49/PDF51,National X5 reserves; identical to X6 loss-covering-reserve sum
+Book and cash-certificate deposits,1929,million Kč,8927.082,8927,0.082,LoN1931 p87/PDF89; LoN1939 p50/PDF52,National X5 deposits; LoN savings accounts plus cash certificates
+Bonds and debentures issued,1929,million Kč,268.236,268,0.236,LoN1931 p87/PDF89; LoN1939 p50/PDF52,National X5 own issues; separate from share capital
+Assets excluding memorandum accounts,1929,million Kč,31345.288,31345,0.288,LoN1931 p81/PDF83; LoN1939 p49/PDF51,"National X6, p260/PDF8, sums three joint-stock groups; no bank-level assets in X5"
+General creditors less mortgage borrowing,1929,million Kč,17489.961,17490,-0.039,"LoN1931 pp81,87/PDF83,89; LoN1939 p49/PDF51",National X5 creditors less X6 mortgage borrowing 1.996m; X6 creditors 7471.610+3279.271+6739.080=17489.961m; LoN bank creditors plus current accounts

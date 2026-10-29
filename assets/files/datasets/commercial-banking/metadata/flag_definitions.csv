@@ -1,0 +1,14 @@
+flag,definition
+deposits_include_unseparated_bank_creditors,In 1919 the published deposit total includes bank creditors that cannot be separated. The comparable public deposit series and dependent ratios are blank.
+income_population_22_balance_population_23,For 1936 the published income count is 22 and the balance-sheet count is 23. Income/end-assets ratios are withheld; the published levels remain available.
+asset_components_below_reported_total_20_million,Moravská 1933 reported asset components sum to 1955.2 million Kč against the published 1975.2 total. The discrepancy is retained without correction.
+savings_bank_central_institution,Sporobanka is a joint-stock central institution serving savings banks; functional differences remain visible within the panel.
+cash_includes_treasury_bills,"Sporobanka source hotovosti include Treasury bills in 1935–1937, so this line is not a narrow reserve-money measure."
+savings_bank_mandate_expansion,Sporobanka received an expanded savings-bank central-institution mandate in 1937; the business perimeter need not be constant.
+source_deposits_include_mortgage_borrowing,Legiobanka source vklady include mortgage borrowing; the line is not harmonized to the League deposit category.
+securities_include_participations,"Všeobecná družstevní reports participations within securities, without a separate participation line."
+separate_central_bank_population,The National Bank is a separate institution. These accounts must not be added to commercial-bank totals without consolidation.
+source_dash_zero_convention,The accepted 1929 national-roster transcription uses zero for printed dashes under reconciled column totals. These are not printed numerical zeros.
+wpi_outside_frozen_extract,The frozen WPI extract has no observation for this calendar year. No value is interpolated.
+wpi_incomplete_calendar_year,Fewer than twelve monthly WPI observations are available. The full-calendar-year mean is therefore blank.
+cpi_not_available,No numerical CPI value is available for this year in the frozen workbook extract.

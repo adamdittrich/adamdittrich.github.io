@@ -1,0 +1,48 @@
+{
+  "title": "Československé bursovní papíry 1938–1939",
+  "author": "Josef Kašpar",
+  "edition_note": "Modern retyping; PDF metadata2006; not a historical facsimile",
+  "url": "https://www.securityprinting.org/texty/1938_1939/csbp_1938_1939.pdf",
+  "source_pdf_sha256": "10a3bf8eeef017924dafd1c26938e743d0571272a1d4293fe5eb572da1548a5d",
+  "bank_years": 70,
+  "principal_values": 490,
+  "visual_table_pages": [
+    65,
+    66,
+    67,
+    68,
+    70,
+    72,
+    73,
+    74,
+    75,
+    76,
+    83,
+    86,
+    88,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235
+  ],
+  "selection": "All14 noncentral-bank commercial/deposit-credit institutions headquartered in the Czechlands with full1933–37 tables in domestic banking chapter pp64–88 and unlisted-bank chapter pp228–235. No otherwise eligible entry in those chapters omitted.",
+  "exclusions": {
+    "central_bank": "Národní banka Československá,pp77–82",
+    "Slovak_headquarters": [
+      "Slovenská banka v Bratislavě,pp83–85",
+      "Slovenská všeobecná úvěrní banka,pp233–234"
+    ],
+    "insurance": [
+      "Koruna,pp89–90",
+      "První česká zajišťovací banka,pp90–91"
+    ],
+    "foreign_institutions": "Section beginningp91"
+  },
+  "selection_limit": "Retrospective coverage of institutions represented in1938 handbook; not random sample, failure panel, national census, or confirmed LoN membership match. Institutions with Czech headquarters may operate outside Czechlands.",
+  "reconciliation": "196 prior endpoint observations match. All70 liability rows and69 asset rows sum to total within source rounding; Moravska1933 asset components20m below reported total, preserved.",
+  "original_annual_reports_verified": false,
+  "original_report_search": "Two search engines identify CNB archive catalogue and EconBiz Länder annual-report holdings1926–37, but no targeted original1935Escomp/1937Länder facsimile was obtained."
+}

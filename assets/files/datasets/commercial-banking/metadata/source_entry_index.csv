@@ -1,0 +1,15 @@
+source_entry_id,source_id,publication_year,covered_years,original_table_title,printed_pages,pdf_pages,original_source_file,accepted_visual_verification,selected_record_count
+E_BANK_BS_1931,LON_CB_1931,1931,"1919,1920,1921,1922,1923,1924,1925,1926,1927,1928,1929","Hlavní bilance akciových bank, tabulka 3(a)","[80, 81]","[82, 83]",Commercial Banks 1913-1929 (1931)(1).pdf,true,252
+E_BANK_PL_1931,LON_CB_1931,1931,"1919,1920,1921,1922,1923,1924,1925,1926,1927,1928,1929","Hlavní výsledovka a rozdělení zisku, tabulka 3(b)","[82, 83]","[84, 85]",Commercial Banks 1913-1929 (1931)(1).pdf,true,200
+E_BANK_BS_1934,LON_CB_1934,1934,"1925,1929,1930,1931","Hlavní bilance akciových bank, tabulka 4(a)",[75],[79],Commercial Banks 1925-1933 (1934)(1).pdf,true,42
+E_BANK_PL_1934,LON_CB_1934,1934,"1925,1929,1930,1931","Hlavní výsledovka a rozdělení zisku, tabulka 4(b)",[76],[80],Commercial Banks 1925-1933 (1934)(1).pdf,true,32
+E_BANK_BS_1935,LON_CB_1935,1935,"1929,1930,1931,1932","Hlavní bilance akciových bank, tabulka 4(a)",[15],[109],Commercial Banks 1929-1934 (1935)(1).pdf,true,19
+E_BANK_PL_1935,LON_CB_1935,1935,"1929,1930,1931,1932","Hlavní výsledovka a rozdělení zisku, tabulka 4(b)",[16],[110],Commercial Banks 1929-1934 (1935)(1).pdf,true,46
+E_BANK_COMPONENTS_1931,LON_CB_1931,1931,"1919,1920,1921,1922,1923,1924,1925,1926,1927,1928,1929",Podrobné rozklady bilančních a výsledkových položek,"[85, 86, 87, 88]","[87, 88, 89, 90]",Commercial Banks 1913-1929 (1931)(1).pdf,true,249
+E_BANK_COMPONENTS_1934,LON_CB_1934,1934,"1925,1929,1930,1931",Podrobné rozklady bilančních a výsledkových položek,"[76, 77, 78, 79]","[80, 81, 82, 83]",Commercial Banks 1925-1933 (1934)(1).pdf,true,30
+E_BANK_COMPONENTS_1935,LON_CB_1935,1935,"1929,1930,1931,1932",Podrobné rozklady bilančních a výsledkových položek,"[14, 16, 17]","[108, 110, 111]",Commercial Banks 1929-1934 (1935)(1).pdf,true,11
+LATE_COMMERCIAL_ANNUAL_1939,LON_CB_1939,1939,"1929, 1931–1937; rok 1930 doplněn z vydání 1938",Obchodní banky: hlavní roční bilanční tabulka,"[48, 49, 50]","[50, 51, 52]",Commercial and Central Banks 1938-1939 (1939)(1).pdf,true,137
+LATE_COMMERCIAL_PL_1939,LON_CB_1939,1939,"1929, 1931–1937; rok 1930 doplněn z vydání 1938",Obchodní banky: úplná hlavní výsledovka a rozdělení výsledku,[49],[51],Commercial and Central Banks 1938-1939 (1939)(1).pdf,true,141
+LATE_COMMERCIAL_1930_SUPPLEMENT,LON_CB_1938,1938,1930,Obchodní banky: chybějící rok 1930 z předchozího vydání,"[62, 63]","[64, 65]",Commercial and Central Banks 1937-1938 (1938)(1).pdf,true,34
+LATE_COMMERCIAL_COMPONENTS_1939,LON_CB_1939,1939,"1929, 1931–1937","Obchodní banky: podrobné složení aktiv, vkladů, závazků a výnosů","[48, 50]","[50, 52]",Commercial and Central Banks 1938-1939 (1939)(1).pdf,true,196
+LATE_COMMERCIAL_COMPONENTS_1930,LON_CB_1938,1938,1930,Doplnění podrobných bankovních komponent roku 1930,[63],[65],Commercial and Central Banks 1937-1938 (1938)(1).pdf,true,25

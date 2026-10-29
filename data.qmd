@@ -1,6 +1,6 @@
 ---
 title: "Datasets"
-description: "Historical datasets by Adam Dittrich: Czechoslovak foreign trade, effective exchange rates, financial stress, European bilateral trade and The Missing J."
+description: "Historical datasets by Adam Dittrich: Czechoslovak foreign trade, effective exchange rates, commercial banking, financial stress, European bilateral trade and The Missing J."
 page-layout: custom
 title-block-banner: false
 body-classes: academic-site data-page
@@ -9,6 +9,12 @@ body-classes: academic-site data-page
 ```{=html}
 <section class="level1 ac-page" id="datasets">
 <h1>Datasets</h1><div class="ac-section ac-dataset" id="czechoslovak-foreign-trade"><h2><a href="czechoslovak-foreign-trade.html">Czechoslovak foreign trade</a></h2><p class="ac-item-meta">Annual: 1920–1938 · Monthly: 1924–1938 · Fifteen partner economies</p><p>National exports, imports and trade balances; annual bilateral flows and shares; growth rates and 1929-based indices.</p><p><a href="czechoslovak-foreign-trade.html">Data overview and figures</a> · <a download="" href="assets/files/datasets/Czechoslovak_Foreign_Trade_Interwar_Dataset.xlsx">Excel workbook</a></p></div><div class="ac-section ac-dataset" id="czechoslovakia-eer"><h2><a href="czechoslovakia-eer.html">Czechoslovakia’s effective exchange rates</a></h2><p class="ac-item-meta">Annual · NEER: 1920–1938 · REER: 1923–1938 · 1929 = 100</p><p>Companion dataset for <em>The Crown Against the World</em>: fourteen partners, twenty-six index variants, annual weights and basket coverage.</p><p><a href="czechoslovakia-eer.html">Data overview, figures and methods</a> · <a download="" href="assets/files/datasets/Czechoslovakia_EER_1920_1938.xlsx">Excel workbook</a> · <a href="https://doi.org/10.3886/E251023V1">openICPSR DOI</a></p></div>
+<div class="ac-section ac-dataset" id="czechoslovak-commercial-banking">
+<h2><a href="czechoslovak-commercial-banking.html">Czechoslovak Commercial Banking, 1919–1937</a></h2>
+<p class="ac-item-meta">Czech lands · Annual aggregate: 1919–1937 · Fourteen-bank panel: 1933–1937</p>
+<p>Commercial-bank balance sheets, funding, published capital and income. Explore nineteen annual observations and seventy bank-years, with central-bank context, source definitions and reconstruction code.</p>
+<p><a href="czechoslovak-commercial-banking.html">Interactive figures, data and methods</a> · <a href="assets/files/datasets/commercial-banking/Czechoslovak_Commercial_Banking_1919_1937.xlsx" download>Excel workbook</a> · <a href="assets/files/datasets/commercial-banking/Czechoslovak_Commercial_Banking_1919_1937_v0.1.0.zip" download>Complete dataset (ZIP)</a></p>
+</div>
 <div class="ac-section ac-dataset" id="financial-stress-under-the-gold-standard">
 <section class="level2" id="measuring-financial-stress-under-the-gold-standard">
 <h2 data-anchor-id="measuring-financial-stress-under-the-gold-standard"><a href="czechoslovakia-financial-stress.html">Measuring Financial Stress under the Gold Standard</a></h2>

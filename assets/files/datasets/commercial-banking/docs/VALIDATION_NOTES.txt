@@ -1,0 +1,67 @@
+VALIDATION OF THE DATASET RELEASE
+Version 0.1.0 | 29 October 2026
+
+WHAT WAS CHECKED
+
+Data reconstruction
+- The data builder ran from a clean copy of code and frozen inputs, with data
+  and metadata initially absent. All 26 generated data/metadata files matched
+  the reference release byte for byte.
+- Independent comparisons checked 24 principal annual fields for all nineteen
+  years and 18 principal bank fields for all seventy bank-years against the
+  accepted research inputs. Annual and bank capital ratios were recalculated.
+- The 1919 deposit comparability exclusion, the 1936 income/balance reporting
+  count mismatch, and Moravska banka's 1933 component residual were retained.
+- Identifier, arithmetic, missingness and transformation checks are also
+  recorded in metadata/validation.json. These checks validate reconstruction
+  from the retained transcription; they do not repeat digitisation from every
+  historical original or verify each bank's original annual-report facsimile.
+
+Excel workbook
+- The serialized XLSX was checked against 8,417 source-cell values and 1,083
+  derived formula-cell values. No spreadsheet error cells were found.
+- These are validation counts, not counts of independent economic observations.
+- An exported copy was reimported, its selected bank changed, and a source asset
+  value edited. The dependent ratios and chart source values recalculated as
+  expected. The distributed workbook preserves the original observations.
+- All fourteen worksheets were visually reviewed through thirty rendered views.
+  Twenty filter tables, twelve sheets with frozen panes, and two native line
+  charts were checked in the exported file.
+
+Interactive page
+- Desktop and narrow-screen layouts were inspected. The phone test showed no
+  horizontal page overflow. Navigation, chart selectors, year sliders, bank
+  filters, empty results, numeric tables and the observation explorer were used.
+- Missing 1919 comparable deposits display as unavailable, rather than zero.
+- Recovery-composition totals reconcile to 3,629 million crowns on each side
+  of the annual aggregate's balance sheet.
+- Individual chart and bank-panel CSV downloads completed through the browser.
+  The bank-panel download matched the release CSV exactly.
+- The dynamically generated CSV/metadata ZIP passed CRC checks and its entries
+  matched the release files. Its automatic browser download event, and the SVG
+  export download event, could not be confirmed in the browser used for review.
+  These are recorded as unconfirmed rather than passed. The separate complete
+  release archive is the primary download; vector PDF figures are included.
+- The page has native keyboard controls and numeric alternatives to its plots.
+  This review is not a formal accessibility certification.
+
+Guide and figures
+- All four guide pages were rendered and visually inspected, including revised
+  unit and source-ledger notes. All four standalone chart layouts were reviewed.
+- Figure sources, periods, units and reporting populations are stated alongside
+  the graphics. PDF charts retain vector output; PNG copies support quick reuse.
+
+PACKAGE INTEGRITY
+
+The packaging script writes SHA256SUMS.txt and verifies every listed file in
+its ZIP output, in addition to the archive CRC check. The resource inventory
+in dataset.json records each CSV's rows, columns, encoding, size and hash.
+The core data builder needs only Python's standard library and frozen inputs;
+no account, external workspace or internet connection is needed for that build.
+The workbook is ready to open; recreating its presentation uses the authoring
+environment described in its generator. Browser rendering uses embedded data.
+
+The public 0.1.0 release preserves the reviewed data values. Publication labels,
+links and citations were updated for publication. The updated guide and workbook
+were checked in their changed views; numerical content and formulas were compared
+with the reviewed files. No DOI has been registered.

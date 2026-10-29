@@ -1,0 +1,8 @@
+measure,label,year,unit,national_22_total,matched_14_total,unmatched_8_total,matched_share_percent,interpretation
+institutions,Institutions,1929,number,22.0,14.0,8.0,63.63636363636363,1929 source-internal footprint of institutions subsequently observed in the panel; not 1933-1937 coverage.
+paid_capital_thousand_kc,Paid capital,1929,million Kč,1844.6,1790.0,54.6,97.04000867396725,1929 source-internal footprint of institutions subsequently observed in the panel; not 1933-1937 coverage.
+loss_cover_reserves_thousand_kc,Loss-covering reserves,1929,million Kč,1382.203,1355.838,26.365,98.09253778207687,1929 source-internal footprint of institutions subsequently observed in the panel; not 1933-1937 coverage.
+capital_plus_loss_cover_reserves_thousand_kc,Paid capital plus loss-covering reserves,1929,million Kč,3226.803,3145.838,80.965,97.4908601485743,1929 source-internal footprint of institutions subsequently observed in the panel; not 1933-1937 coverage.
+book_and_cash_certificate_deposits_thousand_kc,Book and cash-certificate deposits,1929,million Kč,8927.082,8694.807,232.275,97.39808595910735,1929 source-internal footprint of institutions subsequently observed in the panel; not 1933-1937 coverage.
+creditors_thousand_kc,General creditors,1929,million Kč,17491.957,16677.975,813.982,95.34653555345466,1929 source-internal footprint of institutions subsequently observed in the panel; not 1933-1937 coverage.
+own_bonds_thousand_kc,Own-issued bonds and debentures,1929,million Kč,268.236,101.268,166.968,37.753321701785,1929 source-internal footprint of institutions subsequently observed in the panel; not 1933-1937 coverage.

@@ -5,7 +5,11 @@ project:
   output-dir: docs
   resources:
   - assets/files/**
+  - '!assets/files/datasets/commercial-banking/index.html'
+  - '!assets/files/datasets/commercial-banking/code/preview_template.html'
   - assets/js/site.js
+  - assets/js/commercial-banking.js
+  - assets/css/commercial-banking.css
   - assets/img/favicon.svg
   - assets/img/healthcare/**
   post-render:

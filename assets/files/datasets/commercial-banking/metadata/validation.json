@@ -1,0 +1,31 @@
+{
+  "version": "0.1.0",
+  "release_date": "2026-10-29",
+  "status": "pass",
+  "failures": [],
+  "checks": {
+    "frozen_input_checksums": 17,
+    "all_public_columns_documented": 340,
+    "all_exception_flags_documented": 13,
+    "annual_years": 19,
+    "bank_years": 70,
+    "banks": 14,
+    "crosswalk_institutions": 22,
+    "matches": 14,
+    "events": 5,
+    "no_interpolation": true,
+    "no_new_dash_to_zero_conversion": true,
+    "national_preexisting_dash_zero_convention_explicit": true,
+    "1919_comparable_deposits_withheld": true,
+    "1936_income_ratios_withheld": true,
+    "moravska_1933_discrepancy_preserved": true,
+    "original_annual_report_verification_not_claimed": true
+  },
+  "known_source_exceptions": [
+    "Moravská 1933 assets: components 1955.2 versus reported total 1975.2 million Kč; no correction.",
+    "League 1936 income reports 22 banks versus 23 for balance sheets.",
+    "National 1929 accepted source dashes were encoded as zero under independently reconciled column totals; statuses preserve the distinction.",
+    "Full-year WPI means unavailable for 1929 and 1938; CPI unavailable before 1923 in the frozen extract."
+  ],
+  "population_warning": "Matching counts or name matches do not establish constant reporting membership; no cross-population aggregation is performed."
+}

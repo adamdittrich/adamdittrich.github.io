@@ -1,0 +1,47 @@
+CZECHOSLOVAK COMMERCIAL BANKING, 1919–1937
+Joint-stock banks in the Czech lands
+Version 0.1.0 | First public release | 29 October 2026
+Compiled by Adam Dittrich
+
+DATASET PAGE
+https://adamdittrich.github.io/czechoslovak-commercial-banking.html
+
+SOURCE AND DOWNLOAD DIRECTORY
+https://github.com/adamdittrich/adamdittrich.github.io/tree/main/assets/files/datasets/commercial-banking
+
+VERSION HISTORY
+
+0.1.0 — 29 October 2026
+First public release. Promoted from the reviewed 0.1.0-preview package.
+All fourteen data CSVs, the source definitions, and frozen input observations
+are unchanged. Publication labels, citations and links were updated. The Excel
+workbook and PDF guide identify the public version. Release counts and validation metadata retain the
+same observations and checks; only their version labels change. No new bank-year or annual
+observations were introduced during publication.
+
+CONTENTS AND REPRODUCTION
+
+The complete archive contains the data tables, metadata, frozen inputs, source
+and transformation documentation, workbook, guide, vector and raster figures,
+and standalone interactive page. The accompanying website presents the same
+observations and offers direct downloads.
+
+Run python code/build_dataset.py from the extracted release directory to rebuild
+the CSV and metadata tables using Python's standard library. Read README.txt for
+data definitions and optional presentation dependencies. Rebuilding validates
+transformation from the frozen transcriptions; it does not repeat digitisation
+from every original historical source.
+
+CITATION AND TERMS
+
+Use CITATION.cff or the citation on the dataset page. Retain this version and
+underlying source references when reporting results. No additional reuse licence
+is assigned by this release; the underlying publications, research supplements
+and software retain their own terms. No DOI has been registered.
+
+FUTURE VERSIONS
+
+Earlier named-bank observations, documented mergers and exits, and the annual
+membership of the League aggregate would extend the present release. Changes
+to observations, source choices or coverage should receive a new version and
+an explicit description in these notes.

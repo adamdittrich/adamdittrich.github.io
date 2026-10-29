@@ -1,0 +1,12 @@
+value_status,definition
+reported,A numerical value retained from the accepted source transcription.
+reported_zero,"An explicitly numerical source zero, distinct from a dash or missing observation."
+derived,Calculated or harmonized value with a stated formula and source dependencies.
+derived_zero,A zero produced by a stated calculation; not represented as a printed source zero.
+missing_not_reported,No numerical value in the selected accepted source/extract. No imputation.
+not_separately_reported,The bank source table does not contain a separate line for this component.
+source_dash,The source cell contains a dash; retained as missing rather than converted to zero.
+not_comparable,Value intentionally withheld from a comparable measure/ratio because of a known category or population-count mismatch.
+missing_prerequisite,A formula lacks at least one required input or prior/base observation.
+not_applicable,This event-specific field does not apply to the transaction described.
+source_dash_accounted_as_zero,The frozen national-roster transcription encodes a printed dash as zero under its validated column-sum convention. This is not a printed numerical zero or new imputation.

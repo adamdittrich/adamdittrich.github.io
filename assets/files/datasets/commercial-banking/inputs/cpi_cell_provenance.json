@@ -1,0 +1,174 @@
+{
+  "workbook": "04_extensions/interwar_data_wave1_extensions_2026-07-21/01_raw_official/european_cpi/European_CPI_since_1870_supplement.xlsx",
+  "source_comment_E9": "Jonas Ljungberg:\n1923-1991 Mitchell (2013), gap 1948-53 bridged with J Adam (1984); linked to Czech Republic 1992- IMF (2021, 2023).",
+  "cells": [
+    {
+      "year": 1918,
+      "cell": "E58",
+      "value": null,
+      "font_colour_type": "theme",
+      "font_colour_rgb": null,
+      "font_colour_theme": 1
+    },
+    {
+      "year": 1919,
+      "cell": "E59",
+      "value": null,
+      "font_colour_type": "theme",
+      "font_colour_rgb": null,
+      "font_colour_theme": 1
+    },
+    {
+      "year": 1920,
+      "cell": "E60",
+      "value": null,
+      "font_colour_type": "theme",
+      "font_colour_rgb": null,
+      "font_colour_theme": 1
+    },
+    {
+      "year": 1921,
+      "cell": "E61",
+      "value": null,
+      "font_colour_type": "theme",
+      "font_colour_rgb": null,
+      "font_colour_theme": 1
+    },
+    {
+      "year": 1922,
+      "cell": "E62",
+      "value": null,
+      "font_colour_type": "theme",
+      "font_colour_rgb": null,
+      "font_colour_theme": 1
+    },
+    {
+      "year": 1923,
+      "cell": "E63",
+      "value": 93,
+      "font_colour_type": "theme",
+      "font_colour_rgb": null,
+      "font_colour_theme": 1
+    },
+    {
+      "year": 1924,
+      "cell": "E64",
+      "value": 93,
+      "font_colour_type": "theme",
+      "font_colour_rgb": null,
+      "font_colour_theme": 1
+    },
+    {
+      "year": 1925,
+      "cell": "E65",
+      "value": 97,
+      "font_colour_type": "theme",
+      "font_colour_rgb": null,
+      "font_colour_theme": 1
+    },
+    {
+      "year": 1926,
+      "cell": "E66",
+      "value": 95.99999999999999,
+      "font_colour_type": "theme",
+      "font_colour_rgb": null,
+      "font_colour_theme": 1
+    },
+    {
+      "year": 1927,
+      "cell": "E67",
+      "value": 100,
+      "font_colour_type": "theme",
+      "font_colour_rgb": null,
+      "font_colour_theme": 1
+    },
+    {
+      "year": 1928,
+      "cell": "E68",
+      "value": 101,
+      "font_colour_type": "theme",
+      "font_colour_rgb": null,
+      "font_colour_theme": 1
+    },
+    {
+      "year": 1929,
+      "cell": "E69",
+      "value": 100,
+      "font_colour_type": "theme",
+      "font_colour_rgb": null,
+      "font_colour_theme": 1
+    },
+    {
+      "year": 1930,
+      "cell": "E70",
+      "value": 98,
+      "font_colour_type": "theme",
+      "font_colour_rgb": null,
+      "font_colour_theme": 1
+    },
+    {
+      "year": 1931,
+      "cell": "E71",
+      "value": 93.99999999999999,
+      "font_colour_type": "theme",
+      "font_colour_rgb": null,
+      "font_colour_theme": 1
+    },
+    {
+      "year": 1932,
+      "cell": "E72",
+      "value": 91.99999999999999,
+      "font_colour_type": "theme",
+      "font_colour_rgb": null,
+      "font_colour_theme": 1
+    },
+    {
+      "year": 1933,
+      "cell": "E73",
+      "value": 90.99999999999999,
+      "font_colour_type": "theme",
+      "font_colour_rgb": null,
+      "font_colour_theme": 1
+    },
+    {
+      "year": 1934,
+      "cell": "E74",
+      "value": 89.99999999999999,
+      "font_colour_type": "theme",
+      "font_colour_rgb": null,
+      "font_colour_theme": 1
+    },
+    {
+      "year": 1935,
+      "cell": "E75",
+      "value": 92.99999999999999,
+      "font_colour_type": "theme",
+      "font_colour_rgb": null,
+      "font_colour_theme": 1
+    },
+    {
+      "year": 1936,
+      "cell": "E76",
+      "value": 93.99999999999999,
+      "font_colour_type": "theme",
+      "font_colour_rgb": null,
+      "font_colour_theme": 1
+    },
+    {
+      "year": 1937,
+      "cell": "E77",
+      "value": 94.99999999999999,
+      "font_colour_type": "theme",
+      "font_colour_rgb": null,
+      "font_colour_theme": 1
+    },
+    {
+      "year": 1938,
+      "cell": "E78",
+      "value": 98.99999999999999,
+      "font_colour_type": "theme",
+      "font_colour_rgb": null,
+      "font_colour_theme": 1
+    }
+  ]
+}

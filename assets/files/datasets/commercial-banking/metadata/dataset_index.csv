@@ -1,0 +1,15 @@
+dataset_id,path,description,rows,columns,primary_key,encoding,missing_value,canonical_long_inclusion
+annual_balance_sheet,data/annual_balance_sheet.csv,"Full accepted annual balance-sheet categories, preserving original reported deposits and separate missing components.",19,32,year,UTF-8,empty field,yes
+annual_income,data/annual_income.csv,"Annual income, expenses, write-offs and distribution accounts; separate reporting count.",19,29,year,UTF-8,empty field,yes
+annual_components,data/annual_components.csv,"Detailed annual source components, including cash, special loans, reserve categories and income components.",19,39,year,UTF-8,empty field,yes
+annual_aggregate,data/annual_aggregate.csv,Compact annual commercial-bank view: selected reported categories and explicitly derived level measures.,19,35,year,UTF-8,empty field,derived levels only
+bank_panel,data/bank_panel.csv,"Seventy annual observations for fourteen named banks, with source-specific account categories.",70,42,bank_id;year,UTF-8,empty field,yes
+annual_ratios,data/annual_ratios.csv,"Derived annual shares, income intensities, indexes and growth rates with stated eligibility rules.",19,23,year,UTF-8,empty field,yes
+bank_ratios,data/bank_ratios.csv,Derived bank-year shares and within-bank 1933-based indexes; no estimation or causal model.,70,20,bank_id;year,UTF-8,empty field,yes
+central_bank_context,data/central_bank_context.csv,"Separate National Bank context, never pooled into commercial-bank totals.",9,10,year,UTF-8,empty field,yes
+price_context,data/price_context.csv,Separate CPI/WPI context with honest coverage and timing; no missing-year interpolation.,20,13,year,UTF-8,empty field,yes
+institution_crosswalk_1929,data/institution_crosswalk_1929.csv,"Full national twenty-two-bank roster, fourteen named matches and eight explicit unmatched institutions.",22,36,national_bank_id,UTF-8,empty field,yes
+coverage_1929,data/coverage_1929.csv,Source-internal 1929 footprint of the later fourteen-bank cohort; not later asset coverage.,7,10,measure,UTF-8,empty field,yes
+reserve_events,data/reserve_events.csv,"Five dated accounting events, distinguishing transfers, separate funds and opening adjustments.",5,17,event_id,UTF-8,empty field,yes
+source_observations,data/source_observations.csv,Original selected-source ledger in normalized English column names; may repeat facts displayed in analytical tables.,1414,18,source_record_id,UTF-8,empty field,not applicable / source ledger
+observations_long,data/observations_long.csv,"Canonical analytical cells with populations, units, missingness and source references. Convenience copies are excluded.",5316,16,observation_id,UTF-8,empty field,canonical long table

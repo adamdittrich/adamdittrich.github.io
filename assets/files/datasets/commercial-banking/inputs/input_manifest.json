@@ -1,0 +1,121 @@
+[
+  {
+    "input_file": "inputs/annual_balance_sheet.csv",
+    "accepted_source_path": "outputs/banking_submission_20261029/data/annual_balance_sheet.csv",
+    "sha256": "a80ade5f36a550862c2cf5c64f3b95326eb320bff72ceb46e818d32d21c63b3c",
+    "bytes": 6289,
+    "frozen_date": "2026-10-29"
+  },
+  {
+    "input_file": "inputs/annual_income.csv",
+    "accepted_source_path": "outputs/banking_submission_20261029/data/annual_profit_loss.csv",
+    "sha256": "481e3490c69b5b390639cf710dc6e52de1726cb093505b6b110899a1d4520e10",
+    "bytes": 2618,
+    "frozen_date": "2026-10-29"
+  },
+  {
+    "input_file": "inputs/annual_components.csv",
+    "accepted_source_path": "outputs/banking_submission_20261029/data/annual_components.csv",
+    "sha256": "a56d66d9f1ab7f5c59bec3cdf972ed0908ed22a590987b8f92d32cb2641ae529",
+    "bytes": 3740,
+    "frozen_date": "2026-10-29"
+  },
+  {
+    "input_file": "inputs/central_bank_context.csv",
+    "accepted_source_path": "outputs/banking_submission_20261029/data/central_bank_context.csv",
+    "sha256": "97f54ada73192a43da6196f98b1abc6740c988de7298d96b3081393beb1011bc",
+    "bytes": 1285,
+    "frozen_date": "2026-10-29"
+  },
+  {
+    "input_file": "inputs/source_records.csv",
+    "accepted_source_path": "outputs/banking_submission_20261029/data/source_records.csv",
+    "sha256": "72e00434820946838a060ffeb7b4dc39d93cf2367f8b17c1cc1661fb539cf6a2",
+    "bytes": 855045,
+    "frozen_date": "2026-10-29"
+  },
+  {
+    "input_file": "inputs/source_catalog.csv",
+    "accepted_source_path": "outputs/banking_submission_20261029/data/source_catalog.csv",
+    "sha256": "2ad0ad58aca151b250073a8e01d06ec0174689219554aee79c95c4780b390200",
+    "bytes": 26458,
+    "frozen_date": "2026-10-29"
+  },
+  {
+    "input_file": "inputs/original_variable_dictionary.csv",
+    "accepted_source_path": "outputs/banking_submission_20261029/data/variable_dictionary.csv",
+    "sha256": "9be6d69c17086df3c4241c0ef8a0b60b1fcc8553b49370df668ce57e2e6dd675",
+    "bytes": 40470,
+    "frozen_date": "2026-10-29"
+  },
+  {
+    "input_file": "inputs/wpi_annual.csv",
+    "accepted_source_path": "outputs/banking_submission_20261029/data/wpi_annual_deflators_1929_1938.csv",
+    "sha256": "ebc711753e7879b5c9bff4da14557f46194dbea34692032752767ecd5a159930",
+    "bytes": 3184,
+    "frozen_date": "2026-10-29"
+  },
+  {
+    "input_file": "inputs/cpi_cell_provenance.json",
+    "accepted_source_path": "outputs/banking_submission_20261029/data/cpi_cell_provenance.json",
+    "sha256": "2c41b348cf7a3ad574ca50dacaad0fcfb2cc653516e07aaaa6f385db53006160",
+    "bytes": 3997,
+    "frozen_date": "2026-10-29"
+  },
+  {
+    "input_file": "inputs/bank_panel.csv",
+    "accepted_source_path": "outputs/banking_submission_20261029/bank_panel/bank_year.csv",
+    "sha256": "c4c8bb3681dcac8dfa23bbc29625c64506fd90dff037fd31e07d66641bf0e48f",
+    "bytes": 49020,
+    "frozen_date": "2026-10-29"
+  },
+  {
+    "input_file": "inputs/bank_raw_table_rows.json",
+    "accepted_source_path": "outputs/banking_submission_20261029/bank_panel/raw_table_rows.json",
+    "sha256": "2bb08db2a3c423262df5f862c06e0795d79f1c3a1b4b2cc8f3d1de43b06d5103",
+    "bytes": 44952,
+    "frozen_date": "2026-10-29"
+  },
+  {
+    "input_file": "inputs/bank_provenance.json",
+    "accepted_source_path": "outputs/banking_submission_20261029/bank_panel/provenance.json",
+    "sha256": "60f144f90d6b954528917c1e0392064dfd78ffd11ff626fb7c44e817ee6974e3",
+    "bytes": 1950,
+    "frozen_date": "2026-10-29"
+  },
+  {
+    "input_file": "inputs/bank_reconciliation.csv",
+    "accepted_source_path": "outputs/banking_submission_20261029/bank_panel/table_reconciliation.csv",
+    "sha256": "664a4e6263f4fd6886d396541076eda2d31ed41f5be17d8e63e7f0b72b9d8a98",
+    "bytes": 1639,
+    "frozen_date": "2026-10-29"
+  },
+  {
+    "input_file": "inputs/reserve_events.csv",
+    "accepted_source_path": "outputs/banking_submission_20261029/bank_panel/reserve_events.csv",
+    "sha256": "f23b28de0ce35d3b89b001a35a1ee044cba8c9eff67accebe2187e9247380d84",
+    "bytes": 1454,
+    "frozen_date": "2026-10-29"
+  },
+  {
+    "input_file": "inputs/institution_crosswalk_1929.csv",
+    "accepted_source_path": "outputs/banking_submission_20261029/coverage/sample_crosswalk.csv",
+    "sha256": "7a825cbefd3aa3b3b41bf89bf307913176cf329fe08d8c0201a83a9f993f5169",
+    "bytes": 24229,
+    "frozen_date": "2026-10-29"
+  },
+  {
+    "input_file": "inputs/coverage_1929.csv",
+    "accepted_source_path": "outputs/banking_submission_20261029/coverage/sample_coverage_metrics.csv",
+    "sha256": "9ff103c1d87ca1e2f68f182f3dd399786c13476fd37a413f78baddb0be5a5fa2",
+    "bytes": 1650,
+    "frozen_date": "2026-10-29"
+  },
+  {
+    "input_file": "inputs/coverage_controls_1929.csv",
+    "accepted_source_path": "outputs/banking_submission_20261029/coverage/sample_coverage_controls.csv",
+    "sha256": "670646bf1a3ca0ff06b3cc96ab73fa907741102f43c6e472ef5deb8287a1911a",
+    "bytes": 1304,
+    "frozen_date": "2026-10-29"
+  }
+]

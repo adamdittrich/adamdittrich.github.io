@@ -1,0 +1,10 @@
+year,population_id,discounted_bills,discounted_securities,advances_on_collateral,total_assets,notes_in_circulation,source_id,source_pages,flags
+1929,national_bank_czechoslovakia,526,396,89,9646,8230,LON_CB_1939,printed47;pdf49,separate_central_bank_population
+1930,national_bank_czechoslovakia,360,133,32,9198,7824,LON_CB_1938,printed61;pdf63,separate_central_bank_population
+1931,national_bank_czechoslovakia,1682,477,157,8770,7679,LON_CB_1939,printed47;pdf49,separate_central_bank_population
+1932,national_bank_czechoslovakia,1139,200,337,7557,6267,LON_CB_1939,printed47;pdf49,separate_central_bank_population
+1933,national_bank_czechoslovakia,1234,56,461,7493,5906,LON_CB_1939,printed47;pdf49,separate_central_bank_population
+1934,national_bank_czechoslovakia,892,64,422,7230,5640,LON_CB_1939,printed47;pdf49,separate_central_bank_population
+1935,national_bank_czechoslovakia,602,12,731,7089,5761,LON_CB_1939,printed47;pdf49,separate_central_bank_population
+1936,national_bank_czechoslovakia,1194,59,1086,8477,6478,LON_CB_1939,printed47;pdf49,separate_central_bank_population
+1937,national_bank_czechoslovakia,1147,203,1284,8734,6902,LON_CB_1939,printed47;pdf49,separate_central_bank_population

@@ -15,7 +15,8 @@ DOCS = ROOT / "docs"
 EXPECTED_PAGES = {'index.html', 'research.html', 'publications.html', 'data.html',
                   'teaching.html', 'cv.html', 'contact.html', 'healthcare-capacity.html',
                   'czechoslovak-foreign-trade.html', 'czechoslovakia-eer.html',
-                  'czechoslovakia-financial-stress.html', 'the-missing-j.html', '404.html'}
+                  'czechoslovakia-financial-stress.html', 'czechoslovak-commercial-banking.html',
+                  'the-missing-j.html', '404.html'}
 
 
 class Page(HTMLParser):
