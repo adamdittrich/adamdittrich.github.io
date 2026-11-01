@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Research workbook for version 0.1.0 dataset.
+ * Research workbook for version 0.1.1 dataset.
  *
  * Run with the bundled runtime:
  *   "$CODEX_PRIMARY_RUNTIME_NODE" code/build_workbook.mjs
@@ -23,7 +23,7 @@ const args = Object.fromEntries(process.argv.slice(2).reduce((out, x, i, all) =>
   return out;
 }, []));
 const releaseRoot = path.resolve(args['release-root'] || path.join(path.dirname(scriptPath), '..'));
-const outputPath = path.resolve(args.output || path.join(releaseRoot, '..', 'Czechoslovak_Commercial_Banking_1919_1937.xlsx'));
+const outputPath = path.resolve(args.output || path.join(releaseRoot, 'Czechoslovak_Commercial_Banking_1919_1937.xlsx'));
 const outputDir = path.dirname(outputPath);
 const qaDir = path.resolve(args['qa-dir'] || path.join(outputDir, 'qa', 'workbook'));
 
@@ -43,6 +43,7 @@ const { Workbook, SpreadsheetFile, FileBlob } = await import('@oai/artifact-tool
 const started = Date.now();
 const C = { paper: '#F4F0E7', ink: '#162B36', burgundy: '#7A2E34', teal: '#337E7B', muted: '#67757B',
   rule: '#D1D6D6', light: '#F8FAFA', white: '#FFFFFF', amber: '#FFF0CD' };
+const CHART = JSON.parse(await fs.readFile(path.join(releaseRoot, 'code/chart_palette.json'), 'utf8'));
 const FONT = 'Arial';
 const NUM = '#,##0.000';
 const INT = '0';
@@ -469,7 +470,7 @@ renderPlan.push({sheet:'Source notes',range:'A1:F12',suffix:'publications'},{she
 
 // Compact guide and navigation. Counts describe unique core observations.
 const guide=ws['Read me'];
-title(guide,'Using the banking dataset workbook','Version 0.1.0. Public release, 29 October 2026.','Primary scope: joint-stock commercial banking in Bohemia, Moravia and Silesia.');
+title(guide,'Using the banking dataset workbook','Version 0.1.1. Public release, 1 November 2026.','Primary scope: joint-stock commercial banking in Bohemia, Moravia and Silesia.');
 const guideRows=[
   ['Core annual series','19 annual observations, 1919–1937. The League aggregate has changing membership.'],
   ['Bank panel','70 bank-year observations: 14 named institutions observed in each year, 1933–1937.'],
@@ -513,7 +514,7 @@ explore.getRange('B2').values=[['Commercial banking in the Czech lands']];
 explore.getRange('B2').format.font={name:FONT,size:16,bold:true,color:C.ink};
 explore.getRange('B2:N2').format.rowHeight=30;
 explore.getRange('B2:N2').format.borders={bottom:{style:'thin',color:C.burgundy}};
-explore.getRange('B3').values=[['Version 0.1.0. Annual aggregate: 1919–1937. Fixed handbook cohort: 1933–1937.']];
+explore.getRange('B3').values=[['Version 0.1.1. Annual aggregate: 1919–1937. Fixed handbook cohort: 1933–1937.']];
 explore.getRange('B3:N3').format.font={name:FONT,size:10,color:C.muted};
 explore.getRange('B5').values=[['Changing aggregate']];explore.getRange('I5').values=[['Fixed bank cohort']];
 explore.getRange('B5:N5').format.font={name:FONT,size:12,bold:true,color:C.burgundy};
@@ -570,7 +571,7 @@ for(const [range,from,to,heading] of chartSpecs) {
   chart.legend={position:'top',textStyle:{typeface:FONT,fontSize:12}};
   chart.xAxis={axisType:'textAxis',textStyle:{typeface:FONT,fontSize:12}};
   chart.yAxis={numberFormatCode:'0',numberFormatSourceLinked:false,textStyle:{typeface:FONT,fontSize:12}};
-  chart.series.items.forEach((s,j)=>{const color=[C.ink,C.burgundy,C.teal][j];s.fill=color;s.line={fill:color,style:'solid',width:2};});
+  chart.series.items.forEach((s,j)=>{const color=[CHART.blue,CHART.orange,CHART.green][j];s.fill=color;s.line={fill:color,style:'solid',width:2};});
 }
 formulaChecks.push({sheet:'Explore',address:'C6',expected:19},{sheet:'Explore',address:'J31',expected:5},
   {sheet:'Explore',address:'I8',expected:bankRegister.find(r=>r.bank_id==='zivno').bank_name});
@@ -622,7 +623,7 @@ equalValue(probeExplore.getRange('I8').values[0][0],'Select a bank ID','Unmatche
 
 const chartBindings=chartObjects.map(chart=>({title:chart.title.text,type:chart.type,
   series:chart.series.items.map(s=>({formula:s.formula,categoryFormula:s.categoryFormula}))}));
-const qa={version:'0.1.0',status:'public release',output:path.basename(outputPath),sheets:sheets.length,sheet_names:sheets,
+const qa={version:'0.1.1',status:'public release',output:path.basename(outputPath),sheets:sheets.length,sheet_names:sheets,
   core_annual_observations:19,bank_year_observations:70,bank_institutions:14,central_bank_observations:9,
   price_year_rows:20,national_roster_institutions:22,dictionary_rows:db.variable_dictionary.records.length,
   validated_source_cells:inputCells.length,validated_formula_cells:formulaChecks.length,chart_count:2,chart_bindings:chartBindings,

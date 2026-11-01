@@ -1,6 +1,6 @@
 CZECHOSLOVAK COMMERCIAL BANKING, 1919–1937
 Joint-stock banks in the Czech lands
-Version 0.1.0 | First public release | 29 October 2026
+Version 0.1.1 | Presentation patch | 1 November 2026
 Compiled by Adam Dittrich
 
 DATASET PAGE
@@ -10,6 +10,16 @@ SOURCE AND DOWNLOAD DIRECTORY
 https://github.com/adamdittrich/adamdittrich.github.io/tree/main/assets/files/datasets/commercial-banking
 
 VERSION HISTORY
+
+0.1.1 — 1 November 2026
+Presentation-only patch: use the web tab10 palette in offline charts, SVG
+exports, PNG/PDF figures, the guide and Excel charts. Series also retain
+distinct line patterns. code/chart_palette.json records the shared colours.
+No numerical observations, missingness rules, populations, definitions,
+frozen inputs or transformation formulas change. The original 0.1.0 ZIP
+remains byte-for-byte unchanged; use its bundled builders to reproduce it.
+Current loose files and the new ZIP identify 0.1.1. See PRESENTATION_AUDIT.md
+for the comparison and code/verify_presentation.py for executable checks.
 
 0.1.0 — 29 October 2026
 First public release. Promoted from the reviewed 0.1.0-preview package.

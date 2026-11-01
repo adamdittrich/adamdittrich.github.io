@@ -1,9 +1,9 @@
 {
   "title": "Czechoslovak Commercial Banking, 1919–1937",
   "subtitle": "Joint-stock banks in the Czech lands",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "status": "public_release",
-  "release_date": "2026-10-29",
+  "release_date": "2026-11-01",
   "url": "https://adamdittrich.github.io/czechoslovak-commercial-banking.html",
   "repository_url": "https://github.com/adamdittrich/adamdittrich.github.io/tree/main/assets/files/datasets/commercial-banking",
   "creator": {
@@ -20,8 +20,8 @@
   },
   "scope": "Changing annual commercial-bank aggregate in Bohemia, Moravia and Silesia; separate fixed fourteen-bank handbook panel. Additional national roster, central-bank and price context retain distinct populations.",
   "observation_counts": {
-    "version": "0.1.0",
-    "release_date": "2026-10-29",
+    "version": "0.1.1",
+    "release_date": "2026-11-01",
     "annual_years": 19,
     "annual_start_year": 1919,
     "annual_end_year": 1937,
@@ -58,7 +58,7 @@
   },
   "license": null,
   "doi": null,
-  "publication_note": "First public release. Cite the version and underlying sources. No additional reuse licence or DOI assigned. See docs/RELEASE_NOTES.txt.",
+  "publication_note": "Presentation patch 0.1.1; data unchanged from 0.1.0 (29 October 2026). Original archive retained. Cite the version and underlying sources. No additional reuse licence or DOI assigned. See docs/RELEASE_NOTES.txt.",
   "citation_file": "CITATION.cff",
   "guide": "docs/Banking_Dataset_Guide.pdf",
   "variable_dictionary": "metadata/variable_dictionary.csv",

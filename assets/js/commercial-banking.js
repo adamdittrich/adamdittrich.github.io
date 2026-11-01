@@ -73,15 +73,15 @@ function exportFigure(hostId){
  const series=hostId==='annual-plot'?annualSelection():hostId==='income-plot'?INCOME_SERIES.filter(s=>$('income-mode').value==='index'||s.key!=='total_assets'):[];
  let x=12;for(const s of series){const need=s.label.length*6.5+36;if(x+need>w-12&&x>12){x=12;y+=18}line(head,x,y-4,x+18,y-4,{stroke:s.color,'stroke-width':2.4,'stroke-dasharray':s.dash||''});txt(head,x+24,y,s.label,{'font-size':11});x+=need}if(series.length)y+=16;
  exported.append(head);const plot=svgEl('g',{transform:`translate(0,${y})`});for(const child of source.children)plot.append(child.cloneNode(true));exported.append(plot);y+=box.height+14;
- const note=(hostId==='annual-plot'||hostId.startsWith('composition-')?'Source: League of Nations banking tables.':'Source: Kašpar (1938), consulted digital retyping.')+' Adam Dittrich, version 0.1.0, 29 October 2026.';
+ const note=(hostId==='annual-plot'||hostId.startsWith('composition-')?'Source: League of Nations banking tables.':'Source: Kašpar (1938), consulted digital retyping.')+' Adam Dittrich, version 0.1.1, 1 November 2026.';
  for(const text of wrap(note)){txt(exported,12,y,text,{'font-size':10});y+=14}
  exported.setAttribute('height',y+8);exported.setAttribute('viewBox',`0 0 ${w} ${y+8}`);const bg=svgEl('rect',{width:w,height:y+8,fill:'white'});exported.insertBefore(bg,exported.firstChild);
  download('banking_'+hostId+'.svg',new XMLSerializer().serializeToString(exported),'image/svg+xml;charset=utf-8');
 }
 document.querySelectorAll('[data-svg]').forEach(button=>button.addEventListener('click',()=>exportFigure(button.dataset.svg)));
-const citation='Dittrich, Adam. 2026. Czechoslovak Commercial Banking, 1919–1937: Joint-stock banks in the Czech lands. Research dataset, version 0.1.0, 29 October 2026.';
+const citation='Dittrich, Adam. 2026. Czechoslovak Commercial Banking, 1919–1937: Joint-stock banks in the Czech lands. Research dataset, version 0.1.1, 1 November 2026.';
 $('copy-citation').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(citation);$('citation-status').textContent='Citation copied.'}catch{const range=document.createRange();range.selectNodeContents($('citation-text'));const selection=window.getSelection();selection.removeAllRanges();selection.addRange(range);$('citation-status').textContent='Citation selected. Copy with Ctrl+C or Command+C.'}});
-$('download-bib').addEventListener('click',()=>download('czechoslovak_commercial_banking.bib','@misc{Dittrich2026Banking,\n  author = {Dittrich, Adam},\n  title = {Czechoslovak Commercial Banking, 1919--1937: Joint-stock banks in the Czech lands},\n  year = {2026},\n  version = {0.1.0},\n  url = {https://adamdittrich.github.io/czechoslovak-commercial-banking.html},\n  note = {Research dataset, released 29 October 2026}\n}\n','application/x-bibtex;charset=utf-8'));
+$('download-bib').addEventListener('click',()=>download('czechoslovak_commercial_banking.bib','@misc{Dittrich2026Banking,\n  author = {Dittrich, Adam},\n  title = {Czechoslovak Commercial Banking, 1919--1937: Joint-stock banks in the Czech lands},\n  year = {2026},\n  version = {0.1.1},\n  url = {https://adamdittrich.github.io/czechoslovak-commercial-banking.html},\n  note = {Research dataset, released 1 November 2026}\n}\n','application/x-bibtex;charset=utf-8'));
 let resizeTimer;const redraw=()=>{renderAnnual();renderBanks();renderComposition();renderIncome()};window.addEventListener('resize',()=>{clearTimeout(resizeTimer);resizeTimer=setTimeout(redraw,120)});
 $('extra-file').addEventListener('change',()=>{$('extra-download').textContent=$('extra-file').value.endsWith('.json')?'Download JSON':'Download CSV'});
 initDownloads();setupExplorer();redraw();

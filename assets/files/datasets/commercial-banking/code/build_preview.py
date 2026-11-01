@@ -50,7 +50,7 @@ def main():
     payload = {'tables': {k: tables[k] for k in ('annual_aggregate', 'bank_panel')},
                'counts': {k: len(v) for k, v in tables.items()},
                'files': files, 'supplements': supplements, 'binaries': binaries,
-               'version': '0.1.0', 'date': '2026-10-29'}
+               'version': '0.1.1', 'date': '2026-11-01'}
     json_text = json.dumps(payload, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')
     template = (Path(__file__).parent / 'preview_template.html').read_text(encoding='utf-8')
     if template.count('/*__EMBEDDED_DATA__*/') != 1:

@@ -13,7 +13,7 @@ body-classes: academic-site data-page
 <h2><a href="czechoslovak-commercial-banking.html">Czechoslovak Commercial Banking, 1919–1937</a></h2>
 <p class="ac-item-meta">Czech lands · Annual aggregate: 1919–1937 · Fourteen-bank panel: 1933–1937</p>
 <p>Commercial-bank balance sheets, funding, published capital and income. Explore nineteen annual observations and seventy bank-years, with central-bank context, source definitions and reconstruction code.</p>
-<p><a href="czechoslovak-commercial-banking.html">Interactive figures, data and methods</a> · <a href="assets/files/datasets/commercial-banking/Czechoslovak_Commercial_Banking_1919_1937.xlsx" download>Excel workbook</a> · <a href="assets/files/datasets/commercial-banking/Czechoslovak_Commercial_Banking_1919_1937_v0.1.0.zip" download>Complete dataset (ZIP)</a></p>
+<p><a href="czechoslovak-commercial-banking.html">Interactive figures, data and methods</a> · <a href="assets/files/datasets/commercial-banking/Czechoslovak_Commercial_Banking_1919_1937.xlsx" download>Excel workbook</a> · <a href="assets/files/datasets/commercial-banking/Czechoslovak_Commercial_Banking_1919_1937_v0.1.1.zip" download>Complete dataset (ZIP)</a></p>
 </div>
 <div class="ac-section ac-dataset" id="financial-stress-under-the-gold-standard">
 <section class="level2" id="measuring-financial-stress-under-the-gold-standard">

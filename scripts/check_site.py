@@ -16,7 +16,8 @@ EXPECTED_PAGES = {'index.html', 'research.html', 'publications.html', 'data.html
                   'teaching.html', 'cv.html', 'contact.html', 'healthcare-capacity.html',
                   'czechoslovak-foreign-trade.html', 'czechoslovakia-eer.html',
                   'czechoslovakia-financial-stress.html', 'czechoslovak-commercial-banking.html',
-                  'the-missing-j.html', '404.html'}
+                  'the-missing-j.html', '404.html',
+                  'assets/files/datasets/commercial-banking/index.html'}
 # Google's verification file must be published verbatim, not treated as an HTML page.
 VERIFICATION_FILE = 'googlef2fc63fa3b1ebcdd.html'
 VERIFICATION_TEXT = 'google-site-verification: googlef2fc63fa3b1ebcdd.html'

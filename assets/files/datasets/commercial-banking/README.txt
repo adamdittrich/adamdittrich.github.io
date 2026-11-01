@@ -1,6 +1,6 @@
 CZECHOSLOVAK COMMERCIAL BANKING, 1919–1937
 Joint-stock banks in the Czech lands
-Version 0.1.0 | Released 29 October 2026
+Version 0.1.1 | Released 1 November 2026
 Compiled by Adam Dittrich
 
 OVERVIEW
@@ -16,7 +16,9 @@ accompanying research: how did the scale, financing, asset composition and
 recorded earning power of commercial banking change between the establishment
 of Czechoslovakia and the late 1930s?
 
-This is the first public release, dated 29 October 2026.
+Presentation patch 0.1.1, dated 1 November 2026. First published 29 October 2026.
+Data, definitions, frozen inputs and transformations are unchanged from 0.1.0.
+The original 0.1.0 ZIP is retained unchanged alongside the new archive.
 Dataset page: https://adamdittrich.github.io/czechoslovak-commercial-banking.html
 Repository: https://github.com/adamdittrich/adamdittrich.github.io/tree/main/assets/files/datasets/commercial-banking
 No DOI has been assigned.
@@ -240,7 +242,7 @@ CITATION AND PUBLICATION
 
 Suggested citation:
 Dittrich, Adam (2026). Czechoslovak Commercial Banking, 1919–1937: Joint-stock
-banks in the Czech lands. Version 0.1.0. Research dataset, 29 October 2026.
+banks in the Czech lands. Version 0.1.1. Research dataset, 1 November 2026.
 https://adamdittrich.github.io/czechoslovak-commercial-banking.html
 
 Retain the version, citation and underlying source references when reusing the
@@ -248,3 +250,9 @@ observations. No additional reuse licence is assigned by this release.
 Underlying historical publications, research supplements and software retain
 their own terms. No DOI has been registered. See docs/RELEASE_NOTES.txt for
 version history and the relationship to the reviewed preview.
+
+PRESENTATION PATCH REPRODUCTION
+
+See docs/PRESENTATION_AUDIT.md for the verified scope, original archive hash,
+current build commands and dependencies. Run code/verify_presentation.py
+after packaging. package_release.py refuses to overwrite a versioned ZIP.

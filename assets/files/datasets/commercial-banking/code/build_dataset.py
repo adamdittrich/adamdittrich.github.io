@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parents[1]
 INP, DATA, META = (ROOT / x for x in ("inputs", "data", "metadata"))
 DATA.mkdir(parents=True, exist_ok=True)
 META.mkdir(parents=True, exist_ok=True)
-VERSION, DATE = "0.1.0", "2026-10-29"
+VERSION, DATE = "0.1.1", "2026-11-01"
 MONEY = "million_kc_nominal"
 POP_ANNUAL, POP_INCOME, POP_PANEL = "czech_lands_active_joint_stock_banks", "czech_lands_reported_bank_income", "handbook_fourteen_bank_cohort"
 POP_NB, POP_NAT, POP_PRICE = "national_bank_czechoslovakia", "national_roster_joint_stock_1929", "czechoslovakia_price_context"

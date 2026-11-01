@@ -35,6 +35,8 @@ GOLD = '#a77530'
 GREY = '#67767e'
 PAPER = '#f4f0e7'
 LINE = '#d6d0c6'
+import json
+CHART = json.loads((ROOT / 'code/chart_palette.json').read_text())
 
 
 def save_figure(fig, name):
@@ -71,10 +73,10 @@ def build_charts():
                          'axes.unicode_minus':False})
     fig, ax = plt.subplots(figsize=(9.4,4.8))
     for variable, label, colour, linestyle in [
-        ('assets_index_1930_100','Assets',INK,'-'),
-        ('loans_bills_index_1930_100','Loans and bills',TEAL,'--'),
-        ('deposits_index_1930_100','Comparable deposits',GREY,'-.'),
-        ('capital_reserves_index_1930_100','Published capital and reserves',BURGUNDY,':')]:
+        ('assets_index_1930_100','Assets',CHART['blue'],'-'),
+        ('loans_bills_index_1930_100','Loans and bills',CHART['orange'],'--'),
+        ('deposits_index_1930_100','Comparable deposits',CHART['red'],'-.'),
+        ('capital_reserves_index_1930_100','Published capital and reserves',CHART['green'],':')]:
         ax.plot(ratios.year, ratios[variable], label=label, color=colour,
                 linestyle=linestyle, linewidth=2.3)
     ax.axvspan(1931,1933,color=PAPER,zorder=0)
@@ -97,7 +99,7 @@ def build_charts():
            'sporobanka':'Savings-bank central','vseobdruz':'Všeobecná družstevní','zivno':'Živnostenská'}
     labels=[short.get(k,first.loc[k,'bank_name']) for k in changes.index]
     fig,ax=plt.subplots(figsize=(9.4,6.1))
-    ax.barh(labels,changes,color=[BURGUNDY if v<0 else TEAL for v in changes])
+    ax.barh(labels,changes,color=[CHART['red'] if v<0 else CHART['blue'] for v in changes])
     ax.axvline(0,color=INK,lw=.8);ax.invert_yaxis()
     ax.set_xlabel('Change in published capital / assets, percentage points')
     ax.set_title('Capital ratios within fourteen banks, 1933-1937',loc='left',pad=14)
@@ -112,7 +114,7 @@ def build_charts():
     vals=[float(a.loc[1937,c]-a.loc[1933,c]) for c in cols]
     labels=['Cash and cash-like','Discounted bills','Loans and advances','Securities','Participations','Premises','Sundry assets']
     fig,ax=plt.subplots(figsize=(9.4,4.7))
-    bars=ax.barh(labels,vals,color=[TEAL if v>=0 else BURGUNDY for v in vals])
+    bars=ax.barh(labels,vals,color=[CHART['blue'] if v>=0 else CHART['red'] for v in vals])
     ax.invert_yaxis();ax.axvline(0,color=INK,lw=.8)
     for bar,value in zip(bars,vals):
         ax.text(max(value,0)+14,bar.get_y()+bar.get_height()/2,f'{value:+,.0f}',va='center',fontsize=10)
@@ -127,7 +129,7 @@ def build_charts():
     sums=banks.groupby('year')[['total_assets','net_interest','commissions']].sum()
     indexed=sums.div(sums.loc[1933]).mul(100)
     fig,ax=plt.subplots(figsize=(9.4,4.8))
-    for col,label,colour,linestyle in [('total_assets','Assets',INK,'-'),('net_interest','Net interest',BURGUNDY,':'),('commissions','Commissions',TEAL,'--')]:
+    for col,label,colour,linestyle in [('total_assets','Assets',CHART['blue'],'-'),('net_interest','Net interest',CHART['orange'],'--'),('commissions','Commissions',CHART['green'],':')]:
         ax.plot(indexed.index,indexed[col],label=label,color=colour,linestyle=linestyle,lw=2.5,marker='o',ms=4)
     ax.set(xlabel='Year',ylabel='Index, 1933 = 100');ax.set_xticks(indexed.index)
     ax.set_title('Assets and earnings in the fixed bank panel',loc='left',pad=16)
@@ -173,12 +175,12 @@ def build_pdf():
         c.setFillColor(colors.HexColor(BURGUNDY));c.rect(0,h-9,w,9,fill=1,stroke=0)
         c.setStrokeColor(colors.HexColor(LINE));c.line(45,38,w-45,38)
         c.setFont('Body',7.5);c.setFillColor(colors.HexColor(GREY))
-        c.drawString(45,25,'Czechoslovak Commercial Banking | Dataset version 0.1.0')
+        c.drawString(45,25,'Czechoslovak Commercial Banking | Dataset version 0.1.1')
         c.drawRightString(w-45,25,str(doc.page));c.restoreState()
     story=[]
     story += [p('Czechoslovak<br/>Commercial Banking','title'),
               p('1919-1937 | Joint-stock banks in the Czech lands','subtitle'),
-              p('A research dataset by Adam Dittrich<br/>Version 0.1.0 | Released 29 October 2026','small'),
+              p('A research dataset by Adam Dittrich<br/>Version 0.1.1 | Released 1 November 2026','small'),
               p('Annual accounts, named banks and the sources behind the numbers. This release combines downloadable research tables with an Excel edition and an interactive dataset page.'),
               table([['Annual commercial accounts','Named-bank panel','National roster'],
                      ['19 years<br/>1919-1937','14 banks, 70 bank-years<br/>1933-1937','22 institutions<br/>1929 crosswalk']], [163,163,161]),
@@ -230,7 +232,7 @@ def build_pdf():
               p('Sources','h2'),
               p('League of Nations commercial-banking volumes (1931, 1934, 1935, 1938 and 1939); the national statistical handbook (1932, 1929 bank roster); Kašpar\'s contemporary bank handbook (1938, consulted digital retyping); National Bank reports and the retained CPI research supplement. Exact publications, pages, original units and source identifiers are in metadata/source_index.csv and the observation records.'),
               p('Citation','h2'),
-              p('Dittrich, Adam (2026). <i>Czechoslovak Commercial Banking, 1919-1937: Joint-stock banks in the Czech lands.</i> Version 0.1.0. Research dataset, released 29 October 2026.'),
+              p('Dittrich, Adam (2026). <i>Czechoslovak Commercial Banking, 1919-1937: Joint-stock banks in the Czech lands.</i> Version 0.1.1. Research dataset, released 1 November 2026.'),
               p('Public release and reuse','h2'),
               p('The dataset page is available at <link href="https://adamdittrich.github.io/czechoslovak-commercial-banking.html">adamdittrich.github.io/czechoslovak-commercial-banking.html</link>. Cite the version and retain the underlying source references. No additional reuse licence or DOI is assigned. Source publications and software retain their own terms.')]
     DOC.mkdir(exist_ok=True)

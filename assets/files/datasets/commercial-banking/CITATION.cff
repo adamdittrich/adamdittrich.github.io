@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use this dataset, cite the dataset version and retain the underlying source references."
 type: dataset
 title: "Czechoslovak Commercial Banking, 1919–1937: Joint-stock banks in the Czech lands"
-version: "0.1.0"
-date-released: "2026-10-29"
+version: "0.1.1"
+date-released: "2026-11-01"
 url: "https://adamdittrich.github.io/czechoslovak-commercial-banking.html"
 repository-code: "https://github.com/adamdittrich/adamdittrich.github.io/tree/main/assets/files/datasets/commercial-banking"
 authors:

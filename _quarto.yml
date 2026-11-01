@@ -6,7 +6,6 @@ project:
   resources:
   - googlef2fc63fa3b1ebcdd.html
   - assets/files/**
-  - '!assets/files/datasets/commercial-banking/index.html'
   - '!assets/files/datasets/commercial-banking/code/preview_template.html'
   - assets/js/site.js
   - assets/js/commercial-banking.js

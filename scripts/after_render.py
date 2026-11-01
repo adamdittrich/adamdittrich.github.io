@@ -10,7 +10,8 @@ if (output / 'search.json').is_file():
     (output / 'search-index.json').unlink(missing_ok=True)
 (output / 'assets/img/hero-archive.svg').unlink(missing_ok=True)
 prepare(output / 'assets/files/Adam-Dittrich-CV.pdf')
-for checker in ('check_healthcare_figures.py', 'check_dataset_assets.py', 'check_site.py'):
+for checker in ('check_healthcare_figures.py', 'check_dataset_assets.py', 'check_site.py',
+                '../assets/files/datasets/commercial-banking/code/verify_presentation.py'):
     result = subprocess.run([sys.executable, str(root / 'scripts' / checker)], cwd=root)
     if result.returncode:
         raise SystemExit(result.returncode)

@@ -13,14 +13,16 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 STEM = 'Czechoslovak_Commercial_Banking_1919_1937'
-VERSION = '0.1.0'
-DATE = '2026-10-29'
+VERSION = '0.1.1'
+DATE = '2026-11-01'
 PAGE_URL = 'https://adamdittrich.github.io/czechoslovak-commercial-banking.html'
 REPO_URL = 'https://github.com/adamdittrich/adamdittrich.github.io/tree/main/assets/files/datasets/commercial-banking'
 ARCHIVE_NAME = STEM + '_v' + VERSION + '.zip'
 
 
 def main():
+    if (ROOT/ARCHIVE_NAME).exists():
+        raise SystemExit('Refusing to overwrite a published archive: '+ARCHIVE_NAME+'; use a new version or build in a fresh staging directory.')
     required = [ROOT/'index.html', ROOT/(STEM+'.xlsx'),
                 ROOT/'docs/Banking_Dataset_Guide.pdf',
                 ROOT/'metadata/validation.json', ROOT/'metadata/release_counts.json']
@@ -57,7 +59,7 @@ def main():
         'observation_counts':json.loads((ROOT/'metadata/release_counts.json').read_text()),
         'license':None,
         'doi':None,
-        'publication_note':'First public release. Cite the version and underlying sources. No additional reuse licence or DOI assigned. See docs/RELEASE_NOTES.txt.',
+        'publication_note':'Presentation patch 0.1.1; data unchanged from 0.1.0 (29 October 2026). Original archive retained. Cite the version and underlying sources. No additional reuse licence or DOI assigned. See docs/RELEASE_NOTES.txt.',
         'citation_file':'CITATION.cff',
         'guide':'docs/Banking_Dataset_Guide.pdf',
         'variable_dictionary':'metadata/variable_dictionary.csv',
@@ -81,7 +83,10 @@ def main():
     prefix='czechoslovak_commercial_banking_'+VERSION+'/'
     with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
         for name,value in sorted(files.items()):
-            z.writestr(prefix+name,value)
+            info=zipfile.ZipInfo(prefix+name, (2026,11,1,0,0,0))
+            info.compress_type=zipfile.ZIP_DEFLATED
+            info.external_attr=0o100644 << 16
+            z.writestr(info,value,compresslevel=9)
     destination=ROOT/ARCHIVE_NAME
     content=archive.getvalue();destination.write_bytes(content)
     if destination.read_bytes()!=content:

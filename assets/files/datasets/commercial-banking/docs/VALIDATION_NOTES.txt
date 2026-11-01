@@ -1,5 +1,6 @@
 VALIDATION OF THE DATASET RELEASE
-Version 0.1.0 | 29 October 2026
+Version 0.1.1 | 1 November 2026
+Data validation inherited unchanged from 0.1.0; see PRESENTATION_AUDIT.md.
 
 WHAT WAS CHECKED
 
