@@ -66,6 +66,7 @@ format:
     - assets/css/theme.scss
     css:
     - assets/css/site-v4.css
+    - assets/css/portrait.css
     - assets/css/healthcare-project.css
     toc: false
     smooth-scroll: false
