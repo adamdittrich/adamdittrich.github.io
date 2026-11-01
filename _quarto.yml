@@ -12,6 +12,7 @@ project:
   - assets/js/commercial-banking.js
   - assets/css/commercial-banking.css
   - assets/img/favicon.svg
+  - assets/img/adam-dittrich-portrait.jpg
   - assets/img/healthcare/**
   post-render:
   - python3 scripts/after_render.py

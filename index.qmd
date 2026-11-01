@@ -18,6 +18,7 @@ format:
               "@type": "Person",
               "@id": "https://adamdittrich.github.io/#adam-dittrich",
               "name": "Adam Dittrich",
+              "image": "https://adamdittrich.github.io/assets/img/adam-dittrich-portrait.jpg",
               "url": "https://adamdittrich.github.io/",
               "description": "Economic historian researching interwar Czechoslovakia, monetary and financial history, historical national accounts, and the history of economic thought.",
               "jobTitle": "Assistant Professor",
@@ -52,13 +53,9 @@ Assistant Professor · Department of Economic History<br/>Prague University of E
 <p><a href="assets/files/Adam-Dittrich-CV.pdf">CV (PDF)</a> <a href="mailto:adam.dittrich@vse.cz">Email</a> <a href="https://orcid.org/0000-0002-7803-1339">ORCID</a> <a href="https://ideas.repec.org/f/pdi678.html">RePEc</a> <a href="https://khd.vse.cz/ing-adam-dittrich/">University profile</a> <a href="https://www.linkedin.com/in/adam-dittrich-3644b219a/">LinkedIn</a></p>
 </div>
 </section>
-<!-- A real portrait will go here once supplied by Adam.
-Uncomment the figure below after adding assets/img/adam-dittrich-portrait.jpg.
-No stock photograph, generated likeness or visible placeholder is used.
 <figure class="ac-portrait">
-  <img src="assets/img/adam-dittrich-portrait.jpg" alt="Adam Dittrich" width="600" height="750" fetchpriority="high">
+  <img src="assets/img/adam-dittrich-portrait.jpg" alt="Portrait of Adam Dittrich" width="1365" height="2048" fetchpriority="high" decoding="async">
 </figure>
--->
 </div>
 <section class="level2 ac-section" id="selected-work">
 <h2 data-anchor-id="selected-work">Selected work</h2>
