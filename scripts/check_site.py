@@ -17,6 +17,9 @@ EXPECTED_PAGES = {'index.html', 'research.html', 'publications.html', 'data.html
                   'czechoslovak-foreign-trade.html', 'czechoslovakia-eer.html',
                   'czechoslovakia-financial-stress.html', 'czechoslovak-commercial-banking.html',
                   'the-missing-j.html', '404.html'}
+# Google's verification file must be published verbatim, not treated as an HTML page.
+VERIFICATION_FILE = 'googlef2fc63fa3b1ebcdd.html'
+VERIFICATION_TEXT = 'google-site-verification: googlef2fc63fa3b1ebcdd.html'
 
 
 class Page(HTMLParser):
@@ -118,7 +121,14 @@ def check_target(page: Path, value: str, documents: dict[Path, Page]) -> str | N
 def main() -> int:
     errors: list[str] = []
     warnings: list[str] = []
-    pages = sorted(DOCS.rglob("*.html"))
+    verification_path = DOCS / VERIFICATION_FILE
+    if not verification_path.is_file():
+        errors.append(f"Google verification file missing: {VERIFICATION_FILE}")
+    elif verification_path.read_text(encoding="utf-8").strip() != VERIFICATION_TEXT:
+        errors.append(f"Google verification content incorrect: {VERIFICATION_FILE}")
+
+    # This file is plain-text verification data with an .html suffix.
+    pages = sorted(page for page in DOCS.rglob("*.html") if page != verification_path)
     actual_pages = {page.relative_to(DOCS).as_posix() for page in pages}
     for missing in sorted(EXPECTED_PAGES - actual_pages):
         errors.append(f"Required page missing: {missing}")
