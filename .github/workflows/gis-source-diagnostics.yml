@@ -1,0 +1,33 @@
+name: GIS public source endpoint diagnostics
+on:
+  push:
+    branches: [research/gis-climate-hydro-2026-11-03]
+    paths: [.github/workflows/gis-source-diagnostics.yml]
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Check public endpoints with bounded small reads
+        run: |
+          python - <<'PY'
+          import urllib.request,concurrent.futures,json,time
+          urls=[
+          'https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/cruts.2604091129.v4.10/pre/cru_ts4.10.1901.1910.pre.dat.nc.gz',
+          'https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/cruts.2604091129.v4.10/pre/cru_ts4.10.1901.1910.pre.dat.gz',
+          'https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/Release_Notes_CRU_TS_4.10.txt',
+          'https://datadryad.org/downloads/file_stream/4804986',
+          'https://datadryad.org/api/v2/files/4804986/download',
+          'https://huggingface.co/api/datasets/cassini-team-todo/hydro-rivers-europe/tree/main?recursive=true']
+          def probe(u):
+            t=time.time()
+            try:
+              with urllib.request.urlopen(u,timeout=15) as r:
+                b=r.read(6000)
+                return {'url':u,'status':r.status,'seconds':round(time.time()-t,2),'length':r.headers.get('Content-Length'),'content_type':r.headers.get('Content-Type'),'first_bytes':b[:6000].decode('utf8',errors='replace') if 'json' in r.headers.get('Content-Type','') else b[:60].hex()}
+            except Exception as e:return {'url':u,'error':str(e),'seconds':round(time.time()-t,2)}
+          with concurrent.futures.ThreadPoolExecutor(max_workers=6) as p:
+            for x in p.map(probe,urls): print(json.dumps(x),flush=True)
+          PY
