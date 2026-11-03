@@ -1,0 +1,31 @@
+name: GIS wave 2 CRU and HydroRIVERS sources
+on:
+  push:
+    branches:
+      - research/gis-climate-hydro-2026-11-03
+    paths:
+      - .github/workflows/gis-wave2-sources.yml
+      - research/gis_wave2/download_sources.py
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-subsets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install requests geopandas pyogrio xarray netCDF4 scipy
+      - name: Fetch authoritative source files and retain regional subsets
+        run: python research/gis_wave2/download_sources.py
+      - name: Upload source subsets and checksums
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gis-wave2-cru410-hydrorivers-source-subsets
+          path: results/wave2_sources/
+          retention-days: 7
+          if-no-files-found: warn
