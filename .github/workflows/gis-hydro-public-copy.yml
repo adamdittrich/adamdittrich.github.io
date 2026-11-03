@@ -1,0 +1,60 @@
+name: HydroRIVERS public conversion subset
+on:
+  push:
+    branches: [research/gis-climate-hydro-2026-11-03]
+    paths: [.github/workflows/gis-hydro-public-copy.yml]
+permissions:
+  contents: read
+jobs:
+  hydro:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests geopandas pyarrow
+      - name: Download and validate public conversion
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import requests,json,hashlib,datetime
+          import geopandas as gpd
+          out=Path('hydro_result');out.mkdir(exist_ok=True)
+          api='https://huggingface.co/api/datasets/cassini-team-todo/hydro-rivers-europe'
+          meta=requests.get(api,timeout=30).json()
+          revision=meta['sha']
+          root=f'https://huggingface.co/datasets/cassini-team-todo/hydro-rivers-europe/resolve/{revision}/'
+          provenance={'dataset_api':api,'revision':revision,'retrieved_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'original_provider':'HydroSHEDS HydroRIVERS v1.0','transport':'Third-party public GeoParquet conversion; not a direct provider download','files':[]}
+          for name in ['README.md','convert_to_geoparquet.py','HydroRIVERS_TechDoc_v10.pdf','HydroRIVERS_v10_eu.geoparquet']:
+            target=out/name;digest=hashlib.sha256()
+            with requests.get(root+name,stream=True,timeout=(30,90)) as r:
+              r.raise_for_status()
+              with target.open('wb') as f:
+                for b in r.iter_content(1048576):
+                  if b:f.write(b);digest.update(b)
+            provenance['files'].append({'filename':name,'url':root+name,'size_bytes':target.stat().st_size,'sha256':digest.hexdigest()})
+            print('download',name,target.stat().st_size,flush=True)
+          g=gpd.read_parquet(out/'HydroRIVERS_v10_eu.geoparquet')
+          required=['HYRIV_ID','NEXT_DOWN','MAIN_RIV','LENGTH_KM','UPLAND_SKM','DIS_AV_CMS','ORD_STRA','geometry']
+          assert set(required).issubset(g.columns),list(g.columns)
+          assert g.HYRIV_ID.is_unique and g.geometry.is_valid.all()
+          assert (g.DIS_AV_CMS>=0).all() and (g.LENGTH_KM>0).all()
+          provenance['full_europe_rows']=len(g)
+          provenance['full_europe_bounds']=g.total_bounds.tolist()
+          provenance['full_europe_crs']=str(g.crs)
+          regional=g.to_crs(4326).cx[10:21,47:53]
+          assert len(regional)>1000
+          regional.to_file(out/'hydrorivers_v10_region_10E21E_47N53N.gpkg',layer='hydrorivers',driver='GPKG')
+          provenance['regional_rows']=len(regional)
+          provenance['columns']=list(g.columns)
+          (out/'hydro_public_copy_manifest.json').write_text(json.dumps(provenance,indent=2),encoding='utf8')
+          print(json.dumps(provenance),flush=True)
+          (out/'HydroRIVERS_v10_eu.geoparquet').unlink()
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: hydrorivers-public-copy-regional
+          path: hydro_result/
+          retention-days: 7
