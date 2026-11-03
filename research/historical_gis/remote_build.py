@@ -12,7 +12,7 @@ import requests
 import rasterio
 from rasterio.merge import merge
 from rasterio.enums import Resampling
-from rasterio.transform import from_origin
+from rasterio.transform import from_origin, rowcol
 from rasterio.warp import reproject,transform_bounds
 from rasterio.features import rasterize
 from scipy.ndimage import convolve
@@ -152,10 +152,23 @@ def zonal(g,e,slope,tri,tr):
   a=e[match];a=a[np.isfinite(a)]
   b=slope[match];b=b[np.isfinite(b)]
   c=tri[match];c=c[np.isfinite(c)]
+  method="polygon_cell_centers"
+  if len(a)==0:
+   # A few extremely small historical units can have no 200m pixel center.
+   # Sample the actual DEM grid at an interior representative point and flag it.
+   pt=row.geometry.representative_point()
+   rr,cc=rowcol(tr,pt.x,pt.y)
+   if 0<=rr<e.shape[0] and 0<=cc<e.shape[1] and np.isfinite(e[rr,cc]):
+    a=np.array([e[rr,cc]],dtype="float32")
+    b=np.array([slope[rr,cc]],dtype="float32") if np.isfinite(slope[rr,cc]) else b
+    c=np.array([tri[rr,cc]],dtype="float32") if np.isfinite(tri[rr,cc]) else c
+    method="interior_point_raster_sample"
+   else:
+    method="unavailable_no_dem_near_representative_point"
   records.append({"district_year_id":row.district_year_id,
     "year":int(row.year),"admin_type":row.admin_type,"name":row.get("NAZEV"),
     "source_kod_30":row.get("KOD_30"),"gis_area_km2":row.area_gis_km2,
-    "grid_m":GRID,"n_dem_cells":len(a),
+    "grid_m":GRID,"n_dem_cells":int(match.sum()),"terrain_method":method,
     "mean_elevation_m":float(a.mean()) if len(a) else None,
     "median_elevation_m":float(np.median(a)) if len(a) else None,
     "min_elevation_m":float(a.min()) if len(a) else None,
@@ -205,12 +218,13 @@ def main():
  qa={}
  for key,g in layers.items():
   tab=zonal(g,elev,slope,tri,tr)
-  if tab.n_dem_cells.eq(0).any():raise RuntimeError(f"{key}: some districts lack DEM pixels")
+  nmiss=int(tab.mean_elevation_m.isna().sum())
+  if nmiss:logging.warning("%s: %d districts have unavailable DEM values",key,nmiss)
   tab.to_csv(OUT/f"terrain_{key}_glo90_200m.csv",index=False)
   enriched=g.merge(tab.drop(columns=["year","admin_type","name","source_kod_30","gis_area_km2"]),
     on="district_year_id",how="left",validate="one_to_one")
   enriched.to_file(OUT/"districts_and_terrain.gpkg",layer=key,driver="GPKG")
-  qa[key]={"count":len(tab),"valid_zones":int(tab.n_dem_cells.gt(0).sum()),
+  qa[key]={"count":len(tab),"valid_zones":int(tab.mean_elevation_m.notna().sum()),"point_fallbacks":int(tab.terrain_method.eq("interior_point_raster_sample").sum()),
     "min_elev_m":round(tab.min_elevation_m.min(),1),"max_elev_m":round(tab.max_elevation_m.max(),1)}
  manifest={"created_utc":datetime.now(timezone.utc).isoformat(),
    "scope":"present-day Czechia (Czech lands), NOT full historical Czechoslovakia",
