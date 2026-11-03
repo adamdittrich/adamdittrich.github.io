@@ -1,0 +1,31 @@
+name: Download UrRlab interwar census attributes
+on:
+  push:
+    branches:
+      - research/historical-gis-build-2026-11-03
+    paths:
+      - '.github/workflows/historical-census-download.yml'
+      - 'research/historical_gis/download_census.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  census:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install requests
+      - name: Download full district census attributes from original source
+        run: python research/historical_gis/download_census.py
+      - name: Upload exact raw source tables and field dictionaries
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: raw-census-1921-1930
+          path: results/census_raw/
+          retention-days: 7
+          if-no-files-found: warn
