@@ -6,6 +6,7 @@ on:
     paths:
       - .github/workflows/gis-wave2-sources.yml
       - research/gis_wave2/download_sources.py
+      - research/gis_wave2/run_sources.py
   workflow_dispatch:
 permissions:
   contents: read
@@ -19,8 +20,8 @@ jobs:
         with:
           python-version: '3.11'
       - run: python -m pip install requests geopandas pyogrio xarray netCDF4 scipy
-      - name: Fetch authoritative source files and retain regional subsets
-        run: python research/gis_wave2/download_sources.py
+      - name: Fetch source files and retain regional subsets
+        run: python research/gis_wave2/run_sources.py
       - name: Upload source subsets and checksums
         if: always()
         uses: actions/upload-artifact@v4
