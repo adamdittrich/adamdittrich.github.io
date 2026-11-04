@@ -1,0 +1,178 @@
+[
+  {
+    "name": "Historical GIS: district boundaries and census data",
+    "description": "URRlab / Faculty of Science, Charles University. Judicial and political districts for 1921 and 1930; the demographic and economic census base. RCzechia is an access interface and inspiration, not the original data author.",
+    "url": "https://www.historickygis.cz/cs/shp-vrstvy",
+    "citation": "Jíchová, J., Soukup, M., Nemeškal, J., Ouředníček, M., Pospíšilová, L., Svoboda, P., Špačková, P. et al. (2014). Geodatabáze historických statistických a prostorových dat Česka ze Sčítání lidu, domů a bytů 1921–2011. URRlab, Faculty of Science, Charles University, Prague.",
+    "terms": "Provider-specific attribution conditions. Publishing results requires the source citation and acknowledgment of the underlying NAKI project DF12P01OVV033 and the Czech Ministry of Culture. No blanket CC/MIT data licence is asserted.",
+    "license_url": "https://www.arcgis.com/sharing/rest/content/items/e198e22fc0ed4607bd551596b4738d7b?f=pjson",
+    "period": "Census observations and fixed district geometries: 1921 and 1930. Czech lands, not all interwar Czechoslovakia.",
+    "kind": "historical observations and historical administrative geography",
+    "redistribution": "The public collection contains the district research layers, harmonised attributes and derived spatial relations with the required source acknowledgment. It does not claim a new unrestricted licence for the original provider database."
+  },
+  {
+    "name": "CRU-TS v4.10",
+    "description": "Ten monthly climate variables, station-support diagnostics and area-weighted district aggregates; annual, growing-season and reference-period summaries.",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/",
+    "citation": "Climatic Research Unit, University of East Anglia. CRU-TS v4.10. Harris, I., Osborn, T. J., Jones, P. and Lister, D. (2020), Scientific Data 7, 109. https://doi.org/10.1038/s41597-020-0453-3",
+    "terms": "Open Database License 1.0; individual contents under the Database Contents License. Preserve attribution, notices and the applicable share-alike requirements. No v4.10-specific DOI was supplied by the version page when checked.",
+    "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+    "period": "Source: 1901–2025. Project: January 1901–December 1938; reference anomalies against 1901–1928.",
+    "kind": "historical gridded climate reconstruction",
+    "redistribution": "Freely downloadable separate ODbL climate component: monthly/annual tables and gis_climate_normals. Independent tables in the collection retain their own terms. Database Contents License: https://opendatacommons.org/licenses/dbcl/1-0/"
+  },
+  {
+    "name": "HydroRIVERS v1.0",
+    "description": "District river length and density, distances, and indicators grouped by modelled river size; calculated from the European network.",
+    "url": "https://www.hydrosheds.org/products/hydrorivers",
+    "citation": "Lehner, B. and Grill, G. (2013). Global river hydrography and network routing. Hydrological Processes 27(15), 2171–2186. https://doi.org/10.1002/hyp.9740",
+    "terms": "HydroSHEDS licence: scientific, educational and commercial use subject to its attribution and distribution provisions. This is not CC BY. Preserve the required Exhibit B notice.",
+    "license_url": "https://data.hydrosheds.org/file/technical-documentation/HydroSHEDS_TechDoc_v1_4.pdf",
+    "period": "Modern river-network model. The discharge attribute represents the modelled long-term mean for 1971–2000, not interwar annual flows.",
+    "kind": "modern environmental reference",
+    "redistribution": "Computed district outputs are supplied with the HydroSHEDS conditions. The original regional network is obtained from the provider: https://data.hydrosheds.org/file/HydroRIVERS/HydroRIVERS_v10_eu_shp.zip"
+  },
+  {
+    "name": "HydroBASINS v1c",
+    "description": "Area intersections and basin membership at levels 6, 8 and 12, including dominant-basin and coverage measures.",
+    "url": "https://www.hydrosheds.org/products/hydrobasins",
+    "citation": "Lehner, B. and Grill, G. (2013). Hydrological Processes 27(15), 2171–2186. https://doi.org/10.1002/hyp.9740",
+    "terms": "HydroSHEDS licence, including attribution and distribution requirements; the same source conditions as HydroRIVERS.",
+    "license_url": "https://data.hydrosheds.org/file/technical-documentation/HydroSHEDS_TechDoc_v1_4.pdf",
+    "period": "Modern topographic basin model; no annual historical discharge or rainfall measurements.",
+    "kind": "modern environmental reference",
+    "redistribution": "District-derived basin statistics and weights are provided. Original basin polygons remain at https://data.hydrosheds.org/file/hydrobasins/standard/hybas_eu_lev01-12_v1c.zip"
+  },
+  {
+    "name": "Copernicus GLO-90 / WorldDEM-90",
+    "description": "Elevation and slope summaries from a modern digital surface model, analysed on a 200 m grid.",
+    "url": "https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM",
+    "citation": "Copernicus DEM GLO-90. https://doi.org/10.5270/ESA-c5d3d65. Required adapted-product attribution is reproduced in SOURCES_AND_REUSE.md.",
+    "terms": "Copernicus WorldDEM-90 Full, Free & Open licence permits reproduction, distribution, public communication and adaptation/combination, subject to the prescribed attribution, liability notice and pass-through obligations.",
+    "license_url": "https://dataspace.copernicus.eu/sites/default/files/media/files/2025-06/copernicus_contributing_mission_data_access_v2_cop_dem_licenses.pdf",
+    "period": "Modern DSM; source acquisition principally 2011–2015. These are not terrain measurements made in 1930.",
+    "kind": "modern terrain reference",
+    "redistribution": "District-derived statistics are supplied with the WorldDEM-90 notice. Original raster tiles are linked at the provider. The original data are not relicensed as MIT or CC BY."
+  },
+  {
+    "name": "SoilGrids 2.0",
+    "description": "ISRIC soil-property predictions at 250 m; clay, sand, silt, coarse fragments, pH and organic carbon, with depth and spatial coverage diagnostics.",
+    "url": "https://docs.isric.org/globaldata/soilgrids/",
+    "citation": "ISRIC – World Soil Information. Poggio et al. (2021), SoilGrids 2.0: producing soil information for the globe with quantified spatial uncertainty. SOIL 7, 217–240. https://doi.org/10.5194/soil-7-217-2021",
+    "terms": "CC BY 4.0. Credit ISRIC and the research citation, link the licence and identify transformations. Provider policy: https://docs.isric.org/globaldata/soilgrids/SoilGrids_faqs_02.html",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "period": "Modern SoilGrids 2.0 predictions. Depths 0–5, 5–15 and 15–30 cm; combined 0–30 cm summaries. Not a 1930 soil survey.",
+    "kind": "modern soil model",
+    "redistribution": "Derived district tables and maps under the applicable CC BY 4.0 conditions. Original VRTs and tiles: https://files.isric.org/soilgrids/latest/data/"
+  },
+  {
+    "name": "LUCC Czechia",
+    "description": "Historical land-use category totals allocated from source units to district boundaries by area weights.",
+    "url": "https://web.natur.cuni.cz/ksgrrsek/lucc/",
+    "citation": "Databáze LUCC Czechia: Databáze dlouhodobých změn využití ploch Česka (1845–2000). Ivan Bičík a kolektiv, Přírodovědecká fakulta Univerzity Karlovy v Praze.",
+    "terms": "Provider-specific academic/study-only, non-commercial conditions with mandatory citation. No standard CC licence is asserted.",
+    "license_url": "https://web.natur.cuni.cz/ksgrrsek/lucc/wp-content/uploads/2017/06/info_zuj.pdf",
+    "period": "1845, 1948, 1990 and 2000. The nominal 1845 baseline derives from stable-cadastre material approximately 1826–1843. No 1930 interpolation.",
+    "kind": "historical land-use observations with area allocation",
+    "redistribution": "Academic district outputs retain the provider conditions. Original source units and archive are obtained at https://web.natur.cuni.cz/ksgrrsek/lucc/wp-content/uploads/2017/06/zuj1.zip"
+  },
+  {
+    "name": "Historical railway database — Bedrunka / UPOL",
+    "description": "Length, density and geometric distance to the reconstructed operating network. Version 0.6.1 corrects the separately documented chronology exception.",
+    "url": "https://dprace.geoinf.upol.cz/dprace/magisterske/bedrunka23/",
+    "citation": "Bedrunka, Ondřej (2023). Interaktivní mapa vývoje železniční sítě v Česku. Diploma thesis, Department of Geoinformatics, Palacký University Olomouc.",
+    "terms": "Public source download is documented; no explicit reusable-data licence was found in the archive. No new licence to the underlying railway network is granted here.",
+    "license_url": "https://dprace.geoinf.upol.cz/dprace/magisterske/bedrunka23/files/DP_Bedrunka.pdf",
+    "period": "Source chronology 1827–2022; district research panel 1901–1938 and static snapshots 1921, 1930, 1938.",
+    "kind": "historical infrastructure reconstruction",
+    "redistribution": "This edition publishes newly computed non-reconstructive district research summaries, an editorial judgment about those analytical results, not a claim of an explicit redistribution grant. Original network: provider only, https://dprace.geoinf.upol.cz/dprace/magisterske/bedrunka23/files/ZelezniceCR.zip"
+  },
+  {
+    "name": "CShapes 2.0",
+    "description": "Distance from district reference points to the modelled outer border of Czechoslovakia at five dated snapshots.",
+    "url": "https://icr.ethz.ch/data/cshapes/",
+    "citation": "Schvitz et al. (2022). Mapping the International System, 1886–2017: The CShapes 2.0 Dataset. Journal of Conflict Resolution 66(1), 144–161.",
+    "terms": "CC BY-NC-SA 4.0; attribution, non-commercial and share-alike conditions for the applicable component and adaptations.",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "period": "1921-01-01; 1930-01-01; 1938-09-29; 1938-10-01; 1938-12-31. Generalised border snapshots, not the day-by-day territorial occupation sequence.",
+    "kind": "historical state-border reconstruction",
+    "redistribution": "District-derived border indicators retain their source conditions. Original version 2.0: https://icr.ethz.ch/data/cshapes/CShapes-2.0.geojson"
+  },
+  {
+    "name": "CZ_RETRO — SOVAMM, served by NPÚ",
+    "description": "Reference localities, historical names and district linkage/count summaries. Records span different historical periods.",
+    "url": "https://geoportal.npu.cz/arcgis/rest/services/CZ_RETRO/CP_CZ_Retro_LS/MapServer/1",
+    "citation": "Karel Kuča, with Štěpán Mleziva; SOVAMM. Kuča (2018), CZ_Retro user manual, 2nd expanded edition. Served through the National Heritage Institute (NPÚ).",
+    "terms": "The specific NPÚ service metadata states CC BY-SA 4.0 SOVAMM; the broader SOVAMM author page states CC BY-NC-SA 4.0. Both source statements are retained; this publication does not invent a unified grant or silently discard the discrepancy.",
+    "license_url": "https://sovamm.wordpress.com/projekty/aktualni-projekty-sovamm/cz_retro/",
+    "period": "Multitemporal gazetteer, retrieved 2026-11-03. A district total is a count of linked reference records, not municipalities active in 1930.",
+    "kind": "multitemporal historical reference",
+    "redistribution": "District-level research summaries and linkage information are credited to the source. Original locality geometries are provider-only in this edition. Service: https://geoportal.npu.cz/arcgis/rest/services/CZ_RETRO/CP_CZ_Retro_LS/MapServer ; service licence statement: CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/ ; author statement: https://creativecommons.org/licenses/by-nc-sa/4.0/"
+  },
+  {
+    "name": "Czech Geological Survey — geological map 1:500,000",
+    "description": "District composition, dominant source categories, and uncovered/overlapping areas derived from the 2007 geological map.",
+    "url": "https://mapy.geology.cz/arcgis/rest/services/Projekty/CGS_Bedrock_Geology/MapServer/2",
+    "citation": "Czech Geological Survey (Česká geologická služba), geological map of the Czech Republic 1:500,000, 2007; CGS_Bedrock_Geology service.",
+    "terms": "CGS source terms and attribution apply. A separate harmonised INSPIRE edition has explicit CC BY 4.0; that fact is not automatically assigned to this different source endpoint, whose licence field was empty.",
+    "license_url": "https://cgs.gov.cz/en/copyright",
+    "period": "2007 geological map. Environmental substrate, not an observed economic condition or mine inventory for 1930.",
+    "kind": "geological reference",
+    "redistribution": "Newly calculated district research statistics with source credit and transformations; no unrestricted licence to original polygons is granted. The explicitly CC BY INSPIRE alternative is documented at https://geoportal.gov.cz/php/micka/record/basic/5c01180b-90d8-4bc2-8b1b-7ae20a010852"
+  },
+  {
+    "name": "Czech Geological Survey — B/P/R mineral inventory",
+    "description": "Current reserved deposits and approved prospective mineral resources, forming part of the district B/D/P/R summary.",
+    "url": "https://mapy.geology.cz/arcgis/rest/services/Suroviny/loziska_zdroje/MapServer/0",
+    "citation": "Czech Geological Survey (Česká geologická služba), Výhradní ložiska a schválené prognózní zdroje nerostných surovin v České republice; retrieved 2026-11-03.",
+    "terms": "CC BY 4.0 is explicitly stated for the B/P/R open dataset. Its scope does not automatically include the separate D register.",
+    "license_url": "https://geoportal.gov.cz/php/micka/record/full/65a1c0a2-1d00-4954-8822-10c90a010852",
+    "period": "Contemporary inventory retrieved 2026-11-03; not proof of interwar mining activity or output.",
+    "kind": "contemporary inventory",
+    "redistribution": "District-derived statistics with attribution and identification of modifications. Original open archive: https://od.geology.cz/loziska_zdroje_ner_sur.zip"
+  },
+  {
+    "name": "Czech Geological Survey — D mineral register",
+    "description": "Current registered non-reserved mineral deposits, added to the district mineral summaries from a separate SurIS service.",
+    "url": "https://mapy.geology.cz/arcgis/rest/services/Suroviny/Surovinovy_informacni_system/MapServer/13",
+    "citation": "Czech Geological Survey (Česká geologická služba), SurIS, register D; retrieved 2026-11-03.",
+    "terms": "The full deposit-database metadata lists unspecified conditions and copyright/all rights reserved. The open B/P/R licence is not assumed to cover this register.",
+    "license_url": "https://geoportal.gov.cz/php/micka/record/basic/769e5c00-5c00-169e-91a9-c88088beb3f3",
+    "period": "Contemporary inventory retrieved 2026-11-03; not a historical operating-mine count.",
+    "kind": "contemporary inventory",
+    "redistribution": "Only newly calculated district research summaries are included; source geometries remain provider-only. This is an analytical-publication judgment, not a new general licence to the underlying database. CGS terms: https://cgs.gov.cz/en/copyright"
+  },
+  {
+    "name": "Czech Statistical Office — population and houses, 170240-17",
+    "description": "Separate municipal reference table; not silently assigned to historical districts without a validated crosswalk.",
+    "url": "https://csu.gov.cz/obyvatelstvo-a-domy-v-obcich-podle-vysledku-scitani-od-roku-1869",
+    "citation": "Czech Statistical Office (2017). Obyvatelstvo a domy v obcích podle výsledků sčítání 1869–2011, product 170240-17.",
+    "terms": "The current CSO publication policy states CC BY 4.0 and requires attribution, a link to its terms and clear identification of modified/derived figures.",
+    "license_url": "https://csu.gov.cz/podminky_pro_vyuzivani_a_dalsi_zverejnovani_statistickych_udaju_csu",
+    "period": "Fourteen censuses 1869–2011, harmonised by the provider to municipal boundaries of 2015. Historical-only extract: 1869–1930.",
+    "kind": "historical observations on modern municipal geography",
+    "redistribution": "The municipal reference table is separately identifiable. It does not supply additional verified 1930 district population totals. Source archive: https://csu.gov.cz/docs/107516/0c242a34-ca97-0209-581f-dde18a20a25f/170240-17data.zip?version=1.0"
+  },
+  {
+    "name": "Inherited election panel",
+    "description": "Election variables retained from the earlier research compilation, with original geography linkage and missing-data flags.",
+    "url": "",
+    "citation": "Inherited project compilation; a complete publication-level source citation has not been established in the recovered documentation.",
+    "terms": "Source provenance and downstream reuse terms are incomplete; no new unrestricted licence is asserted. These are not advertised as a newly verified transcription of official printed returns.",
+    "license_url": "",
+    "period": "Interwar election fields: selected observations for 1920, 1925, 1929 and 1935; coverage differs by field. Full party results must not be inferred from the existence of total valid-vote columns.",
+    "kind": "inherited historical research data with incomplete provenance",
+    "redistribution": "Preserved analytical fields retain this explicit provenance qualification. No source URL is invented. Model-derived excess_* fields require their model documentation before substantive interpretation."
+  },
+  {
+    "name": "Project-derived spatial relations and integration",
+    "description": "District neighbours, shared borders, centroid/interior-point distances, climate-grid intersection weights, coverage diagnostics and source linkage.",
+    "url": "https://www.historickygis.cz/cs/shp-vrstvy",
+    "citation": "Dittrich, Adam. Historical GIS of the Czech lands, research collection v0.6.1 (2026); derived from the providers identified in this catalogue.",
+    "terms": "Original computation code is MIT-licensed separately. Underlying geometry attribution and component terms remain applicable; code licensing does not transfer upstream copyright.",
+    "license_url": "https://opensource.org/license/mit",
+    "period": "Fixed district geometries 1921/1930; observation dates belong to each thematic module.",
+    "kind": "project-derived analytical infrastructure",
+    "redistribution": "Methods and computed research outputs are supplied with provenance. Use component licences for the relevant data; the collection has no single blanket MIT, CC or non-commercial licence."
+  }
+]

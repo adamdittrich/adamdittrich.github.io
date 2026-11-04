@@ -16,6 +16,7 @@ body-classes: academic-site research-page
 <p>The most developed component is agriculture, covering 1920–1937. I have constructed preliminary estimates of crop and livestock output and agricultural gross value added from commodity quantities and prices. The work accounts for own consumption and intermediate inputs, including seed and feed, and compares the resulting series with earlier estimates. It distinguishes changes in physical production from changes in agricultural income during deflation.</p>
 <p>The agricultural paper is in preparation. The next stage is to extend the reconstruction to the other sectors and integrate them into an economy-wide account. I am developing this work in dialogue with Matthias Morys and Marcin Wroński on comparative historical national accounts for Central and Eastern Europe.</p>
 <p><a href="./publications.html#agricultural-output">Agricultural-output paper</a></p>
+<p>For regional research, I also maintain <a href="czech-lands-historical-gis.html">Czech Lands Historical GIS</a>, which connects census and electoral observations with climate series, terrain and other geographical context. Its main geography follows 330 judicial districts in 1930, with interactive maps, district profiles and documented downloads.</p>
 </section>
 <section class="level2 ac-section ac-research-section" id="monetary-regimes-and-central-banking">
 <h2 data-anchor-id="monetary-regimes-and-central-banking">Monetary regimes and central banking</h2>

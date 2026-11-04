@@ -93,6 +93,7 @@ body-classes: academic-site cv-page
 <section class="ac-section cv-section">
 <h2>Research and data</h2><p><strong>Czechoslovak Foreign Trade: Interwar Dataset.</strong> Annual national and bilateral data, 1920–1938; monthly national data, 1924–1938. <a href="czechoslovak-foreign-trade.html">Dataset</a>.</p><p><strong>Czechoslovakia’s Effective Exchange Rates, 1920–1938.</strong> Annual indices, weights and coverage. <a href="czechoslovakia-eer.html">Dataset</a> · <a href="https://doi.org/10.3886/E251023V1">Related replication deposit</a>.</p>
 <p><strong>Czechoslovak Commercial Banking, 1919–1937.</strong> Commercial-bank balance sheets, funding, published capital and income for the Czech lands: nineteen annual aggregate observations (1919–1937) and a fourteen-bank panel (1933–1937; seventy bank-years). <a href="czechoslovak-commercial-banking.html">Dataset</a>.</p>
+<p><strong>Czech Lands Historical GIS.</strong> District-level census, electoral, climate and geographical data, centred on 330 judicial districts in 1930. <a href="czech-lands-historical-gis.html">Dataset and maps</a>.</p>
 <div class="cv-entry">
 <div class="cv-date">GDP reconstruction</div>
 <div>Sector-by-sector reconstruction of interwar Czechoslovak GDP at current and constant prices, developed in dialogue with Matthias Morys and Marcin Wroński on comparative Central and Eastern European national accounts. <a href="research.html#czechoslovak-gdp">Project description.</a></div>

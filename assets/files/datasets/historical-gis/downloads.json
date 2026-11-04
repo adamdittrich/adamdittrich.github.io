@@ -1,0 +1,118 @@
+{
+  "items": [
+    {
+      "title": "Public research edition 0.6.1",
+      "description": "GeoPackage with 46 registered tables, four district geographies, core CSV tables, documentation, quality flags, examples and the R source package. Provider source geometries are linked upstream.",
+      "url": "GIS_Czech_Lands_Public_v0_6_1.zip",
+      "format": "ZIP · GeoPackage + CSV",
+      "size_bytes": 144669728,
+      "sha256": "4903334f63b4661304149678621c4513d95a614dc46c09ad138ffcc83f0169ce",
+      "primary": true
+    },
+    {
+      "title": "Complete tabular edition",
+      "description": "CSV tables for all four geographies, full monthly and annual climate panels, railway series, geographical modules, dictionaries and source links. No GIS software required.",
+      "url": "GIS_Czech_Lands_Tables_v0_6_1.zip",
+      "format": "ZIP · CSV / CSV.GZ",
+      "size_bytes": 80421032,
+      "sha256": "4ac5a90bc70d09d774c021240a5541cddb9b0439f3787855ab91948f35b93bd7",
+      "primary": false
+    },
+    {
+      "title": "Historical map atlas",
+      "description": "42 thematic maps in 39 original-resolution PNG figures, with the gallery catalogue, explanatory captions and source documentation.",
+      "url": "Czech_Lands_Historical_Atlas_42_maps.zip",
+      "format": "ZIP · PNG",
+      "size_bytes": 19043476,
+      "sha256": "4631fb3e0d2bd81f28cbfcc42bd77dd615353f0cde051642f6d90f8e5c7a87cc",
+      "primary": false
+    },
+    {
+      "title": "histCzechia 0.2.1",
+      "description": "Companion R source package. Reads public edition 0.6.1 and the earlier research releases; installation and examples are included. Not on CRAN.",
+      "url": "histCzechia_0.2.1.tar.gz",
+      "format": "R source · TAR.GZ",
+      "size_bytes": 108880,
+      "sha256": "41151fcf9b7c14b705b7304751e17608f52cca1f0e861d4066bc438e8cc853ed",
+      "primary": false
+    },
+    {
+      "title": "District core: judicial districts 1930",
+      "description": "444 source fields for 330 districts, excluding the separately supplied climate normals.",
+      "url": "data/gis_master_judicial_1930_public_v061.csv",
+      "format": "CSV",
+      "size_bytes": 1590288,
+      "sha256": "b2dd5ae1bdc65e5360555841f2ca3f8415d207ba5caf44ef05635d760b0f59ea",
+      "primary": false
+    },
+    {
+      "title": "Climate normals: judicial districts 1930",
+      "description": "18 CRU-derived normal fields, plus geography and district ID. Join explicitly to the core to recover all 462 fields.",
+      "url": "data/climate_normals_judicial_1930.csv",
+      "format": "CSV",
+      "size_bytes": 101997,
+      "sha256": "3104047905a765a394a63312425036c3042452db5517cc961f65aad906ac4957",
+      "primary": false
+    },
+    {
+      "title": "Monthly climate: judicial districts 1930",
+      "description": "150,480 district-months for 1901–1938; ten climate variables and station-support diagnostics.",
+      "url": "data/climate_monthly_judicial_1930.csv.gz",
+      "format": "CSV.GZ",
+      "size_bytes": 16263384,
+      "sha256": "dbe307e82596b17f7c5df833c4feaa5cbb97a272073edc46041983efbdeb0b79",
+      "primary": false
+    },
+    {
+      "title": "Annual climate: judicial districts 1930",
+      "description": "12,540 district-years, seasonal summaries and anomalies.",
+      "url": "data/climate_annual_judicial_1930.csv.gz",
+      "format": "CSV.GZ",
+      "size_bytes": 1806704,
+      "sha256": "50b2d62592b8aa1a3b5e7af9350a2ee52043c27207237c65808a6dda02efd187",
+      "primary": false
+    },
+    {
+      "title": "Full variable dictionary",
+      "description": "2,259 documented fields across the retained public tables; the browser dictionary covers the 462-field main district record.",
+      "url": "data/GIS_PUBLIC_DATA_DICTIONARY.csv",
+      "format": "CSV",
+      "size_bytes": 1033641,
+      "sha256": "6a9f6c948d96e660458667708730ce221030c2b03a8f7a62f738902c7a7b3375",
+      "primary": false
+    },
+    {
+      "title": "Getting started",
+      "description": "File guide, district geographies, QGIS instructions, explicit joins and Python/R examples.",
+      "url": "docs/README_PUBLIC_EDITION.md",
+      "format": "Markdown",
+      "size_bytes": 9795,
+      "sha256": "ea6e317584f0f74cdd29bfe8914a4172f18153f7fdb49895b73a4698473f1975",
+      "primary": false
+    },
+    {
+      "title": "Methods and quality",
+      "description": "Definitions, geographical coverage, known qualifications, display masks and the version 0.6.1 railway correction.",
+      "url": "docs/METHODS_AND_QUALITY.md",
+      "format": "Markdown",
+      "size_bytes": 13581,
+      "sha256": "e997d8da460f3478651821ead61ef3eaa237ce8789fc6395a4b31ae83a7730c1",
+      "primary": false
+    },
+    {
+      "title": "Sources and reuse",
+      "description": "Citations, source dates, provider conditions and redistribution notes. Each component retains its own terms.",
+      "url": "docs/SOURCES_AND_REUSE.md",
+      "format": "Markdown",
+      "size_bytes": 15680,
+      "sha256": "80ec3e1ba878236d6418d3270a6c7d31cc53b13281ed659a106f7181d09ae350",
+      "primary": false
+    },
+    {
+      "title": "File checksums",
+      "description": "SHA-256 fingerprints for every published GIS file, including the three ZIP editions and the R source package.",
+      "url": "SHA256SUMS.txt",
+      "format": "SHA-256"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+geopandas==1.2.0
+shapely==2.2.0
+rasterio==1.5.2
+pyproj==3.8.0
+pandas==2.2.3
+numpy==2.3.5
+scipy==1.17.0
+requests==2.34.2
+exactextract==0.3.0
+pyogrio==0.13.0
+matplotlib==3.10.8

@@ -1,0 +1,20 @@
+# Reproducibly assembled historical GIS downloads; served by the Pages build.
+/assets/files/datasets/historical-gis/GIS_Czech_Lands_Public_v0_6_1.zip
+/assets/files/datasets/historical-gis/GIS_Czech_Lands_Tables_v0_6_1.zip
+/assets/files/datasets/historical-gis/Czech_Lands_Historical_Atlas_42_maps.zip
+/assets/files/datasets/historical-gis/.archive-inputs.sha256
+/data_sources/historical-gis/historical_gis_czech_lands_v061.gpkg.xz
+/assets/files/datasets/historical-gis/data/gis_climate_monthly.csv.gz
+/assets/files/datasets/historical-gis/data/climate_monthly_judicial_1921.csv.gz
+/assets/files/datasets/historical-gis/data/climate_monthly_judicial_1930.csv.gz
+/docs/assets/files/datasets/historical-gis/
+/docs/czech-lands-historical-gis.html
+__pycache__/
+*.pyc
+/*.html
+/site_libs/
+/docs/
+/assets/files/datasets/historical-gis/.*
+
+/.quarto/
+**/*.quarto_ipynb

@@ -1,0 +1,114 @@
+{
+  "parts": [
+    {
+      "name": "historical_gis_czech_lands_v061.gpkg.xz.part01",
+      "size_bytes": 10000000,
+      "sha256": "c18e83ccaee1c5a98523d10d30fa797827ecc68975baf1b6086420a2afdd76bd"
+    },
+    {
+      "name": "historical_gis_czech_lands_v061.gpkg.xz.part02",
+      "size_bytes": 10000000,
+      "sha256": "027c3d3ec945b3d5d8b657db9764dd2034dab256387336909131a9c6f8b39fff"
+    },
+    {
+      "name": "historical_gis_czech_lands_v061.gpkg.xz.part03",
+      "size_bytes": 10000000,
+      "sha256": "0c8fe3f8970c6738d6fc800104da82946f4dd1d1b36ae5dff8bef43626cb54c5"
+    },
+    {
+      "name": "historical_gis_czech_lands_v061.gpkg.xz.part04",
+      "size_bytes": 10000000,
+      "sha256": "5213943e1f1b41bf4e12b9263436cf26425c1a8c5961c0859847c7744cd1cd24"
+    },
+    {
+      "name": "historical_gis_czech_lands_v061.gpkg.xz.part05",
+      "size_bytes": 10000000,
+      "sha256": "24fb45de01fb628a750f653637c3c8a6743aaa723431fc28eb1894ffca20b11b"
+    },
+    {
+      "name": "historical_gis_czech_lands_v061.gpkg.xz.part06",
+      "size_bytes": 10000000,
+      "sha256": "12a6ca61c9599385b40c65f41567e6291aa07734e93ae0749d5b03b7d31bd4ea"
+    },
+    {
+      "name": "historical_gis_czech_lands_v061.gpkg.xz.part07",
+      "size_bytes": 10000000,
+      "sha256": "d0992238c38e1771ebff26f9a177932c015dfb0af10d4c0e153327c7d8daf10c"
+    },
+    {
+      "name": "historical_gis_czech_lands_v061.gpkg.xz.part08",
+      "size_bytes": 4942936,
+      "sha256": "35046f95ee33c13898a2cefe04214025b02b0872e899bd081944231bdc8a085f"
+    }
+  ],
+  "combined_sha256": "c1c5a7e30dc5908a28502da4096af25060177cde24fa5a5593a16df15738a15e",
+  "combined_size_bytes": 74942936,
+  "tables": [
+    {
+      "parts": [
+        {
+          "name": "tables/gis_climate_monthly.csv.gz.part01",
+          "size_bytes": 10000000,
+          "sha256": "8b82891c01e3139b9b1df2dbe4961a99b7e5c7325d09eaad2c807261f225cdb3"
+        },
+        {
+          "name": "tables/gis_climate_monthly.csv.gz.part02",
+          "size_bytes": 10000000,
+          "sha256": "353454d7db06f1356f81c886e60a0ed85dff7f622a972adcb8800f237c451a1f"
+        },
+        {
+          "name": "tables/gis_climate_monthly.csv.gz.part03",
+          "size_bytes": 10000000,
+          "sha256": "7325940432e48e52badb180b98b40c8ab6c1acef5560da183546d761786695ab"
+        },
+        {
+          "name": "tables/gis_climate_monthly.csv.gz.part04",
+          "size_bytes": 10000000,
+          "sha256": "1899500e5ee08dd8f6e6f7882df5150622bf8cac58973d304d51b1a49aa3309c"
+        },
+        {
+          "name": "tables/gis_climate_monthly.csv.gz.part05",
+          "size_bytes": 9509248,
+          "sha256": "06aa0c6f29c392ac569bc7ef89106553162abf79d5ebacf43042b2e4267a07e3"
+        }
+      ],
+      "combined_sha256": "be632a9d292ecf53560d6d2957964084807a7616f2426979edea4db8150f56e6",
+      "combined_size_bytes": 49509248,
+      "public_path": "data/gis_climate_monthly.csv.gz"
+    },
+    {
+      "parts": [
+        {
+          "name": "tables/climate_monthly_judicial_1921.csv.gz.part01",
+          "size_bytes": 10000000,
+          "sha256": "3f1a72620bb86e6e2cd7d56215a8878a911e9598868541b2db0674c8ec78c2aa"
+        },
+        {
+          "name": "tables/climate_monthly_judicial_1921.csv.gz.part02",
+          "size_bytes": 6249033,
+          "sha256": "4e79f48be078d73846760f71acda0c877bfee684737b1386e9f2a6dd5d995130"
+        }
+      ],
+      "combined_sha256": "f185257349d577b5ceb6c8b3457e1f2c512db3a13ea8d0b687c95cb4734fcc43",
+      "combined_size_bytes": 16249033,
+      "public_path": "data/climate_monthly_judicial_1921.csv.gz"
+    },
+    {
+      "parts": [
+        {
+          "name": "tables/climate_monthly_judicial_1930.csv.gz.part01",
+          "size_bytes": 10000000,
+          "sha256": "c0e44e88003304c16945802a42519719f534d1dd59de1ccd83732274c821aff0"
+        },
+        {
+          "name": "tables/climate_monthly_judicial_1930.csv.gz.part02",
+          "size_bytes": 6263384,
+          "sha256": "3228d558fc271ab717ff37679de29d634b866facc1568b98c305b591726e3e14"
+        }
+      ],
+      "combined_sha256": "dbe307e82596b17f7c5df833c4feaa5cbb97a272073edc46041983efbdeb0b79",
+      "combined_size_bytes": 16263384,
+      "public_path": "data/climate_monthly_judicial_1930.csv.gz"
+    }
+  ]
+}
