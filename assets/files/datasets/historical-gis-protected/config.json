@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "kdf": {
+    "name": "PBKDF2",
+    "hash": "SHA-256",
+    "iterations": 1000000,
+    "salt": "MMz2jl/MV02iiaggq3aQDjHBdMQB6FizSOMeeQW7A28="
+  },
+  "cipher": "AES-GCM",
+  "manifest": "vault.bin",
+  "aadPrefix": "adamdittrich-gis-v1/"
+}

@@ -9,6 +9,7 @@ from collections import Counter
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
+from gis_access_policy import plaintext_gis_href, protected_page_href
 
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
@@ -86,6 +87,8 @@ def check_target(page: Path, value: str, documents: dict[Path, Page]) -> str | N
         parsed = urlsplit(value)
     except ValueError:
         return f"invalid URL: {value}"
+    if plaintext_gis_href(value):
+        return f"link exposes a former plaintext GIS asset: {value}"
     if parsed.scheme or parsed.netloc:
         return None
     path_part = unquote(parsed.path)
@@ -169,7 +172,7 @@ def main() -> int:
             warnings.append(f"{name}: image without alt attribute: {source}")
 
     required_assets = [
-        "assets/css/site-v4.css", "assets/js/site.js",
+        "assets/css/site-v4.css", "assets/js/site.js", "assets/js/gis-access.js",
     ]
     for relative_path in required_assets:
         if not (DOCS / relative_path).is_file():
@@ -191,6 +194,8 @@ def main() -> int:
                 if not isinstance(entry, dict) or not isinstance(entry.get("href"), str):
                     errors.append(f"{search_file.name}: search entry lacks an href")
                     continue
+                if protected_page_href(entry["href"]):
+                    errors.append(f"{search_file.name}: restricted GIS page is indexed")
                 problem = check_target(DOCS / "index.html", entry["href"], documents)
                 if problem:
                     errors.append(f"{search_file.name}: {problem}")
