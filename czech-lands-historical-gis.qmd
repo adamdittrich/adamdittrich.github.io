@@ -28,6 +28,7 @@ format:
 ---
 
 ```{=html}
+<main>
 <div id="gis-access-gate" class="gis-access-shell">
   <a href="data.html">← All datasets</a>
   <section class="gis-access-card" aria-labelledby="gis-access-title">
@@ -46,4 +47,5 @@ format:
 <div id="gis-access-toolbar" class="gis-access-toolbar" hidden><p>Czech Lands Historical GIS · Unlocked in this tab</p><button type="button" id="gis-lock">Lock page</button></div>
 <p id="gis-download-status" role="status" aria-live="polite"></p>
 <div id="gis-private-root" hidden></div>
+</main>
 ```
