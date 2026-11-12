@@ -1,6 +1,6 @@
 ---
 title: "Datasets"
-description: "Historical datasets by Adam Dittrich: Czech lands historical GIS, Czechoslovak foreign trade, effective exchange rates, commercial banking, financial stress, European bilateral trade and The Missing J."
+description: "Historical datasets by Adam Dittrich: interwar Romania, Czech lands historical GIS, Czechoslovak foreign trade, effective exchange rates, commercial banking, financial stress, European bilateral trade and The Missing J."
 page-layout: custom
 title-block-banner: false
 body-classes: academic-site data-page
@@ -9,6 +9,13 @@ body-classes: academic-site data-page
 ```{=html}
 <section class="level1 ac-page" id="datasets">
 <h1>Datasets</h1>
+<div class="ac-section ac-dataset" id="romania-interwar">
+<h2><a href="romania-interwar.html">Interwar Romania, 1919–1939</a></h2>
+<p class="ac-item-meta">520 source-labelled series · 8,258 numeric observations · Version 0.1.0 · Password access</p>
+<p>National accounts, agriculture, industry, foreign trade, money, exchange rates and social indicators. Explore an interactive series catalogue, compare historical time series and download the documented research data and eight figures.</p>
+<p><a href="romania-interwar.html">Open the explorer, figures and downloads</a> · Access to this research collection currently requires a password.</p>
+</div>
+
 <div class="ac-section ac-dataset" id="czech-lands-historical-gis">
 <h2><a href="czech-lands-historical-gis.html">Historical GIS of the Czech lands</a></h2>
 <p class="ac-item-meta">330 judicial districts · Census 1921/1930 · Climate and railway panels 1901–1938 · Password access</p>

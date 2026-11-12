@@ -1,4 +1,4 @@
-"""Keep the restricted GIS page out of generated public discovery indexes."""
+"""Keep restricted dataset pages out of generated public discovery indexes."""
 
 from __future__ import annotations
 
@@ -10,16 +10,20 @@ from urllib.parse import unquote, urlsplit
 
 
 PROTECTED_PAGE = "czech-lands-historical-gis.html"
+PROTECTED_PAGES = (PROTECTED_PAGE, "romania-interwar.html")
 PLAINTEXT_PREFIXES = (
     "assets/files/datasets/historical-gis/",
     "data_sources/historical-gis/",
+    "assets/files/datasets/romania/",
+    "data_sources/romania/",
 )
 
 
 def protected_page_href(value: str) -> bool:
     """Match the page, including absolute URLs and section/search fragments."""
     path = unquote(urlsplit(value).path).rstrip("/")
-    return path.rsplit("/", 1)[-1] in {PROTECTED_PAGE, PROTECTED_PAGE[:-5] + ".qmd"}
+    return path.rsplit("/", 1)[-1] in {name for page in PROTECTED_PAGES
+                                           for name in (page, page[:-5] + ".qmd")}
 
 
 def plaintext_gis_href(value: str) -> bool:
@@ -46,7 +50,7 @@ def scrub_indexes(output: Path) -> None:
         if len(filtered) != len(entries):
             path.write_text(json.dumps(filtered, ensure_ascii=False, indent=2) + "\n",
                             encoding="utf-8")
-            print(f"Excluded {len(entries) - len(filtered)} restricted GIS search entries.")
+            print(f"Excluded {len(entries) - len(filtered)} restricted dataset search entries.")
 
     sitemap = output / "sitemap.xml"
     if not sitemap.is_file():
@@ -63,4 +67,4 @@ def scrub_indexes(output: Path) -> None:
         if root.tag.startswith("{"):
             ET.register_namespace("", root.tag.split("}", 1)[0][1:])
         tree.write(sitemap, encoding="utf-8", xml_declaration=True)
-        print(f"Excluded {removed} restricted GIS sitemap entries.")
+        print(f"Excluded {removed} restricted dataset sitemap entries.")

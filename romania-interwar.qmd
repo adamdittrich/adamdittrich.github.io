@@ -1,0 +1,51 @@
+---
+title: "Interwar Romania — Password access"
+description: "Password access to the Interwar Romania research dataset, figures and documentation."
+page-layout: custom
+title-block-banner: false
+search: false
+robots: "noindex, nofollow, noarchive"
+body-classes: academic-site data-page dataset-detail-page romania-page
+format:
+  html:
+    include-in-header:
+      - text: |
+          <meta name="robots" content="noindex, nofollow, noarchive">
+          <script defer src="assets/js/romania-access.js?v=1"></script>
+          <style>
+          .romania-access-shell{max-width:1080px;margin:0 auto;padding:2rem 0 4rem}
+          .romania-access-card{max-width:660px;margin:4rem auto 5rem;padding:3.25rem;background:#192f39;color:#f5f1e7;border-top:4px solid #d4b377;box-shadow:0 15px 45px #162b3612}
+          .romania-access-kicker{font-size:.72rem;text-transform:uppercase;letter-spacing:.17em;color:#ddc28b;margin:0 0 1.3rem}
+          .romania-access-card h1{font-family:Georgia,serif;font-weight:400;font-size:2.8rem;line-height:1.12;color:#f5f1e7;margin:0 0 1.4rem}
+          .romania-access-card p{line-height:1.65;color:#d7e0e2}.romania-access-card label{display:block;font-weight:600;margin:1.7rem 0 .6rem}
+          .romania-access-row{display:flex;gap:.65rem}.romania-access-row input{min-width:0;flex:1;padding:.85rem 1rem;background:#fff;border:2px solid #fff;border-radius:0;color:#192f39;font:inherit}.romania-access-row input:focus{outline:3px solid #d4b377;outline-offset:2px}
+          .romania-access-row button{border:0;background:#d4b377;color:#152d37;padding:.85rem 1.3rem;font:inherit;font-weight:650;cursor:pointer}.romania-access-row button:disabled{opacity:.6;cursor:wait}
+          #romania-unlock-status{min-height:1.7em;font-size:.9rem;margin:.8rem 0 0}.romania-access-note{font-size:.82rem;color:#b8c5ca!important;margin-top:1.3rem}
+          .romania-access-toolbar{max-width:1080px;margin:1.4rem auto 0;border-bottom:1px solid #ddd5c6;padding:.7rem 0;display:flex;gap:1rem;align-items:center;justify-content:space-between}.romania-access-toolbar[hidden],#romania-private-root[hidden],#romania-access-gate[hidden]{display:none!important}
+          .romania-access-toolbar button{background:none;border:1px solid #8c9a9b;padding:.45rem .85rem;color:#263f48;font:inherit;cursor:pointer}.romania-access-toolbar p{margin:0;font-size:.85rem}#romania-download-status{max-width:1080px;margin:.6rem auto;font-size:.85rem;color:#37535d}
+          @media(max-width:650px){.romania-access-shell{padding:1rem}.romania-access-card{padding:2rem 1.4rem;margin:2rem auto}.romania-access-card h1{font-size:2.2rem}.romania-access-row{flex-direction:column}.romania-access-toolbar{margin:1rem;align-items:flex-start}}
+          </style>
+---
+
+```{=html}
+<main>
+<div id="romania-access-gate" class="romania-access-shell">
+  <a href="data.html">← All datasets</a>
+  <section class="romania-access-card" aria-labelledby="romania-access-title">
+    <p class="romania-access-kicker">Research dataset · Password access</p>
+    <h1 id="romania-access-title">Interwar<br>Romania</h1>
+    <p>This dataset is temporarily password protected. Enter the shared password to open the interactive charts, series catalogue, figures and downloads.</p>
+    <form id="romania-access-form" autocomplete="off" action="#">
+      <label for="romania-password">Password</label>
+      <div class="romania-access-row"><input id="romania-password" type="password" required autocomplete="off" spellcheck="false" aria-describedby="romania-unlock-status"><button id="romania-unlock" type="submit" disabled>Unlock dataset</button></div>
+      <p id="romania-unlock-status" role="status" aria-live="polite"></p>
+    </form>
+    <p class="romania-access-note">The dataset stays unlocked in this tab until you reload or choose “Lock page”.</p>
+    <noscript><p>Please enable JavaScript to enter the password and open the dataset.</p></noscript>
+  </section>
+</div>
+<div id="romania-access-toolbar" class="romania-access-toolbar" hidden><p>Interwar Romania · Unlocked in this tab</p><button type="button" id="romania-lock">Lock page</button></div>
+<p id="romania-download-status" role="status" aria-live="polite"></p>
+<div id="romania-private-root" hidden></div>
+</main>
+```
