@@ -23,6 +23,9 @@ format:
           #romania-unlock-status{min-height:1.7em;font-size:.9rem;margin:.8rem 0 0}.romania-access-note{font-size:.82rem;color:#b8c5ca!important;margin-top:1.3rem}
           .romania-access-toolbar{max-width:1080px;margin:1.4rem auto 0;border-bottom:1px solid #ddd5c6;padding:.7rem 0;display:flex;gap:1rem;align-items:center;justify-content:space-between}.romania-access-toolbar[hidden],#romania-private-root[hidden],#romania-access-gate[hidden]{display:none!important}
           .romania-access-toolbar button{background:none;border:1px solid #8c9a9b;padding:.45rem .85rem;color:#263f48;font:inherit;cursor:pointer}.romania-access-toolbar p{margin:0;font-size:.85rem}#romania-download-status{max-width:1080px;margin:.6rem auto;font-size:.85rem;color:#37535d}
+          #romania-private-root{box-sizing:border-box;max-width:1380px;margin:0 auto;padding:0 24px 2rem}
+          #romania-private-root .ro-catalogue{grid-column:auto;grid-row:auto;min-width:0;margin:0}
+          @media(max-width:650px){#romania-private-root{padding-right:16px;padding-left:16px}}
           @media(max-width:650px){.romania-access-shell{padding:1rem}.romania-access-card{padding:2rem 1.4rem;margin:2rem auto}.romania-access-card h1{font-size:2.2rem}.romania-access-row{flex-direction:column}.romania-access-toolbar{margin:1rem;align-items:flex-start}}
           </style>
 ---
