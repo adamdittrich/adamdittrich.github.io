@@ -1,6 +1,6 @@
 ---
 title: Teaching
-description: Courses taught by Adam Dittrich at Prague University of Economics and Business.
+description: Teaching and course supervision by Adam Dittrich at Prague University of Economics and Business.
 page-layout: custom
 title-block-banner: false
 body-classes: academic-site teaching-page
@@ -28,6 +28,24 @@ Prague University of Economics and Business.
 ## Foundations of Microeconomics
 
 5EN102 · From academic year 2026/27
+:::
+
+::: {.ac-course}
+## From Empire to Twenty-First Century Britain: Economic and Political Development of Great Britain in the 19th and 20th Centuries
+
+5HD391 · Course supervisor · 2026–present
+:::
+
+::: {.ac-course}
+## From Kafka to Havel: Introduction into the History and Culture of Czech Lands
+
+5HD280 · Course supervisor · 2026–present
+:::
+
+::: {.ac-course}
+## The Economic and Political History of Europe in the 20th Century
+
+5HD416 · Lecturer and course supervisor · From 2027
 :::
 :::
 :::
