@@ -10,7 +10,7 @@ format:
       - text: |
           <link rel="stylesheet" href="assets/files/datasets/dataset-pages.css">
           <link rel="stylesheet" href="assets/css/foreign-trade.css">
-          <script src="assets/js/foreign-trade.js" defer></script>
+          <script src="assets/js/foreign-trade.js?v=0d04d03e8c" defer></script>
           <link rel="canonical" href="https://adamdittrich.github.io/czechoslovak-foreign-trade.html">
           <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "Czechoslovak foreign trade, 1920–1938", "description": "Czechoslovak foreign trade data: annual and bilateral series, interactive monthly exports and imports, moving averages, HP trends, trade balances and ratios.", "url": "https://adamdittrich.github.io/czechoslovak-foreign-trade.html", "creator": {"@type": "Person", "name": "Adam Dittrich", "url": "https://adamdittrich.github.io/"}, "distribution": {"@type": "DataDownload", "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "contentUrl": "https://adamdittrich.github.io/assets/files/datasets/Czechoslovak_Foreign_Trade_Interwar_Dataset.xlsx"}}</script>
 ---
