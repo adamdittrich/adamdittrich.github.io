@@ -1,0 +1,6 @@
+partner,through_year,factor,old_unit,successor_unit,rule,source,source_url
+Germany,1924,1000000000000.0,paper mark,Rentenmark/Reichsmark,"1 Rentenmark = 1,000,000,000,000 paper marks",Deutsche Bundesbank (n.d.),https://www.bundesbank.de/resource/blob/607868/195d1b540a2053d42fe9f2b735835115/mL/das-papiergeld-im-deutschen-reich-data.pdf
+Austria,1924,10000.0,Austrian crown,schilling,"1 schilling = 10,000 crowns",Oesterreichische Nationalbank (2025),https://www.oenb.at/Presse/Pressearchiv/2025/20250228.html
+Poland,1923,1800000.0,Polish mark,zloty,"1 zloty = 1,800,000 Polish marks",Narodowy Bank Polski (2024),https://nbp.pl/en/100th-anniversary-of-putting-the-zloty-into-circulation/
+Hungary,1926,12500.0,Hungarian korona,pengő,"1 pengő = 12,500 korona","Hungary, Act XXXV of 1925",https://net.jogtar.hu/ezer-ev-torveny?docid=92500035.TV
+Belgium-Luxembourg,1926,5.0,Belgian franc,belga,1 belga = 5 Belgian francs,National Bank of Belgium (1927),https://www.nbb.be/doc/ts/publications/economicreview/1927/1927.02.26-bull.pdf

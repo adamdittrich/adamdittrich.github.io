@@ -1,0 +1,20 @@
+EER documentation release 1.0.0 — 13 November 2026
+
+Publishes construction inputs and traceable documentation for the 22 October 2026
+reader edition accompanying The Crown Against the World.
+
+Added: unchanged bilateral input panel and currency-rule ledger; exact formulas;
+CPI and territorial source labels; standalone numerical reconstruction; partner
+contributions to early annual links; source checksums and validation results.
+
+Verification: all 455 available reader index observations match the original
+publication archive's final processed series exactly. Independent reconstruction
+from the released bilateral input columns matches to relative tolerance 1e-12
+(maximum observed relative difference 7.22e-15).
+
+No original reader observations, sample labels, conversion rules, or source price
+inputs are changed. Numerical reconstruction verifies the released calculations;
+it does not certify every historical transcription or annual aggregation choice.
+
+New documentation and derived diagnostics: CC BY 4.0.
+New software: MIT. Original and third-party material retains existing terms.

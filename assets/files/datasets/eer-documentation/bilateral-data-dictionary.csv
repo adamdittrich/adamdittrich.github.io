@@ -1,0 +1,44 @@
+table,variable,unit,definition
+bilateral-inputs.csv,country,text,Czech-language partner label retained from the source input workbook.
+bilateral-inputs.csv,country_er_key,text,Source exchange-rate matching key retained from the input workbook.
+bilateral-inputs.csv,year,calendar year,"Annual input year, 1920–1938."
+bilateral-inputs.csv,export_csr_tis_kc,thousand current Kč,Czechoslovak exports to the partner.
+bilateral-inputs.csv,import_csr_tis_kc,thousand current Kč,Czechoslovak imports from the partner.
+bilateral-inputs.csv,total_trade_tis_kc,thousand current Kč,Exports plus imports for the partner.
+bilateral-inputs.csv,trade_balance_tis_kc,thousand current Kč,Exports minus imports for the partner.
+bilateral-inputs.csv,exchange_rate_kcs_per_fx,Kč per reported foreign-currency unit,Input quotation before the publication currency-unit conversion.
+bilateral-inputs.csv,cpi_foreign_base1929,"index, 1929 = 100",Partner price index; unavailable before 1923.
+bilateral-inputs.csv,cpi_czechoslovakia_base1929,"index, 1929 = 100",Czechoslovak price index; unavailable before 1923.
+bilateral-inputs.csv,partner,text,English partner label used in the publication construction.
+bilateral-inputs.csv,currency_conversion_factor,multiplier,Number of original units per harmonised successor unit used by the released code.
+bilateral-inputs.csv,quotation_unit_note,text,Description of the released currency-unit transformation.
+bilateral-inputs.csv,exchange_rate_raw_kcs_per_reported_fx,Kč per reported foreign-currency unit,Preserved input quotation before multiplication by the conversion factor.
+bilateral-inputs.csv,exchange_rate_kcs_per_harmonised_fx,Kč per harmonised foreign-currency unit,Raw quotation multiplied by the currency_conversion_factor.
+bilateral-inputs.csv,sample_status,text,Pre-stabilisation extension for 1920–1924; analytical core for 1925–1938.
+bilateral-inputs.csv,w_T,proportion,Partner exports plus imports divided by the total for the 14 included partners in the year.
+bilateral-inputs.csv,w_X,proportion,Partner exports divided by exports to the 14 included partners in the year.
+bilateral-inputs.csv,w_M,proportion,Partner imports divided by imports from the 14 included partners in the year.
+bilateral-inputs.csv,ln_e,natural logarithm,Natural logarithm of the harmonised nominal quotation.
+bilateral-inputs.csv,ln_q,natural logarithm,ln_e+ln(foreign CPI)−ln(Czechoslovak CPI); unavailable before 1923.
+bilateral-inputs.csv,dln_e,natural log change,Current ln_e minus previous-year ln_e for the same partner; first observation blank.
+bilateral-inputs.csv,dln_q,natural log change,Current ln_q minus previous-year ln_q for the same partner; unavailable until 1924.
+early-year-links.csv,year,calendar year,"End year of an annual link,1921–1925."
+early-year-links.csv,previous_year,calendar year,Beginning year of the link; year−1.
+early-year-links.csv,partner,text,English partner label.
+early-year-links.csv,total_trade_weight,proportion,Current-year share of exports plus imports within the 14-partner basket.
+early-year-links.csv,previous_raw_exchange_rate,Kč per reported foreign-currency unit,Previous-year raw quotation.
+early-year-links.csv,raw_exchange_rate,Kč per reported foreign-currency unit,Current-year raw quotation.
+early-year-links.csv,previous_conversion_factor,multiplier,Previous-year released currency factor.
+early-year-links.csv,conversion_factor,multiplier,Current-year released currency factor.
+early-year-links.csv,previous_harmonised_exchange_rate,Kč per harmonised foreign-currency unit,Previous raw quotation times its factor.
+early-year-links.csv,harmonised_exchange_rate,Kč per harmonised foreign-currency unit,Current raw quotation times its factor.
+early-year-links.csv,previous_foreign_cpi,"index, 1929 = 100",Previous-year partner CPI; blank when unavailable.
+early-year-links.csv,foreign_cpi,"index, 1929 = 100",Current-year partner CPI; blank when unavailable.
+early-year-links.csv,previous_czechoslovak_cpi,"index, 1929 = 100",Previous-year Czechoslovak CPI; blank when unavailable.
+early-year-links.csv,czechoslovak_cpi,"index, 1929 = 100",Current-year Czechoslovak CPI; blank when unavailable.
+early-year-links.csv,bilateral_nominal_change_log_points,log points,100×[ln(e_t)−ln(e_t−1)].
+early-year-links.csv,bilateral_real_change_log_points,log points,100×[ln(q_t)−ln(q_t−1)]; blank if either price observation unavailable.
+early-year-links.csv,nominal_contribution_log_points,log points,Current-year basket weight times the bilateral nominal log change.
+early-year-links.csv,relative_price_contribution_log_points,log points,Current-year basket weight times real minus nominal bilateral log change.
+early-year-links.csv,real_contribution_log_points,log points,Current-year basket weight times the bilateral real log change.
+early-year-links.csv,sample,text,Sample designation for the link end year; 1925 links use 1924 and 1925 inputs.

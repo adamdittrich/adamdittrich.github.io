@@ -1,0 +1,4 @@
+1.0.0 — 2026-11-13
+Added annual percentage and log changes, matched nominal/real ratios and log
+components, centered three-year overlays, eight figures, machine-readable
+dictionaries and reproducible analysis exports. Source reader values are preserved.

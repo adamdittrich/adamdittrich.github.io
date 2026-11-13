@@ -1,0 +1,15 @@
+field,unit,definition,missing_value
+year,calendar year,Reference year of the source annual observation.,Never missing
+basis,category,TWEER: total trade; XEER: exports; MEER: imports.,Never missing
+method,category,Method identifier; see method-dictionary.csv.,Never missing
+neer,"index, 1929=100",Nominal effective exchange rate; higher means nominal depreciation.,Blank in CSV; null in JSON
+reer,"index, 1929=100",CPI-based real effective exchange rate; higher means real depreciation. Missing in 1920–1922.,Blank in CSV; null in JSON
+neer_yoy_pct,percent,100 × (NEER(t)/NEER(t−1) − 1); requires adjacent calendar years.,Blank in CSV; null in JSON
+reer_yoy_pct,percent,100 × (REER(t)/REER(t−1) − 1); requires adjacent calendar years.,Blank in CSV; null in JSON
+neer_log_change,log points,100 × ln(NEER(t)/NEER(t−1)); not an ordinary percentage change.,Blank in CSV; null in JSON
+reer_log_change,log points,100 × ln(REER(t)/REER(t−1)); not an ordinary percentage change.,Blank in CSV; null in JSON
+relative_price_index,"index, 1929=100",100 × REER/NEER. For matched chains: cumulative chained relative-price component. For direct_current: real/nominal ratio.,Blank in CSV; null in JSON
+relative_price_log_change,log points,100 × Δln(REER/NEER). Exact real-minus-nominal log change. Inflation-differential interpretation applies to matched geometric chains; direct_current can include reweighting.,Blank in CSV; null in JSON
+neer_ma3,"index, source scale",Centered three-calendar-year arithmetic mean of NEER levels; requires three observed years in the same sample segment. Not independently rebased.,Blank in CSV; null in JSON
+reer_ma3,"index, source scale",Centered three-calendar-year arithmetic mean of REER levels; requires three observed years in the same sample segment. Not independently rebased.,Blank in CSV; null in JSON
+sample,category,Original label: pre-stabilisation extension (1920–1924) or analytical core (1925–1938).,Never missing

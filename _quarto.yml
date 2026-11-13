@@ -13,6 +13,8 @@ project:
   - assets/js/commercial-banking.js
   - assets/js/foreign-trade.js
   - assets/css/foreign-trade.css
+  - assets/js/eer.js
+  - assets/css/eer.css
   - assets/css/commercial-banking.css
   - assets/js/gis-access.js
   - assets/js/romania-access.js

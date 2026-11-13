@@ -1,0 +1,162 @@
+{
+  "title": "Czechoslovakia EER: Annual Analysis Extension",
+  "version": "1.0.0",
+  "release_date": "2026-11-13",
+  "source": {
+    "title": "Czechoslovakia EER, 1920–1938: Excel reader edition",
+    "author": "Adam Dittrich",
+    "reader_edition_date": "2026-10-22",
+    "page": "https://adamdittrich.github.io/czechoslovakia-eer.html",
+    "related_deposit_doi": "10.3886/E251023V1",
+    "construction_notes": "https://adamdittrich.github.io/assets/files/datasets/eer-documentation/provenance-notes.txt",
+    "files": [
+      {
+        "name": "eer-all-series.csv",
+        "url": "https://adamdittrich.github.io/assets/files/datasets/eer-all-series.csv",
+        "sha256": "31eaa9335710d5e2b0da01fb6cc4fb6849f0adb525caebf14a42d7e949536c54"
+      },
+      {
+        "name": "eer-annual.csv",
+        "url": "https://adamdittrich.github.io/assets/files/datasets/eer-annual.csv",
+        "sha256": "3bc81a18d34894f63c0ec03b938e5ed99bd1aecc0963fa76a0ec5002669a1e8c"
+      },
+      {
+        "name": "eer-partner-weights.csv",
+        "url": "https://adamdittrich.github.io/assets/files/datasets/eer-partner-weights.csv",
+        "sha256": "36a7e36ca822dfd964403ec309662ce12a349b52bd54d437843fbd82063b36f1"
+      },
+      {
+        "name": "eer-basket-coverage.csv",
+        "url": "https://adamdittrich.github.io/assets/files/datasets/eer-basket-coverage.csv",
+        "sha256": "270b9be7bd6ea0a4d1dedebea7920ca2a0d0e68f891d4bf350618ff51df84c66"
+      }
+    ]
+  },
+  "row_count": 247,
+  "index_series_count": 26,
+  "available_index_observations": 455,
+  "frequency": "Annual",
+  "reference_year": 1929,
+  "index_direction": "Higher means depreciation",
+  "preferred_method": "paasche",
+  "default_basis": "TWEER",
+  "default_period": [
+    1925,
+    1938
+  ],
+  "missing_values": {
+    "csv": "empty field",
+    "json": null
+  },
+  "smoothing": {
+    "method": "centered three-year arithmetic mean of levels",
+    "window": 3,
+    "complete_calendar_window_required": true,
+    "crosses_sample_boundary": false,
+    "independently_rebased": false
+  },
+  "change_uses_previous_observation_outside_display_range": true,
+  "direct_current_price_residual": "May include reweighting; not a pure inflation contribution",
+  "licences": {
+    "new_tables_figures_documentation": "CC BY 4.0",
+    "new_software": "MIT",
+    "terms_file": "LICENSE.txt",
+    "source_reader_files": "Existing terms retained; no new licence asserted"
+  },
+  "figures": [
+    "eer-levels.svg",
+    "eer-annual-changes.svg",
+    "eer-relative-prices.svg",
+    "eer-decomposition.svg",
+    "eer-method-sensitivity.svg",
+    "eer-partner-weights.svg",
+    "eer-coverage.svg",
+    "eer-trade-bases.svg"
+  ],
+  "fields": [
+    {
+      "field": "year",
+      "unit": "calendar year",
+      "definition": "Reference year of the source annual observation.",
+      "missing_value": "Never missing"
+    },
+    {
+      "field": "basis",
+      "unit": "category",
+      "definition": "TWEER: total trade; XEER: exports; MEER: imports.",
+      "missing_value": "Never missing"
+    },
+    {
+      "field": "method",
+      "unit": "category",
+      "definition": "Method identifier; see method-dictionary.csv.",
+      "missing_value": "Never missing"
+    },
+    {
+      "field": "neer",
+      "unit": "index, 1929=100",
+      "definition": "Nominal effective exchange rate; higher means nominal depreciation.",
+      "missing_value": "Blank in CSV; null in JSON"
+    },
+    {
+      "field": "reer",
+      "unit": "index, 1929=100",
+      "definition": "CPI-based real effective exchange rate; higher means real depreciation. Missing in 1920–1922.",
+      "missing_value": "Blank in CSV; null in JSON"
+    },
+    {
+      "field": "neer_yoy_pct",
+      "unit": "percent",
+      "definition": "100 × (NEER(t)/NEER(t−1) − 1); requires adjacent calendar years.",
+      "missing_value": "Blank in CSV; null in JSON"
+    },
+    {
+      "field": "reer_yoy_pct",
+      "unit": "percent",
+      "definition": "100 × (REER(t)/REER(t−1) − 1); requires adjacent calendar years.",
+      "missing_value": "Blank in CSV; null in JSON"
+    },
+    {
+      "field": "neer_log_change",
+      "unit": "log points",
+      "definition": "100 × ln(NEER(t)/NEER(t−1)); not an ordinary percentage change.",
+      "missing_value": "Blank in CSV; null in JSON"
+    },
+    {
+      "field": "reer_log_change",
+      "unit": "log points",
+      "definition": "100 × ln(REER(t)/REER(t−1)); not an ordinary percentage change.",
+      "missing_value": "Blank in CSV; null in JSON"
+    },
+    {
+      "field": "relative_price_index",
+      "unit": "index, 1929=100",
+      "definition": "100 × REER/NEER. For matched chains: cumulative chained relative-price component. For direct_current: real/nominal ratio.",
+      "missing_value": "Blank in CSV; null in JSON"
+    },
+    {
+      "field": "relative_price_log_change",
+      "unit": "log points",
+      "definition": "100 × Δln(REER/NEER). Exact real-minus-nominal log change. Inflation-differential interpretation applies to matched geometric chains; direct_current can include reweighting.",
+      "missing_value": "Blank in CSV; null in JSON"
+    },
+    {
+      "field": "neer_ma3",
+      "unit": "index, source scale",
+      "definition": "Centered three-calendar-year arithmetic mean of NEER levels; requires three observed years in the same sample segment. Not independently rebased.",
+      "missing_value": "Blank in CSV; null in JSON"
+    },
+    {
+      "field": "reer_ma3",
+      "unit": "index, source scale",
+      "definition": "Centered three-calendar-year arithmetic mean of REER levels; requires three observed years in the same sample segment. Not independently rebased.",
+      "missing_value": "Blank in CSV; null in JSON"
+    },
+    {
+      "field": "sample",
+      "unit": "category",
+      "definition": "Original label: pre-stabilisation extension (1920–1924) or analytical core (1925–1938).",
+      "missing_value": "Never missing"
+    }
+  ]
+}

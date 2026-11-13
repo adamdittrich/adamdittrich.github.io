@@ -1,0 +1,40 @@
+Czechoslovakia EER: Annual Analysis Extension — licences and source rights
+Copyright (c) 2026 Adam Dittrich
+
+NEW ANALYTICAL TABLES, FIGURES AND DOCUMENTATION
+The new derived tables, SVG figures, dictionaries and explanatory documentation
+in this analysis extension are licensed under Creative Commons Attribution
+4.0 International (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+https://creativecommons.org/licenses/by/4.0/legalcode
+Attribute Adam Dittrich and identify the extension version and release date.
+Indicate any changes. This licence applies to the new material, not to any
+underlying third-party content or rights outside the author's authority.
+
+SOURCE READER FILES
+The original reader CSVs copied into source/ in the ZIP, the original Excel
+workbook and historical inputs retain their existing rights and terms. The
+reader source files do not state a separate data reuse licence. No new licence
+for those original source files is asserted by this extension.
+
+SOFTWARE: MIT LICENCE
+This licence applies to build_annual_analysis.py, check_eer_analysis.py and the
+new EER explorer JavaScript and CSS supplied with the website update.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

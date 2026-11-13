@@ -1,0 +1,186 @@
+CZECHOSLOVAKIA'S EFFECTIVE EXCHANGE RATES, 1920–1938
+Provenance and numerical reconstruction
+Adam Dittrich · Documentation release 13 November 2026
+
+1. RELEASE IDENTITY AND CONSTRUCTION
+
+The Excel reader edition dated 22 October 2026 selects and reshapes the final
+processed series in the author's publication archive:
+Statistika_NEER_REER_Czechoslovakia_1920_1938 = PUBLICATION(4).zip.
+
+The archive's file
+02_Replication/data_processed/effective_exchange_rate_indices_1920_1938.csv
+contains exactly the 455 available index observations represented in the
+website's eer-all-series.csv: 247 nominal and 208 real observations, arranged
+as thirteen specification pairs. All 455 values agree exactly when read as
+numbers. The archive's bilateral panel has fourteen partners and nineteen
+years, or 266 partner-year rows.
+
+This documentation publishes the unchanged bilateral panel as
+bilateral-inputs.csv, and the unchanged conversion ledger as
+currency-unit-rules.csv. Their original filenames, paths and SHA-256 hashes
+are recorded in source-manifest.json. The companion reproduce_indices.py
+rebuilds the indices from raw quotations, conversion factors, prices and
+trade values in that panel using only the Python standard library. Its
+largest relative difference from the reader indices is approximately
+7.22 × 10^-15, attributable to floating-point arithmetic. The full verification
+counts are recorded in validation-report.json.
+
+The related replication deposit is doi:10.3886/E251023V1:
+https://doi.org/10.3886/E251023V1
+The DOI identifies the related deposit cited by the publication package.
+It is not a new identifier for the October reader edition or this November
+documentation and analytical extension.
+
+2. CURRENCY QUOTATIONS AND CONVERSION RULES
+
+The input quotation is Czechoslovak crowns per reported foreign-currency
+unit. The publication code multiplies that quotation by its conversion
+factor before taking logarithms:
+
+  e(i,t) = raw_quotation(i,t) × conversion_factor(i,t).
+
+It does not invert the quotation or use a US-dollar intermediary at this
+stage. For partner-years outside the rules below the factor is one.
+
+Partner              Years with multiplier in the released code   Factor
+Germany              1920–1924                                  1,000,000,000,000
+Austria              1920–1924                                         10,000
+Poland               1920–1923                                      1,800,000
+Hungary              1920–1926                                         12,500
+Belgium-Luxembourg   1920–1926                                              5
+
+The successor units are respectively Rentenmark/Reichsmark, schilling,
+zloty, pengő, and belga. The through_year field is the last annual input
+observation to which the released implementation applies the multiplier;
+it is not a legal currency-reform date. The original source citations and
+URLs travel with currency-unit-rules.csv. Additional primary references are
+listed in source-ledger.csv. These references support conversion ratios;
+they do not, by themselves, establish which unit each original annual
+statistical table used.
+
+All 266 processed harmonised quotations were checked against the product
+of the recorded raw quotation and applicable factor. This verifies the
+released transformation, not each underlying historical transcription.
+
+3. PRICE INDICES AND ANNUAL AGGREGATION
+
+The bilateral real-rate logarithm is constructed as
+
+  ln q(i,t) = ln e(i,t) + ln P(i,t) − ln P(CS,t).
+
+Both price series are stored with 1929 = 100. Price inputs are complete for
+the fourteen partners and Czechoslovakia from 1923 through 1938. The real
+indices are unavailable before 1923; those cells remain blank.
+
+The publication describes the observations as annual averages. The Python
+construction reads annual cells directly from the input workbook's
+data_long sheet. It does not construct those annual values from monthly or
+daily records. The exact within-year averaging convention, treatment of
+non-trading days, and any averaging of reciprocals are not encoded in this
+package. The website therefore treats the outputs as annual observations
+and does not infer the timing of a within-year currency movement.
+
+The raw workbook's cpi_1923_1938 sheet records provenance labels. For most
+partners and Czechoslovakia, 1923–1936 is labelled "old workbook Tabelle1"
+and 1937–1938 "updated CPI data". Sweden and Belgium-Luxembourg are labelled
+"updated CPI data" throughout 1923–1938. The exact country, year span and
+worksheet rows are preserved in cpi-source-ledger.csv. These labels
+identify the supplied input series; they do not specify original printed
+page references or a splice formula. No splice or interpolation is added
+by the website extension.
+
+The publication cites official Czechoslovak foreign-trade volumes and
+National Bank reports with associated historical series for trade,
+exchange rates and domestic prices. Its files do not provide a complete
+observation-by-observation concordance to original publication pages.
+The source ledger distinguishes such general attributions from numerical
+records that can be checked directly.
+
+4. INDEX FORMULAS
+
+For current-year, lagged-year, Törnqvist and fixed-1929 geometric chains,
+the annual log link is the weighted sum of bilateral log changes. The
+four methods use, respectively, current-year shares, previous-year shares,
+the average of those two shares, or constant 1929 shares. Total-trade,
+export and import weight families are normalised across the same fourteen
+included partners. Chained levels are rebased to 1929 = 100.
+
+The direct-current specification, supplied for total trade only, is
+
+  I(t) = 100 × exp{Σ_i w(i,t) [ln z(i,t) − ln z(i,1929)]},
+
+where z is e for the nominal index and q for the real index. This is a
+current-weighted index of bilateral relatives to 1929. Its annual movement
+also incorporates changes in weights on those relative levels.
+
+For nominal and real chains with identical weights, the ratio
+100 × REER(t)/NEER(t) is a cumulative chained relative-price component.
+Its annual log change equals the weighted foreign inflation change less
+the Czechoslovak inflation change under the same link weights. The
+nominal–real difference for the direct-current formula also contains a
+reweighting component and is not labelled an inflation-only contribution.
+
+5. THE EARLY EXTENSION: A NUMERICAL TRACE
+
+The released sample design is retained: 1920–1924 is the pre-stabilisation
+extension and 1925–1938 is the analytical core. REER is technically
+available from 1923. Early-year-links.csv exposes the inputs and
+partner contributions to the preferred total-trade links ending in
+1921–1925. Each contribution is 100 × the current-year weight × the
+bilateral log change; the unit is log points, not an ordinary percentage
+change. Real contributions are blank until both price observations exist.
+
+For the link from 1923 to 1924, the preferred total-trade nominal change is
+−684.5398 log points and the real change is −1,488.3786 log points. Germany
+contributes −647.4406 nominal log points and −822.0900 relative-price log
+points, for −1,469.5306 real log points. The remaining thirteen partners
+together contribute −18.8480 real log points.
+
+The German records contain a raw quotation of 0.0007058 crowns per
+reported unit in 1923 and 0.000000000008067 in 1924. Multiplication by
+10^12 yields harmonised quotations of 705,800,000 and 8.067. The supplied
+German CPI is 1,032,716,043,376.0475 in 1923 and 85.04273504273503 in 1924;
+the Czechoslovak CPI is 93 in both years. Those inputs account
+arithmetically for the large early link and hence the early index levels.
+
+This identifies the numerical origin of the magnitudes. It does not
+independently establish the historical correctness or comparable unit
+basis of every early quotation and price observation. The released data
+are preserved. Core-period analysis and full-period logarithmic display
+are separate views of the same observations.
+
+6. PARTNER LABELS AND GEOGRAPHIC SCOPE
+
+The fourteen labels are Austria, Belgium-Luxembourg, France, Germany,
+Hungary, Italy, Netherlands, Poland, Romania, Sweden, Switzerland, United
+Kingdom, United States, and Yugoslavia. The source workbook's README,
+row 6, describes its United Kingdom, France and Netherlands trade entries
+as including colonies. This is a source-workbook label; no partner-year
+country/colony concordance is encoded. Belgium-Luxembourg is a combined
+trade partner and is assigned the Belgian currency rule in the released
+implementation. These conventions are recorded rather than inferred
+from modern country names.
+
+7. INTERPRETATION AND REUSE
+
+Higher NEER means nominal depreciation; higher REER means real
+depreciation. CPI-based REER is a broad relative-price indicator. Consumer
+prices are only indirectly related to exporters' production costs and can
+also reflect indirect taxes and subsidies. The 1929 reference level is a
+normalisation; it does not estimate equilibrium value or misalignment.
+For the general interpretation of CPI-based competitiveness indicators,
+see the ECB's methodological caveats:
+https://www.ecb.europa.eu/stats/balance_of_payments_and_external/hci/html/index.en.html
+
+New documentation and derived diagnostic tables: CC BY 4.0, Adam Dittrich.
+New Python reconstruction software: MIT. Original input files and
+third-party material retain their existing terms; the extension's licence
+does not claim new rights over that material. See LICENSE.txt.
+
+Cite the accompanying paper, the 22 October 2026 reader edition, and
+this documentation/analysis extension dated 13 November 2026. The
+related replication deposit can also be cited with its versioned DOI.
+
+Website: https://adamdittrich.github.io/czechoslovakia-eer.html
+Repository: https://github.com/adamdittrich/adamdittrich.github.io

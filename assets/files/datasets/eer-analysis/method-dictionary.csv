@@ -1,0 +1,6 @@
+id,label,kind,weights,definition,relative_price_interpretation
+paasche,Current-year chain (preferred),chain,Current year,Geometric chain using current-year partner weights.,Chained relative-price component
+laspeyres,Lagged-year chain,chain,Previous year,Geometric chain using lagged-year partner weights.,Chained relative-price component
+tornqvist,Törnqvist chain,chain,Mean of current and previous years,Geometric chain using the mean of adjacent annual partner weights.,Chained relative-price component
+fixed1929,Fixed-1929-weight chain,chain,1929,Geometric chain using the 1929 partner weights throughout.,Chained relative-price component
+direct_current,Direct current-weighted index,direct,Current year,"100 × exp(sum_i w(i,t) × [ln z(i,t) − ln z(i,1929)]), where z=e for NEER and z=q for REER. Direct aggregation of bilateral relatives to 1929; supplied for total trade only.",Real/nominal ratio; annual residual may include reweighting

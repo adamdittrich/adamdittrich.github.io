@@ -1,0 +1,16 @@
+{
+  "partner_year_rows": 266,
+  "conversion_checks": 266,
+  "weight_checks": 798,
+  "log_level_checks": 490,
+  "specification_pairs": 13,
+  "index_rows": 247,
+  "available_index_observations": 455,
+  "base_year": 1929,
+  "base_value": 100,
+  "input_sha256": "22f14d911047c50756bccdb89eea5b587cbdfc6e8146028c089498ec43111de3",
+  "verification_scope": "Numerical reconstruction from released bilateral inputs; no claim of independent historical transcription verification.",
+  "reader_observations_checked": 455,
+  "maximum_relative_error": 7.215453017621557e-15,
+  "reader_sha256": "31eaa9335710d5e2b0da01fb6cc4fb6849f0adb525caebf14a42d7e949536c54"
+}

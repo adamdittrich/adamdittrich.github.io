@@ -1,0 +1,47 @@
+{
+  "documentation_version": "1.0.0",
+  "documentation_date": "2026-11-13",
+  "reader_edition_date": "2026-10-22",
+  "original_archive_filename": "Statistika_NEER_REER_Czechoslovakia_1920_1938 = PUBLICATION(4).zip",
+  "original_archive_sha256": "8a5d45a9acc0fd8e6e7eb0263bbe452b1b0889a1157d04b533dcfaf2b4c6a41d",
+  "related_deposit_doi": "10.3886/E251023V1",
+  "deposit_scope": "Related replication deposit; not a newly assigned DOI for this extension",
+  "original_files": [
+    {
+      "archive_path": "02_Replication/data_processed/bilateral_eer_input_1920_1938.csv",
+      "size_bytes": 89469,
+      "sha256": "22f14d911047c50756bccdb89eea5b587cbdfc6e8146028c089498ec43111de3"
+    },
+    {
+      "archive_path": "02_Replication/data_processed/currency_unit_harmonisation.csv",
+      "size_bytes": 1029,
+      "sha256": "0c38985cd12edc9489b674771d158ebfba26f1f4f0c97bce72f9e49dce306029"
+    },
+    {
+      "archive_path": "02_Replication/data_processed/effective_exchange_rate_indices_1920_1938.csv",
+      "size_bytes": 9042,
+      "sha256": "08f49034fb0b0635ed46b6ed7d0eb99fa5b7ced92fc50a76cebad7fc1333f686"
+    },
+    {
+      "archive_path": "02_Replication/data_raw/TWEER_MEER_XEER_input_1920_1938_updated.xlsx",
+      "size_bytes": 54561,
+      "sha256": "76f5c27b03ccf67c801deac09800d4081afb1de76364cee0e848f621025c5aeb"
+    },
+    {
+      "archive_path": "02_Replication/code/build_indices.py",
+      "size_bytes": 37120,
+      "sha256": "c14828354360088a63789e71988e9a37f0df49df720de99ab092dbf957661a8b"
+    }
+  ],
+  "published_original_files": {
+    "bilateral-inputs.csv": {
+      "sha256": "22f14d911047c50756bccdb89eea5b587cbdfc6e8146028c089498ec43111de3",
+      "unchanged": true
+    },
+    "currency-unit-rules.csv": {
+      "sha256": "0c38985cd12edc9489b674771d158ebfba26f1f4f0c97bce72f9e49dce306029",
+      "unchanged": true
+    }
+  },
+  "verification": "All 455 nonmissing final processed index values match the published reader. Independent reconstruction from bilateral inputs agrees to relative tolerance 1e-12."
+}
