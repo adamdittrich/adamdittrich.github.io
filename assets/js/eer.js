@@ -365,7 +365,7 @@
     $('eer-early-note').hidden=!state.years.some(year=>year<1925);
     $('eer-early-note').textContent=state.display==='levels'?'The early extension is included. Level panels containing observations from 1920–1923 use a logarithmic scale; equal vertical steps represent proportional changes. Source observations and sample designations are preserved.':'The early extension is included. Annual changes are calculated from the released observations; exceptionally large changes are retained. Source observations and sample designations are preserved.';
     $('eer-method-note').textContent=METHOD[state.method].note+' '+(state.display==='levels'?`Rebasing changes the displayed reference level; it does not change annual growth rates.`:'Annual changes are calculated against the preceding calendar year, including when that year lies outside the displayed range.');
-    $('eer-status').textContent=`${state.years.length} annual observations · ${BASIS[state.basis]} · ${methodLabel()} · ${rangeLabel()}${state.display==='levels'?' · '+baseLabel():''}`;
+    $('eer-status').textContent=`${state.years.length} years selected · ${BASIS[state.basis]} · ${methodLabel()} · ${rangeLabel()}${state.display==='levels'?' · '+baseLabel():''}`;
     root.querySelectorAll('[data-eer-enlarge],[data-eer-svg]').forEach(button=>button.disabled=false);
     root.querySelectorAll('[data-eer-range]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.eerRange===start+','+end)));
     configureCharts();
@@ -462,6 +462,7 @@
     $('eer-base').innerHTML=referenceYears.map(year=>`<option value="${year}"${year===1929?' selected':''}>${year}</option>`).join('');
     state.ready=true;$('eer-controls').disabled=false;
     root.querySelectorAll('#eer-controls input,#eer-controls select').forEach(control=>control.addEventListener('change',renderAll));
+    for(const id of ['eer-start','eer-end']) $(id).addEventListener('input',renderAll);
     root.querySelectorAll('[data-eer-range]').forEach(button=>button.addEventListener('click',()=>{const [start,end]=button.dataset.eerRange.split(',');$('eer-start').value=start;$('eer-end').value=end;renderAll();}));
     root.querySelectorAll('[data-eer-enlarge]').forEach(button=>button.addEventListener('click',()=>openDialog(button.dataset.eerEnlarge,button)));
     root.querySelectorAll('[data-eer-svg]').forEach(button=>button.addEventListener('click',()=>exportSVG(button.dataset.eerSvg)));
