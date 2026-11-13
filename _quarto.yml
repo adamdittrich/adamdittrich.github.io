@@ -11,6 +11,8 @@ project:
   - '!assets/files/datasets/commercial-banking/code/preview_template.html'
   - assets/js/site.js
   - assets/js/commercial-banking.js
+  - assets/js/foreign-trade.js
+  - assets/css/foreign-trade.css
   - assets/css/commercial-banking.css
   - assets/js/gis-access.js
   - assets/js/romania-access.js

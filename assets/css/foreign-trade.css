@@ -1,0 +1,91 @@
+/* Monthly trade explorer: scoped styles matching the academic website. */
+.ft-explorer { border-top: 1px solid #d5cec2; padding-top: 1.8rem; }
+.ft-eyebrow { color: #7a2e34; font-size: .76rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; margin-bottom: .55rem !important; }
+.ft-explorer h2 { margin-bottom: .65rem; }
+.ft-status { color: #53636a; font-size: .9rem; }
+.ft-controls { display: grid; grid-template-columns: minmax(240px,2fr) minmax(140px,1fr) minmax(140px,1fr); gap: .9rem 1.1rem; padding: 1.15rem; margin-top: 1.4rem; background: #eae5dc; border: 1px solid #d5cec2; }
+.ft-field label { display: block; font-size: .82rem; font-weight: 600; margin-bottom: .25rem; }
+.ft-field input, .ft-field select { width: 100%; max-width: 100%; min-width: 0; color: #162b36; background: #fff; border: 1px solid #b5a99a; border-radius: 2px; padding: .52rem .55rem; font: inherit; font-size: .88rem; line-height: 1.45; height: 2.65rem; }
+.ft-field select:focus-visible, .ft-explorer summary:focus-visible, .ft-chart svg:focus-visible { outline: 2px solid #7a2e34; outline-offset: 3px; }
+.ft-check { display: flex; gap: .55rem; align-items: center; grid-column: 1 / -1; font-size: .86rem; cursor: pointer; width: fit-content; }
+.ft-check input { width: 1rem; height: 1rem; margin: 0; accent-color: #7a2e34; }
+.ft-check:has(input:disabled) { opacity: .6; cursor: default; }
+.ft-toolbar { display: flex; gap: .8rem; flex-wrap: wrap; justify-content: space-between; align-items: center; margin: .85rem 0; }
+.ft-presets, .ft-chart-actions { display: flex; gap: .4rem; flex-wrap: wrap; }
+.ft-button { font: inherit; font-size: .79rem; line-height: 1.35; background: #f8f5ef; color: #4c3432; border: 1px solid #b5a99a; border-radius: 2px; padding: .48rem .68rem; cursor: pointer; min-height: 2.05rem; }
+.ft-button:hover { background: #ece3d6; color: #562027; border-color: #927b6b; }
+.ft-button[aria-pressed="true"] { background: #7a2e34; color: #fff; border-color: #7a2e34; }
+.ft-button:disabled { opacity: .55; cursor: default; }
+.ft-method-note { border-left: 3px solid #aa9160; padding-left: .85rem; font-size: .87rem; color: #394e58; line-height: 1.55; margin: 1rem 0 .55rem !important; }
+.ft-global-note, .ft-source-note { font-size: .8rem; color: #53636a; line-height: 1.55; }
+.ft-error { font-size: .87rem; color: #8c2630; padding: .6rem .8rem; border: 1px solid #cfa0a5; background: #fff5f4; }
+.ft-card { margin: 0; background: #fff; border: 1px solid #d5cec2; padding: .95rem .9rem .8rem; min-width: 0; }
+.ft-card-wide { margin-top: 1.3rem; }
+.ft-card-heading { display: flex; gap: .8rem; justify-content: space-between; align-items: start; }
+.ft-card-heading > div:first-child { flex: 1; }
+.ft-card .ft-card-heading h3 { margin: 0 0 .3rem; font-family: Georgia,serif; font-size: 1.15rem; font-weight: 400; line-height: 1.35; letter-spacing: -.015em; }
+.ft-card .ft-unit { color: #53636a; font-size: .75rem; line-height: 1.5; margin: 0 0 .55rem; }
+.ft-chart-actions { flex: 0 0 auto; }
+.ft-chart-actions .ft-button { font-size: .71rem; padding: .35rem .48rem; min-height: 1.8rem; }
+.ft-legend { display: flex; flex-wrap: wrap; gap: .45rem 1rem; color: #465a63; font-size: .75rem; margin: .2rem 0 .5rem; }
+.ft-legend > span { display: inline-flex; align-items: center; gap: .4rem; }
+.ft-legend i { display: inline-block; width: 21px; height: 0; border-top: 2.5px solid var(--ft-color,#1f77b4); }
+.ft-legend i.ft-dashed { border-top-style: dashed; }
+.ft-raw-key { color: #65747a; }
+.ft-chart { width: 100%; min-width: 0; position: relative; }
+.ft-chart svg { display: block; width: 100%; height: auto; overflow: visible; touch-action: pan-y; }
+.ft-card figcaption { font-size: .76rem; line-height: 1.5; color: #53636a; margin-top: .5rem; }
+.ft-chart-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1rem; }
+.ft-chart-grid .ft-card-heading { flex-direction: column; gap: .35rem; }
+.ft-chart-grid .ft-chart-actions { margin-bottom: .5rem; }
+.ft-inspection { padding: 1rem 0 1.2rem; }
+.ft-inspection-heading { display: flex; gap: .7rem; justify-content: space-between; align-items: baseline; font-size: .86rem; font-weight: 600; }
+.ft-inspection-heading output { color: #7a2e34; font-variant-numeric: tabular-nums; }
+#ft-month { width: 100%; height: 1.8rem; accent-color: #7a2e34; margin: .2rem 0; cursor: pointer; }
+.ft-readout-note { font-size: .75rem; color: #53636a; margin-bottom: .6rem !important; }
+.ft-readout { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: .8rem 1.2rem; padding: .85rem 1rem; border: 1px solid #d5cec2; margin: 0; }
+.ft-readout > div { min-width: 0; }
+.ft-readout dt { font-size: .73rem; line-height: 1.45; font-weight: 400; color: #53636a; }
+.ft-readout dd { margin: .15rem 0 0; font-size: 1.05rem; line-height: 1.5; font-variant-numeric: tabular-nums; color: #162b36; }
+.ft-readout dd small { display: block; color: #53636a; font-size: .7rem; }
+.ft-table-scroll { max-height: 32rem; }
+.ft-table-scroll table { font-variant-numeric: tabular-nums; }
+.ft-table-scroll thead th { background: #f4f0e7; position: sticky; top: 0; z-index: 1; }
+.ft-table-scroll td, .ft-table-scroll th { font-size: .76rem; }
+.ft-table-scroll tr[aria-current="true"] { background: #ece5d9; }
+.ft-table-details summary { font-size: .9rem; }
+.ft-source-note { margin-top: 1.1rem !important; }
+.ft-dialog { width: min(1180px,calc(100vw - 2rem)); max-width: none; max-height: calc(100dvh - 2rem); margin: auto; padding: 1.25rem; background: #fff; color: #162b36; border: 1px solid #b5a99a; border-radius: 3px; overflow-y: auto; box-shadow: 0 14px 70px #0003; }
+.ft-dialog::backdrop { background: #14222eb3; }
+.ft-dialog-top { display: flex; justify-content: space-between; gap: 1rem; align-items: flex-start; }
+.ft-dialog .ft-dialog-top h2 { font-family: Georgia,serif; font-size: 1.5rem; line-height: 1.25; margin: 0 0 .45rem; }
+.ft-dialog-top p { font: .82rem/1.5 "Segoe UI",Arial,sans-serif; color: #53636a; margin: 0 0 .6rem; }
+.ft-dialog .ft-dialog-readout { min-height: 1.5rem; font-size: .85rem; line-height: 1.5; font-variant-numeric: tabular-nums; color: #394e58; margin: .6rem 0; }
+.ft-dialog .ft-global-note { margin: .65rem 0; }
+@media (max-width: 760px) {
+  .ft-controls { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .ft-method-field { grid-column: 1 / -1; }
+  .ft-chart-grid { grid-template-columns: 1fr; }
+  .ft-chart-grid .ft-card-heading { flex-direction: row; }
+  .ft-readout { grid-template-columns: repeat(2,minmax(0,1fr)); }
+}
+@media (max-width: 480px) {
+  .ft-controls { padding: .8rem; gap: .75rem; }
+  .ft-field input, .ft-field select { font-size: .82rem; padding-inline: .35rem; }
+  .ft-card { padding: .8rem .55rem .65rem; }
+  .ft-card-heading, .ft-chart-grid .ft-card-heading { flex-direction: column; gap: .35rem; }
+  .ft-card .ft-card-heading h3 { font-size: 1.1rem; }
+  .ft-card .ft-unit { margin-bottom: .2rem; }
+  .ft-chart-actions { margin-bottom: .35rem; }
+  .ft-inspection-heading { font-size: .8rem; }
+  .ft-readout { gap: .75rem; padding: .7rem; }
+  .ft-readout dd { font-size: .96rem; }
+  .ft-dialog { width: calc(100vw - 1rem); padding: .8rem .55rem; max-height: calc(100dvh - 1rem); }
+  .ft-dialog-top { gap: .5rem; }
+  .ft-dialog .ft-dialog-top h2 { font-size: 1.25rem; }
+}
+@media print {
+  .ft-controls, .ft-toolbar, .ft-chart-actions, .ft-inspection, .ft-table-details { display: none; }
+  .ft-card { break-inside: avoid; }
+  .ft-chart-grid { grid-template-columns: 1fr; }
+}

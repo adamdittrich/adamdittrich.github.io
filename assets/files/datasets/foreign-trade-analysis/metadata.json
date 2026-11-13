@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "updated": "2026-11-13",
+  "title": "Czechoslovak foreign trade: monthly smoothing and trade indicators",
+  "source": {
+    "file": "foreign-trade-monthly.csv",
+    "sha256": "b57a01847d8c4d87e1c22f6cbfbcdc362c81fd567d6a1808f6844b0c3c882b39",
+    "observations": 180,
+    "calendar_months": 180,
+    "start": "1924-01-01",
+    "end": "1938-12-01",
+    "inserted_missing_months": [],
+    "units": "million current Kč",
+    "price_basis": "nominal; not deflated"
+  },
+  "methods": [
+    {
+      "id": "raw",
+      "label": "Observed monthly values",
+      "description": "Original monthly exports and imports, with indicators calculated from those flows."
+    },
+    {
+      "id": "trailing3",
+      "label": "3-month trailing average",
+      "window_months": 3,
+      "description": "Mean of the current month and preceding two months; complete windows only."
+    },
+    {
+      "id": "trailing6",
+      "label": "6-month trailing average",
+      "window_months": 6,
+      "description": "Mean of the current month and preceding five months; complete windows only."
+    },
+    {
+      "id": "trailing12",
+      "label": "12-month trailing average",
+      "window_months": 12,
+      "description": "Mean of the current month and preceding eleven months; complete windows only. This smooth series lags turning points."
+    },
+    {
+      "id": "centered12",
+      "label": "Centered 12-month average (2 × 12)",
+      "window_months": 13,
+      "description": "Average of two adjacent 12-month means: weights 1/24 at t−6 and t+6, and 1/12 at t−5 through t+5. The first and last six months are unavailable."
+    },
+    {
+      "id": "hp129600",
+      "label": "HP trend (λ = 129,600)",
+      "lambda": 129600,
+      "minimum_segment_months": 24,
+      "description": "Two-sided Hodrick–Prescott trend fitted to monthly flow levels over each complete contiguous sample, using λ = 129,600. At least 24 consecutive observed months are required."
+    }
+  ],
+  "default_method": "trailing12",
+  "ratio_convention": "Smooth exports and imports first, then calculate all indicators; never average monthly ratios.",
+  "missing_value_convention": "JSON null / CSV blank; no zero-filling or interpolation. Smoothers require common complete export/import support.",
+  "display_range_convention": "Filter the full available calendar before slicing a display range; zooming does not refit a smoother.",
+  "hp_convention": "Solve (I + 129600 D'D) tau = y on flow levels; D is the second-difference matrix. Each common complete run requires at least 24 months.",
+  "interpretation": [
+    "Moving averages and HP trends are descriptive smoothers, not seasonally adjusted or constant-price series.",
+    "Trailing averages lag turning points. Centered averages use future months and omit six months at each end.",
+    "HP is a two-sided full-sample trend; endpoints and abrupt changes require caution.",
+    "Smoothing does not harmonize changes in territory, classification, valuation or currency; the supplied series' scope is retained.",
+    "A 12-month mean is an average monthly flow. Its export/import ratio equals the ratio of the corresponding 12-month sums."
+  ],
+  "references": [
+    {
+      "citation": "Ravn, M. O., and H. Uhlig. 2002. On Adjusting the Hodrick–Prescott Filter for the Frequency of Observations. Review of Economics and Statistics 84(2): 371–376.",
+      "url": "https://doi.org/10.1162/003465302317411604"
+    },
+    {
+      "citation": "Statsmodels documentation: Hodrick–Prescott filter (monthly λ = 129,600).",
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.filters.hp_filter.hpfilter.html"
+    },
+    {
+      "citation": "Hyndman and Athanasopoulos, Forecasting: Principles and Practice, moving averages and classical decomposition.",
+      "url": "https://otexts.com/fpp3/decomposition.html"
+    }
+  ]
+}

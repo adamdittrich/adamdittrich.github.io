@@ -1,0 +1,9 @@
+variable,unit,definition
+date,YYYY-MM-01,Calendar month to which the observation or filter estimate is assigned
+method,text,"raw; trailing3; trailing6; trailing12; centered12; hp129600; see metadata.json"
+exports_million_kc,million current Kč,Observed or smoothed monthly export value
+imports_million_kc,million current Kč,Observed or smoothed monthly import value
+trade_balance_million_kc,million current Kč,Exports minus imports from the selected method; positive is a surplus
+total_trade_million_kc,million current Kč,Exports plus imports from the selected method; a smoothed value is an average monthly flow
+export_import_ratio_pct,percent,100 × exports / imports from the selected method; unavailable when imports are not positive; 100 means balance
+normalized_balance_pct,percent,100 × (exports − imports) / (exports + imports) from the selected method; unavailable when total trade is not positive

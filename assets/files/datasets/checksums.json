@@ -194,5 +194,19 @@
   "commercial-banking/code/chart_palette.json": "ed93ae1537f82352bf3eb5dbb985ab60663295a6a08092606fa1faef08dfb482",
   "commercial-banking/code/verify_presentation.py": "499c69e776514a79976b1c73a3595c3803235d1c31f9fd9aef8378b00ff7c83e",
   "commercial-banking/docs/PRESENTATION_AUDIT.md": "b947362190c861838648854edabb04ab271268f4e10b532691a0d84e72449df7",
-  "commercial-banking/index.html": "d32e037bc412bbbe9711dcf586e465b354b3bdb52efb32abdbb3faa30941452b"
+  "commercial-banking/index.html": "d32e037bc412bbbe9711dcf586e465b354b3bdb52efb32abdbb3faa30941452b",
+  "foreign-trade-analysis/README.txt": "0e1a866d6ff447e1a2f294e33dfc4def81f6e002cb260b0a74310a454fe3cd96",
+  "foreign-trade-analysis/build_monthly_analysis.py": "d50831a831de355837873885b040b15782531cc52bd19b5eee3807563dd1ddee",
+  "foreign-trade-analysis/data-dictionary.csv": "89ed43b3c5f845a7c7ea085713956bfa421a1592ade1e9239d0422450dfd1081",
+  "foreign-trade-analysis/metadata.json": "73f3db488dab0cfd7428a3386bb5c9362f19d9350245a68a857187c81b6f18cb",
+  "foreign-trade-analysis/monthly-analysis.csv": "9bdcf4eee6ac18343b7c34843d637f5f17de0473baa2191e3b625f8ba3c02eb5",
+  "foreign-trade-analysis/monthly-analysis.json": "bdaf821a3f2d113550b6d4176b646942eef259728c27e355aa78475805addac1",
+  "foreign-trade-analysis/monthly-analysis.zip": "cc74ee69fbc838339bae6e0302578037abd550a10d2fcc8894287bfc2ded3530",
+  "foreign-trade-analysis/monthly-balance.svg": "a576ed8a03dd04a4baa9467c876be958cf31e91ed67e4b3df32031499f53a497",
+  "foreign-trade-analysis/monthly-coverage.svg": "83f15b1fe00dc574576261c02efc86809b67ebf3a81c49bbc3c1ee42c6aa0c1a",
+  "foreign-trade-analysis/monthly-flows.svg": "c04adc871f4aa03847ab466756c5fe48ef37e3fecf3351f524fb3687e99feb80",
+  "foreign-trade-analysis/monthly-hp-comparison.svg": "2a2c235c98ace9a9f71d9f0ac00c93a5ee5379aa3adeb46f1e2e4e990aa05cb9",
+  "foreign-trade-analysis/monthly-normalized-balance.svg": "5b64da55d696f278ae1a7afff56aa0cc07c017daef3a96355b7a2ca75da44c41",
+  "foreign-trade-analysis/monthly-turnover.svg": "a1e55f8238509e1e4f6042598eb2446d632716771d9e6adece114666997ea095",
+  "foreign-trade-analysis/requirements.txt": "4c40934e438ae009a1eb0b5a9322cce029fba6ca1af6e314c088c1957cee0c04"
 }
