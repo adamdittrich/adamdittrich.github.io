@@ -12,7 +12,7 @@ body-classes: academic-site data-page
 <div class="ac-section ac-dataset" id="romania-interwar">
 <h2><a href="romania-interwar.html">Interwar Romania, 1919–1939</a></h2>
 <p class="ac-item-meta">520 source-labelled series · 8,258 numeric observations · Version 0.1.0 · Password access</p>
-<p>National accounts, agriculture, industry, foreign trade, money, exchange rates and social indicators. Explore an interactive series catalogue, compare historical time series and download the documented research data and eight figures.</p>
+<p>National accounts, agriculture, industry, foreign trade, money, exchange rates and social indicators. Explore an interactive series catalogue and 28 research figures, filter by topic, and open any figure in a large reading view with zoom and source notes. Download the documented data, plotting files and figure book.</p>
 <p><a href="romania-interwar.html">Open the explorer, figures and downloads</a> · Access to this research collection currently requires a password.</p>
 </div>
 
