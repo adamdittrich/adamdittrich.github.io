@@ -200,7 +200,9 @@
     window.FOREIGN_TRADE_EXPLORER.selectedMonth=row.date;
   }
   function renderTable() {
-    $('ft-table-caption').textContent=`${methodLabel()} · ${rangeLabel()}`;
+    // Quarto normalizes table captions and may remove their original ID.
+    const caption=root.querySelector('.ft-table-details table caption');
+    if(caption) caption.textContent=`${methodLabel()} · ${rangeLabel()}`;
     $('ft-table-note').textContent='Trade values are in million current Kč. Ratios are percentage numbers. A dash denotes an unavailable value. The CSV also includes the observed values for comparison.';
     const keys=[KEYS[0],KEYS[1],KEYS[2],KEYS[4],KEYS[5],KEYS[3]];
     $('ft-table-body').innerHTML=state.rows.map(row=>`<tr id="ft-row-${row.date}"><th scope="row">${monthShort(row.date)}</th>${keys.map(key=>`<td class="num">${fmt(row[key],2)}</td>`).join('')}</tr>`).join('');
@@ -362,6 +364,7 @@
       $('ft-start').value=raw[0].date.slice(0,7);$('ft-end').value=raw.at(-1).date.slice(0,7);
       $('ft-content').hidden=false;$('ft-load-status').hidden=true;state.ready=true;renderAll();
     } catch(error) {
+      state.ready=false;$('ft-content').hidden=true;$('ft-load-status').hidden=false;
       $('ft-load-status').textContent='The interactive data could not be loaded. Try again, or use the downloadable data and figures below.';
       $('ft-retry').hidden=false;window.FOREIGN_TRADE_EXPLORER={ready:false,error:String(error.message)};
     }
