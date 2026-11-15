@@ -37,8 +37,8 @@ body-classes: academic-site cv-page
 <section class="ac-section cv-section">
 <h2>Published and forthcoming articles</h2>
 <div class="cv-entry">
-<div class="cv-date">Forthcoming</div>
-<div><strong>Dittrich, Adam.</strong> “Measuring Financial Stress under the Gold Standard: Evidence from Interwar Czechoslovakia.” <em>Cliometrica.</em> Accepted for publication; online publication forthcoming. Print publication expected in Vol. 21, No. 3 (2027).</div>
+<div class="cv-date">2026</div>
+<div><strong>Dittrich, Adam.</strong> “Measuring financial stress under the gold standard: evidence from interwar Czechoslovakia.” <em>Cliometrica.</em> Published online 15 November 2026. <a href="https://doi.org/10.1007/s11698-026-00353-x">doi:10.1007/s11698-026-00353-x</a>.</div>
 </div>
 <div class="cv-entry">
 <div class="cv-date">Forthcoming</div>

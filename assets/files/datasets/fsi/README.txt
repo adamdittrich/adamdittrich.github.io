@@ -1,10 +1,11 @@
 FINANCIAL STRESS IN INTERWAR CZECHOSLOVAKIA
 Revised reader data and figures — 23 October 2026
+Publication citation updated — 15 November 2026
 Adam Dittrich, Prague University of Economics and Business
 https://adamdittrich.github.io/czechoslovakia-financial-stress.html
 
 SOURCE AND EDITION
-These files reproduce selected data and results from the consolidated revised research package accompanying "Measuring Financial Stress under the Gold Standard: Evidence from Interwar Czechoslovakia". This is a reader edition, not a separately DOI-registered release or a claim of journal publication.
+These files reproduce selected data and results from the consolidated revised research package accompanying "Measuring financial stress under the gold standard: evidence from interwar Czechoslovakia", published online in Cliometrica on 15 November 2026: https://doi.org/10.1007/s11698-026-00353-x. This reader edition has no separate dataset DOI; its data and results are unchanged by the publication-citation update.
 The original public archive is openICPSR project 247312, Version 1, 7 April 2026: https://doi.org/10.3886/E247312V1.
 That DOI identifies the original V1 files, not this revised reader edition. The source package was prepared for a later openICPSR release. Use the exact version-specific citation belonging to any archive you download.
 
@@ -16,7 +17,7 @@ data/monthly_robustness_series.csv and monthly_leave_one_out_series.csv: alterna
 data/data_dictionary.csv: original variable descriptions, raw units, roles, stress signs and availability.
 data/table_*.csv: original research result tables used for chronology, institutional-break diagnostics, robustness and predictive comparisons.
 build_fsi_figures.py: script for the seven website figures. This draws from the released data and result tables; it is not a replacement for the study's full estimation workflow.
-citations.bib: separate records for the original archive, this reader edition and the manuscript.
+citations.bib: separate records for the original archive, this reader edition and the published article.
 checksums.json: SHA-256 hashes for the files in this reader bundle.
 
 CONSTRUCTION
@@ -46,7 +47,8 @@ The ZIP does not duplicate the image files: rendered SVG/PNG versions are availa
 
 PROVENANCE
 The data/*.csv files are byte-for-byte copies of the supplied revised research data and result tables, excluding internal audit reports. No research estimates have been refitted for the website. The compact monthly-indices.csv selects six columns from monthly_derived_indices_r.csv. Web figures are redrawn from those released values.
-The source manuscript documents the primary National Bank reports, report dates and page locators in its data-provenance appendix.
+The article documents the primary National Bank reports, report dates and page locators in its data-provenance appendix.
 
 CITATION
-Please cite the manuscript and the dataset edition actually used. Cite this reader edition by its title, author, date and URL. Cite openICPSR V1 only when identifying the original archived deposit. Machine-readable entries are in citations.bib.
+Dittrich, Adam. 2026. "Measuring financial stress under the gold standard: evidence from interwar Czechoslovakia." Cliometrica. Published online 15 November 2026. https://doi.org/10.1007/s11698-026-00353-x.
+Please cite the published article and the dataset edition actually used. Cite this reader edition by its title, author, date and URL. Cite openICPSR V1 only when identifying the original archived deposit. Machine-readable entries are in citations.bib.

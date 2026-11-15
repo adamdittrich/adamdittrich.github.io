@@ -27,7 +27,7 @@ A real portrait has not yet been supplied. The homepage includes a commented por
 
 ## CV download
 
-The repository's existing October 2026 PDF is preserved as the source. During rendering, `scripts/prepare_cv.py` removes only the optional degree suffix in the display heading of that exact legacy PDF, using a checked, dependency-free incremental PDF update. All three pages, academic qualifications and links are preserved. A future replacement PDF is left untouched. The downloadable PDF is the generated file under `docs/assets/files/`.
+The source PDF at `assets/files/Adam-Dittrich-CV.pdf` includes the Cliometrica article published online on 15 November 2026, with its DOI and 2026 citation. The downloadable copy is published under `docs/assets/files/`. The legacy heading migration in `scripts/prepare_cv.py` applies only to the original October 2026 PDF and leaves the updated CV untouched.
 
 ## Checks and recovery
 

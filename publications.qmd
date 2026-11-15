@@ -4,42 +4,27 @@ description: "Articles, working papers, conference proceedings and presentations
 page-layout: custom
 title-block-banner: false
 body-classes: academic-site publications-page
+format:
+  html:
+    include-in-header:
+      - text: |
+          <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ScholarlyArticle", "@id": "https://doi.org/10.1007/s11698-026-00353-x", "name": "Measuring financial stress under the gold standard: evidence from interwar Czechoslovakia", "headline": "Measuring financial stress under the gold standard: evidence from interwar Czechoslovakia", "url": "https://doi.org/10.1007/s11698-026-00353-x", "datePublished": "2026-11-15", "author": {"@type": "Person", "name": "Adam Dittrich", "sameAs": "https://orcid.org/0000-0002-7803-1339"}, "isPartOf": {"@type": "Periodical", "name": "Cliometrica", "issn": "1863-2513"}, "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": "10.1007/s11698-026-00353-x"}}</script>
 ---
 
 ```{=html}
 <div class="ac-page">
 <h1>Publications</h1>
 <section class="ac-section ac-publication-section">
-<h2 id="forthcoming-and-accepted">Forthcoming</h2>
-<div class="ac-publication">
-<div class="ac-item-meta">Forthcoming</div>
-<section class="ac-item-body" id="measuring-financial-stress-under-the-gold-standard-evidence-from-interwar-czechoslovakia">
-<h3>Measuring Financial Stress under the Gold Standard: Evidence from Interwar Czechoslovakia</h3>
-<p><strong>Adam Dittrich</strong><br/>
-<em>Cliometrica.</em> Accepted for publication. Online publication forthcoming; print publication expected in Vol. 21, No. 3 (2027).</p>
-<p><a class="pill-link" href="czechoslovakia-financial-stress.html">Dataset, findings and figures</a> <a class="pill-link" href="https://www.openicpsr.org/openicpsr/project/247312/version/V1/view">Original openICPSR V1 deposit</a></p>
-</section>
-</div>
-<div class="ac-publication">
-<div class="ac-item-meta">Forthcoming</div>
-<section class="ac-item-body" id="the-crown-against-the-world-reconstructing-czechoslovakias-effective-exchange-rates-19201938">
-<h3>The Crown Against the World: Reconstructing Czechoslovakia’s Effective Exchange Rates, 1920–1938</h3>
-<p><strong>Adam Dittrich</strong><br/>
-<em>Statistika: Statistics and Economy Journal.</em> Forthcoming (publication expected in 2027).</p>
-<p><a class="pill-link" href="czechoslovakia-eer.html">Dataset, figures and methods</a> <a class="pill-link" href="https://doi.org/10.3886/E251023V1">Replication DOI</a></p></section>
-</div>
-<div class="ac-publication">
-<div class="ac-item-meta">Forthcoming</div>
-<section class="ac-item-body" id="spor-o-cukerní-daň-roku-1928-karel-engliš-a-gustav-heidler">
-<h3>Spor o cukerní daň roku 1928: Karel Engliš a Gustav Heidler</h3>
-<p><strong>Adam Dittrich</strong><br/>
-<em>Listy cukrovarnické a řepařské [Czech Sugar and Sugar Beet Journal].</em> Forthcoming (publication expected in 2027).</p>
-<p><span class="english-title">[The 1928 Sugar-Tax Dispute: Karel Engliš and Gustav Heidler]</span></p>
-</section>
-</div>
-</section>
-<section class="ac-section ac-publication-section">
 <h2 id="published-journal-articles">Published journal articles</h2>
+<div class="ac-publication">
+<div class="ac-item-meta">2026</div>
+<section class="ac-item-body" id="measuring-financial-stress-under-the-gold-standard-evidence-from-interwar-czechoslovakia">
+<h3>Measuring financial stress under the gold standard: evidence from interwar Czechoslovakia</h3>
+<p><strong>Adam Dittrich</strong><br/>
+<em>Cliometrica.</em> Published online 15 November 2026. <a href="https://doi.org/10.1007/s11698-026-00353-x">doi:10.1007/s11698-026-00353-x</a>.</p>
+<p><a class="pill-link" href="https://doi.org/10.1007/s11698-026-00353-x">Read article (Springer)</a> <a class="pill-link" href="czechoslovakia-financial-stress.html">Dataset, findings and figures</a> <a class="pill-link" href="https://www.openicpsr.org/openicpsr/project/247312/version/V1/view">Original openICPSR V1 deposit</a></p>
+</section>
+</div>
 <div class="ac-publication">
 <div class="ac-item-meta">2025</div>
 <section class="ac-item-body" id="historický-vztah-československého-cukrovarnického-průmyslu-k-sociální-problematice-na-příkladu-penze-sociálně-solidární-cíle-mezi-lety-1918-až-1926-jako-výsledek-negativní-časové-preference">
@@ -67,6 +52,26 @@ body-classes: academic-site publications-page
 <p><strong>Adam Dittrich</strong><br/>
 <em>Revista Română de Studii Eurasiatice</em> 19(1–2), 105–124.</p>
 <p><a class="pill-link" href="https://rrsejournal.com/year-xix-2023">Journal issue</a> <a class="pill-link" href="https://www.ceeol.com/search/article-detail?id=1236472">Article record</a></p>
+</section>
+</div>
+</section>
+<section class="ac-section ac-publication-section">
+<h2 id="forthcoming-and-accepted">Forthcoming</h2>
+<div class="ac-publication">
+<div class="ac-item-meta">Forthcoming</div>
+<section class="ac-item-body" id="the-crown-against-the-world-reconstructing-czechoslovakias-effective-exchange-rates-19201938">
+<h3>The Crown Against the World: Reconstructing Czechoslovakia’s Effective Exchange Rates, 1920–1938</h3>
+<p><strong>Adam Dittrich</strong><br/>
+<em>Statistika: Statistics and Economy Journal.</em> Forthcoming (publication expected in 2027).</p>
+<p><a class="pill-link" href="czechoslovakia-eer.html">Dataset, figures and methods</a> <a class="pill-link" href="https://doi.org/10.3886/E251023V1">Replication DOI</a></p></section>
+</div>
+<div class="ac-publication">
+<div class="ac-item-meta">Forthcoming</div>
+<section class="ac-item-body" id="spor-o-cukerní-daň-roku-1928-karel-engliš-a-gustav-heidler">
+<h3>Spor o cukerní daň roku 1928: Karel Engliš a Gustav Heidler</h3>
+<p><strong>Adam Dittrich</strong><br/>
+<em>Listy cukrovarnické a řepařské [Czech Sugar and Sugar Beet Journal].</em> Forthcoming (publication expected in 2027).</p>
+<p><span class="english-title">[The 1928 Sugar-Tax Dispute: Karel Engliš and Gustav Heidler]</span></p>
 </section>
 </div>
 </section>
