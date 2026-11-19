@@ -8,6 +8,7 @@ project:
   - assets/files/**
   - '!assets/files/datasets/historical-gis/**'
   - '!assets/files/datasets/romania/**'
+  - '!assets/files/datasets/italy/**'
   - '!assets/files/datasets/commercial-banking/code/preview_template.html'
   - assets/js/site.js
   - assets/js/commercial-banking.js
@@ -18,6 +19,7 @@ project:
   - assets/css/commercial-banking.css
   - assets/js/gis-access.js
   - assets/js/romania-access.js
+  - assets/js/italy-access.js
   - assets/img/favicon.svg
   - assets/img/adam-dittrich-portrait.jpg
   - assets/img/healthcare/**

@@ -10,12 +10,14 @@ from urllib.parse import unquote, urlsplit
 
 
 PROTECTED_PAGE = "czech-lands-historical-gis.html"
-PROTECTED_PAGES = (PROTECTED_PAGE, "romania-interwar.html")
+PROTECTED_PAGES = (PROTECTED_PAGE, "romania-interwar.html", "italy-interwar.html")
 PLAINTEXT_PREFIXES = (
     "assets/files/datasets/historical-gis/",
     "data_sources/historical-gis/",
     "assets/files/datasets/romania/",
     "data_sources/romania/",
+    "assets/files/datasets/italy/",
+    "data_sources/italy/",
 )
 
 

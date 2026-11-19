@@ -1,0 +1,55 @@
+---
+title: "Interwar Italy, 1919–1939 — Password access"
+description: "Password access to the Interwar Italy research dataset, 1919–1939, with historical figures, an interactive explorer and downloads."
+page-layout: custom
+title-block-banner: false
+search: false
+robots: "noindex, nofollow, noarchive"
+body-classes: academic-site data-page dataset-detail-page italy-page
+format:
+  html:
+    include-in-header:
+      - text: |
+          <meta name="robots" content="noindex, nofollow, noarchive">
+          <script defer src="assets/js/italy-access.js?v=1"></script>
+          <style>
+          .italy-access-shell{max-width:1080px;margin:0 auto;padding:2rem 0 4rem}
+          .italy-access-card{max-width:660px;margin:4rem auto 5rem;padding:3.25rem;background:#192f39;color:#f5f1e7;border-top:4px solid #d4b377;box-shadow:0 15px 45px #162b3612}
+          .italy-access-kicker{font-size:.72rem;text-transform:uppercase;letter-spacing:.17em;color:#ddc28b;margin:0 0 1.3rem}
+          .italy-access-card h1{font-family:Georgia,serif;font-weight:400;font-size:2.8rem;line-height:1.12;color:#f5f1e7;margin:0 0 1.4rem}
+          .italy-access-card p{line-height:1.65;color:#d7e0e2}.italy-access-card label{display:block;font-weight:600;margin:1.7rem 0 .6rem}
+          .italy-access-row{display:flex;gap:.65rem}.italy-access-row input{min-width:0;flex:1;padding:.85rem 1rem;background:#fff;border:2px solid #fff;border-radius:0;color:#192f39;font:inherit}.italy-access-row input:focus{outline:3px solid #d4b377;outline-offset:2px}
+          .italy-access-row button{border:0;background:#d4b377;color:#152d37;padding:.85rem 1.3rem;font:inherit;font-weight:650;cursor:pointer}.italy-access-row button:disabled{opacity:.6;cursor:wait}
+          #italy-unlock-status{min-height:1.7em;font-size:.9rem;margin:.8rem 0 0}.italy-access-note{font-size:.82rem;color:#b8c5ca!important;margin-top:1.3rem}
+          .italy-access-toolbar{max-width:1080px;margin:1.4rem auto 0;border-bottom:1px solid #ddd5c6;padding:.7rem 0;display:flex;gap:1rem;align-items:center;justify-content:space-between}.italy-access-toolbar[hidden],#italy-private-root[hidden],#italy-access-gate[hidden]{display:none!important}
+          .italy-access-toolbar button{background:none;border:1px solid #8c9a9b;padding:.45rem .85rem;color:#263f48;font:inherit;cursor:pointer}.italy-access-toolbar p{margin:0;font-size:.85rem}#italy-download-status{max-width:1080px;margin:.6rem auto;font-size:.85rem;color:#37535d}
+          #italy-private-root{box-sizing:border-box;max-width:1380px;margin:0 auto;padding:0 24px 2rem}
+          /* Quarto forces aside elements into named margin columns with !important. */
+          #italy-private-root .it-catalogue{grid-column:auto!important;grid-row:auto;min-width:0;margin:0}
+          @media(max-width:650px){#italy-private-root{padding-right:16px;padding-left:16px}}
+          @media(max-width:650px){.italy-access-shell{padding:1rem}.italy-access-card{padding:2rem 1.4rem;margin:2rem auto}.italy-access-card h1{font-size:2.2rem}.italy-access-row{flex-direction:column}.italy-access-toolbar{margin:1rem;align-items:flex-start}}
+          </style>
+---
+
+```{=html}
+<main>
+<div id="italy-access-gate" class="italy-access-shell">
+  <a href="data.html">← All datasets</a>
+  <section class="italy-access-card" aria-labelledby="italy-access-title">
+    <p class="italy-access-kicker">Research dataset · Password access</p>
+    <h1 id="italy-access-title">Interwar Italy<br><span style="font-size:.65em;letter-spacing:.025em">1919–1939</span></h1>
+    <p>Explore the Italian economy between the wars. Enter the shared password to open the historical figures, interactive series catalogue, source notes and research downloads.</p>
+    <form id="italy-access-form" autocomplete="off" action="#">
+      <label for="italy-password">Password</label>
+      <div class="italy-access-row"><input id="italy-password" type="password" required autocomplete="off" spellcheck="false" aria-describedby="italy-unlock-status"><button id="italy-unlock" type="submit" disabled>Unlock dataset</button></div>
+      <p id="italy-unlock-status" role="status" aria-live="polite"></p>
+    </form>
+    <p class="italy-access-note">The dataset stays unlocked in this tab until you reload or choose “Lock page”.</p>
+    <noscript><p>Please enable JavaScript to enter the password and open the dataset.</p></noscript>
+  </section>
+</div>
+<div id="italy-access-toolbar" class="italy-access-toolbar" hidden><p>Interwar Italy · Unlocked in this tab</p><button type="button" id="italy-lock">Lock page</button></div>
+<p id="italy-download-status" role="status" aria-live="polite"></p>
+<div id="italy-private-root" hidden></div>
+</main>
+```

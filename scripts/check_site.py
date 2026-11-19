@@ -17,7 +17,7 @@ EXPECTED_PAGES = {'index.html', 'research.html', 'publications.html', 'data.html
                   'teaching.html', 'cv.html', 'contact.html', 'healthcare-capacity.html',
                   'czechoslovak-foreign-trade.html', 'czechoslovakia-eer.html',
                   'czechoslovakia-financial-stress.html', 'czechoslovak-commercial-banking.html',
-                  'czech-lands-historical-gis.html', 'romania-interwar.html',
+                  'czech-lands-historical-gis.html', 'romania-interwar.html', 'italy-interwar.html',
                   'the-missing-j.html', '404.html',
                   'assets/files/datasets/commercial-banking/index.html'}
 # Google's verification file must be published verbatim, not treated as an HTML page.
@@ -172,7 +172,7 @@ def main() -> int:
             warnings.append(f"{name}: image without alt attribute: {source}")
 
     required_assets = [
-        "assets/css/site-v4.css", "assets/js/site.js", "assets/js/gis-access.js", "assets/js/romania-access.js",
+        "assets/css/site-v4.css", "assets/js/site.js", "assets/js/gis-access.js", "assets/js/romania-access.js", "assets/js/italy-access.js",
     ]
     for relative_path in required_assets:
         if not (DOCS / relative_path).is_file():

@@ -1,6 +1,6 @@
 ---
 title: "Datasets"
-description: "Historical datasets by Adam Dittrich: interwar Romania, Czech lands historical GIS, Czechoslovak foreign trade, effective exchange rates, commercial banking, financial stress, European bilateral trade and The Missing J."
+description: "Historical datasets by Adam Dittrich: interwar Italy, interwar Romania, Czech lands historical GIS, Czechoslovak foreign trade, effective exchange rates, commercial banking, financial stress, European bilateral trade and The Missing J."
 page-layout: custom
 title-block-banner: false
 body-classes: academic-site data-page
@@ -9,6 +9,14 @@ body-classes: academic-site data-page
 ```{=html}
 <section class="level1 ac-page" id="datasets">
 <h1>Datasets</h1>
+<div class="ac-section ac-dataset" id="italy-interwar">
+<h2><a href="italy-interwar.html">Interwar Italy, 1919–1939</a></h2>
+<p class="ac-item-meta">3,962 source-defined series · 113,437 numeric observations · Version 1.0.0 · Password access</p>
+<p>Trace the uneven recovery of the Italian economy through 24 research figures covering output, household consumption, employment, money, banking, public finance, exchange rates, trade, industry and agriculture. Browse 2,756 national annual and monthly series, enlarge figures, and inspect their sources and calculations.</p>
+<p>The complete archive also includes 2.09 million separate trade records, bank and provincial data, a research workbook, documentation and reproduction code.</p>
+<p><a href="italy-interwar.html">Open the atlas, explorer and downloads</a> · Access to this research collection currently requires a password.</p>
+</div>
+
 <div class="ac-section ac-dataset" id="romania-interwar">
 <h2><a href="romania-interwar.html">Interwar Romania, 1919–1939</a></h2>
 <p class="ac-item-meta">520 source-labelled series · 8,258 numeric observations · Version 0.1.0 · Password access</p>

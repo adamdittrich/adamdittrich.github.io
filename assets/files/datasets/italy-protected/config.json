@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "kdf": {
+    "name": "PBKDF2",
+    "hash": "SHA-256",
+    "iterations": 1000000,
+    "salt": "gmOgf6ljDv0inObiW7x7sLqhfV7cUvjJXIGwBaqCsqw="
+  },
+  "cipher": "AES-GCM",
+  "manifest": "vault.bin",
+  "compression": "gzip",
+  "aadPrefix": "adamdittrich-italy-v1/"
+}
