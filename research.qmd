@@ -21,7 +21,7 @@ body-classes: academic-site research-page
 <section class="level2 ac-section ac-research-section" id="monetary-regimes-and-central-banking">
 <h2 data-anchor-id="monetary-regimes-and-central-banking">Monetary regimes and central banking</h2>
 <p>I study how monetary commitments and central-bank institutions shaped adjustment during the Great Depression. My Czechoslovak research examines the defence of the koruna, gold-cover rules, reserve movements and sterilisation, and the debates surrounding devaluation in 1931–1934.</p>
-<p>Current manuscripts include <em>The Law Behind the Koruna</em> and <em>Who Paid for Credibility?</em> A comparative study of Italy’s Quota 90 examines the domestic costs of monetary credibility using monthly European evidence. Related work considers the koruna’s role in post-imperial state-building and the National Bank’s balance-sheet policy before and after devaluation.</p>
+<p>Current manuscripts include <em>The Law Behind the Koruna</em> and <em>Who Paid for Credibility?</em> A comparative study of Italy’s Quota 90 examines the domestic costs of monetary credibility using monthly European evidence (revise and resubmit). Related work considers the koruna’s role in post-imperial state-building and the National Bank’s balance-sheet policy before and after devaluation.</p>
 <p><a href="./publications.html#research-manuscripts">Current manuscripts</a></p>
 <p><a href="czechoslovakia-eer.html">Czechoslovak effective exchange rates: data and figures</a></p></section>
 <section class="level2 ac-section ac-research-section" id="financial-stress-and-banking">
@@ -33,7 +33,7 @@ body-classes: academic-site research-page
 <section class="level2 ac-section ac-research-section" id="trade-devaluation-and-commercial-reorganisation">
 <h2 data-anchor-id="trade-devaluation-and-commercial-reorganisation">Exchange rates and trade adjustment</h2>
 <p>I reconstruct effective exchange rates and examine how devaluation, exchange controls and relative prices affected trade. <em>The Crown Against the World</em> provides nominal and real effective exchange-rate series for Czechoslovakia, 1920–1938. <em>The Missing J</em> links monthly exchange rates, trade values, prices and economic activity in a 1925–1936 archive. Its preferred 18-country European design uses 1928–1936 and finds a rapid, temporary improvement in exports relative to imports after real effective depreciation.</p>
-<p>Related papers study the turning point in Czechoslovak foreign trade and the relationship between price competitiveness and market recovery. Work in progress on the Little Entente examines trade within the alliance and its relationship with German economic power.</p>
+<p>Related papers study the turning point in Czechoslovak foreign trade (minor revision; publication expected following completion of revisions) and the relationship between price competitiveness and market recovery (revise and resubmit). Work in progress on the Little Entente examines trade within the alliance and its relationship with German economic power.</p>
 <p><a href="./publications.html#research-manuscripts">Exchange-rate and trade papers</a> · <a href="the-missing-j.html">The Missing J: dataset, findings and figures</a></p>
 <p><a href="czechoslovak-foreign-trade.html">Czechoslovak national and bilateral foreign-trade data</a></p></section>
 <section class="level2 ac-section ac-research-section" id="economic-thought-as-a-policy-institution">

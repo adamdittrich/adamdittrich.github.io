@@ -62,6 +62,21 @@ body-classes: academic-site cv-page
 </div>
 </section>
 <section class="ac-section cv-section">
+<h2>Manuscripts in revision</h2>
+<div class="cv-entry">
+<div class="cv-date">Minor revision</div>
+<div><em>Measuring the Turning Point in Czechoslovak Foreign Trade during the Great Depression.</em> Publication expected following completion of revisions.</div>
+</div>
+<div class="cv-entry">
+<div class="cv-date">Revise and resubmit</div>
+<div><em>Prices Recover, Markets Remember: Late Devaluation and the Erosion of Price Competition in Interwar Czechoslovakia, 1929–1938.</em></div>
+</div>
+<div class="cv-entry">
+<div class="cv-date">Revise and resubmit</div>
+<div><em>The Price of Credibility: Quota 90 and Fascist Italy’s Internal Deflation in Monthly European Perspective, 1925–1928.</em></div>
+</div>
+</section>
+<section class="ac-section cv-section">
 <h2>Published conference proceedings</h2>
 <div class="cv-entry">
 <div class="cv-date">2025</div>

@@ -58,7 +58,7 @@ format:
 <section class="ac-section ac-publication-section">
 <h2 id="forthcoming-and-accepted">Forthcoming</h2>
 <div class="ac-publication">
-<div class="ac-item-meta">Forthcoming</div>
+<div class="ac-item-meta">Forthcoming · 2027</div>
 <section class="ac-item-body" id="the-crown-against-the-world-reconstructing-czechoslovakias-effective-exchange-rates-19201938">
 <h3>The Crown Against the World: Reconstructing Czechoslovakia’s Effective Exchange Rates, 1920–1938</h3>
 <p><strong>Adam Dittrich</strong><br/>
@@ -66,7 +66,7 @@ format:
 <p><a class="pill-link" href="czechoslovakia-eer.html">Dataset, figures and methods</a> <a class="pill-link" href="https://doi.org/10.3886/E251023V1">Replication DOI</a></p></section>
 </div>
 <div class="ac-publication">
-<div class="ac-item-meta">Forthcoming</div>
+<div class="ac-item-meta">Forthcoming · 2027</div>
 <section class="ac-item-body" id="spor-o-cukerní-daň-roku-1928-karel-engliš-a-gustav-heidler">
 <h3>Spor o cukerní daň roku 1928: Karel Engliš a Gustav Heidler</h3>
 <p><strong>Adam Dittrich</strong><br/>
@@ -139,6 +139,7 @@ HAL Open Science working paper, hal-05660879.</p>
 <div class="ac-publication">
 <section class="ac-item-body" id="foreign-trade-turning-point">
 <h3>Measuring the Turning Point in Czechoslovak Foreign Trade during the Great Depression</h3>
+<p class="ac-item-meta">Minor revision · Publication expected following completion of revisions.</p>
 <p>An econometric reconstruction of foreign-trade turning points and devaluation effects.</p>
 <p><a class="pill-link" href="czechoslovak-foreign-trade.html">Czechoslovak foreign-trade dataset</a></p></section>
 </div>
@@ -155,11 +156,13 @@ HAL Open Science working paper, hal-05660879.</p>
 <div class="ac-publication">
 <section class="ac-item-body" id="prices-recover-markets-remember">
 <h3>Prices Recover, Markets Remember: Late Devaluation and the Erosion of Price Competition in Interwar Czechoslovakia, 1929–1938</h3>
+<p class="ac-item-meta">Revise and resubmit.</p>
 </section>
 </div>
 <div class="ac-publication">
 <section class="ac-item-body" id="quota-90">
 <h3>The Price of Credibility: Quota 90 and Fascist Italy’s Internal Deflation in Monthly European Perspective, 1925–1928</h3>
+<p class="ac-item-meta">Revise and resubmit.</p>
 <p>Monthly European comparisons of the domestic adjustment associated with Italy’s monetary revaluation.</p>
 </section>
 </div>
