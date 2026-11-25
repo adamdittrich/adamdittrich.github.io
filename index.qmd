@@ -31,6 +31,7 @@ format:
                 "https://khd.vse.cz/ing-adam-dittrich/",
                 "https://orcid.org/0000-0002-7803-1339",
                 "https://ideas.repec.org/f/pdi678.html",
+                "https://www.researchgate.net/profile/Adam-Dittrich",
                 "https://www.linkedin.com/in/adam-dittrich-3644b219a/",
                 "https://github.com/adamdittrich"
               ]
@@ -50,7 +51,7 @@ Assistant Professor · Department of Economic History<br/>Prague University of E
 <p>I work on monetary and financial history and the history of economic thought, with a particular focus on interwar Czechoslovakia and Central Europe. My research combines archival sources with historical data reconstruction and econometrics.</p>
 <p>A major current project is the reconstruction of interwar Czechoslovak GDP. The agricultural component is already under way, with preliminary estimates of output and value added for 1920–1937. My other projects examine monetary policy and financial stress during the Great Depression, exchange rates and trade, and Czech economic thought.</p>
 <div class="ac-link-row">
-<p><a href="assets/files/Adam-Dittrich-CV.pdf">CV (PDF)</a> <a href="mailto:adam.dittrich@vse.cz">Email</a> <a href="https://orcid.org/0000-0002-7803-1339">ORCID</a> <a href="https://ideas.repec.org/f/pdi678.html">RePEc</a> <a href="https://khd.vse.cz/ing-adam-dittrich/">University profile</a> <a href="https://www.linkedin.com/in/adam-dittrich-3644b219a/">LinkedIn</a></p>
+<p><a href="assets/files/Adam-Dittrich-CV.pdf">CV (PDF)</a> <a href="mailto:adam.dittrich@vse.cz">Email</a> <a href="https://orcid.org/0000-0002-7803-1339">ORCID</a> <a href="https://ideas.repec.org/f/pdi678.html">RePEc</a> <a href="https://www.researchgate.net/profile/Adam-Dittrich">ResearchGate</a> <a href="https://khd.vse.cz/ing-adam-dittrich/">University profile</a> <a href="https://www.linkedin.com/in/adam-dittrich-3644b219a/">LinkedIn</a></p>
 </div>
 </section>
 <figure class="ac-portrait">

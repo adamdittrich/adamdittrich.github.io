@@ -65,6 +65,8 @@ website:
       href: mailto:adam.dittrich@vse.cz
     - text: ORCID
       href: https://orcid.org/0000-0002-7803-1339
+    - text: ResearchGate
+      href: https://www.researchgate.net/profile/Adam-Dittrich
     - text: GitHub
       href: https://github.com/adamdittrich
 format:

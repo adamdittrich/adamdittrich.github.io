@@ -11,7 +11,7 @@ body-classes: academic-site cv-page
 <h1>Curriculum vitae</h1>
 <p class="ac-cv-name">Adam Dittrich</p>
 <p>Assistant Professor · Department of Economic History<br/>Prague University of Economics and Business</p>
-<p class="ac-link-row"><a href="assets/files/Adam-Dittrich-CV.pdf">Download CV (PDF)</a><a href="mailto:adam.dittrich@vse.cz">Email</a><a href="https://orcid.org/0000-0002-7803-1339">ORCID</a><a href="https://khd.vse.cz/ing-adam-dittrich/">University profile</a><a href="https://www.linkedin.com/in/adam-dittrich-3644b219a/">LinkedIn</a></p>
+<p class="ac-link-row"><a href="assets/files/Adam-Dittrich-CV.pdf">Download CV (PDF)</a><a href="mailto:adam.dittrich@vse.cz">Email</a><a href="https://orcid.org/0000-0002-7803-1339">ORCID</a><a href="https://www.researchgate.net/profile/Adam-Dittrich">ResearchGate</a><a href="https://khd.vse.cz/ing-adam-dittrich/">University profile</a><a href="https://www.linkedin.com/in/adam-dittrich-3644b219a/">LinkedIn</a></p>
 <section class="ac-section cv-section">
 <h2>Academic appointment</h2>
 <div class="cv-entry">
