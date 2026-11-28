@@ -1,6 +1,6 @@
 ---
 title: "The Missing J: trade adjustment in interwar Europe"
-description: "Explore The Missing J: monthly trade and effective exchange rates, 18 European economies, seven figures, first-year results, historical devaluations, methods and downloadable data."
+description: "The Missing J: monthly trade adjustment across 18 European economies, findings, figures and data, plus slides from the 14th Czech Economic Society conference, 28 November 2026."
 image: assets/files/datasets/missing-j/figures/missing-j-baseline-response.png
 page-layout: custom
 title-block-banner: false
@@ -23,12 +23,29 @@ format:
 <p class="ds-meta">Adam Dittrich · Monthly archive: 1925–1936 · Preferred European design: 1928–1936</p>
 <p class="mj-intro"><strong>Export values move first. Imports catch up.</strong> The reported response to real depreciation is a rapid, temporary improvement in exports relative to imports. This dataset follows that adjustment across interwar Europe by linking monthly trade, currencies, prices and activity to reconstructed trading relationships.</p>
 <p class="ds-lede">The research asks whether depreciation produced the familiar J-curve: an early deterioration in the trade balance followed by recovery. The average monthly path shows an improvement within the first year, with substantial differences across national devaluation episodes.</p>
-<div class="ds-download-links"><a class="mj-download-primary" href="#downloads">Get the data</a><a href="#findings">Explore the findings</a><a href="https://doi.org/10.3886/E251239V1">openICPSR · V1</a></div>
+<div class="ds-download-links"><a class="mj-download-primary" href="#downloads">Get the data</a><a href="#findings">Explore the findings</a><a href="#ces-2026">Conference slides</a><a href="https://doi.org/10.3886/E251239V1">openICPSR · V1</a></div>
 <p class="mj-release"><strong>Reader edition · 23 October 2026.</strong> Figures reproduce the stored replication outputs. The interpretation also draws on the CSE conference paper dated 20 August 2026; its additional checks are identified separately. The DOI continues to identify the V1 deposit. <a href="#citation">Versions and citation</a>.</p>
 <div class="ds-facts"><div><strong>18 economies</strong><span>The preferred European panel, within a broader monthly archive of 28 economies.</span></div><div><strong>+5.8</strong><span>Reported export/import response at three months, in log points.</span></div><div><strong>+4.9</strong><span>Reported response at twelve months; 95% intervals at 18 and 24 months include zero.</span></div></div>
 <p class="ds-small">Responses are scaled to a 0.10-log-unit real depreciation, approximately 10%. See <a href="#units">units and interpretation</a>.</p>
 <nav aria-label="On this page" class="ds-nav"><a href="#findings">Findings</a><a href="#coverage">Coverage</a><a href="#construction">Construction</a><a href="#components">Trade values</a><a href="#episodes">Devaluations</a><a href="#robustness">Robustness</a><a href="#event-evidence">Event evidence</a><a href="#downloads">Downloads</a></nav>
 <p class="mj-mobile-hint">Swipe horizontally within a figure or table on small screens. Every figure also has a full-size version and downloadable data.</p>
+
+<section class="ds-section" id="ces-2026" aria-labelledby="ces-2026-title">
+<p class="mj-eyebrow">Conference presentation · Prague · 28 November 2026</p>
+<h2 id="ces-2026-title">The Missing J at the Czech Economic Society</h2>
+<div class="mj-two-columns">
+<div>
+<p>I presented <em>The Missing J: Fast, Export-Value-Led Trade Adjustment in Interwar Europe, 1928–1936</em> at the <a href="https://www.cse.cz/en/page/biennial-conference">14th Biennial Conference of the Czech Economic Society</a>, held at the Prague University of Economics and Business on 27–28 November 2026.</p>
+<p><strong>Export values move first. The gain is temporary.</strong> The talk traces the rapid trade-ratio response across eighteen economies and compares Czechoslovakia in 1934 with Belgium in 1935. Monetary expansion and bilateral clearing offer possible explanations for the different national paths.</p>
+<div class="ds-download-links"><a class="mj-download-primary" href="assets/files/presentations/2026-11-28-ces-missing-j.pdf">Read the slides (PDF)</a><a href="assets/files/presentations/2026-11-28-ces-missing-j.pptx" download>Download PowerPoint</a></div>
+<p class="ds-small"><a href="https://www.cse.cz/files/public/20261127/CSE_2026_Detailed_Sessions_Program_final_update_ucebny2.pdf#page=2">Official programme · p. 2</a> · <a href="publications.html#missing-j-ces-2026">Presentation and results overview</a></p>
+</div>
+<figure class="ds-figure">
+<a href="assets/files/presentations/2026-11-28-ces-missing-j.pdf" aria-label="Open The Missing J conference presentation as a PDF"><img src="assets/files/presentations/2026-11-28-ces-missing-j-preview.webp" width="1200" height="675" alt="Title slide of The Missing J, presented by Adam Dittrich at the 14th Biennial Conference of the Czech Economic Society in Prague on 28 November 2026." loading="lazy" decoding="async"/></a>
+<figcaption>Conference presentation · 35 slides, including technical appendices.</figcaption>
+</figure>
+</div>
+</section>
 
 <section class="level2 ds-section" id="findings"><h2>A temporary window of adjustment</h2>
 <p>The main result is about timing. In the reported local projections, the export/import value ratio improves by <strong>5.77 log points at three months</strong> and <strong>4.93 at twelve months</strong> after a 0.10-log-unit real effective depreciation. By eighteen and twenty-four months, the estimates are statistically indistinguishable from zero. This is a first-year pattern of external adjustment, with no common initial monthly deterioration in the estimated path.</p>
@@ -210,3 +227,4 @@ format:
 <p class="mj-top-link"><a href="#missing-j-reader">Back to top ↑</a></p>
 </main>
 ```
+

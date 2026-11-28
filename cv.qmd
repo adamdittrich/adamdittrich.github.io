@@ -90,6 +90,10 @@ body-classes: academic-site cv-page
 <section class="ac-section cv-section">
 <h2>Conference presentations</h2>
 <div class="cv-entry">
+<div class="cv-date">28 Nov 2026</div>
+<div><strong>Dittrich, Adam.</strong> “The Missing J: Fast, Export-Value-Led Trade Adjustment in Interwar Europe, 1928–1936.” <em>14th Biennial Conference of the Czech Economic Society.</em> Prague University of Economics and Business, Prague, 27–28 November 2026. Presented 28 November. <a href="assets/files/presentations/2026-11-28-ces-missing-j.pdf">Presentation (PDF).</a> <a href="publications.html#missing-j-ces-2026">Details and programme.</a></div>
+</div>
+<div class="cv-entry">
 <div class="cv-date">16 Oct 2026</div>
 <div><strong>Dittrich, Adam; Jiří Rytina; and Jakub Drábek.</strong> “Kapacita bez efektivity? Zdravotnická infrastruktura a zdravotní výsledky v socialistickém Československu [Capacity without Effectiveness? Healthcare Infrastructure and Health Outcomes in Socialist Czechoslovakia].” <em>Zdraví a sociální otázky v dějinách: interdisciplinární perspektivy [Health and Social Issues in History: Interdisciplinary Perspectives].</em> University of South Bohemia, České Budějovice, 15–16 October 2026. <a href="https://www.zsf.jcu.cz/images/ZSF/veda-a-vyzkum/konference/zdravi_a_socialni_otazky/CONFERENCE_Zdravi_program_26-10-14_final_version.pdf#page=4">Conference programme.</a></div>
 </div>
@@ -156,3 +160,4 @@ body-classes: academic-site cv-page
 </section>
 </div>
 ```
+

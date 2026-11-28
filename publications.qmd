@@ -100,6 +100,17 @@ In Michal Müller and Pavla Slavíčková (eds.), <em>KNOWCON 2024: Knowledge on
 <section class="ac-section ac-publication-section">
 <h2 id="conference-presentations">Conference presentations</h2>
 <div class="ac-publication">
+<div class="ac-item-meta">28 Nov 2026</div>
+<section class="ac-item-body" id="missing-j-ces-2026">
+<h3>The Missing J: Fast, Export-Value-Led Trade Adjustment in Interwar Europe, 1928–1936</h3>
+<p><strong>Adam Dittrich</strong><br/>
+<em>14th Biennial Conference of the Czech Economic Society.</em> Prague University of Economics and Business, Prague. Conference held 27–28 November 2026; presentation on 28 November.</p>
+<p><strong>Export values move first. The gain is temporary.</strong> Monthly evidence from eighteen European economies in 1928–1936 shows no common initial J-curve deterioration. A roughly 10% real effective depreciation is associated with an export/import value ratio about 6% higher after three months and 5% higher after a year. The positive response is no longer statistically detectable by eighteen months. Export values lead the early adjustment, while import values respond later.</p>
+<p>The presentation also compares the Czechoslovak devaluation of 1934 with Belgium’s in 1935 and explores monetary expansion and bilateral clearing as possible explanations for different national paths.</p>
+<p><a class="pill-link" href="assets/files/presentations/2026-11-28-ces-missing-j.pdf">Presentation (PDF)</a> <a class="pill-link" href="assets/files/presentations/2026-11-28-ces-missing-j.pptx" download>PowerPoint</a> <a class="pill-link" href="the-missing-j.html#ces-2026">Research, figures and data</a> <a class="pill-link" href="https://www.cse.cz/files/public/20261127/CSE_2026_Detailed_Sessions_Program_final_update_ucebny2.pdf#page=2">Conference programme · p. 2</a></p>
+</section>
+</div>
+<div class="ac-publication">
 <div class="ac-item-meta">16 Oct 2026</div>
 <section class="ac-item-body" id="kapacita-bez-efektivity-zdravotnická-infrastruktura-a-zdravotní-výsledky-v-socialistickém-československu">
 <h3>Kapacita bez efektivity? Zdravotnická infrastruktura a zdravotní výsledky v socialistickém Československu</h3>
@@ -225,3 +236,4 @@ HAL Open Science working paper, hal-05660879.</p>
 <p class="ac-bib-link"><a href="assets/files/publications.bib">Download bibliography (BibTeX)</a></p>
 </div>
 ```
+
